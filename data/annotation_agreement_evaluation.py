@@ -171,24 +171,7 @@ def extract_annotations_and_combine_for_cohen_cappa(annotated_files_list, annot1
                              on="nct_id",
                              how="inner")
 
-    merged_df.to_csv(
-        output_path_annotation_arrays)
-
-
-def find_overlapping_annotations_fuzzy(annotations1, annotations2):
-    intersection = []
-    for ann1 in annotations1:
-        for ann2 in annotations2:
-            if ann1[0] <= ann2[1] and ann1[1] >= ann2[0]:
-                intersection.append(ann1)  # TODO: evtl. matches could be merged
-
-    return list(set(intersection))
-
-def extract_unique_elements(row, annot1_name, annot2_name):
-    annotations1 = set(ast.literal_eval(row['ner_manual_{}'.format(annot1_name)]))
-    annotations2 = set(ast.literal_eval(row['ner_manual_{}'.format(annot2_name)]))
-    unique_elements = annotations1.symmetric_difference(annotations2)
-    return list(unique_elements)
+    merged_df.to_csv(output_path_annotation_arrays)
 
 
 def calculate_overall_cohen_kappa_with_ci(df, annotators):
@@ -353,6 +336,7 @@ def calculate_confusion_matrix_and_kappa_per_class(df, annotators, cf_output_pat
 
         vis_and_save_confusion_matrix(cm, labels, annotator_abbreviations[annotator1],
                                       annotator_abbreviations[annotator2], cf_output_path, suffix="labels")
+
 
 def convert_to_array(value_str):
     # Split the string and remove extra characters

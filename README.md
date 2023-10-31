@@ -29,3 +29,10 @@ from_prodigy_data_converter.py
 ```
 In the from_prodigy_data_converter.py file only the merged annotations are kept, i.e. after review. The resulting files are 
 "ct_neuro_final_target_annotated_ds_round_1.jsonl" and "ct_neuro_405_target_annotated_ds_round_2.jsonl".
+
+```bib
+annotation_agreement_evaluation.py
+```
+This file contains the code to evaluate the annotation agreement using the Cohen Kappa statistics. The score calculation code is adapted
+from [rowannicholls](https://rowannicholls.github.io/python/statistics/agreement/cohens_kappa.html). The results are prointed out and a confusion matrix is produced
+for each annotator pair in ./annotated_data/corpus_stats/annotations_confusion_matrix/.
