@@ -16,10 +16,10 @@ The code related to the data processing and annotation steps is in the folder ./
 ```bib
 to_prodigy_data_converter.py
 ```
-The code in to_prodigy_data_converter.py converts the extracted sample from the AACT database ([raw_data_aact_sample](data%2Fraw_data_aact_sample)folder /raw_data_aact_sample) from .csv to a .json file ([data_for_prodigy](data%2Fdata_for_prodigy)folder ./data_for_prodigy). This data will be used for annotation in prodigy.
+The code in to_prodigy_data_converter.py converts the extracted sample from the AACT database ([raw_data_aact_sample](data%2Fraw_data_aact_sample)) from .csv to a .json file ([data_for_prodigy](data%2Fdata_for_prodigy)). This data will be used for annotation in prodigy.
 During our first annotation period, we first annotated 100 pilot examples and refined the annotation guidelines. Then we annotated another 400 examples. In a second annotation period, two annotators had another 500 samples to annotate.
 
-The resulting annotations are stored in [annotation_round_1](data%2Fannotated_data%2Fannotation_round_1)./annotation_round_1 and [annotation_round_2](data%2Fannotated_data%2Fannotation_round_2)./annotation_round_2. There you can find the individual annotations of each annotator. 
+The resulting annotations are stored in [annotation_round_1](data%2Fannotated_data%2Fannotation_round_1) and [annotation_round_2](data%2Fannotated_data%2Fannotation_round_2). There you can find the individual annotations of each annotator. 
 Those outputs were then further reviewed in prodigy in order to resolve conflicts and create the final datasets. The resulting datasets
 are the two .jsonl files "neuro_merged_all_433" and "neuro_merged_annotations_405_2batch". 
 
