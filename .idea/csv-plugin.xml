@@ -24,7 +24,21 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/data/neuro_diseases_terminology/output/diseases_dictionary_mesh_icd.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/data/neuro_diseases_terminology/output/diseases_dictionary_mesh_icd_20230731.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/data/neuro_diseases_terminology/output/diseases_dictionary_mesh_icd_flat.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
