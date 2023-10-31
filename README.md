@@ -36,13 +36,13 @@ annotation_agreement_evaluation.py
 ```
 This file contains the code to evaluate the annotation agreement using the Cohen Kappa statistics. The score calculation code is adapted
 from [rowannicholls](https://rowannicholls.github.io/python/statistics/agreement/cohens_kappa.html). The results are prointed out and a confusion matrix is produced
-for each annotator pair in ./annotated_data/corpus_stats/annotations_confusion_matrix/.
+for each annotator pair in [annotations_confusion_matrix](data%2Fannotated_data%2Fcorpus_stats%2Fannotations_confusion_matrix).
 
 ## Terminology Dictionary Generation
 ### Neuropsychiatric Disease Names
 Prerequisites to reproduce the results:
 - Download the latest MeSH terminology dump from [NIH mesh download](https://www.nlm.nih.gov/databases/download/mesh.html). For the current project the 2023 year was used (mesh_desc2023.xml). Place this file in the ./data/neuro_diseases_terminology/input/ folder.
-- In order to be able to use the ICD APIs, first you need to create an account on the [ICD API Home page](https://icd.who.int/icdapi). You need to put the client_id_ICD and client_secret_ICD in the credentials.txt file.
+- In order to be able to use the ICD APIs, first you need to create an account on the [ICD API Home page](https://icd.who.int/icdapi). You need to put the client_id_ICD and client_secret_ICD in your local credentials.txt file.
 
 ```bib
 extract_disease_names_from_icd_api.py
@@ -63,3 +63,8 @@ With the functions here we merge the two disease lists from MeSH and ICD ([disea
 that contains all synonyms and spelling variations on a new line.
 
 ### Drug Names
+
+
+# 3. NER Methods
+
+# 3. Inference and Evaluation

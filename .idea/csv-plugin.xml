@@ -3,7 +3,35 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="/data/annotated_data/annotation_round_1/annotated_500_combined_arrays_neuro_round1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/data/annotated_data/annotation_round_1/ct_neuro_final_target_annotated_ds_round_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/data/annotated_data/annotation_round_2/annotated_500_combined_arrays_neuro.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/data/annotated_data/annotation_round_2/annotated_combined_arrays_neuro_round2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/data/annotated_data/annotation_round_2/ct_neuro_final_target_annotated_ds_round_2.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -21,6 +49,13 @@
           <value>
             <Attribute>
               <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/data/neuro_diseases_terminology/output/diseases_dictionary_mesh.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="|" />
             </Attribute>
           </value>
         </entry>
