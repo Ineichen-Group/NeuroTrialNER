@@ -10,7 +10,7 @@ poetry install
 ```
 The .toml file contains all relevant packages that need to be installed for running the project.
 
-# 2. Annotated Data
+# 2. Data
 The code related to the data processing and annotation steps is in the folder ./data.
 ## Annotation with Prodigy
 ```bib
@@ -30,9 +30,33 @@ from_prodigy_data_converter.py
 In the from_prodigy_data_converter.py file only the merged annotations are kept, i.e. after review. The resulting files are 
 "ct_neuro_final_target_annotated_ds_round_1.jsonl" and "ct_neuro_405_target_annotated_ds_round_2.jsonl".
 
+### Inter-Annotator Agreement
 ```bib
 annotation_agreement_evaluation.py
 ```
 This file contains the code to evaluate the annotation agreement using the Cohen Kappa statistics. The score calculation code is adapted
 from [rowannicholls](https://rowannicholls.github.io/python/statistics/agreement/cohens_kappa.html). The results are prointed out and a confusion matrix is produced
 for each annotator pair in ./annotated_data/corpus_stats/annotations_confusion_matrix/.
+
+## Disease and Drug Dictionary Generation
+Prerequisites to reproduce the results:
+- Download the latest MeSH terminology dump from [NIH mesh download](https://www.nlm.nih.gov/databases/download/mesh.html). For the current project the 2023 year was used (mesh_desc2023.xml). Place this file in the ./data/neuro_diseases_terminology/input/ folder.
+- In order to be able to use the ICD APIs, first you need to create an account on the [ICD API Home page](https://icd.who.int/icdapi). You need to put the client_id_ICD and client_secret_ICD in the credentials.txt file.
+
+```bib
+extract_disease_names_from_icd_api.py
+```
+The code from this file traverses the relevant starting nodes from the ICD-11 API and extracts all disease names below them. The starting points used
+are ["Diseases of the nervous system"](https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f1296093776) and ["Mental, behavioural or neurodevelopmental disorders"](https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f334423054).
+Note that it can take up to 10 minutes for the data to be collected.
+
+```bib
+extract_disease_names_and_synonyms_from_mesh_dump.py
+```
+With this code we load the MeSH dump and filter it for the relevant diseases based on the [Neurology_disease-list_MeSH.xlsx](data%2Fneuro_diseases_terminology%2Finput%2FNeurology_disease-list_MeSH.xlsx).
+
+```bib
+merge_mesh_and_icd_terminology.py
+```
+With the functions here we merge the two disease lists from MeSH and ICD ([diseases_dictionary_mesh_icd.csv](data%2Fneuro_diseases_terminology%2Foutput%2Fdiseases_dictionary_mesh_icd.csv)). Furthermore, we generate a flat list ([diseases_dictionary_mesh_icd_flat.csv](data%2Fneuro_diseases_terminology%2Foutput%2Fdiseases_dictionary_mesh_icd_flat.csv))
+that contains all synonyms and spelling variations on a new line.
