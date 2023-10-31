@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "neurotrialner"
+version = "1.0.0"
+description = ""
+authors = ["Simona D. <donevasimona@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+fitz = "^0.0.1.dev2"
+pymupdf = "^1.22.1"
+spacy = "3.4.4"
+scikit-learn = "^1.2.2"
+scispacy = "^0.5.2"
+openpyxl = "^3.1.2"
+openai = "^0.27.8"
+pypdf2 = "^3.0.1"
+matplotlib = "^3.7.1"
+biopython = "^1.81"
+certifi = "^2023.5.7"
+seqeval = "^1.2.2"
+langchain = "^0.0.251"
+transformers = "^4.33.2"
+datasets = "^2.14.5"
+torch = "^2.0.1"
+accelerate = "^0.23.0"
+numpy = "^1.26.1"
+pandas = "^2.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
