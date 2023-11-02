@@ -26,6 +26,7 @@ torch = "^2.0.1"
 accelerate = "^0.23.0"
 numpy = "^1.26.1"
 pandas = "^2.1.2"
+wandb = "^0.15.12"
 
 
 [build-system]
