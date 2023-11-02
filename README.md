@@ -35,8 +35,17 @@ In the from_prodigy_data_converter.py file only the merged annotations are kept,
 annotation_agreement_evaluation.py
 ```
 This file contains the code to evaluate the annotation agreement using the Cohen Kappa statistics. The score calculation code is adapted
-from [rowannicholls](https://rowannicholls.github.io/python/statistics/agreement/cohens_kappa.html). The results are prointed out and a confusion matrix is produced
+from [rowannicholls](https://rowannicholls.github.io/python/statistics/agreement/cohens_kappa.html). The results are printed out and a confusion matrix is produced
 for each annotator pair in [annotations_confusion_matrix](data%2Fannotated_data%2Fcorpus_stats%2Fannotations_confusion_matrix).
+### Converting Prodigy annotations to BIO format
+```bib
+convert_to_bio_and_generate_dataset_split.py
+```
+In code file we convert the prodigy output annotations to BIO format. For each array of tokens, a corresponding array
+of annotations will be generated: "O" for no label, "B-XX" for begin label XX, or "I-XX" inside label XX.
+
+Furthermore, the final dataset file will be split into train, dev, and test parts (proportion 80-10-10). The final data used for training
+the models can be found in [data_splits](data%2Fannotated_data%2Fdata_splits).
 
 ## Terminology Dictionary Generation
 ### Neuropsychiatric Disease Names
@@ -66,5 +75,27 @@ that contains all synonyms and spelling variations on a new line.
 
 
 # 3. NER Methods
+## BERT Models
+### Training
+The script used for training the two BERT models on the server is [run_experiment_on_server.sh](models%2Fbert%2Frun_experiment_on_server.sh).
+It executes the following command:
+```bib
+python train_script.py --output_path "../clinical_trials_out" \
+    --model_name_or_path "dmis-lab/biobert-v1.1" \
+    --train_data_path "./data/ct_neuro_train_data_713.json" \
+    --val_data_path "./data/ct_neuro_dev_data_90.json" \
+    --test_data_path "./data/ct_neuro_test_data_90.json" \
+    --n_epochs 15 --percentage $percentage --i $i
+```
+Please make sure you have the reference to the folder with the data correctly. The two parameters that can be changed are:
+- model_name_or_path: reference to a local model or a model hosted on huggingface; use "michiyasunaga/BioLinkBERT-base" for the LinkBERT model
+- n_epochs: the number of epochs for training; our experiments showed that there was no impact on the dev learning curve after more than 10 epochs
+
+Please note that [wandb](https://docs.wandb.ai/guides/integrations/huggingface) was used to collect and visualize the training results.
+
+## GPT Model
+
+## Dictionary Lookup
+
 
 # 3. Inference and Evaluation
