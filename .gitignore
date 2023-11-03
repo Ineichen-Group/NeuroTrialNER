@@ -3,3 +3,4 @@ credentials.txt
 data/neuro_diseases_terminology/input/mesh_desc2023.xml
 models/bert/trained
 core/data
+temp

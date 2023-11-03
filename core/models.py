@@ -39,7 +39,7 @@ class NERModel:
         elif self.model_type == "regex":
             pass
         else:
-            raise ValueError("Wrong model type. Allowed values are spacy and huggingface.")
+            raise ValueError("Wrong model type. Allowed values are spacy, regex, and huggingface.")
 
     def bert_predict_bio_format(self, ds_path_train, ds_path_test, text_column_name, label_column_name,
                                 label_all_tokens=False, padding=True, max_length=512):
@@ -180,7 +180,7 @@ class NERModel:
             tokenized_sentence = self.tokenizer.tokenize(sent)
             num_tokens = len(tokenized_sentence)
             if num_tokens > 512:
-                print("Number of tokens ({}) too large, truncating sentence: {}".format(num_tokens, sent))
+                print("Number of tokens ({}) too large, truncating sentence: {}".format(num_tokens, sent[:50] + "[...]"))
                 tokenized_sentence = tokenized_sentence[:510]
                 sent = self.tokenizer.convert_tokens_to_string(tokenized_sentence)
             ner_results = self.nlp(sent)
@@ -205,6 +205,7 @@ class NERModel:
                 entity_class_full_name = ent_dict['entity_group']
             results.append((ent_dict['start'], ent_dict['end'], entity_class_full_name, ent_dict['word']))
         return results
+
 
     def combine_entity_subwords(self, sent, entities):
 

@@ -17,13 +17,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/data/annotated_data/annotation_round_2/annotated_500_combined_arrays_neuro.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="/data/annotated_data/annotation_round_2/annotated_combined_arrays_neuro_round2.csv">
           <value>
             <Attribute>
@@ -32,13 +25,6 @@
           </value>
         </entry>
         <entry key="/data/annotated_data/annotation_round_2/ct_neuro_final_target_annotated_ds_round_2.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/data/annotated_data/corpus_stats/labels_frequency_final_annotated_ds_neuro.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -73,24 +59,10 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/data/neuro_diseases_terminology/output/diseases_dictionary_mesh_icd_20230731.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="/data/neuro_diseases_terminology/output/diseases_dictionary_mesh_icd_flat.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/data/neuro_diseases_terminology/output/icd_11_neurological_diseases_20230905.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=":" />
             </Attribute>
           </value>
         </entry>
@@ -102,6 +74,20 @@
           </value>
         </entry>
         <entry key="/data/raw_data_aact_sample/random_sample_neurological_with_summaries_202306151741.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/models/predictions/ct_neuro_test_annotated_BioLinkBERT-base_20231103.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/models/predictions/ct_neuro_test_annotated_biobert-v1.1_20231103.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

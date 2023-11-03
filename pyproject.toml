@@ -20,13 +20,14 @@ biopython = "^1.81"
 certifi = "^2023.5.7"
 seqeval = "^1.2.2"
 langchain = "^0.0.251"
-transformers = "^4.33.2"
+transformers = "4.33.2"
 datasets = "^2.14.5"
 torch = "^2.0.1"
 accelerate = "^0.23.0"
 numpy = "^1.26.1"
 pandas = "^2.1.2"
 wandb = "^0.15.12"
+pyarrow = "13.0.0"
 
 
 [build-system]
