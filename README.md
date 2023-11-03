@@ -110,7 +110,13 @@ The prediction code is in the core module file [models.py](core%2Fmodels.py).
 Two outputs can be generated. With model.bert_predict_bio_format() an array of the entity class for each token is saved. With model.annotate() the annotations are saved
 in the format (start index, end index, type, entity tokens), i.e., (99, 109, 'DRUG', 'Gabapentin'). The results are saved under [predictions](models%2Fpredictions).
 
-### Evaluation
+## GPT Model
+The extraction of condition and intervention using GPT is in [Annotate with GPT.ipynb](models%2Fgpt%2FAnnotate%20with%20GPT.ipynb). Note that the code expects a valid OpenAPI key that
+can be read from the credentials.txt file. Note that the annotation can take up to 20 minutes.
+
+## Dictionary Lookup
+
+## Evaluation
 ```bib
 models/evaluate.py
 ```
@@ -121,9 +127,3 @@ models/CT Models Evaluation.ipynb
 ```
 In this notebook, the aggregation of labels on trial level is performed, as well as the normalization of the entities based on the drug and disease dictionaries.
 The performance is subsequently evaluated on trial/abstract level.
-
-## GPT Model
-The extraction of condition and intervention using GPT is in [Annotate with GPT.ipynb](models%2Fgpt%2FAnnotate%20with%20GPT.ipynb). Note that the code expects a valid OpenAPI key that
-can be read from the credentials.txt file. Note that the annotation can take up to 20 minutes.
-
-## Dictionary Lookup
