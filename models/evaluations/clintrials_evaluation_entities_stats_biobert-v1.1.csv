@@ -1,0 +1,830 @@
+entity_token,in_test_frq,entity_class,in_train_frq,evaluation,model
+ion373,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+alexander disease,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+place,16,control,0,"{'tp': 0, 'fp': 16, 'fn': 0}",biobert-v1.1
+axd,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##bo,10,control,0,"{'tp': 0, 'fp': 10, 'fn': 0}",biobert-v1.1
+placebo,14,control,163,"{'tp': 0, 'fp': 0, 'fn': 14}",biobert-v1.1
+axd.,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+pain,34,condition,61,"{'tp': 13, 'fp': 11, 'fn': 10}",biobert-v1.1
+cannabis,7,other,7,"{'tp': 3, 'fp': 0, 'fn': 4}",biobert-v1.1
+chronic pain,5,condition,9,"{'tp': 2, 'fp': 1, 'fn': 2}",biobert-v1.1
+cannabidiol,1,drug,1,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+cb,2,drug,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+##anna,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+canna,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+ch,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##bino,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##bis,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##ronic pain,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+cannabino,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+t,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+cannabinoids,1,drug,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+delta-9-tetrahydrocannabinol,1,drug,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+cannabinoid,1,drug,1,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+thc,1,drug,3,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+high-cbd cannabis,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+cbd,1,drug,2,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+medicinal cannabis,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+autistic disorder,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+pervasive developmental disorders,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+pdd,1,condition,1,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+##isperidone,3,drug,0,"{'tp': 0, 'fp': 3, 'fn': 0}",biobert-v1.1
+antipsy,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+r,3,drug,0,"{'tp': 0, 'fp': 3, 'fn': 0}",biobert-v1.1
+risperidone,3,drug,9,"{'tp': 0, 'fp': 0, 'fn': 3}",biobert-v1.1
+antipsychotic medication,1,drug,1,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+gabapentin,4,drug,2,"{'tp': 4, 'fp': 0, 'fn': 0}",biobert-v1.1
+lumbosacral radicular pain,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+lumbosacral radiculopathy,4,condition,0,"{'tp': 4, 'fp': 0, 'fn': 0}",biobert-v1.1
+e,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##teroid,2,drug,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+epidural s,2,other,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+injection,3,other,0,"{'tp': 0, 'fp': 3, 'fn': 0}",biobert-v1.1
+epidural st,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##eroid,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+steroid,3,drug,0,"{'tp': 0, 'fp': 0, 'fn': 3}",biobert-v1.1
+static passive stretching,2,other,0,"{'tp': 0, 'fp': 1, 'fn': 1}",biobert-v1.1
+passive static stretching,2,other,0,"{'tp': 0, 'fp': 1, 'fn': 1}",biobert-v1.1
+muscle stretching,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+"muscle stretching protocol,",1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+sci,12,condition,39,"{'tp': 5, 'fp': 3, 'fn': 4}",biobert-v1.1
+spinal cord injury,11,condition,26,"{'tp': 7, 'fp': 2, 'fn': 2}",biobert-v1.1
+abi,2,condition,2,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+stelo,3,other,0,"{'tp': 1, 'fp': 2, 'fn': 0}",biobert-v1.1
+acquired brain injury,2,condition,6,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+g,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+impairment,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+modular exoskeleton,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+exoskeleton,2,physical,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+exoskeleton based on modular technology,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+gait impairment,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+stelo exoskeleton,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+stelo modular exoskeleton,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+concussion,2,condition,2,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+sub - maximal exercise program,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+sub - maximal exercise protocol,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+sub-maximal exercise program,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+sub-maximal exercise protocol,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+chf 5074,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+mild cognitive impairment,3,condition,20,"{'tp': 2, 'fp': 0, 'fn': 1}",biobert-v1.1
+##ld cognitive impairment,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+mi,1,condition,3,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+bev,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+bevacizumab,1,drug,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+rgbm,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+temozolomide,1,drug,2,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+recurrent glioblastoma multiforme,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+##fus system,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+na,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+fus,1,other,4,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##therapy,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+radiotherapy,1,radiotherapy,2,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+navifus system,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+fus add-on,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+obstructive sleep apnea,4,condition,25,"{'tp': 4, 'fp': 0, 'fn': 0}",biobert-v1.1
+stroke,12,condition,111,"{'tp': 8, 'fp': 1, 'fn': 3}",biobert-v1.1
+oropharyngeal exercise,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+sham,1,control,6,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##gthening oropharyngeal muscles,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+o - pe,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+continuous,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##ap,1,control,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+cp,2,condition,8,"{'tp': 1, 'fp': 1, 'fn': 0}",biobert-v1.1
+o - pes,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+post - stroke,2,condition,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+stren,2,physical,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+o-pe,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+cpap,2,other,13,"{'tp': 1, 'fp': 0, 'fn': 1}",biobert-v1.1
+post-stroke,3,condition,11,"{'tp': 0, 'fp': 0, 'fn': 3}",biobert-v1.1
+sham control,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+continuous positive airway pressure,2,other,7,"{'tp': 1, 'fp': 0, 'fn': 1}",biobert-v1.1
+o-pes,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+strengthening oropharyngeal muscles,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+vascular dementia,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+sta - 1,3,drug,0,"{'tp': 0, 'fp': 3, 'fn': 0}",biobert-v1.1
+marrow - sea deficiency,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+sta-1 capsule,3,other,0,"{'tp': 0, 'fp': 0, 'fn': 3}",biobert-v1.1
+marrow-sea deficiency,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+##lorbetapir,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+florbetapir,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+computer - based training,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+electronic,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+interpretation training program,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+computer-based training,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+methods of interpreting florbetapir (18f) pet scans,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+electronic florbetapir (18f) interpretation training program,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+asd,2,condition,1,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+disruptive behavior,4,condition,0,"{'tp': 4, 'fp': 0, 'fn': 0}",biobert-v1.1
+intellectual disability,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+autism spectrum disorders,1,condition,1,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+autism spectrum disorder,2,condition,1,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+cbt,5,behavioural,1,"{'tp': 5, 'fp': 0, 'fn': 0}",biobert-v1.1
+cognitive - behavioral therapy,2,behavioural,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+i,4,other,0,"{'tp': 0, 'fp': 4, 'fn': 0}",biobert-v1.1
+cognitive-behavioral therapy,2,behavioural,1,"{'tp': 0, 'fp': 0, 'fn': 2}",biobert-v1.1
+osa,1,condition,28,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+l - carnitine,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+l - c,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+l-carnitine,1,drug,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+l-c,1,drug,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+memory complaint,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+mild cognitive decline,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+alzheimer ' s disease,7,condition,0,"{'tp': 0, 'fp': 7, 'fn': 0}",biobert-v1.1
+smartphone,2,other,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+alzheimer's disease,7,condition,43,"{'tp': 0, 'fp': 0, 'fn': 7}",biobert-v1.1
+transient ischemic attack,2,condition,2,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+starflex® septal closure system,2,other,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+best medical therapy,2,control,0,"{'tp': 1, 'fp': 0, 'fn': 1}",biobert-v1.1
+tia,1,condition,1,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+paradoxical embolism,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+pfo,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+starflex® device,1,other,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+recurrent embolic stroke,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+oval,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+pre,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+medical therapy,1,control,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+patent for,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+patent foramen ovale,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+carbamazepine,3,drug,2,"{'tp': 3, 'fp': 0, 'fn': 0}",biobert-v1.1
+epilepsy,7,condition,35,"{'tp': 7, 'fp': 0, 'fn': 0}",biobert-v1.1
+rolandic epilepsy,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+re,8,drug,2,"{'tp': 6, 'fp': 2, 'fn': 0}",biobert-v1.1
+seizures,5,condition,10,"{'tp': 3, 'fp': 0, 'fn': 2}",biobert-v1.1
+levetiracetam,5,drug,1,"{'tp': 5, 'fp': 0, 'fn': 0}",biobert-v1.1
+training,6,physical,1,"{'tp': 0, 'fp': 6, 'fn': 0}",biobert-v1.1
+sleep,3,condition,0,"{'tp': 0, 'fp': 3, 'fn': 0}",biobert-v1.1
+plan,2,other,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+active monitoring,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+seizure,6,condition,9,"{'tp': 3, 'fp': 3, 'fn': 0}",biobert-v1.1
+no sleep training at all,1,control,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+sleep behaviour intervention,2,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 1}",biobert-v1.1
+sleep training,2,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 2}",biobert-v1.1
+no sleep training,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+no treatment,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+bia 28 - 6156,3,drug,0,"{'tp': 0, 'fp': 3, 'fn': 0}",biobert-v1.1
+bia 28-6156,2,drug,0,"{'tp': 0, 'fp': 0, 'fn': 2}",biobert-v1.1
+carbon-14 bia 28-6156,1,drug,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+lidocaine,5,drug,7,"{'tp': 4, 'fp': 0, 'fn': 1}",biobert-v1.1
+post operative pain,1,condition,1,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+post surgical pain,3,condition,0,"{'tp': 3, 'fp': 0, 'fn': 0}",biobert-v1.1
+trigger finger release,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+postoperative pain,2,condition,3,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+bupivicaine,1,drug,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+bupivacaine,8,drug,2,"{'tp': 1, 'fp': 0, 'fn': 7}",biobert-v1.1
+local anesthetic,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##upivacaine,4,drug,0,"{'tp': 0, 'fp': 4, 'fn': 0}",biobert-v1.1
+complex regional pain syndromes,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+li,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+elective outpatient hand surgery,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+b,5,other,0,"{'tp': 0, 'fp': 5, 'fn': 0}",biobert-v1.1
+post - operative pain,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+elective carpal tunnel release,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+surgery,2,condition,2,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+carpal tunnel or,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+poorly controlled,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##docaine,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+elective outpatient hand surgeries,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+surge,2,condition,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+epinephrine,2,drug,0,"{'tp': 0, 'fp': 0, 'fn': 2}",biobert-v1.1
+post-operative pain,1,condition,4,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+regional pain syndromes,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+hand surgeries,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+hand surgery,2,condition,0,"{'tp': 0, 'fp': 0, 'fn': 2}",biobert-v1.1
+urinary tract infection,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+propranolol,2,drug,0,"{'tp': 1, 'fp': 0, 'fn': 1}",biobert-v1.1
+sap,3,condition,0,"{'tp': 3, 'fp': 0, 'fn': 0}",biobert-v1.1
+stroke - associated pneumonia,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+pro,2,other,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+anti,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##pranolol,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+post - stroke brain injury,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+adrenergic β - receptor blocker,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+stroke associated pneumonia,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##nosuppression,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+antibiotics,1,drug,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+stroke-associated pneumonia,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+pneumonia,1,condition,1,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+blank,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+adrenergic β-receptor blocker,1,drug,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+brain injury,1,condition,4,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+immunosuppression,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+chronic stroke,1,condition,12,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+dry needling,1,other,3,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+cva,2,condition,0,"{'tp': 1, 'fp': 0, 'fn': 1}",biobert-v1.1
+chronic cerebral vascular accident,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+dnhs technique,3,other,0,"{'tp': 0, 'fp': 2, 'fn': 1}",biobert-v1.1
+stiff,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+deep dry needling,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+haemorrhagic or ischemic cva,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+dnhs tech,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##roke,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+spastic,1,condition,3,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##que,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+spasticity,2,condition,15,"{'tp': 0, 'fp': 0, 'fn': 2}",biobert-v1.1
+dnhs,2,other,0,"{'tp': 0, 'fp': 0, 'fn': 2}",biobert-v1.1
+muscle stiffness,2,condition,1,"{'tp': 0, 'fp': 0, 'fn': 2}",biobert-v1.1
+deep dry needling of myofascial trigger points,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+hypertonia,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+subacromial injection,3,other,0,"{'tp': 3, 'fp': 0, 'fn': 0}",biobert-v1.1
+suprascapular nerve block,2,other,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+hemiplegia,3,condition,0,"{'tp': 2, 'fp': 0, 'fn': 1}",biobert-v1.1
+shoulder pain,5,condition,3,"{'tp': 2, 'fp': 0, 'fn': 3}",biobert-v1.1
+##troke,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+hemiplegic shoulder pain,3,condition,0,"{'tp': 0, 'fp': 3, 'fn': 0}",biobert-v1.1
+ultrasound - guided suprascapular nerve block,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+ultrasound-guided suprascapular nerve block,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+hemiplegic,3,condition,3,"{'tp': 0, 'fp': 0, 'fn': 3}",biobert-v1.1
+poststroke,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+mild traumatic brain injury,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+mtbi,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+pth,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+phosphodiesterase 5 inhibition,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+post - traumatic headache,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+migraine - like headache,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+persistent post - traumatic headache,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+phosphodiesterase 5 inhibitor,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##ldenafil,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+si,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+migraine,1,condition,32,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+headache,1,condition,4,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+post-traumatic headache,1,condition,2,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+persistent post-traumatic headache,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+paliperidone palmitate,2,drug,0,"{'tp': 1, 'fp': 0, 'fn': 1}",biobert-v1.1
+schizophrenia,3,condition,68,"{'tp': 3, 'fp': 0, 'fn': 0}",biobert-v1.1
+p,3,other,0,"{'tp': 0, 'fp': 3, 'fn': 0}",biobert-v1.1
+##aliperidone palmitate,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+intralipid emulsion,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+robotic training,2,physical,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+robotic gait training,2,physical,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+robotic walking,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+robotic trainers,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+robotic trainer,2,physical,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+robotic gait trainers,2,physical,0,"{'tp': 1, 'fp': 1, 'fn': 0}",biobert-v1.1
+intensive,2,physical,0,"{'tp': 1, 'fp': 1, 'fn': 0}",biobert-v1.1
+trexo,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+nervous system disorders,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+mobility impairments,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+trexo robotic gait trainers,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+ad,3,condition,23,"{'tp': 3, 'fp': 0, 'fn': 0}",biobert-v1.1
+sdb,4,condition,10,"{'tp': 4, 'fp': 0, 'fn': 0}",biobert-v1.1
+sleep disordered breathing,1,condition,1,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+dementia,13,condition,38,"{'tp': 12, 'fp': 1, 'fn': 0}",biobert-v1.1
+cognitive decline,3,condition,1,"{'tp': 1, 'fp': 1, 'fn': 1}",biobert-v1.1
+cognitively normal,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+cognitively - normal,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##degeneration,2,condition,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+nasal,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+progressive memory decline,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+ne,2,condition,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+memory decline,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+tele - nutrition,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+tele - nutrition program,2,other,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+tele - nutrition counseling,2,other,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+ipad facetime,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+tele-nutrition program,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+youate,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+weight management,2,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 2}",biobert-v1.1
+tele-nutrition counseling,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+tele-nutrition,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+dietary advice,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+peripheral neuropathy,2,condition,4,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+plantar vibration,1,other,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+vibration of the plantar surface of the,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+vibration of the plantar surface of the foot,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+pd,7,condition,79,"{'tp': 7, 'fp': 0, 'fn': 0}",biobert-v1.1
+beathealth,3,other,0,"{'tp': 2, 'fp': 0, 'fn': 1}",biobert-v1.1
+rhythmic auditory cueing,2,other,2,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+auditory cueing,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+physical activity,1,physical,6,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+gait auto - rehabilitation program,2,physical,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+beathealth device,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+musical stimulation,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+parkinson ' s disease,10,condition,0,"{'tp': 0, 'fp': 10, 'fn': 0}",biobert-v1.1
+gait auto-rehabilitation program,2,physical,0,"{'tp': 0, 'fp': 0, 'fn': 2}",biobert-v1.1
+parkinson's disease,8,condition,83,"{'tp': 0, 'fp': 0, 'fn': 8}",biobert-v1.1
+ttm,12,other,3,"{'tp': 12, 'fp': 0, 'fn': 0}",biobert-v1.1
+trichotillomania,2,condition,3,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+pulling,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+wait list /,1,control,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+psychological,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+stepped care,6,behavioural,0,"{'tp': 0, 'fp': 4, 'fn': 2}",biobert-v1.1
+web - based self - help,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+hair - pulling,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+wait list control,1,control,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+delayed start,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+self,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+wait list,2,control,0,"{'tp': 0, 'fp': 1, 'fn': 1}",biobert-v1.1
+in,2,other,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+- help treatment,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+habit reversal,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+interactive website,2,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 1}",biobert-v1.1
+loss,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+stepped care model,2,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 2}",biobert-v1.1
+wait list/delayed start,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+in-person habit reversal training,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+psychological treatment,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+anxiety,2,condition,23,"{'tp': 0, 'fp': 1, 'fn': 1}",biobert-v1.1
+depression,2,condition,28,"{'tp': 1, 'fp': 0, 'fn': 1}",biobert-v1.1
+web-based self-help,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+waiting list,1,control,1,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+group treatment for,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+cbt - i,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##omnia,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+treatment - as - usual ( sleep - hygiene based educational course,1,control,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+ins,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+group treatment,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+sleep-hygiene based educational course,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+treatment-as-usual,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+insomnia,1,condition,7,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+istradefylline,2,drug,2,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+advanced parkinson ' s disease,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+kw - 6002,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+levodopa,2,condition,12,"{'tp': 0, 'fp': 1, 'fn': 1}",biobert-v1.1
+advanced parkinson's disease,1,condition,1,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+kw-6002,1,drug,1,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+##m,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##razepa,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+emerge,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+midazola,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+simulation,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+rm,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+diazep,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+educational quality improvement program,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+educational program,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+educational video reviewing rm administration,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+emergent seizure,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+simulation training model/mannequin for rectal diazepam administration,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+caregiver education in a simulation setting,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+vagus nerve stimulation,2,other,0,"{'tp': 1, 'fp': 0, 'fn': 1}",biobert-v1.1
+post covid syndrome,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+left ear transcutaneous vagus nerve stimulation,1,other,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+post covid - 19 syndrome,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+vagal stimulation,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+t - vns method,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+prolonged covid symptoms,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+auricular transcutaneous vagus nerve stimulation,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+bilateral,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+bilateral auricular transcutaneous vagus nerve stimulation,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+prolonged covid,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+post covid-19 syndrome,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+vagal stimulation with the t-vns method,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+remimazolam,4,drug,0,"{'tp': 2, 'fp': 0, 'fn': 2}",biobert-v1.1
+ophthalmic surgery,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+emergence agitation,2,condition,3,"{'tp': 1, 'fp': 1, 'fn': 0}",biobert-v1.1
+ben,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+se,2,drug,2,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+##mimazolam,2,drug,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+##diaze,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##voflurane,2,drug,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+##zodiazepine,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+flumazenil,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+sevoflurane,2,drug,3,"{'tp': 0, 'fp': 0, 'fn': 2}",biobert-v1.1
+benzodiazepines,2,drug,0,"{'tp': 0, 'fp': 0, 'fn': 2}",biobert-v1.1
+agitation,4,condition,2,"{'tp': 3, 'fp': 0, 'fn': 1}",biobert-v1.1
+meningiomas,3,condition,0,"{'tp': 3, 'fp': 0, 'fn': 0}",biobert-v1.1
+tumor,9,condition,18,"{'tp': 6, 'fp': 3, 'fn': 0}",biobert-v1.1
+postherpetic neuralgia,2,condition,6,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+phn,1,condition,1,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+ngx - 4010,2,drug,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+ngx-4010,2,drug,0,"{'tp': 0, 'fp': 0, 'fn': 2}",biobert-v1.1
+cad,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+arrhythmia,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+cas,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+pci,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+cerebral artery stenosis,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+percutaneous coronary intervention,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+cabg,2,condition,1,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+paroxysmal atrial fibrillation,1,condition,1,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+coronary artery disease,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+paroxysmal arrhythmia,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+cerebral embolism,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+ischemic stroke,2,condition,6,"{'tp': 1, 'fp': 1, 'fn': 0}",biobert-v1.1
+coronary bypass surgery,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+##bol,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+post - cabg,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+co,2,other,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+##hyth,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+cognition decline,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+decline,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+prevention of ischemic stroke and cognition decline,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+perioperative arrhythmia,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+24-hour simultaneous recorder of electrocardiograph and electroencephalography,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+post-cabg neurological complications,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+muscular pain,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+omega3s,1,drug,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+fshd,1,condition,2,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+flavonoids,2,drug,0,"{'tp': 1, 'fp': 1, 'fn': 0}",biobert-v1.1
+dmd,1,condition,7,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+inflammation,1,condition,1,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+lgmd,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+epa,1,drug,4,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+disorders,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+md,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+dha,8,drug,0,"{'tp': 3, 'fp': 1, 'fn': 4}",biobert-v1.1
+weakness,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+mds,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+flavonoids-,1,drug,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+dha-,1,drug,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+resistance exercise,5,physical,1,"{'tp': 3, 'fp': 2, 'fn': 0}",biobert-v1.1
+sarcopenic,3,condition,1,"{'tp': 3, 'fp': 0, 'fn': 0}",biobert-v1.1
+resistance exercise program,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+general recommendations,2,control,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+sarcopenia,3,condition,8,"{'tp': 3, 'fp': 0, 'fn': 0}",biobert-v1.1
+program of,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+program of resistance exercise,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+spinal cord injured,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+isms,2,other,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+intraspinal micro - stimulation,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+intraspinal micro-stimulation,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+paralyzed,2,condition,1,"{'tp': 0, 'fp': 0, 'fn': 2}",biobert-v1.1
+focal activation of intraspinal circuitry,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+postdural puncture headache,1,condition,2,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+dexamethazone,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+dexamethazzoe,1,drug,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+bupivaca,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##al anesthesia,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+heavy bupivacaine,2,drug,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+lower abdominal and lower,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+aneth,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+lower abdominal and lower limb surgeries,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+partial seizures,2,condition,1,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+pregabalin,2,drug,4,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+unilateral spatial neglect,2,condition,0,"{'tp': 1, 'fp': 0, 'fn': 1}",biobert-v1.1
+transcranial direct current stimulation,2,other,20,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+tdcs,2,other,34,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+arm rehabilitation training,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+rtp,2,physical,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+unilateral spatial neglect post stroke,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+rehabilitation training sessions,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+non - invasive brain stimulation,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+repetitive task - specific practice,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+task - specific practice,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+task-specific practice,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+repetitive task-specific practice,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+non-invasive brain stimulation,1,other,3,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+lactobacillus,2,other,0,"{'tp': 1, 'fp': 1, 'fn': 0}",biobert-v1.1
+lactobacillus probiotic,1,other,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+epileptic,2,condition,1,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+dre,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+drug resistant epilepsy,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+probiotics,1,other,2,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+refractory form,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+lac,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+probiotic,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+lactobacillus population,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+dysbiosis,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+probiotic bacteria,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+probiotic treatment,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+conventional gait training,5,control,0,"{'tp': 1, 'fp': 2, 'fn': 2}",biobert-v1.1
+robotic assisted locomotor training,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+lokomat,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+ndt,3,physical,0,"{'tp': 1, 'fp': 1, 'fn': 1}",biobert-v1.1
+n,1,control,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+subacute post - stroke,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+stroke attack,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##eurodevelopmental treatment,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+first - ever stroke,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+congestive heart failure,1,condition,1,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+robot - assisted locomotor training,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+robotic - assisted gait therapy,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+non - ambulatory hemiplegic,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##pulmonary dysfunction,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+ho,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+conventional gait training with,1,control,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+daily,1,control,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+subacute post-stroke non-ambulatory hemiplegic,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+neurodevelopmental treatment,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+robotic-assisted gait therapy,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+first-ever stroke,1,condition,1,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+robot-assisted locomotor training,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+multiple sclerosis,4,condition,47,"{'tp': 4, 'fp': 0, 'fn': 0}",biobert-v1.1
+exercise and educational classroom program,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+exercise,6,physical,16,"{'tp': 5, 'fp': 0, 'fn': 1}",biobert-v1.1
+educational classroom program,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+comprehensive fall prevention,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+minor ischemic stroke,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+early supervised aerobic exercise program,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+supervised aerobic exercise program,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+hearing loss,3,condition,7,"{'tp': 1, 'fp': 0, 'fn': 2}",biobert-v1.1
+"symmetric, sensorineural hearing loss",1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+age related hearing loss,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+presbyacusis,7,condition,0,"{'tp': 0, 'fp': 7, 'fn': 0}",biobert-v1.1
+presbycusis,1,condition,2,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+age - related hearing loss,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+nature connections park visit program,1,other,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+park,8,physical,0,"{'tp': 0, 'fp': 8, 'fn': 0}",biobert-v1.1
+visits,8,other,0,"{'tp': 0, 'fp': 8, 'fn': 0}",biobert-v1.1
+activities,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+- based,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+nature,2,physical,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+nature - based activities,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+stress,1,condition,3,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+- based park visit program,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+nature-based park visit program,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+park visits,8,other,0,"{'tp': 0, 'fp': 0, 'fn': 8}",biobert-v1.1
+nature-based activities,2,other,0,"{'tp': 0, 'fp': 0, 'fn': 2}",biobert-v1.1
+weekly telephone/internet support meetings,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+mindfulness meditation,1,behavioural,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+mindfulness based stress reduction,1,behavioural,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+mbsr,1,behavioural,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+program,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+primary central nervous system tumors,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+cancer,2,condition,14,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+central nervous system tumors,1,condition,1,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+blz - 100,3,drug,0,"{'tp': 0, 'fp': 3, 'fn': 0}",biobert-v1.1
+blz-100,3,drug,0,"{'tp': 0, 'fp': 0, 'fn': 3}",biobert-v1.1
+cardiac surgery,2,condition,2,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+traditional opiate based analgesia,1,other,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+multimodal analgesia,1,other,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+multimodal opiate - sparing analgesia,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+medication,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+opiod analgesia,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+conventionel,1,control,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+multimodal opiate-sparing analgesia,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+conventionel opiod analgesia,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+hd,9,condition,4,"{'tp': 7, 'fp': 1, 'fn': 1}",biobert-v1.1
+early to moderate hd,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+huntington ' s disease,4,condition,0,"{'tp': 0, 'fp': 4, 'fn': 0}",biobert-v1.1
+stem cell - derived neurons,1,surgical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+huntington's disease,4,condition,3,"{'tp': 0, 'fp': 0, 'fn': 4}",biobert-v1.1
+ms,4,condition,48,"{'tp': 4, 'fp': 0, 'fn': 0}",biobert-v1.1
+intensive and progressive exercise bouts,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+normal,1,control,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+chronic progressive or relapsing - remitting disease,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+endurance training sessions,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##ms,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+exer,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##cise training,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+intensive training,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+intensive training intensities,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+training modalities,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+impaired functional capacity,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+reduced physical activity,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+higher training intensities,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+exercise training,1,physical,2,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+drug resistant partial epilepsies,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+epilept,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##pileps,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+epileptogenic,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+galantamine,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+cbs,3,condition,0,"{'tp': 3, 'fp': 0, 'fn': 0}",biobert-v1.1
+psp,3,condition,1,"{'tp': 2, 'fp': 1, 'fn': 0}",biobert-v1.1
+parkinsonism,1,condition,2,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+tauopathy,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+synucleinopathy,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+tauopathies,2,condition,0,"{'tp': 1, 'fp': 0, 'fn': 1}",biobert-v1.1
+parkinsonian tauopathies,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+corticobasal syndrome,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+progressive supranuclear palsy,1,condition,1,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+idiopathic pd,1,condition,1,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+parkinsonian,1,condition,2,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+acute optic neuritis,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+gypenosides,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+optic neuritis,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+acr16,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+refractory epilepsy,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+diastat,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+diazepam,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+dr,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+refractory ( drug - resistant ) epilepsy,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+dzns,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+refractory (drug-resistant) epilepsy,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+olanzapine,1,drug,2,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+support alone,1,control,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+employment,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+be,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##al,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+skills,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##vior,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+supported employment,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##ha,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+behavioral skills training,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+employment support with,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+employment support with behavioral skills training,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+employment support,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+supported employment with behavioral skills training,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+parkinson disease,1,condition,12,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+##mile,3,other,0,"{'tp': 0, 'fp': 3, 'fn': 0}",biobert-v1.1
+chamo,3,drug,0,"{'tp': 0, 'fp': 3, 'fn': 0}",biobert-v1.1
+saffron,6,other,0,"{'tp': 0, 'fp': 3, 'fn': 3}",biobert-v1.1
+chamomile,3,other,0,"{'tp': 0, 'fp': 0, 'fn': 3}",biobert-v1.1
+oxidative stress,1,condition,3,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+did,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+circular,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+didgeridoo,3,other,3,"{'tp': 0, 'fp': 0, 'fn': 3}",biobert-v1.1
+airway collapsibility,2,condition,0,"{'tp': 0, 'fp': 0, 'fn': 2}",biobert-v1.1
+entonox,4,drug,0,"{'tp': 4, 'fp': 0, 'fn': 0}",biobert-v1.1
+screening colonoscopy,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+targeted temperature management,2,other,1,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+iph,3,condition,1,"{'tp': 3, 'fp': 0, 'fn': 0}",biobert-v1.1
+early hematoma growth,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+hg,3,condition,0,"{'tp': 3, 'fp': 0, 'fn': 0}",biobert-v1.1
+intracerebral hemorrhage,1,condition,4,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+mih,2,other,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+cerebral edema,2,condition,1,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+temperature modulation to,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##ypothermia,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##ature,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+spontaneous intra - cerebral / intra - parenchymal hemorrhage,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+te,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+mild,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+ultra - early protocol of,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+active temperature modulation,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+34,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+hypothermia,2,other,5,"{'tp': 0, 'fp': 1, 'fn': 1}",biobert-v1.1
+spontaneous intra-cerebral/intra-parenchymal hemorrhage,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+temperature modulation,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+mild induced hypothermia,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+peripheral sensitization,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+slider and tensioner techniques,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+neural mobilization techniques,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+vestibular schwannoma,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+asymmetric sensorineural hearing loss,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+ants,2,other,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+auditory nerve test system,2,other,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+cochlear implant,2,condition,0,"{'tp': 0, 'fp': 1, 'fn': 1}",biobert-v1.1
+vestibular schwannoma resection,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##lea,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+implant,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##labyrinthine vestibular schwannoma resection,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##labyrinthine surgery,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+cochlear implantation,2,condition,0,"{'tp': 0, 'fp': 1, 'fn': 1}",biobert-v1.1
+translabyrinthine vestibular schwannoma resection,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+translabyrinthine surgery for vestibular schwannoma resection,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+tic,2,condition,1,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+clonidine,3,drug,1,"{'tp': 1, 'fp': 0, 'fn': 2}",biobert-v1.1
+tics,1,condition,1,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+keppra,1,drug,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+tourette syndrome,1,condition,2,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+##lonidine,2,drug,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+c,2,drug,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+pain catastrophization,2,condition,1,"{'tp': 1, 'fp': 0, 'fn': 1}",biobert-v1.1
+neuropathic pain,3,condition,10,"{'tp': 1, 'fp': 1, 'fn': 1}",biobert-v1.1
+np,9,condition,0,"{'tp': 0, 'fp': 5, 'fn': 4}",biobert-v1.1
+therapy,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+hydrotherapy,11,physical,0,"{'tp': 0, 'fp': 5, 'fn': 6}",biobert-v1.1
+physical,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+fibromyalgia,4,condition,28,"{'tp': 2, 'fp': 1, 'fn': 1}",biobert-v1.1
+standard physical therapy,2,control,0,"{'tp': 0, 'fp': 1, 'fn': 1}",biobert-v1.1
+chronic lumbar pain,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+cat,1,condition,1,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+pcs,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+physical therapy,1,control,2,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+ear and hearing problems,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+model,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+health,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+-,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+hearing for learning initiative,5,behavioural,0,"{'tp': 0, 'fp': 3, 'fn': 2}",biobert-v1.1
+service,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+community,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+ear health,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##ar and hearing,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+- enhancement,2,behavioural,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+model of,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+based service,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##ors,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+ear and hearing clinical and education support officers,2,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 1}",biobert-v1.1
+hfli,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+current practice,1,control,1,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+service-enhancement model of ear health facilitators,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+community-based service-enhancement model of ear and hearing health,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+speech perception intervention,1,other,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+speech sound disorders,3,condition,0,"{'tp': 3, 'fp': 0, 'fn': 0}",biobert-v1.1
+speech sounds disorders,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+awareness deficits,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+speech,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+reading disability,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+speech therapy,1,other,1,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+ph,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+dyslexia,2,condition,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+treatment approach that focuses solely on articulation accuracy,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+combination of treatment approaches that focus on speech perception skills and vocabulary knowledge,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+chronic traumatic encephalopathy,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+tes,3,condition,3,"{'tp': 3, 'fp': 0, 'fn': 0}",biobert-v1.1
+cte,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+##eurodegenerative disease,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##umatic encephalopathy syndrome,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+tra,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+traumatic encephalopathy syndrome,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+imt,1,physical,4,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+inspiratory muscle training,1,physical,1,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+breathing muscles,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+training breathing muscles,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+moxibustion,1,other,2,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+acupuncture,2,other,4,"{'tp': 1, 'fp': 0, 'fn': 1}",biobert-v1.1
+bell ' s palsy,2,condition,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+staging acupuncture,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+bell's palsy,2,condition,4,"{'tp': 0, 'fp': 0, 'fn': 2}",biobert-v1.1
+donepezil,3,drug,10,"{'tp': 3, 'fp': 0, 'fn': 0}",biobert-v1.1
+cholinesterase inhibitor,1,drug,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+virtual reality exposure therapy,3,other,0,"{'tp': 1, 'fp': 1, 'fn': 1}",biobert-v1.1
+acrophobia,3,condition,0,"{'tp': 1, 'fp': 0, 'fn': 2}",biobert-v1.1
+phobias,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+exposure therapy in,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+vret,20,other,0,"{'tp': 0, 'fp': 5, 'fn': 15}",biobert-v1.1
+fear,3,condition,0,"{'tp': 0, 'fp': 3, 'fn': 0}",biobert-v1.1
+exposure therapy,3,other,1,"{'tp': 0, 'fp': 3, 'fn': 0}",biobert-v1.1
+virtual reality,1,other,7,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+exposure,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+virtual,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+phobia,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+height avoidance,2,condition,0,"{'tp': 0, 'fp': 0, 'fn': 2}",biobert-v1.1
+waitlist,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+fear of heights,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+transcutaneous auricular vagus nerve stimulation,1,other,1,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+tens,1,other,1,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+transcutaneous electrical nerve stimulation,1,other,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+fibromyalgia pain,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+stimulation,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+hemiplegic cerebral palsy,2,condition,3,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+mcimt,1,physical,2,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+self -,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+sr,2,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 1}",biobert-v1.1
+regulation,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+modified constraint - induced movement therapy,2,physical,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+self - regulation,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+learning,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+modified constraint-induced movement therapy,2,physical,1,"{'tp': 0, 'fp': 0, 'fn': 2}",biobert-v1.1
+self-regulation learning,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+self-regulation,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+docosahexaenoic acid,2,drug,0,"{'tp': 1, 'fp': 0, 'fn': 1}",biobert-v1.1
+pku,7,condition,2,"{'tp': 6, 'fp': 0, 'fn': 1}",biobert-v1.1
+phenylketonuria,2,condition,1,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+d,3,drug,0,"{'tp': 0, 'fp': 3, 'fn': 0}",biobert-v1.1
+fish,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+do,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##ahexaenoic acid,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+classical pku,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+hip fracture surgery,3,condition,0,"{'tp': 3, 'fp': 0, 'fn': 0}",biobert-v1.1
+dexmedetomidine,2,drug,14,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+delirium,3,condition,18,"{'tp': 3, 'fp': 0, 'fn': 0}",biobert-v1.1
+cere - 120,3,drug,0,"{'tp': 0, 'fp': 3, 'fn': 0}",biobert-v1.1
+idiopathic parkinson ' s disease,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+aa,2,other,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+adeno - associated virus serotype 2,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+ntn,2,drug,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+neurturin,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+idiopathic parkinson's disease,1,condition,2,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+cere-120,3,other,0,"{'tp': 0, 'fp': 0, 'fn': 3}",biobert-v1.1
+adeno-associated virus serotype 2 [aav2]-neurturin[ntn],1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+in vivo aav2 mediated delivery of the gene encoding ntn,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+unilateral brain injury,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+bimanual therapy,3,physical,0,"{'tp': 2, 'fp': 1, 'fn': 0}",biobert-v1.1
+cimt,1,physical,3,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+constraint therapy,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+combined,2,physical,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+hemiplegia therapy,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+constraint,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+constraint - induced movement therapy,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+unimanual and bimanual intensive therapy,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+constraint-induced movement therapy,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+constraint and bimanual therapy,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+combined unimanual and bimanual intensive therapy,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+magnesium sulfate,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+magnesium,1,drug,3,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+periventricular leukomalacia,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+preterm birth,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+very preterm,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+cerebral lesions,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+hypoxic - ischemic and,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+cerebral palsy,1,condition,18,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+preterm,1,condition,2,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+mci,3,condition,9,"{'tp': 3, 'fp': 0, 'fn': 0}",biobert-v1.1
+periodontal disease,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+asymptomatic carotid artery stenosis,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+acas,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+mild to moderate cognitive impairment,1,condition,1,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+treatment of,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+period,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+periodontitis,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##ontitis,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+intensive therapy for,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+intensive therapy for periodontitis,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+treatment of periodontitis,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+rivastigmine,2,drug,7,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+functional and cognitive decline,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",biobert-v1.1
+mild to moderate alzheimer ' s disease,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+exelo,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+exelon,1,drug,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+mild to moderate alzheimer's disease,1,condition,7,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+aortic,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+gadobutrol,2,drug,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+known or suspected vascular disease of the su,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+vascular disease of the supra-aortic vessels,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",biobert-v1.1
+major depressive disorder,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",biobert-v1.1
+interventions,2,other,0,"{'tp': 0, 'fp': 2, 'fn': 0}",biobert-v1.1
+##tion training,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+atten,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+attention training,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+attention training interventions,2,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 2}",biobert-v1.1
+##gth training,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+strength training,5,physical,0,"{'tp': 0, 'fp': 5, 'fn': 0}",biobert-v1.1
+##olyphenol,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+rich supplement,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+intense resistance exercise,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##lement,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+pol,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+strength training exercise,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+##yphenol rich,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",biobert-v1.1
+polyphenol,2,drug,0,"{'tp': 0, 'fp': 0, 'fn': 2}",biobert-v1.1

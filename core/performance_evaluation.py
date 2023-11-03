@@ -120,14 +120,15 @@ class ModelEvaluator:
             for prediction, label in zip(predictions, labels)
         ]
         metric = load_metric("seqeval")
-        results = metric.compute(predictions=true_predictions, references=true_labels)
+        results = metric.compute(predictions=true_predictions, references=true_labels, zero_division=0)
 
         combined_predictions = [item for sublist in true_predictions for item in sublist]
         combined_target = [item for sublist in true_labels for item in sublist]
         self.calculate_overall_cohen_kappa_with_ci(combined_predictions, combined_target)
 
+        print("Classification Report")
         print(classification_report(true_labels, true_predictions))
-        print("Mode STRICT")
+        print("Evaluation Mode STRICT")
         print(classification_report(true_labels, true_predictions, mode='strict', scheme=IOB2))
 
         return format_output_seqeval(results, return_format)
@@ -151,7 +152,7 @@ class ModelEvaluator:
         labels = labels.to_numpy()
 
         metric = load_metric("seqeval")
-        results = metric.compute(predictions=predictions, references=labels)
+        results = metric.compute(predictions=predictions, references=labels, zero_division=0)
 
         print(classification_report(labels, predictions))
         print("Mode STRICT")

@@ -31,6 +31,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/data/annotated_data/corpus_stats/clintrials_dev_entities_stats.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/data/annotated_data/data_splits/ct_neuro_dev_merged_90.csv">
           <value>
             <Attribute>
@@ -74,6 +81,20 @@
           </value>
         </entry>
         <entry key="/data/raw_data_aact_sample/random_sample_neurological_with_summaries_202306151741.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/models/evaluations/clintrials_evaluation_entities_stats_BioLinkBERT-base.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/models/evaluations/clintrials_evaluation_sent_entities_stats_BioLinkBERT-base.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

@@ -1,0 +1,720 @@
+entity_token,in_test_frq,entity_class,in_train_frq,evaluation,model
+alexander disease,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+placebo,16,control,163,"{'tp': 14, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+ion373,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+axd,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+axd.,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+cannabis,9,other,7,"{'tp': 7, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+cbd,1,drug,2,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+chronic pain,5,condition,9,"{'tp': 3, 'fp': 1, 'fn': 1}",BioLinkBERT-base
+pain,35,condition,61,"{'tp': 14, 'fp': 12, 'fn': 9}",BioLinkBERT-base
+cannabinoids,1,drug,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+high - cbd cannabis,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+cannabidi,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+hyperalgesia,1,condition,1,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+high-cbd cannabis,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+thc,1,drug,3,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+delta-9-tetrahydrocannabinol,1,drug,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+medicinal cannabis,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+cannabinoid,1,drug,1,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+cannabidiol,1,drug,1,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+antipsychotic medication,1,drug,1,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+risperidone,3,drug,9,"{'tp': 3, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+autistic disorder,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+pervasive developmental disorders,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+pdd,1,condition,1,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+lumbosacral radicular pain,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+gabapentin,4,drug,2,"{'tp': 4, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+lumbosacral radiculopathy,4,condition,0,"{'tp': 2, 'fp': 0, 'fn': 2}",BioLinkBERT-base
+epidural steroid injections,2,other,0,"{'tp': 0, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+esi,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+epidural steroid injection,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+steroid,3,drug,0,"{'tp': 0, 'fp': 0, 'fn': 3}",BioLinkBERT-base
+static passive stretching,2,other,0,"{'tp': 0, 'fp': 1, 'fn': 1}",BioLinkBERT-base
+passive static stretching,2,other,0,"{'tp': 0, 'fp': 1, 'fn': 1}",BioLinkBERT-base
+muscle stretching,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+"muscle stretching protocol,",1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+acquired brain injury,2,condition,6,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+spinal cord injury,11,condition,26,"{'tp': 7, 'fp': 2, 'fn': 2}",BioLinkBERT-base
+sci,12,condition,39,"{'tp': 5, 'fp': 3, 'fn': 4}",BioLinkBERT-base
+abi,2,condition,2,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+gait impairment,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+stelo,2,other,0,"{'tp': 0, 'fp': 1, 'fn': 1}",BioLinkBERT-base
+stelo modular exoskeleton,2,other,0,"{'tp': 0, 'fp': 1, 'fn': 1}",BioLinkBERT-base
+exoskeleton,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+stelo exoskeleton,2,other,0,"{'tp': 0, 'fp': 1, 'fn': 1}",BioLinkBERT-base
+exoskeleton based on modular technology,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+concussion,2,condition,2,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+sub - maximal exercise program,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+sub - maximal exercise protocol,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+sub-maximal exercise protocol,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+sub-maximal exercise program,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+chf 5074,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+mild cognitive impairment,3,condition,20,"{'tp': 3, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+temozolomide,1,drug,2,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+bevacizumab,1,drug,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+rgbm,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+navifus system,1,other,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+recurrent glioblastoma multiforme,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+bev,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+radiotherapy,2,radiotherapy,2,"{'tp': 0, 'fp': 1, 'fn': 1}",BioLinkBERT-base
+fus add-on,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+stroke,11,condition,111,"{'tp': 8, 'fp': 0, 'fn': 3}",BioLinkBERT-base
+strengthening oropharyngeal muscles,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+oropharyngeal exercise,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+obstructive sleep apnea,4,condition,25,"{'tp': 4, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+o - pes,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+post - stroke,3,condition,0,"{'tp': 0, 'fp': 3, 'fn': 0}",BioLinkBERT-base
+o - pe,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+sham,1,control,6,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+post-stroke,3,condition,11,"{'tp': 0, 'fp': 0, 'fn': 3}",BioLinkBERT-base
+continuous positive airway pressure,2,other,7,"{'tp': 1, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+o-pe,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+o-pes,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+cpap,2,other,13,"{'tp': 1, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+sham control,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+vascular dementia,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+sta - 1,3,other,0,"{'tp': 0, 'fp': 3, 'fn': 0}",BioLinkBERT-base
+marrow - sea deficiency,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+sta-1 capsule,3,other,0,"{'tp': 0, 'fp': 0, 'fn': 3}",BioLinkBERT-base
+marrow-sea deficiency,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+- based training,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+computer,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+training program,1,behavioural,3,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+electronic,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+computer-based training,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+methods of interpreting florbetapir (18f) pet scans,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+electronic florbetapir (18f) interpretation training program,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+autism spectrum disorder,2,condition,1,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+asd,2,condition,1,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+cbt,5,behavioural,1,"{'tp': 5, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+disruptive behavior,4,condition,0,"{'tp': 4, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+intellectual disability,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+autism spectrum disorders,1,condition,1,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+irritability,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+cognitive - behavioral therapy,2,behavioural,0,"{'tp': 0, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+cognitive-behavioral therapy,2,behavioural,1,"{'tp': 0, 'fp': 0, 'fn': 2}",BioLinkBERT-base
+osa,1,condition,28,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+cardio - metabolic risk,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+l - carnitine,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+l - c,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+l-c,1,drug,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+l-carnitine,1,drug,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+memory complaint,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+mild cognitive decline,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+alzheimer ' s disease,7,condition,0,"{'tp': 0, 'fp': 7, 'fn': 0}",BioLinkBERT-base
+alzheimer's disease,7,condition,43,"{'tp': 0, 'fp': 0, 'fn': 7}",BioLinkBERT-base
+transient ischemic attack,2,condition,2,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+recurrent embolic stroke,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+tia,1,condition,1,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+pfo,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+best medical therapy,2,control,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+patent foramen ovale,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+paradoxical embolism,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+##flex® septal closure system,2,surgical,0,"{'tp': 0, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+##flex® device,1,surgical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+star,3,other,0,"{'tp': 0, 'fp': 3, 'fn': 0}",BioLinkBERT-base
+starflex® septal closure system,2,other,0,"{'tp': 0, 'fp': 0, 'fn': 2}",BioLinkBERT-base
+starflex® device,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+epilepsy,7,condition,35,"{'tp': 7, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+seizures,5,condition,10,"{'tp': 4, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+re,6,condition,2,"{'tp': 6, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+sleep behaviour intervention,1,behavioural,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+levetiracetam,5,drug,1,"{'tp': 5, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+rolandic epilepsy,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+carbamazepine,3,drug,2,"{'tp': 3, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+no sleep training at all,1,control,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+active monitoring,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+sleep training plan,2,behavioural,0,"{'tp': 0, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+treatment,1,control,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+no treatment,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+no sleep training,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+sleep training,2,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 2}",BioLinkBERT-base
+bia 28 - 6156,3,drug,0,"{'tp': 0, 'fp': 3, 'fn': 0}",BioLinkBERT-base
+bia 28-6156,2,drug,0,"{'tp': 0, 'fp': 0, 'fn': 2}",BioLinkBERT-base
+carbon-14 bia 28-6156,1,drug,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+post surgical pain,3,condition,0,"{'tp': 3, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+lidocaine,5,drug,7,"{'tp': 5, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+bupivacaine,8,drug,2,"{'tp': 8, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+bupivicaine,1,drug,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+postoperative pain,2,condition,3,"{'tp': 1, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+post operative pain,1,condition,1,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+regional pain syndromes,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+trigger finger release,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+hand surgery,2,condition,0,"{'tp': 1, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+surgery,1,condition,2,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+carpal tunnel release,1,condition,1,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+local,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+surgeries,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+post - operative pain,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+hand,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+poorly controlled,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+carpal tunnel or,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+epinephrine,2,drug,0,"{'tp': 0, 'fp': 0, 'fn': 2}",BioLinkBERT-base
+post-operative pain,1,condition,4,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+hand surgeries,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+urinary tract infection,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+antibiotics,1,drug,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+sap,3,condition,0,"{'tp': 3, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+propranolol,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+adrenergic β - receptor blocker,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+stroke - associated pneumonia,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+stroke associated pneumonia,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+pneumonia,1,condition,1,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+adrenergic β-receptor blocker,1,drug,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+immunosuppression,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+brain injury,1,condition,4,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+blank,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+stroke-associated pneumonia,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+spasticity,2,condition,15,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+cva,2,condition,0,"{'tp': 1, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+chronic cerebral vascular accident,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+dry needling,1,other,3,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+dnhs technique,3,other,0,"{'tp': 1, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+chronic stroke,1,condition,12,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+haemorrhagic or ischemic cva,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+deep dry needling of,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+muscle stiffness,2,condition,1,"{'tp': 0, 'fp': 0, 'fn': 2}",BioLinkBERT-base
+dnhs,2,other,0,"{'tp': 0, 'fp': 0, 'fn': 2}",BioLinkBERT-base
+deep dry needling of myofascial trigger points,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+hypertonia,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+subacromial injection,3,other,0,"{'tp': 3, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+suprascapular nerve block,2,other,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+poststroke,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+shoulder pain,5,condition,3,"{'tp': 2, 'fp': 0, 'fn': 3}",BioLinkBERT-base
+hemiplegia,3,condition,0,"{'tp': 3, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+hemiplegic shoulder pain,3,condition,0,"{'tp': 0, 'fp': 3, 'fn': 0}",BioLinkBERT-base
+ultrasound - guided suprascapular nerve block,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+hemiplegic,4,condition,3,"{'tp': 0, 'fp': 1, 'fn': 3}",BioLinkBERT-base
+ultrasound-guided suprascapular nerve block,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+mild traumatic brain injury,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+pth,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+mtbi,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+post - traumatic headache,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+phosphodiesterase 5 inhibition,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+migraine - like headache,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+phosphodiesterase 5 inhibitor,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+sildenafil,1,drug,1,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+persistent post - traumatic headache,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+persistent post-traumatic headache,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+migraine,1,condition,32,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+headache,1,condition,4,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+post-traumatic headache,1,condition,2,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+paliperidone palmitate,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+schizophrenia,3,condition,68,"{'tp': 3, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+intralipid,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+intralipid emulsion,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+robotic gait training,2,physical,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+robotic training,2,physical,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+robotic walking,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+trexo robotic gait trainers,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+robotic trainer,2,physical,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+robotic gait trainers,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+robotic trainers,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+cannot walk,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+difficulty walking on,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+cannot walk independently,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+impairments,1,condition,1,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+intensive,2,physical,0,"{'tp': 0, 'fp': 1, 'fn': 1}",BioLinkBERT-base
+nervous system disorders,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+mobility impairments,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+memory decline,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+sdb,4,condition,10,"{'tp': 4, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+sleep disordered breathing,1,condition,1,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+ad,3,condition,23,"{'tp': 3, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+cognitive decline,3,condition,1,"{'tp': 1, 'fp': 1, 'fn': 1}",BioLinkBERT-base
+dementia,13,condition,38,"{'tp': 12, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+ipa,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+tele - nutrition counseling,2,behavioural,0,"{'tp': 0, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+tele - nutrition program,2,behavioural,0,"{'tp': 0, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+dietary,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+tele - nutrition,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+ipad,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+##d,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+tele-nutrition,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+dietary advice,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+tele-nutrition program,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+tele-nutrition counseling,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+weight management,2,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 2}",BioLinkBERT-base
+youate,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+vibration of the plantar surface of the foot,1,other,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+plantar vibration,1,other,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+peripheral neuropathy,2,condition,4,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+pd,8,condition,79,"{'tp': 7, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+rhythmic auditory cueing,2,other,2,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+beathealth,3,other,0,"{'tp': 1, 'fp': 0, 'fn': 2}",BioLinkBERT-base
+beathealth device,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+gait auto - rehabilitation program,2,physical,0,"{'tp': 0, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+parkinson ' s disease,9,condition,0,"{'tp': 0, 'fp': 9, 'fn': 0}",BioLinkBERT-base
+cueing,1,other,1,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+gait auto-rehabilitation program,2,physical,0,"{'tp': 0, 'fp': 0, 'fn': 2}",BioLinkBERT-base
+parkinson's disease,8,condition,83,"{'tp': 0, 'fp': 0, 'fn': 8}",BioLinkBERT-base
+ttm,12,other,3,"{'tp': 12, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+stepped care,4,behavioural,0,"{'tp': 2, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+wait list,3,control,0,"{'tp': 1, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+trichotillomania,2,condition,3,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+habit reversal training,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+self - help treatment,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+model,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+delayed start,1,control,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+website,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+web - based self - help,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+stepped care model,2,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 2}",BioLinkBERT-base
+web-based self-help,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+wait list/delayed start,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+anxiety,2,condition,23,"{'tp': 0, 'fp': 1, 'fn': 1}",BioLinkBERT-base
+interactive website,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+in-person habit reversal training,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+psychological treatment,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+depression,2,condition,28,"{'tp': 1, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+waiting list,1,control,1,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+cbt - i,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+group treatment for insomnia,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+sleep - hygiene based educational course,1,control,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+treatment - as - usual,1,control,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+insomnia,1,condition,7,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+sleep-hygiene based educational course,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+treatment-as-usual,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+group treatment,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+istradefylline,2,drug,2,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+kw - 6002,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+advanced parkinson ' s disease,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+levodopa,2,condition,12,"{'tp': 0, 'fp': 1, 'fn': 1}",BioLinkBERT-base
+kw-6002,1,drug,1,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+advanced parkinson's disease,1,condition,1,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+seizure,4,condition,9,"{'tp': 3, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+education,1,behavioural,1,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+simulation,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+caregiver,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+caregiver education in a simulation setting,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+educational program,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+emergent seizure,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+educational quality improvement program,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+educational video reviewing rm administration,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+simulation training model/mannequin for rectal diazepam administration,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+vagus nerve stimulation,2,other,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+left ear transcutaneous vagus nerve stimulation,1,other,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+bilateral auricular transcutaneous vagus nerve stimulation,1,other,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+post covid syndrome,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+t - vns method,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+post covid - 19 syndrome,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+vagal stimulation,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+prolonged covid symptoms,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+prolonged covid,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+post covid-19 syndrome,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+vagal stimulation with the t-vns method,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+sevoflurane,2,drug,3,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+remimazolam,4,drug,0,"{'tp': 4, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+emergence agitation,2,condition,3,"{'tp': 1, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+ophthalmic surgery,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+benzodiazepines,2,drug,0,"{'tp': 1, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+propofol,1,drug,5,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+midazolam,1,drug,5,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+total intravenous anesthesia,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+agitation,4,condition,2,"{'tp': 3, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+meningiomas,3,condition,0,"{'tp': 3, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+tumor,9,condition,18,"{'tp': 6, 'fp': 3, 'fn': 0}",BioLinkBERT-base
+postherpetic neuralgia,2,condition,6,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+phn,1,condition,1,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+ngx - 4010,2,drug,0,"{'tp': 0, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+ngx-4010,2,drug,0,"{'tp': 0, 'fp': 0, 'fn': 2}",BioLinkBERT-base
+cerebral artery stenosis,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+coronary bypass surgery,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+cad,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+coronary artery disease,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+paroxysmal atrial fibrillation,1,condition,1,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+cabg,2,condition,1,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+ischemic stroke,2,condition,6,"{'tp': 1, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+cas,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+paroxysmal arrhythmia,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+percutaneous coronary intervention,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+cerebral embolism,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+arrhythmia,2,condition,0,"{'tp': 1, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+pci,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+cognition decline,2,condition,0,"{'tp': 0, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+embolism,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+post - cabg,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+post-cabg neurological complications,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+24-hour simultaneous recorder of electrocardiograph and electroencephalography,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+perioperative arrhythmia,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+prevention of ischemic stroke and cognition decline,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+dmd,1,condition,7,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+inflammation,1,condition,1,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+flavonoids,1,drug,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+muscular pain,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+fshd,1,condition,2,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+mds,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+lgmd,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+"flavonoids -, dha - and epa",1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+neuromuscular disorders,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+omega3s - based compound,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+weakness,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+dha-,1,drug,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+epa,1,drug,4,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+omega3s,1,drug,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+flavonoids-,1,drug,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+sarcopenic,3,condition,1,"{'tp': 3, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+resistance exercise,5,physical,1,"{'tp': 3, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+sarcopenia,3,condition,8,"{'tp': 3, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+general recommendations,2,control,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+resistance exercise program,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+program of,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+loss of muscle,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+program of resistance exercise,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+isms,2,other,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+paralyzed,2,condition,1,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+spinal cord injured,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+##pinal neurop,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+intraspinal micro - stimulation,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+focal activation of intraspinal circuitry,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+intraspinal micro-stimulation,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+dexamethazone,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+dexamethazzoe,1,drug,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+postdural puncture headache,1,condition,2,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+abdominal and lower limb surgeries,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+lower abdominal and lower limb surgeries,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+pregabalin,2,drug,4,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+partial seizures,2,condition,1,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+arm rehabilitation training,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+rtp,2,physical,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+tdcs,2,other,34,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+transcranial direct current stimulation,2,other,20,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+unilateral spatial neglect following stroke,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+rehabilitation training sessions,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+task - specific practice,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+non - invasive brain stimulation,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+repetitive task - specific practice,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+unilateral spatial neglect post stroke,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+task-specific practice,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+repetitive task-specific practice,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+unilateral spatial neglect,2,condition,0,"{'tp': 0, 'fp': 0, 'fn': 2}",BioLinkBERT-base
+non-invasive brain stimulation,1,other,3,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+lactobacillus probiotic,1,other,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+lactobacillus,2,other,0,"{'tp': 1, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+dre,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+drug resistant epilepsy,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+epileptic,2,condition,1,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+dysbiosis,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+probiotics,1,other,2,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+refractory form,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+probiotic,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+probiotic treatment,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+probiotic bacteria,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+lactobacillus population,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+conventional gait training,4,control,0,"{'tp': 3, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+neurodevelopmental treatment,1,control,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+lokomat,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+ndt,3,physical,0,"{'tp': 1, 'fp': 1, 'fn': 1}",BioLinkBERT-base
+robotic assisted locomotor training,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+robot - assisted locomotor training,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+first - ever stroke,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+robotic - assisted gait therapy,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+-,2,behavioural,0,"{'tp': 0, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+subacute post - stroke,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+robotic-assisted gait therapy,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+robot-assisted locomotor training,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+first-ever stroke,1,condition,1,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+subacute post-stroke non-ambulatory hemiplegic,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+multiple sclerosis,4,condition,47,"{'tp': 4, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+fall prevention and detection,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+exercise and educational classroom program,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+comprehensive fall prevention,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+educational classroom program,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+exercise,6,physical,16,"{'tp': 2, 'fp': 0, 'fn': 4}",BioLinkBERT-base
+minor ischemic stroke,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+early supervised aerobic exercise program,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+supervised aerobic exercise program,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+presbyacusis,7,condition,0,"{'tp': 0, 'fp': 7, 'fn': 0}",BioLinkBERT-base
+age related hearing loss,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+age - related hearing loss,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+presbycusis,1,condition,2,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+hearing loss,4,condition,7,"{'tp': 0, 'fp': 1, 'fn': 3}",BioLinkBERT-base
+"symmetric, sensorineural hearing loss",1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+park visits,8,other,0,"{'tp': 5, 'fp': 0, 'fn': 3}",BioLinkBERT-base
+park,3,other,0,"{'tp': 0, 'fp': 3, 'fn': 0}",BioLinkBERT-base
+- based park visit program,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+connections park visit program,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+stress,1,condition,3,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+nature,2,other,0,"{'tp': 0, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+nature - based activities,2,other,0,"{'tp': 0, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+nature-based activities,2,other,0,"{'tp': 0, 'fp': 0, 'fn': 2}",BioLinkBERT-base
+nature connections park visit program,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+nature-based park visit program,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+weekly telephone/internet support meetings,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+mindfulness meditation,1,behavioural,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+patients - experts,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+mbsr ) program,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+mindfulness based stress reduction (,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+program,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+mindfulness based stress reduction,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+mbsr,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+cancer,2,condition,14,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+primary central nervous system tumors,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+central nervous system tumors,1,condition,1,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+blz - 100,3,drug,0,"{'tp': 0, 'fp': 3, 'fn': 0}",BioLinkBERT-base
+blz-100,3,drug,0,"{'tp': 0, 'fp': 0, 'fn': 3}",BioLinkBERT-base
+cardiac surgery,2,condition,2,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+##od,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+analgesic medication,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+multimodal opiate - sparing analgesia,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+multimodal analgesia with,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+traditional opiate based analgesia,2,other,0,"{'tp': 0, 'fp': 1, 'fn': 1}",BioLinkBERT-base
+conventionel opi,1,control,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+analgesia,1,control,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+multimodal opiate-sparing analgesia,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+conventionel opiod analgesia,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+multimodal analgesia,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+hd,8,condition,4,"{'tp': 8, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+early to moderate hd,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+huntington ' s disease,4,condition,0,"{'tp': 0, 'fp': 4, 'fn': 0}",BioLinkBERT-base
+huntington's disease,4,condition,3,"{'tp': 0, 'fp': 0, 'fn': 4}",BioLinkBERT-base
+exercise training,1,physical,2,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+intensive and progressive exercise bouts,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+ms,4,condition,48,"{'tp': 4, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+physiotherapy,1,physical,6,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+training,1,physical,1,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+intensive versus normal,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+##ms,9,condition,0,"{'tp': 0, 'fp': 9, 'fn': 0}",BioLinkBERT-base
+intensive training,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+chronic progressive or relapsing - remitting disease,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+endurance training sessions,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+higher training intensities,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+reduced physical activity,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+normal,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+training modalities,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+impaired functional capacity,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+intensive training intensities,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+drug resistant partial epilepsies,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+epileps,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+epileptogenic,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+galantamine,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+psp,3,condition,1,"{'tp': 2, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+cbs,3,condition,0,"{'tp': 3, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+parkinsonism,1,condition,2,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+tauopathies,2,condition,0,"{'tp': 1, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+synucleinopathy,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+tauopathy,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+parkinsonian tauopathies,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+progressive supranuclear palsy,1,condition,1,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+corticobasal syndrome,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+parkinsonian,1,condition,2,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+gypenosides,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+optic neuritis,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+acute optic neuritis,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+acr16,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+diazepam,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+diastat,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+refractory epilepsy,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+drg,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+dzns,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+refractory ( drug - resistant ) epilepsy,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+refractory (drug-resistant) epilepsy,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+olanzapine,1,drug,2,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+employment,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+support,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+supported employment,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+employment support alone,1,control,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+behavioral skills training,2,behavioural,0,"{'tp': 0, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+supported employment with behavioral skills training,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+employment support,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+employment support with behavioral skills training,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+saffron,3,other,0,"{'tp': 3, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+chamomile,3,other,0,"{'tp': 3, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+parkinson disease,1,condition,12,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+' s disease,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+oxidative stress,1,condition,3,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+didgeridoo,3,other,3,"{'tp': 2, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+##geridoo,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+did,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+airway collapsibility,2,condition,0,"{'tp': 0, 'fp': 0, 'fn': 2}",BioLinkBERT-base
+screening colonoscopy,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+entonox,4,drug,0,"{'tp': 4, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+mih,3,other,0,"{'tp': 1, 'fp': 1, 'fn': 1}",BioLinkBERT-base
+cerebral edema,2,condition,1,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+targeted temperature management,2,other,1,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+iph,3,condition,1,"{'tp': 3, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+intracerebral hemorrhage,1,condition,4,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+mild induced hypothermia,1,other,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+hg,3,condition,0,"{'tp': 2, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+temperature modulation to hypothermia,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+hg ),1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+spontaneous intra - cerebral / intra - parenchymal hemorrhage,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+early hematoma growth (,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+active temperature modulation,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+early hematoma growth,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+hypothermia,1,other,5,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+spontaneous intra-cerebral/intra-parenchymal hemorrhage,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+temperature modulation,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+peripheral sensitization,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+techniques,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+slider and tensioner techniques,2,physical,0,"{'tp': 0, 'fp': 1, 'fn': 1}",BioLinkBERT-base
+radiculopathy,2,condition,0,"{'tp': 0, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+neural,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+mobilization,1,physical,2,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+neural mobilization techniques,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+ants,2,other,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+auditory nerve test system,2,other,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+asymmetric sensorineural hearing loss,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+vestibular schwannoma,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+cochlear implantation,2,condition,0,"{'tp': 0, 'fp': 1, 'fn': 1}",BioLinkBERT-base
+cochlear implant,3,condition,0,"{'tp': 0, 'fp': 2, 'fn': 1}",BioLinkBERT-base
+simultaneous translabyrinthine vestibular schwannoma resection,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+translabyrinthine surgery,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+vestibular schwannoma resection,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+translabyrinthine vestibular schwannoma resection,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+translabyrinthine surgery for vestibular schwannoma resection,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+tics,1,condition,1,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+clonidine,3,drug,1,"{'tp': 3, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+keppra,1,drug,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+tourette syndrome,1,condition,2,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+tic,2,condition,1,"{'tp': 0, 'fp': 0, 'fn': 2}",BioLinkBERT-base
+pain catastrophization,2,condition,1,"{'tp': 1, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+neuropathic pain,3,condition,10,"{'tp': 1, 'fp': 1, 'fn': 1}",BioLinkBERT-base
+np,8,condition,0,"{'tp': 0, 'fp': 4, 'fn': 4}",BioLinkBERT-base
+hydrotherapy,11,physical,0,"{'tp': 0, 'fp': 5, 'fn': 6}",BioLinkBERT-base
+physical therapy,2,control,2,"{'tp': 0, 'fp': 1, 'fn': 1}",BioLinkBERT-base
+chronic lumbar pain,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+standard physical therapy,2,control,0,"{'tp': 0, 'fp': 1, 'fn': 1}",BioLinkBERT-base
+pcs,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+ear and hearing problems,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+ear and hearing,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+ear,2,other,0,"{'tp': 0, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+and hearing,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+service,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+health,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+torres strait islander,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+hearing,3,other,0,"{'tp': 0, 'fp': 3, 'fn': 0}",BioLinkBERT-base
+- based service - enhancement model of,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+clinical and education support officers,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+- enhancement model of,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+community,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+for learning initiative,3,behavioural,0,"{'tp': 0, 'fp': 3, 'fn': 0}",BioLinkBERT-base
+health facilitators,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+ear and hearing health,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+service-enhancement model of ear health facilitators,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+current practice,1,control,1,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+hearing for learning initiative,2,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 2}",BioLinkBERT-base
+hfli,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+ear and hearing clinical and education support officers,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+community-based service-enhancement model of ear and hearing health,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+speech sound disorders,3,condition,0,"{'tp': 3, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+speech sounds disorders,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+speech perception intervention,1,other,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+dyslexia,2,condition,0,"{'tp': 0, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+reading disability,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+phonological awareness deficits,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+speech therapy,1,other,1,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+combination of treatment approaches that focus on speech perception skills and vocabulary knowledge,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+treatment approach that focuses solely on articulation accuracy,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+tes,3,condition,3,"{'tp': 3, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+traumatic encephalopathy syndrome,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+cte,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+chronic traumatic encephalopathy,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+imt,1,physical,4,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+inspiratory muscle training,1,physical,1,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+breathing muscles,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+training breathing muscles,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+moxibustion,1,other,2,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+acupuncture,2,other,4,"{'tp': 1, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+staging acupuncture,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+bell ' s palsy,2,condition,0,"{'tp': 0, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+bell's palsy,2,condition,4,"{'tp': 0, 'fp': 0, 'fn': 2}",BioLinkBERT-base
+cholinesterase inhibitor,1,drug,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+donepezil,3,drug,10,"{'tp': 3, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+virtual reality exposure therapy,3,other,0,"{'tp': 1, 'fp': 1, 'fn': 1}",BioLinkBERT-base
+acrophobia,3,condition,0,"{'tp': 1, 'fp': 0, 'fn': 2}",BioLinkBERT-base
+phobias,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+vret,20,other,0,"{'tp': 0, 'fp': 5, 'fn': 15}",BioLinkBERT-base
+fear,9,condition,0,"{'tp': 0, 'fp': 9, 'fn': 0}",BioLinkBERT-base
+exposure therapy,1,other,1,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+- vivo exposure therapy,1,control,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+virtual reality,1,other,7,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+- vivo exposure,1,control,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+in,2,other,0,"{'tp': 0, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+fear of heights,2,condition,0,"{'tp': 0, 'fp': 1, 'fn': 1}",BioLinkBERT-base
+exposure therapy in virtual reality,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+height avoidance,2,condition,0,"{'tp': 0, 'fp': 0, 'fn': 2}",BioLinkBERT-base
+waitlist,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+phobia,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+tens,1,other,1,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+transcutaneous auricular vagus nerve stimulation,1,other,1,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+transcutaneous electrical nerve stimulation,1,other,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+fibromyalgia,3,condition,28,"{'tp': 2, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+fibromyalgia pain,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+sr,1,behavioural,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+cp,1,condition,8,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+hemiplegic cerebral palsy,2,condition,3,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+mcimt,2,physical,2,"{'tp': 0, 'fp': 1, 'fn': 1}",BioLinkBERT-base
+self - regulation,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+modified constraint - induced movement therapy,2,behavioural,0,"{'tp': 0, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+self - regulation learning,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+modified constraint-induced movement therapy,2,physical,1,"{'tp': 0, 'fp': 0, 'fn': 2}",BioLinkBERT-base
+self-regulation learning,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+self-regulation,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+dha,7,drug,0,"{'tp': 6, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+phenylketonuria,2,condition,1,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+docosahexaenoic acid,2,drug,0,"{'tp': 1, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+pku,7,condition,2,"{'tp': 7, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+fish oil,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+hip fracture surgery,3,condition,0,"{'tp': 3, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+delirium,3,condition,18,"{'tp': 3, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+dexmedetomidine,2,drug,14,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+neurturin,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+##2,2,surgical,0,"{'tp': 0, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+cere - 120,3,drug,0,"{'tp': 0, 'fp': 3, 'fn': 0}",BioLinkBERT-base
+aav,2,other,0,"{'tp': 0, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+idiopathic parkinson ' s disease,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+- associated virus serotype 2,1,surgical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+adeno,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+ntn,2,drug,0,"{'tp': 0, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+idiopathic parkinson's disease,1,condition,2,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+in vivo aav2 mediated delivery of the gene encoding ntn,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+adeno-associated virus serotype 2 [aav2]-neurturin[ntn],1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+cere-120,3,other,0,"{'tp': 0, 'fp': 0, 'fn': 3}",BioLinkBERT-base
+cimt,1,physical,3,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+unilateral brain injury,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+##anual therapy,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+combined unimanual,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+combined constraint therapy,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+constraint - induced movement therapy,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+bim,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+therapy,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+and bimanual intensive therapy,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+constraint and bimanual therapy,2,physical,0,"{'tp': 0, 'fp': 1, 'fn': 1}",BioLinkBERT-base
+bimanual,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+combined unimanual and bimanual intensive therapy,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+constraint-induced movement therapy,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+bimanual therapy,2,physical,0,"{'tp': 0, 'fp': 0, 'fn': 2}",BioLinkBERT-base
+constraint therapy,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+preterm birth,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+periventricular leukomalacia,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+magnesium sulfate,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+preterm,1,condition,2,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+magnesium,1,drug,3,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+acquired hypoxic - ischemic and /,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+cerebral palsy,1,condition,18,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+inflammatory cerebral lesions,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+asymptomatic carotid artery stenosis,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+acas,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+mci,3,condition,9,"{'tp': 3, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+mild to moderate cognitive impairment,1,condition,1,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+intensive therapy for periodontitis,1,other,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+periodontal disease,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+periodontitis,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+treatment of periodontitis,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+functional and cognitive decline,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+exelon,1,drug,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+rivastigmine,2,drug,7,"{'tp': 2, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+mild to moderate alzheimer ' s disease,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+mild to moderate alzheimer's disease,1,condition,7,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+gadobutrol,2,drug,0,"{'tp': 0, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+vascular disease of the supra - aortic vessels,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+vascular disease of the supra-aortic vessels,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",BioLinkBERT-base
+major depressive disorder,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",BioLinkBERT-base
+attention,2,other,0,"{'tp': 0, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+training interventions,2,behavioural,0,"{'tp': 0, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+attention training interventions,2,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 2}",BioLinkBERT-base
+intense resistance exercise,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",BioLinkBERT-base
+strength training,7,physical,0,"{'tp': 0, 'fp': 7, 'fn': 0}",BioLinkBERT-base
+polyphenol rich supplementation,2,other,0,"{'tp': 0, 'fp': 2, 'fn': 0}",BioLinkBERT-base
+polyphenol,2,drug,0,"{'tp': 0, 'fp': 0, 'fn': 2}",BioLinkBERT-base

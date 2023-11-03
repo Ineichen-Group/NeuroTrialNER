@@ -1,0 +1,2806 @@
+entity_token,frequency,entity_class
+placebo,163,CONTROL
+stroke,111,CONDITION
+parkinson's disease,83,CONDITION
+pd,79,CONDITION
+schizophrenia,68,CONDITION
+pain,61,CONDITION
+ms,48,CONDITION
+multiple sclerosis,47,CONDITION
+alzheimer's disease,43,CONDITION
+sci,39,CONDITION
+dementia,38,CONDITION
+epilepsy,35,CONDITION
+tdcs,34,OTHER
+migraine,32,CONDITION
+depression,28,CONDITION
+osa,28,CONDITION
+fibromyalgia,28,CONDITION
+spinal cord injury,26,CONDITION
+obstructive sleep apnea,25,CONDITION
+anxiety,23,CONDITION
+ad,23,CONDITION
+mild cognitive impairment,20,CONDITION
+transcranial direct current stimulation,20,OTHER
+carpal tunnel syndrome,19,CONDITION
+tumor,18,CONDITION
+delirium,18,CONDITION
+cerebral palsy,18,CONDITION
+cts,17,CONDITION
+fatigue,16,CONDITION
+tbi,16,CONDITION
+aripiprazole,16,DRUG
+exercise,16,CONTROL
+spasticity,15,CONDITION
+rbd,15,CONDITION
+dexmedetomidine,14,DRUG
+cancer,14,CONDITION
+id,14,CONDITION
+cpap,13,OTHER
+traumatic brain injury,13,CONDITION
+ci,13,DRUG
+parkinson disease,12,CONDITION
+chronic stroke,12,CONDITION
+vitamin d,12,DRUG
+levodopa,12,DRUG
+tinnitus,12,CONDITION
+dysphagia,11,CONDITION
+nicotine,11,DRUG
+insulin,11,DRUG
+post-stroke,11,CONDITION
+rtms,11,OTHER
+parkinson's,10,CONDITION
+seizures,10,CONDITION
+donepezil,10,DRUG
+sdb,10,CONDITION
+neuropathic pain,10,CONDITION
+acute ischemic stroke,10,CONDITION
+ataxia,10,CONDITION
+pbm,10,OTHER
+tms,10,OTHER
+mci,9,CONDITION
+duchenne muscular dystrophy,9,CONDITION
+freezing of gait,9,CONDITION
+saline,9,DRUG
+seizure,9,CONDITION
+pregnancy,9,CONDITION
+arp,9,BEHAVIOURAL
+cfs,9,CONDITION
+neuromuscular electrical stimulation,9,OTHER
+chronic pain,9,CONDITION
+risperidone,9,DRUG
+sleep apnea,9,CONDITION
+pws,9,CONDITION
+at,9,PHYSICAL
+improvment,9,PHYSICAL
+schizophrenic,8,CONDITION
+cab,8,DRUG
+rpv,8,DRUG
+control,8,CONTROL
+alzheimer disease,8,CONDITION
+sarcopenia,8,CONDITION
+lenalidomide,8,DRUG
+fragile x syndrome,8,CONDITION
+cardiovascular disease,8,CONDITION
+dcs,8,DRUG
+severe brain injury,8,CONDITION
+osas,8,CONDITION
+fampridine,8,DRUG
+itpr,8,OTHER
+cp,8,CONDITION
+fentanyl,8,DRUG
+exenatide,7,DRUG
+diabetes,7,CONDITION
+als,7,CONDITION
+dmd,7,CONDITION
+rivastigmine,7,DRUG
+insomnia,7,CONDITION
+hearing loss,7,CONDITION
+whole body vibration,7,OTHER
+eating disorders,7,CONDITION
+icu,7,CONDITION
+amantadine,7,DRUG
+post stroke,7,CONDITION
+usual care,7,CONTROL
+physical exercise,7,PHYSICAL
+virtual reality,7,OTHER
+fabry disease,7,CONDITION
+continuous positive airway pressure,7,OTHER
+dbs,7,CONDITION
+prader-willi syndrome,7,CONDITION
+cannabis,7,OTHER
+svd,7,CONDITION
+d-cycloserine,7,DRUG
+nivolumab,7,DRUG
+tak-079,7,DRUG
+lidocaine,7,DRUG
+mild to moderate alzheimer's disease,7,CONDITION
+metabolic syndrome,7,CONDITION
+topiramate,7,DRUG
+covid-19,7,CONDITION
+morphine,7,DRUG
+aerobic training,7,PHYSICAL
+avh,7,CONDITION
+menacyw conjugate vaccine,7,DRUG
+ro7034067,7,DRUG
+alpelisib,7,DRUG
+trametinib,7,DRUG
+postherpetic neuralgia,6,CONDITION
+rrms,6,CONDITION
+spastic cerebral palsy,6,CONDITION
+mst,6,CONTROL
+rls,6,CONDITION
+nocturia,6,CONDITION
+physical activity,6,PHYSICAL
+bpsd,6,CONDITION
+af,6,CONDITION
+hiv,6,CONDITION
+sham,6,CONTROL
+amyotrophic lateral sclerosis,6,CONDITION
+neurofibromatosis type 1,6,CONDITION
+acquired brain injury,6,CONDITION
+deep brain stimulation,6,CONDITION
+ischemic stroke,6,CONDITION
+restless legs syndrome,6,CONDITION
+cognitive rehabilitation,6,OTHER
+blinatumomab,6,DRUG
+car t cells,6,SURGICAL
+metformin,6,DRUG
+pots,6,CONDITION
+nitric oxide,6,DRUG
+eliglustat tartrate,6,DRUG
+carepath,6,OTHER
+physiotherapy,6,PHYSICAL
+lamotrigine,6,DRUG
+exendin-4,6,DRUG
+genz-112638,6,DRUG
+fes-rt,6,PHYSICAL
+menactra,6,DRUG
+melatonin,6,DRUG
+sbrt,6,RADIOTHERAPY
+mse,6,OTHER
+cea,5,CONDITION
+hypertension,5,CONDITION
+hiv-1,5,CONDITION
+abc,5,DRUG
+dtg/3tc,5,DRUG
+hypothermia,5,OTHER
+severe traumatic brain injury,5,CONDITION
+ect,5,CONTROL
+postmenopausal,5,CONDITION
+myozyme,5,DRUG
+rtl1000,5,DRUG
+down syndrome,5,CONDITION
+home program,5,PHYSICAL
+neurotropin,5,DRUG
+corticosteroid,5,DRUG
+dextrose,5,DRUG
+propofol,5,DRUG
+midazolam,5,DRUG
+atrial fibrillation,5,CONDITION
+fms,5,PHYSICAL
+bupropion,5,DRUG
+cf,5,CONDITION
+fm,5,CONDITION
+psilocybin,5,DRUG
+subacute stroke,5,CONDITION
+electrical stimulation,5,OTHER
+nmes,5,OTHER
+aerobic dance training,5,PHYSICAL
+behavior therapy,5,BEHAVIOURAL
+relapsing-remitting multiple sclerosis,5,CONDITION
+bg00012,5,DRUG
+cooling,5,OTHER
+dex,5,DRUG
+antipsychotic,5,DRUG
+mstep,5,PHYSICAL
+motor imagery,5,OTHER
+rehabilitation therapy,5,PHYSICAL
+alteplase,5,DRUG
+minor stroke,5,CONDITION
+aspirin,5,DRUG
+biib074,5,DRUG
+uc,5,CONTROL
+valganciclovir,5,DRUG
+botulinum toxin type a,5,DRUG
+botulinum toxin,5,DRUG
+mk-8931,5,DRUG
+modafinil,5,DRUG
+frailty,5,CONDITION
+ads-mr,5,CONDITION
+ataluren,5,DRUG
+cogane,5,DRUG
+vr,5,OTHER
+anhedonia,5,CONDITION
+caffeine,5,DRUG
+rotigotine,5,DRUG
+sunbrite,5,BEHAVIOURAL
+shatavari,5,OTHER
+lorazepam,5,DRUG
+risdiplam,5,DRUG
+hyperacusis,5,CONDITION
+rtt,5,CONDITION
+liver resection,5,CONDITION
+mt,5,OTHER
+nabilone,4,DRUG
+glatiramer acetate,4,DRUG
+ropinirole,4,DRUG
+acute stroke,4,CONDITION
+electroconvulsive therapy,4,CONDITION
+ds,4,CONDITION
+pramipexole,4,DRUG
+imt,4,PHYSICAL
+npc-14,4,DRUG
+fus,4,OTHER
+mechanical ventilation,4,OTHER
+pregabalin,4,DRUG
+post-liver transplant,4,CONDITION
+hearing impaired,4,CONDITION
+plie,4,PHYSICAL
+central obesity,4,CONDITION
+acupuncture,4,OTHER
+bg00010,4,DRUG
+oxytocin,4,DRUG
+friedreich's ataxia,4,CONDITION
+chronic fatigue syndrome,4,CONDITION
+sodium thiosulfate,4,DRUG
+cognitive deficits,4,CONDITION
+diabetic peripheral neuropathy,4,CONDITION
+lacosamide,4,DRUG
+ixiaro,4,DRUG
+mbjev,4,DRUG
+peripheral neuropathy,4,CONDITION
+an,4,CONDITION
+lipoic acid,4,DRUG
+fog,4,CONDITION
+msa,4,CONDITION
+sibutramine,4,DRUG
+headache,4,CONDITION
+repetitive transcranial magnetic stimulation,4,OTHER
+bcaas,4,DRUG
+obesity,4,CONDITION
+oral appliance,4,OTHER
+aphasia,4,CONDITION
+diabetic neuropathy,4,CONDITION
+phototherapy,4,OTHER
+intracerebral hemorrhage,4,CONDITION
+excessive daytime sleepiness,4,CONDITION
+narcolepsy,4,CONDITION
+oral appliances,4,OTHER
+xp13512,4,DRUG
+mild dementia,4,CONDITION
+desflurane,4,DRUG
+acromegaly,4,CONDITION
+pasireotide,4,DRUG
+fremanezumab,4,DRUG
+hd,4,CONDITION
+generalized myasthenia gravis,4,CONDITION
+alzheimer,4,CONDITION
+brain injury,4,CONDITION
+pid,4,OTHER
+p1g10,4,DRUG
+general guideline,4,CONTROL
+ultrasound,4,OTHER
+inositol,4,DRUG
+aat,4,OTHER
+clopidogrel,4,DRUG
+acetazolamide,4,DRUG
+prone positioning,4,OTHER
+esml-social,4,OTHER
+esml-ex,4,OTHER
+post-operative pain,4,CONDITION
+ziprazidone,4,DRUG
+dronabinol,4,DRUG
+sleepiness,4,CONDITION
+arterial hypotension,4,CONDITION
+sudep,4,CONDITION
+hirrem,4,OTHER
+spt,4,PHYSICAL
+chemotherapy,4,DRUG
+action observation therapy,4,BEHAVIOURAL
+bulimia nervosa,4,CONDITION
+cbt-rr,4,BEHAVIOURAL
+reading disorder,4,CONDITION
+bell's palsy,4,CONDITION
+early-stage alzheimer's disease,4,CONDITION
+gv1001,4,DRUG
+immersive virtual reality,4,OTHER
+chronic shoulder pain,4,CONDITION
+vri,4,CONTROL
+asp6981,4,DRUG
+amblyopia,4,CONDITION
+rett syndrome,4,CONDITION
+aab-003,4,DRUG
+conventional motor training,4,CONTROL
+ragt,4,PHYSICAL
+acute sci,4,CONDITION
+myofascial relaxation techniques,4,OTHER
+rtg,4,DRUG
+emergence delirium,4,CONDITION
+clinical pharmacy specialists,4,OTHER
+epa,4,DRUG
+hmb,4,DRUG
+erector spinae plane block,4,OTHER
+espb,4,OTHER
+ataxia-telangiectasia,4,CONDITION
+a-t,4,CONDITION
+c-mill training,4,PHYSICAL
+quetiapine fumarate,4,DRUG
+dsp,4,CONDITION
+pd-pigd,4,CONDITION
+pids,4,CONDITION
+tap block,4,OTHER
+scc,4,CONDITION
+sam-531,3,DRUG
+acute episode,3,CONDITION
+amisulpride,3,DRUG
+neuromyelitis optica,3,CONDITION
+zolpidem,3,DRUG
+idd,3,CONDITION
+emergence agitation,3,CONDITION
+estriol,3,DRUG
+hemiplegic,3,CONDITION
+shoulder pain,3,CONDITION
+end stage renal disease,3,CONDITION
+neural feedback,3,OTHER
+neurodevelopment therapy,3,OTHER
+cervical mobilization,3,PHYSICAL
+aut00206,3,DRUG
+iti,3,OTHER
+pompe disease,3,CONDITION
+orthotic garment,3,OTHER
+frontotemporal dementia,3,CONDITION
+oral motor exercises,3,PHYSICAL
+breathing exercises,3,PHYSICAL
+partial onset seizures,3,CONDITION
+aphasic,3,CONDITION
+severe dementia,3,CONDITION
+fibromyalgia syndrome,3,CONDITION
+schizoaffective disorder,3,CONDITION
+actimmune,3,DRUG
+chronic fatigue,3,CONDITION
+spinraza,3,DRUG
+nusinersen,3,DRUG
+medulloblastoma,3,CONDITION
+pda-002,3,SURGICAL
+severe post-stroke hemiparesis,3,CONDITION
+tes,3,OTHER
+anorexia nervosa,3,CONDITION
+f-pst,3,BEHAVIOURAL
+imovax polio,3,DRUG
+obese,3,CONDITION
+tolerogenic fibroblasts,3,SURGICAL
+e2814,3,DRUG
+tacs,3,OTHER
+dementias,3,CONDITION
+dystonia,3,CONDITION
+spastic,3,CONDITION
+golytely,3,DRUG
+bcaa,3,DRUG
+status epilepticus,3,CONDITION
+thc,3,DRUG
+rcmp,3,OTHER
+ttm,3,OTHER
+ich,3,CONDITION
+bradykinesia,3,CONDITION
+bf2.649,3,DRUG
+pitolisant,3,DRUG
+eds,3,CONDITION
+sleep wake disorders,3,CONDITION
+mnd,3,CONDITION
+minor head trauma,3,CONDITION
+speech-language therapy,3,OTHER
+non-invasive brain stimulation,3,OTHER
+gait training,3,PHYSICAL
+clozapine,3,DRUG
+hepatectomy,3,CONDITION
+paravertebral block,3,OTHER
+dysmenorrhea,3,CONDITION
+cpp,3,CONDITION
+spirit,3,BEHAVIOURAL
+tep,3,BEHAVIOURAL
+moderate to severe dementia,3,CONDITION
+sevoflurane,3,DRUG
+octreotide,3,DRUG
+somatostatin analogues,3,DRUG
+obstructive sleep apnea syndrome,3,CONDITION
+median nerve stimulation,3,OTHER
+partial-onset seizures,3,CONDITION
+st,3,OTHER
+paliperidone,3,DRUG
+lewy body dementia,3,CONDITION
+brain tumors,3,CONDITION
+huntington's disease,3,CONDITION
+tachosil,3,OTHER
+liver cirrhosis,3,CONDITION
+compression garments,3,OTHER
+dp-vpa,3,DRUG
+migraine attacks,3,CONDITION
+esmolol,3,DRUG
+stress,3,CONDITION
+antipsychotics,3,DRUG
+ultra-resistant schizophrenia,3,CONDITION
+ais,3,CONDITION
+improvisational dance,3,PHYSICAL
+training program,3,PHYSICAL
+short wave diathermy,3,OTHER
+nmd,3,CONDITION
+gpb,3,OTHER
+as,3,OTHER
+trichotillomania,3,CONDITION
+rt-pa,3,DRUG
+cerebellar ataxia,3,CONDITION
+ctdcs,3,OTHER
+asld,3,CONDITION
+intellectual disabilities,3,CONDITION
+mild and moderate hepatic impairment,3,CONDITION
+venlafaxine,3,DRUG
+lurasidone hcl,3,DRUG
+lurasidone,3,DRUG
+diabetes mellitus,3,CONDITION
+vitamin b12,3,DRUG
+hearing-impaired,3,CONDITION
+asymptomatic ccmv,3,CONDITION
+fabrazyme,3,DRUG
+esdt,3,OTHER
+pea,3,DRUG
+everolimus,3,DRUG
+sws,3,CONDITION
+sci&u,3,BEHAVIOURAL
+aeds,3,DRUG
+aed,3,DRUG
+perampanel,3,DRUG
+segmental muscle vibration,3,OTHER
+supervised physical therapy,3,PHYSICAL
+mental retardation,3,CONDITION
+theophylline,3,DRUG
+dysgeusia,3,CONDITION
+robotic exoskeleton,3,PHYSICAL
+mi,3,OTHER
+hyperactivity disorder,3,CONDITION
+adhd,3,CONDITION
+dry needling,3,OTHER
+magnesium,3,DRUG
+apitegromab,3,DRUG
+st101,3,DRUG
+aricept,3,DRUG
+constraint induced movement therapy,3,OTHER
+cimt,3,OTHER
+migraine headaches,3,CONDITION
+gaucher disease type 1,3,CONDITION
+hemiplegic cerebral palsy,3,CONDITION
+citalopram,3,DRUG
+baf312,3,DRUG
+binge eating,3,CONDITION
+pf-03654746,3,DRUG
+tourette's syndrome,3,CONDITION
+terminal visual feedback therapy,3,OTHER
+paf,3,CONDITION
+trns,3,OTHER
+transcranial magnetic stimulation,3,OTHER
+xanamem,3,DRUG
+pa,3,PHYSICAL
+cardio exercise program,3,PHYSICAL
+carbetocin,3,DRUG
+lv-101,3,DRUG
+pf-05236812,3,DRUG
+memantine,3,DRUG
+eliprodil,3,DRUG
+csdh,3,CONDITION
+acute intermittent hypoxia,3,OTHER
+osteopathic manipulative therapy,3,OTHER
+symptomatic urinary tract infections,3,CONDITION
+uti,3,CONDITION
+nipocalimab,3,DRUG
+fragile x,3,CONDITION
+oxidative stress,3,CONDITION
+tuberous sclerosis complex,3,CONDITION
+tsc,3,CONDITION
+magic camp,3,OTHER
+mandibular advancement device,3,OTHER
+mad,3,OTHER
+btxa,3,DRUG
+lanreotide,3,DRUG
+hypertonic saline,3,DRUG
+cs,3,CONDITION
+postoperative pain,3,CONDITION
+menthol,3,DRUG
+hip surgery,3,CONDITION
+a-t.,3,CONDITION
+tnk,3,DRUG
+haloperidol,3,DRUG
+shatavari supplementation,3,OTHER
+rosuvastatin,3,DRUG
+water immersion,3,PHYSICAL
+n-acetyl-l-leucine,3,DRUG
+ib1001,3,DRUG
+pirfenidone,3,DRUG
+acu,3,OTHER
+moxa,3,OTHER
+primary parkinsonian pain,3,CONDITION
+dual-task+aot-mi,3,OTHER
+dual-task,3,OTHER
+rasagiline,3,DRUG
+cvt-427,3,DRUG
+cerebellar stimulation,3,OTHER
+didgeridoo,3,OTHER
+brindley technique,3,SURGICAL
+computerized attention training,3,BEHAVIOURAL
+deficit syndrome,3,CONDITION
+vasospasm,3,CONDITION
+liver resection surgery,3,CONDITION
+positive airway pressure,3,OTHER
+pap,3,OTHER
+visual feedback training,3,OTHER
+dlpfc,3,OTHER
+itbs,3,OTHER
+neurologic music therapy,3,OTHER
+nmt,3,OTHER
+massage therapy,3,OTHER
+mt-mse,3,OTHER
+tavns,3,OTHER
+ctbs,3,OTHER
+aggressive medical treatment,2,OTHER
+fragile brain,2,CONDITION
+acute brain injury,2,CONDITION
+health education,2,CONTROL
+arthritis,2,CONDITION
+z160,2,DRUG
+eculizumab,2,DRUG
+severe behavioural problems,2,CONDITION
+intellectual and developmental disabilities,2,CONDITION
+sbp,2,CONDITION
+prescribing errors,2,CONDITION
+audiobooks for hearing loss app,2,OTHER
+auditory training,2,OTHER
+ci and ha users,2,CONDITION
+phonak hearing systems,2,OTHER
+cabotegravir,2,DRUG
+rilpivirine,2,DRUG
+integrase inhibitor,2,DRUG
+crd007,2,DRUG
+becker muscular dystrophy,2,CONDITION
+bmd,2,CONDITION
+postoperative delirium,2,CONDITION
+cardiac surgery,2,CONDITION
+septorhinoplasty,2,CONDITION
+relapsing remitting multiple sclerosis,2,CONDITION
+copaxone,2,DRUG
+percutaneous electrical nerve stimulation,2,OTHER
+indocyanine green,2,OTHER
+carbon dioxide,2,DRUG
+classical trigeminal neuralgia,2,CONDITION
+haemodialysis,2,CONDITION
+mild-to-moderate hearing loss,2,CONDITION
+traditional therapy,2,CONTROL
+traditional + cervical mobilization,2,PHYSICAL
+risk of falls,2,CONDITION
+magnetic seizure therapy,2,OTHER
+ren-1654,2,DRUG
+post-herpetic neuralgia,2,CONDITION
+immune tolerance induction,2,OTHER
+family-based treatment,2,BEHAVIOURAL
+hip helpers,2,OTHER
+primary restless legs syndrome,2,CONDITION
+1072nm infrared (ir) phototherapy,2,OTHER
+sonlicromanol,2,DRUG
+mitochondrial disease,2,CONDITION
+type 2 diabetes,2,CONDITION
+focused ultrasound,2,OTHER
+physical frailty,2,CONDITION
+intensive care unit,2,CONDITION
+delirium prevention bundle,2,OTHER
+square stepping exercises,2,PHYSICAL
+ards,2,CONDITION
+mncc,2,DRUG
+behavioural disturbances,2,CONDITION
+tourette's disorder,2,CONDITION
+watchman laa closure technology,2,SURGICAL
+preventing loss of independence through exercise,2,PHYSICAL
+hpdsc,2,SURGICAL
+sch 900800,2,DRUG
+l-dopa,2,DRUG
+standard therapy,2,CONTROL
+social cognition impairment,2,CONDITION
+oxt,2,DRUG
+fa,2,CONDITION
+amygdala retraining program,2,BEHAVIOURAL
+arp program,2,BEHAVIOURAL
+sma type ii,2,CONDITION
+sma,2,CONDITION
+cryptococcal meningitis,2,CONDITION
+art,2,OTHER
+cisplatin,2,CONDITION
+neuroblastoma,2,CONDITION
+alzt-op1a,2,DRUG
+mild to moderate als,2,CONDITION
+dpn,2,CONDITION
+physical therapy,2,PHYSICAL
+mild alzheimer's disease,2,CONDITION
+lu af20513,2,DRUG
+collaborative care,2,OTHER
+usual neurology care,2,OTHER
+new-onset post-operative atrial fibrillation,2,CONDITION
+poaf,2,CONDITION
+brain stimulation,2,OTHER
+transcranial electric stimulation,2,OTHER
+memory impairment,2,CONDITION
+early alzheimer's disease,2,CONDITION
+cerebellar transcranial direct current stimulation,2,OTHER
+insulin-like growth factor-1,2,DRUG
+moxibustion,2,OTHER
+fluorescence-guided resection,2,SURGICAL
+malignant gliomas,2,CONDITION
+5-aminolevulinic acid,2,DRUG
+5-ala,2,DRUG
+conventional resection,2,CONTROL
+tumour,2,CONDITION
+parkinson,2,CONDITION
+oxymorphone,2,DRUG
+eating disorder,2,CONDITION
+iacd,2,OTHER
+multiple system atrophy,2,CONDITION
+lucerastat,2,DRUG
+well-established outpatient group therapy,2,CONTROL
+chronic tinnitus,2,CONDITION
+risperdal,2,DRUG
+consta,2,DRUG
+respiratory muscle training,2,PHYSICAL
+fibroblasts,2,SURGICAL
+dominantly inherited alzheimer's disease,2,CONDITION
+diad,2,CONDITION
+concussion,2,CONDITION
+aoc 1020,2,DRUG
+facioscapulohumeral muscular dystrophy,2,CONDITION
+fshd,2,CONDITION
+small fiber neuropathy,2,CONDITION
+gi dysmotility,2,CONDITION
+intensive cognitive rehabilitation,2,OTHER
+cti-1601,2,DRUG
+t-62,2,DRUG
+stx209,2,DRUG
+arbaclofen,2,DRUG
+fxs,2,CONDITION
+assertive community treatment,2,OTHER
+hepatic encephalopathy,2,CONDITION
+polyethylene glycol,2,DRUG
+lactulose,2,DRUG
+esp,2,BEHAVIOURAL
+low-intensity laser,2,OTHER
+eswt,2,OTHER
+after stroke,2,CONDITION
+ambroxol,2,DRUG
+rad011,2,DRUG
+overweight,2,CONDITION
+traditional chinese medicine,2,OTHER
+vgh-ad1,2,OTHER
+mencevax acw135 polysaccharide vaccine,2,DRUG
+cbd,2,DRUG
+moderate to severe osa,2,CONDITION
+ponesimod,2,DRUG
+teriflunomide,2,DRUG
+relapsing multiple sclerosis,2,CONDITION
+prx-03140,2,DRUG
+carotid artery stenting,2,SURGICAL
+neuroguard iep system,2,SURGICAL
+carotid endarterectomy,2,SURGICAL
+sativex,2,DRUG
+upper-limb rehabilitation,2,PHYSICAL
+etoricoxib,2,DRUG
+tst,2,CONTROL
+4-aminopyridine,2,DRUG
+atenolol,2,DRUG
+cerebral small vessel disease,2,CONDITION
+cryptogenic stroke,2,CONDITION
+mobile application,2,OTHER
+alectinib,2,DRUG
+supplemental inspired oxygen,2,OTHER
+td,2,CONDITION
+positive end expiratory pressure,2,OTHER
+motor neuron disease,2,CONDITION
+brain safe,2,OTHER
+ziconotide,2,DRUG
+incobotulinum toxin a,2,DRUG
+xeomin,2,DRUG
+sialorrhea,2,CONDITION
+parkinsonism,2,CONDITION
+meditation relaxation therapy,2,BEHAVIOURAL
+roflumilast,2,DRUG
+type 2 diabetic,2,CONDITION
+chronic inflammation,2,CONDITION
+b-all,2,CONDITION
+cpwalker,2,PHYSICAL
+mp-214,2,DRUG
+receiving multiple drugs schizophrenia,2,CONDITION
+rem sleep behavior disorder,2,CONDITION
+wid-clz18,2,DRUG
+clozaril,2,DRUG
+intelligent physical training,2,PHYSICAL
+comprehensive rehabilitation,2,PHYSICAL
+-cerebrovascular diseases,2,CONDITION
+sleep-disordered breathing,2,CONDITION
+adenotonsillectomy,2,SURGICAL
+telehealth education program,2,BEHAVIOURAL
+deferiprone,2,DRUG
+pkan,2,CONDITION
+glutamine,2,DRUG
+breast cancer,2,CONDITION
+paclitaxel,2,DRUG
+minor-to moderate-risk noncardiac surgery,2,CONDITION
+neuromuscular,2,CONDITION
+iv amantadine,2,DRUG
+adaptative servoventilation,2,OTHER
+central sleep apnea,2,CONDITION
+zopiclone,2,DRUG
+hypopituitary,2,CONDITION
+tourette syndrome,2,CONDITION
+mns,2,OTHER
+rhythmic auditory cueing,2,OTHER
+auditory cues,2,OTHER
+diffuse intrinsic pontine glioma,2,CONDITION
+diffuse midline glioma,2,CONDITION
+dipg,2,CONDITION
+b7h3-specific car t cells,2,SURGICAL
+ga,2,DRUG
+chemotherapy-induced painful peripheral neuropathy,2,CONDITION
+cipn,2,CONDITION
+speeded anomia therapy,2,OTHER
+chronic post-stroke aphasia,2,CONDITION
+prehd,2,CONDITION
+sphenopalatine ganglion block,2,OTHER
+postdural puncture headache,2,CONDITION
+bupivacaine,2,DRUG
+skull base surgery,2,CONDITION
+affitope ad02,2,DRUG
+bat4406f,2,DRUG
+neuromyelitis optica spectrum disorders,2,CONDITION
+safinamide,2,DRUG
+motor fluctuations,2,CONDITION
+idiopathic parkinson's disease,2,CONDITION
+minimal hepatic encephalopathy,2,CONDITION
+tuberculosis meningitis,2,CONDITION
+muscle failure,2,CONDITION
+dynapenia,2,CONDITION
+intracranial procedures,2,CONDITION
+tachycardia,2,CONDITION
+chronic sci,2,CONDITION
+cancer surgery,2,CONDITION
+task-oriented training,2,PHYSICAL
+exercise training,2,PHYSICAL
+fmt,2,OTHER
+psychotic,2,CONDITION
+b-stn dbs,2,SURGICAL
+play intervention for dementia,2,OTHER
+wait-list,2,CONTROL
+pid programme,2,OTHER
+sertraline,2,DRUG
+diabetic foot ulcers,2,CONDITION
+hydrogel,2,CONTROL
+dm199,2,DRUG
+mitoxantrone,2,DRUG
+nmo,2,CONDITION
+mito,2,DRUG
+relapsing-remitting ms,2,CONDITION
+somatosensory stimulation,2,OTHER
+vestibular stimulation,2,OTHER
+wc,2,CONTROL
+external shoe lift,2,OTHER
+insulin resistance,2,CONDITION
+carbidopa,2,DRUG
+standard rehabilitation,2,CONTROL
+erythropoietin,2,DRUG
+preterm,2,CONDITION
+diathermy,2,OTHER
+air stacking,2,OTHER
+glossopharyngeal breathing,2,OTHER
+animal-assisted therapy,2,OTHER
+tibial nerve mobilization,2,PHYSICAL
+tarsal tunnel syndrome,2,CONDITION
+transient ischemic attack,2,CONDITION
+screw retained arch bar,2,OTHER
+conventional erich's arch bar,2,OTHER
+maxillomandibular fixation,2,OTHER
+3aps,2,DRUG
+balance training,2,PHYSICAL
+biodex balance system,2,PHYSICAL
+consecutive exotropia,2,CONDITION
+no,2,DRUG
+argininosuccinate lyase deficiency,2,CONDITION
+traumatic coma,2,CONDITION
+serious mental illness,2,CONDITION
+wound dehiscence,2,CONDITION
+prep-to-play,2,BEHAVIOURAL
+ip program,2,BEHAVIOURAL
+early stage dementia,2,CONDITION
+stem cell therapy,2,SURGICAL
+fingolimod,2,DRUG
+myotonic dystrophy type 1(dm1),2,CONDITION
+sodium oxybate,2,DRUG
+xyrem,2,DRUG
+rimegepant,2,DRUG
+episodic migraine,2,CONDITION
+ziprasidone,2,DRUG
+headaches,2,CONDITION
+endovascular treatment,2,CONDITION
+hydrocoil,2,OTHER
+transcatheter patent foramen ovale closure,2,SURGICAL
+stroke-in-evolution,2,CONDITION
+bun/cr ratio based hydration therapy,2,OTHER
+clinically definite multiple sclerosis,2,CONDITION
+paroxetine,2,DRUG
+sgs-742,2,DRUG
+ssadh deficiency,2,CONDITION
+ccmv-infected,2,CONDITION
+ohs,2,CONDITION
+nippv,2,OTHER
+zydena,2,DRUG
+udenafil,2,DRUG
+normal and subcortical vascular cognitive impairment,2,CONDITION
+ac-3933,2,DRUG
+fixed pressure,2,OTHER
+ast-726,2,DRUG
+extracorporeal shock wave therapy,2,OTHER
+sci -110,2,DRUG
+agitation,2,CONDITION
+dlb,2,CONDITION
+neurodegenerative disease,2,CONDITION
+multimorbid,2,CONDITION
+emfit mattress monitor dvm-gprs-v2,2,OTHER
+online self-management program,2,BEHAVIOURAL
+antiepileptic drugs,2,DRUG
+carbamazepine,2,DRUG
+postural tachycardia syndrome,2,CONDITION
+aci-24,2,DRUG
+nebivolol,2,DRUG
+argininosuccinic aciduria,2,CONDITION
+asa,2,CONDITION
+hirrem-sop,2,OTHER
+per,2,DRUG
+protracted opioid withdrawal,2,CONDITION
+injection site erythema,2,CONDITION
+hyalase,2,DRUG
+cvd,2,CONDITION
+smv,2,OTHER
+spt-smv,2,OTHER
+gluten-free diet,2,OTHER
+hypocaloric diet,2,OTHER
+celiac-type symptoms,2,CONDITION
+celiac disease,2,CONDITION
+abobotulinumtoxina,2,DRUG
+post-traumatic headache,2,CONDITION
+od,2,CONDITION
+remote ischemic conditioning,2,OTHER
+hypoglossal acupuncture,2,OTHER
+extracorporeal photopheresis,2,OTHER
+combined exercise-nutrition intervention,2,OTHER
+renal insufficiency,2,CONDITION
+convention therapy,2,CONTROL
+aot,2,OTHER
+purging disorder,2,CONDITION
+bn,2,CONDITION
+cardiorespiratory exercise,2,PHYSICAL
+atomoxetine,2,DRUG
+parkinsonian,2,CONDITION
+tumors,2,CONDITION
+rehabilitation,2,PHYSICAL
+kabat motor control re-education therapy,2,PHYSICAL
+botox,2,DRUG
+qigong,2,PHYSICAL
+hcp,2,CONDITION
+early hd,2,CONDITION
+ssri,2,DRUG
+polymyositis,2,CONDITION
+dermatomyositis,2,CONDITION
+surgery,2,SURGICAL
+craniotomy surgery,2,CONDITION
+clenbuterol,2,DRUG
+motor dysfunction,2,CONDITION
+soc,2,CONTROL
+ovarian hormones,2,OTHER
+ovarian hormone,2,OTHER
+mobilization,2,OTHER
+electromagnetic tracking,2,OTHER
+probiotics,2,OTHER
+prebiotics,2,OTHER
+bright light therapy,2,OTHER
+rds,2,CONDITION
+blt,2,OTHER
+jumpstart form,2,BEHAVIOURAL
+growth hormone,2,DRUG
+growth hormone deficiency,2,CONDITION
+trans-spinal electrical stimulation,2,OTHER
+cervical spinal cord injury,2,CONDITION
+cognitive dysfunction,2,CONDITION
+gabapentin,2,DRUG
+liuwei dihuang pill,2,OTHER
+presbycusis,2,CONDITION
+shen (kidney)-yin deficiency,2,CONDITION
+covid,2,CONDITION
+complete spinal cord injury,2,CONDITION
+fes,2,OTHER
+np101,2,DRUG
+imitrex,2,DRUG
+acute migraine attack,2,CONDITION
+istradefylline,2,DRUG
+service dogs,2,OTHER
+igf-1,2,DRUG
+self-management guide,2,BEHAVIOURAL
+guardian cap,2,OTHER
+juvenile myoclonic epilepsy,2,CONDITION
+cleft lip,2,CONDITION
+lidcombe program,2,BEHAVIOURAL
+calcium,2,DRUG
+osteopenia,2,CONDITION
+silkworms (bombyx mori l.) pupae extracts,2,OTHER
+lack of self-compassion,2,CONDITION
+disorder of empathy,2,CONDITION
+self-compassion deficit,2,CONDITION
+empathy disorder,2,CONDITION
+"chronic, incomplete spinal cord injury",2,CONDITION
+trust,2,PHYSICAL
+isis 396443,2,DRUG
+spinal muscular atrophy,2,CONDITION
+rmp,2,PHYSICAL
+standard physiotherapy,2,CONTROL
+autoimmune disorders,2,CONDITION
+transcutaneous tibial nerve stimulation,2,OTHER
+dystrophinopathy,2,CONDITION
+actipatch,2,OTHER
+chronic subdural hematoma,2,CONDITION
+hematoma,2,CONDITION
+supratentorial craniotomy,2,CONDITION
+transcutaneous electrical spinal cord stimulation,2,OTHER
+cariprazine,2,DRUG
+propiverine hydrochloride,2,DRUG
+neurogenic detrusor overactivity,2,CONDITION
+osteopathic manipulative treatment,2,OTHER
+heparin,2,DRUG
+coiled low-grade aneurysmal subarachnoid hemorrhage,2,CONDITION
+significant hemorrhage burden,2,CONDITION
+spina bifida,2,CONDITION
+speedicath hydrophilic catheter,2,OTHER
+pvc catheter,2,CONTROL
+chronic inflammatory demyelinating polyneuropathy,2,CONDITION
+cidp,2,CONDITION
+ascorbic acid,2,DRUG
+tocopherol,2,DRUG
+antioxidant,2,DRUG
+constipation,2,CONDITION
+biofeedback,2,PHYSICAL
+dyssynergic defecation,2,CONDITION
+vegetative state,2,CONDITION
+cholinesterase inhibitors,2,DRUG
+severe arm paresis,2,CONDITION
+robot training,2,PHYSICAL
+hemiplegic cp,2,CONDITION
+mild cognitive impairments,2,CONDITION
+memory difficulties,2,CONDITION
+mcimt,2,PHYSICAL
+dementia care training with virtual reality,2,OTHER
+hydrodissection,2,OTHER
+abi,2,CONDITION
+autologous incubated macrophages,2,SURGICAL
+group acyw135 meningococcal conjugate,2,DRUG
+plc,2,CONTROL
+bvftd,2,CONDITION
+temozolomide,2,DRUG
+topotecan,2,DRUG
+nbi-98854,2,DRUG
+tardive dyskinesia,2,CONDITION
+btx,2,DRUG
+jaw muscle myalgia,2,CONDITION
+homonymous hemianopsia,2,CONDITION
+juvenile pilocytic astrocytomas,2,CONDITION
+optic nerve pathway gliomas,2,CONDITION
+ed,2,CONDITION
+photobiomodulation,2,OTHER
+cybersickness,2,CONDITION
+eye mask,2,OTHER
+earplugs,2,OTHER
+intensive care,2,CONDITION
+ketamine,2,DRUG
+elective gynecological surgery,2,CONDITION
+allodynia,2,CONDITION
+motor imagery practice,2,OTHER
+abt-888,2,DRUG
+whole brain radiation therapy,2,RADIOTHERAPY
+brain metastases,2,CONDITION
+cardiovascular declines,2,CONDITION
+arms-only-rt,2,CONTROL
+sirolimus,2,DRUG
+cutaneous angiofibromas,2,CONDITION
+movement disorder,2,CONDITION
+chorea,2,CONDITION
+hereditary spastic paraplegia,2,CONDITION
+hsp,2,CONDITION
+tenecteplase,2,DRUG
+generalized major motor seizures,2,CONDITION
+"supervisory neglect, non-accidental trauma, brief intervention, and treatment referral",2,BEHAVIOURAL
+ssris,2,DRUG
+sensory integration therapy on balance and functional mobility,2,PHYSICAL
+friedreich ataxia,2,CONDITION
+frda,2,CONDITION
+se,2,CONDITION
+plexiform neurofibromas,2,CONDITION
+protein substitute,2,OTHER
+pku,2,CONDITION
+early parkinson's disease,2,CONDITION
+dtpa-hbv-ipv,2,DRUG
+hib,2,DRUG
+treatment-resistant schizophrenia,2,CONDITION
+mind-s,2,BEHAVIOURAL
+abe,2,CONDITION
+motor-cognitive rehabilitation,2,OTHER
+postural instability,2,CONDITION
+gait disorders,2,CONDITION
+esp block,2,OTHER
+re,2,PHYSICAL
+somnodent,2,OTHER
+herbst appliance,2,OTHER
+mild and moderate osa,2,CONDITION
+zolmitriptan,2,DRUG
+obstructive sleep apnoea syndrome,2,CONDITION
+cntnap2 mutation,2,CONDITION
+updated sound processor,2,OTHER
+ozone,2,DRUG
+chemotherapy-induced peripheral neuropathy,2,CONDITION
+rosiglitazone,2,DRUG
+clevidipine,2,DRUG
+subarachnoid hemorrhage,2,CONDITION
+psychoeducation session,2,BEHAVIOURAL
+modified autoset device,2,OTHER
+autoset device,2,CONTROL
+vpap auto,2,CONTROL
+affitope® pd01a,2,DRUG
+visceral pain,2,CONDITION
+caesarean,2,CONDITION
+ropivacaine,2,DRUG
+aoc 1001,2,DRUG
+myotonic dystrophy type 1,2,CONDITION
+dm1,2,CONDITION
+ndx-1017,2,DRUG
+postoperative agitation,2,CONDITION
+depressive,2,CONDITION
+exotropia,2,CONDITION
+olanzapine,2,DRUG
+tryptophan depletion,2,OTHER
+lithium,2,DRUG
+stereotactic body radiotherapy,2,RADIOTHERAPY
+3dcrt,2,RADIOTHERAPY
+radiotherapy,2,RADIOTHERAPY
+chronic migraine,2,CONDITION
+multisensory environment,2,OTHER
+severe and profound intellectual disabilities,2,CONDITION
+sham tavns,2,CONTROL
+idiopathic restless legs syndrome,2,CONDITION
+drug eluting stenting,1,OTHER
+recurrent stroke,1,CONDITION
+intracranial atherosclerotic disease,1,CONDITION
+drug-eluting stent,1,OTHER
+des,1,OTHER
+stroke recurrence,1,CONDITION
+medical treatment alone,1,CONTROL
+symptomatic intracranial atherosclerotic disease,1,CONDITION
+critically ill,1,CONDITION
+high blood sugars,1,CONDITION
+arts,1,OTHER
+arts-based health education,1,OTHER
+congestive heart failure,1,CONDITION
+chronic obstructive pulmonary disorder,1,CONDITION
+asthma,1,CONDITION
+weight,1,CONDITION
+cardiac,1,CONDITION
+solian solution,1,DRUG
+sb-649868,1,DRUG
+noise induced situational insomnia,1,CONDITION
+aggression,1,CONDITION
+sbps,1,CONDITION
+cannabinoid,1,DRUG
+smartphone medical applications,1,OTHER
+treatment dosage errors,1,CONDITION
+resuscitation,1,CONDITION
+medication errors,1,CONDITION
+dosage error,1,CONDITION
+smartphone application designed to calculate medication doses,1,OTHER
+resuscitations,1,CONDITION
+low-i̇ntensity combined exercises,1,PHYSICAL
+early stage als,1,CONDITION
+low-intensity combined exercises,1,PHYSICAL
+preclinical ad,1,CONDITION
+audiobooks for hearing loss (hl) app,1,OTHER
+ce-certified phonak hearing aids,1,OTHER
+hearing aid,1,OTHER
+vero cell - derived inactivated japanese encephalitis vaccine,1,DRUG
+jecevax,1,DRUG
+jecevax-,1,DRUG
+licensed vaccine,1,CONTROL
+jevax,1,DRUG
+licenced vaccine,1,CONTROL
+antiretroviral therapy naive,1,CONDITION
+human immunodeficiency virus type-1,1,CONDITION
+abacavir,1,DRUG
+dolutegravir,1,DRUG
+lamivudine,1,DRUG
+hla-b*5701 positive,1,CONDITION
+dtg,1,DRUG
+dual nucleoside reverse transcriptase inhibitor,1,DRUG
+nrti,1,DRUG
+hiv 1,1,CONDITION
+symptomatic carriers for dmd or bmd,1,CONDITION
+symptomatic carriers,1,CONDITION
+infraorbital and infratrochlear nerve block,1,OTHER
+bilateral infraorbital and infratrochlear nerve block,1,OTHER
+subthalamic nucleus stimulation,1,OTHER
+deep brain stimulation of the subthalamic nucleus,1,OTHER
+copaxone(r),1,DRUG
+ultrasound-guided percutaneous electrical nerve stimulation,1,OTHER
+endoscopic surgery,1,CONTROL
+radial extracorpeal shock wave therapy,1,OTHER
+radial extracorporeal shock wave intervention,1,OTHER
+head-point acupuncture,1,PHYSICAL
+conventional body acupuncture,1,CONTROL
+head-acupoints acupuncture,1,PHYSICAL
+body-acupoints acupuncture,1,CONTROL
+central nervous system tumors,1,CONDITION
+tumorglow,1,OTHER
+icg,1,OTHER
+hypo,1,OTHER
+severe renal impairment,1,CONDITION
+hemodialysis,1,CONDITION
+brain signal feedback paradigm,1,OTHER
+"neural feedback approach with a closed-loop, real-time paradigm",1,OTHER
+"hybrid, sequential motor learning protocol",1,OTHER
+neutrally-triggered functional electrical stimulation (fes)-assisted coordination practice,1,OTHER
+motor effective pathway training,1,OTHER
+fes-assisted practice,1,OTHER
+personal sound amplification products,1,OTHER
+psaps,1,OTHER
+complete or incomplete sci,1,CONDITION
+muscle strengthening,1,CONTROL
+stretching,1,CONTROL
+balance and coordination exercises,1,CONTROL
+traditional treatment,1,CONTROL
+"treatment resistant depression, schizophrenia, and obsessive compulsive disorder",1,CONDITION
+"severe depression,",1,CONDITION
+treatment-refractory cases of schizophrenia and obsessive compulsive disorder,1,CONDITION
+ocd,1,CONDITION
+"severe depression, schizophrenia, and ocd",1,CONDITION
+normal and high protein diets,1,OTHER
+adiposity,1,CONDITION
+high and normal protein,1,OTHER
+high protein,1,OTHER
+normal protein,1,CONTROL
+phn,1,CONDITION
+alglucosidase alfa,1,DRUG
+fbt,1,BEHAVIOURAL
+restrictive eating disorders,1,CONDITION
+recombinant t cell receptor ligand,1,DRUG
+rtl,1,DRUG
+physical therapist (pt) supervised home programs,1,PHYSICAL
+hip helpers® orthotic garment,1,OTHER
+ad dementia,1,CONDITION
+telemedicine system,1,OTHER
+sas,1,CONDITION
+interoperable telemedicine system,1,OTHER
+sleep apnea syndrome,1,CONDITION
+early and mid-stage dementia:,1,CONDITION
+early and mid-stage dementia,1,CONDITION
+motor symptoms,1,CONDITION
+handwriting interventions,1,OTHER
+micrographia,1,CONDITION
+handwriting practice stimulus,1,OTHER
+micrograpthia,1,CONDITION
+diverging line cued handwriting intervention,1,OTHER
+parallel line cued handwriting intervention,1,CONTROL
+handwriting intervention,1,OTHER
+intensive mobility training,1,PHYSICAL
+"chronic, mild-to-moderate, traumatic brain injury",1,CONDITION
+arbekacin sulfate,1,DRUG
+ultrasound guided intracarpal hydro-dissection,1,OTHER
+platelet rich plasma,1,DRUG
+cathodal transcranial direct current stimulation,1,OTHER
+refractory focal epilepsy,1,CONDITION
+medically-refractory focal neocortical epilepsy,1,CONDITION
+focal seizure,1,CONDITION
+medically-refractory neocortical epilepsy,1,CONDITION
+cathodal tdcs,1,OTHER
+tetraplegia,1,CONDITION
+vasotec,1,DRUG
+pelvic floor versus abdominal muscle exercises,1,PHYSICAL
+sleep disruption,1,CONDITION
+sleep disturbance,1,CONDITION
+in-home supportive technology,1,OTHER
+in-home assistive technology,1,OTHER
+loneliness,1,CONDITION
+focused ultrasound-induced blood-brain barrier disruption,1,OTHER
+interdisciplinary rehabilitation strategies,1,OTHER
+swallowing disorders,1,CONDITION
+swallowing complaints,1,CONDITION
+vocal and speech disorders,1,CONDITION
+multi-component treatment strategies,1,OTHER
+multicomponent intervention programme,1,OTHER
+nutritional counselling/dietary intervention,1,OTHER
+information and communications technology intervention,1,OTHER
+healthy aging lifestyle education programme,1,CONTROL
+mobility disability,1,CONDITION
+multidisciplinary delirium prevention strategy,1,OTHER
+psychiatry,1,OTHER
+addition of psychiatrists to daily icu rounds,1,OTHER
+psychiatric evaluation,1,OTHER
+psychiatric consultation,1,OTHER
+multidisciplinary rounding approach including psychiatry within the icu team,1,OTHER
+multidisciplinary approach,1,OTHER
+square- stepping exercises,1,PHYSICAL
+chronic post stroke,1,CONDITION
+sedation regimens,1,OTHER
+post-sedation delirium,1,CONDITION
+different drug regimens,1,OTHER
+early schizophrenia,1,CONDITION
+inspiratory muscle training,1,PHYSICAL
+chronic liver disease,1,CONDITION
+post liver transplant,1,CONDITION
+inspiratory muscle strengthening exercise,1,PHYSICAL
+usual post-liver transplant care,1,OTHER
+the usual post-transplant care,1,CONTROL
+immune modulation therapy,1,OTHER
+ert-naïve or ert-treated pompe disease,1,CONDITION
+anti-recombinant human acid α-glucosidase,1,DRUG
+anti-rhgaa,1,DRUG
+conjugate meningococcal c (mncc) vaccine,1,DRUG
+primary dtp/hib vaccination,1,DRUG
+group c meningococcal conjugate vaccine,1,DRUG
+mmr,1,DRUG
+plain polysaccharide vaccine,1,DRUG
+hearing protection video,1,OTHER
+formal training,1,OTHER
+training video,1,OTHER
+ear plugs,1,OTHER
+acute icu delirium,1,CONDITION
+acute delirium,1,CONDITION
+moderate and severe dementia,1,CONDITION
+individual pain management,1,OTHER
+individual pain treatment,1,OTHER
+pregnant,1,CONDITION
+watchman laa closure device,1,SURGICAL
+warfarin,1,DRUG
+non-valvular atrial fibrillation,1,CONDITION
+thrombus,1,CONDITION
+integrative group movement program,1,PHYSICAL
+human placental-derived stem-cells,1,SURGICAL
+unrelated and related cord blood,1,SURGICAL
+malignant hematologic diseases,1,CONDITION
+non-malignant disorders,1,CONDITION
+human placental-derived stem cells,1,SURGICAL
+umbilical cord blood (ucb) stem cells,1,SURGICAL
+nonmalignant disorders,1,CONDITION
+chemo- and immunotherapy,1,DRUG
+ucb,1,SURGICAL
+acupuncture treatment,1,PHYSICAL
+fake acupuncture,1,CONTROL
+neublastin,1,DRUG
+sciatica,1,CONDITION
+bright light treatment,1,OTHER
+morning light treatment,1,OTHER
+moderate to severe parkinson's disease,1,CONDITION
+cigarette smokers,1,CONDITION
+home visits,1,OTHER
+phone calls,1,OTHER
+smoking cessation group counseling,1,BEHAVIOURAL
+home visit intervention,1,OTHER
+transcutaneous stimulation,1,OTHER
+mobility device use,1,OTHER
+non-invasive spinal stimulation,1,OTHER
+mobility devices,1,OTHER
+schizophrenia spectrum,1,CONDITION
+autism spectrum,1,CONDITION
+personality disorders,1,CONDITION
+scz,1,CONDITION
+sad,1,CONDITION
+bipolar disorder,1,CONDITION
+bd,1,CONDITION
+schizotypal personality disorder,1,CONDITION
+spd,1,CONDITION
+autism spectrum disorders,1,CONDITION
+asd,1,CONDITION
+borderline personality disorder,1,CONDITION
+bpd,1,CONDITION
+powerful tools for caregivers,1,BEHAVIOURAL
+psycho-educational intervention for caregivers,1,BEHAVIOURAL
+interferon γ-1b,1,DRUG
+interferon-γ 1b,1,DRUG
+muscle pain,1,CONDITION
+impaired memory,1,CONDITION
+2 day self-management program,1,BEHAVIOURAL
+arp dvd program,1,BEHAVIOURAL
+standard care,1,CONTROL
+immediate versus standard antiretroviral therapy,1,OTHER
+early versus standard timing of initiation of antiretroviral therapy,1,OTHER
+early art,1,OTHER
+cisplatin-induced ototoxicity,1,CONDITION
+germ cell tumor,1,CONDITION
+hepatoblastoma,1,CONDITION
+osteosarcoma,1,CONDITION
+malignancy,1,CONDITION
+mild-moderate stage amyotrophic lateral sclerosis,1,CONDITION
+structured patient education,1,BEHAVIOURAL
+chronic obstructive pulmonary disease,1,CONDITION
+heart failure,1,CONDITION
+program of patient education,1,BEHAVIOURAL
+physical training,1,PHYSICAL
+abt-126,1,DRUG
+cds,1,CONDITION
+smokers,1,CONDITION
+human placenta- derived cells,1,SURGICAL
+vehicle control,1,CONTROL
+spm 927,1,DRUG
+partial seizures,1,CONDITION
+cognitive-based rehabilitation platform,1,OTHER
+instrumented wearables,1,OTHER
+physical therapy exercises,1,PHYSICAL
+innovative wearable technology,1,OTHER
+multi-sensory feedback,1,OTHER
+physical rehabilitation exercises,1,PHYSICAL
+gamma frequency stimulation,1,OTHER
+daily exposure to light and sound stimulation,1,OTHER
+adjuvant,1,CONTROL
+posttraumatic epilepsy,1,CONDITION
+neurology-based collaborative care,1,OTHER
+post-traumatic epilepsy,1,CONDITION
+physician prehospital management,1,OTHER
+severe blunt head injury,1,CONDITION
+advanced interventions as provided by a physician at an accident scene,1,OTHER
+severe head injury,1,CONDITION
+rapid sequence intubation (rsi) airway management,1,OTHER
+blood transfusions,1,OTHER
+surgical procedures,1,SURGICAL
+anticoagulation,1,DRUG
+cabg,1,CONDITION
+oral anticoagulation,1,DRUG
+oac,1,DRUG
+antiplatelet therapy,1,DRUG
+isolated coronary artery bypass graft (cabg) surgery,1,CONDITION
+anticoagulants,1,DRUG
+antiplatelets,1,DRUG
+sham tes,1,CONTROL
+vero-cell-derived inactivated japanese encephalitis vaccine,1,DRUG
+traditional mouse-brain derived vaccine,1,DRUG
+je-mb,1,DRUG
+mouse brain derived japanese encephalitis vaccines,1,DRUG
+ixiaro vaccine,1,DRUG
+bmjev,1,DRUG
+cerebello-spinal tdcs,1,OTHER
+neurodegenerative ataxia,1,CONDITION
+neurodegenerative cerebellar ataxias,1,CONDITION
+cerebellar ataxias,1,CONDITION
+cerebellar anodal tdcs,1,OTHER
+spinal cathodal tdcs,1,OTHER
+neurodegenerative cerebellar ataxia,1,CONDITION
+igf-i,1,DRUG
+igf-i.,1,DRUG
+moxibustion therapy,1,OTHER
+telehealth group,1,BEHAVIOURAL
+telehealth,1,BEHAVIOURAL
+traditional dysphagia therapy,1,OTHER
+chronic anorexia nervosa,1,CONDITION
+family problem-solving therapy,1,BEHAVIOURAL
+family problem solving therapy,1,BEHAVIOURAL
+mild to severe adolescent tbi,1,CONDITION
+"therapist-guided, face-to-face",1,BEHAVIOURAL
+therapist-guided online,1,BEHAVIOURAL
+"self-guided, online",1,BEHAVIOURAL
+individual auditory cueing device,1,OTHER
+apple ipod-shuffle,1,OTHER
+individualised auditory cueing,1,OTHER
+multi-modality approach,1,OTHER
+ranirestat(as-3201,1,DRUG
+aldose reductase inhibitor,1,DRUG
+diabetic,1,CONDITION
+sensorimotor polyneuropathy,1,CONDITION
+internet-based self-help training,1,BEHAVIOURAL
+internet-based guided self-help training,1,BEHAVIOURAL
+discussion forum group,1,CONTROL
+general anesthesia,1,CONDITION
+ketamine general anesthesia,1,CONDITION
+exergame balance training,1,PHYSICAL
+traditional weight shifting training,1,PHYSICAL
+balance training programs,1,PHYSICAL
+exergame systems,1,PHYSICAL
+weight-shifting training,1,PHYSICAL
+rns® system responsive stimulation,1,OTHER
+rns system,1,OTHER
+refractory partial onset epilepsy,1,CONDITION
+post covid-19 parosmia,1,CONDITION
+post covid 19 parosmia,1,CONDITION
+alcohol use,1,CONDITION
+endurance exercise,1,PHYSICAL
+high intensity endurance exercise,1,PHYSICAL
+myhand,1,OTHER
+active hand orthosis,1,OTHER
+device training program,1,OTHER
+symptomatic thromboembolism,1,CONDITION
+thromboembolic disease,1,CONDITION
+tranexamic acid,1,DRUG
+total joint arthroplasty,1,CONDITION
+outpatient physiotherapy,1,PHYSICAL
+outpatient motor skills-based physiotherapy intervention,1,PHYSICAL
+sham anodal tdcs,1,CONTROL
+physiotherapy session,1,OTHER
+physiotherapy treatment protocol,1,OTHER
+early- to moderate stage multiple system atrophy,1,CONDITION
+allogeneic cell therapy product,1,SURGICAL
+homsc300,1,SURGICAL
+allogeneic human oral mucosa stem cells,1,SURGICAL
+homscs,1,SURGICAL
+early to moderate stage multiple system atrophy,1,CONDITION
+dual training,1,PHYSICAL
+refractory multiple sclerosis,1,CONDITION
+relapsing remitting ms,1,CONDITION
+mild to moderate cognitive impairment,1,CONDITION
+thalidomide,1,DRUG
+alternating current brain stimulation,1,OTHER
+transcranial alternating current brain stimulation,1,OTHER
+gamma tacs on the posterior parietal cortex,1,OTHER
+concussed,1,CONDITION
+laryngeal dystonia,1,CONDITION
+voice tremor,1,CONDITION
+neurological voice disorders,1,CONDITION
+essential tremor,1,CONDITION
+voice dysfunction,1,CONDITION
+gastrointestinal motility disorders,1,CONDITION
+refractory gastrointestinal motility disorders,1,CONDITION
+enteric neuropathy,1,CONDITION
+bioresorbable polycaprolactone implant,1,OTHER
+orbital injuries,1,CONDITION
+titanium mesh,1,CONTROL
+bioresorbable implant made of polycaprolactone,1,OTHER
+cognitive impairment,1,CONDITION
+cognitive impairments,1,CONDITION
+social withdrawal,1,CONDITION
+severe mental disorder,1,CONDITION
+aerobic resistance training,1,PHYSICAL
+online exercise video rehabilitation program,1,PHYSICAL
+aerobic and resistance training using a latex resistance band,1,PHYSICAL
+thera band® elastic band,1,PHYSICAL
+aerobic exercise videos,1,PHYSICAL
+individualized rtms,1,OTHER
+polyethylene glycol 3350-electrolyte solution,1,DRUG
+miralax,1,DRUG
+environmental skill building program,1,BEHAVIOURAL
+environmental skill-building program,1,BEHAVIOURAL
+mild and moderate cts,1,CONDITION
+mild and moderate carpal tunnel syndrome,1,CONDITION
+branched chain amino acid,1,DRUG
+moderate intensity exercises,1,PHYSICAL
+aerobic exercise,1,PHYSICAL
+unimodal (eeg) and bimodal (eeg-fmri) neurofeedback,1,OTHER
+rehabilitation of memory deficits,1,OTHER
+motor disabilities,1,CONDITION
+rehabilitation of verbal memory with the rehacom program,1,OTHER
+combined rehabilitation,1,OTHER
+motor rehabilitation path with the rehacom program,1,PHYSICAL
+only motor rehabilitation course,1,CONTROL
+combined cognitive / motor rehabilitation,1,OTHER
+rehabilitation alone,1,CONTROL
+neurocysticercosis,1,CONDITION
+gba-associated parkinson's disease,1,CONDITION
+parkinson's disease with mutations of the glucocerebrosidase gene,1,CONDITION
+cannabidiol,1,DRUG
+robot rehabilitation exercise training,1,PHYSICAL
+robotic stroke therapy,1,PHYSICAL
+robotic rehabilitation,1,PHYSICAL
+robotic rehabilitation training,1,PHYSICAL
+chinese medicine powder,1,OTHER
+acw135 polysaccharide vaccine,1,DRUG
+"meningitis a, c and w135",1,CONDITION
+mencevax acw polysaccharide vaccine,1,DRUG
+"men a, c and w135",1,CONDITION
+men a,1,CONDITION
+vaporized placebo cannabis,1,CONTROL
+remotely controlled mandibular positioner,1,OTHER
+maxillomandibular advancement surgery,1,CONDITION
+maxillomandibular advancement (mma) surgery,1,CONDITION
+mma surgery,1,CONDITION
+remote controlled mandibular positioner,1,OTHER
+mma,1,CONDITION
+emboli,1,CONDITION
+post-dilation balloon,1,SURGICAL
+integrated embolic filter,1,SURGICAL
+novel carotid stent ii,1,SURGICAL
+carotid artery stenosis,1,CONDITION
+atherosclerotic or post cea restenotic lesion(s),1,CONDITION
+tia,1,CONDITION
+carotid lesion,1,CONDITION
+combined speech therapy,1,OTHER
+conventional speech therapy,1,OTHER
+combined language therapy,1,OTHER
+rehabotics medical technology corporation (rmtc) finger-hand robot,1,OTHER
+rmtc finger-hand robot,1,OTHER
+robot assisted treatment,1,OTHER
+conventional treatment,1,CONTROL
+task oriented bi-manual training,1,OTHER
+rmtc robot system,1,OTHER
+convention rehabilitation treatment,1,CONTROL
+triamcinolone,1,DRUG
+mononeuropathy,1,CONDITION
+mild to moderate cts,1,CONDITION
+low level laser therapy,1,OTHER
+nemes,1,OTHER
+muscle strength and jump training program,1,PHYSICAL
+training,1,PHYSICAL
+strength and jump training,1,PHYSICAL
+traditional swallowing therapy,1,OTHER
+neuromuscular electrostimulation,1,OTHER
+sham- nmes,1,CONTROL
+mild dysphagia,1,CONDITION
+severe dysphagia,1,CONDITION
+no swallow exercises,1,OTHER
+swallowing exercises,1,OTHER
+standard speech therapy,1,OTHER
+active nmes,1,OTHER
+speech therapy,1,CONTROL
+sham nmes,1,CONTROL
+dysphagic,1,CONDITION
+iloperidone,1,DRUG
+ischemic schizophrenia,1,CONDITION
+vestibular migraine,1,CONDITION
+4ap,1,DRUG
+vestibular migriane,1,CONDITION
+targeted temperature management,1,OTHER
+ultra-early ttm,1,OTHER
+iph,1,CONDITION
+visual and color vision pathologies,1,CONDITION
+retinal pathologies,1,CONDITION
+posterior fossa lesions,1,CONDITION
+ischemia,1,CONDITION
+aerobic dance training with home practice,1,PHYSICAL
+simple stretching,1,CONTROL
+precision gait retraining,1,PHYSICAL
+sensor-based mobile pelvic assist device,1,OTHER
+mpad,1,OTHER
+tremor,1,CONDITION
+freezing in the subthalamic region,1,CONDITION
+mobile health (mhealth) app,1,OTHER
+care-well app,1,OTHER
+locally-advanced or metastatic alk-positive solid tumors,1,CONDITION
+anaplastic lymphoma kinase (alk)-positive locally advanced or metastatic solid tumors,1,CONDITION
+narcoleptic,1,CONDITION
+cataplexy,1,CONDITION
+upper-airway and breathing control therapies,1,OTHER
+supplemental oxygen,1,OTHER
+oxygen,1,OTHER
+sleep-wake disturbances,1,CONDITION
+prim-dj2727,1,DRUG
+fecal microbiota transplantation,1,OTHER
+tic disorders,1,CONDITION
+behavior therapy augmented by placebo,1,CONTROL
+tics,1,CONDITION
+placebo-augmented behavior therapy,1,CONTROL
+tic,1,CONDITION
+inactivated polio vaccine,1,DRUG
+inactivated polio vaccines,1,DRUG
+ipv,1,DRUG
+inactivated poliovaccine,1,DRUG
+f-ipv,1,DRUG
+gsk2202083a vaccine,1,DRUG
+gsk2202083 vaccine,1,DRUG
+prevenar,1,DRUG
+rotarix,1,DRUG
+peep,1,OTHER
+motor neurone disease,1,CONDITION
+brain safe app,1,OTHER
+attention control medication list app,1,OTHER
+gabapentin enacarbil,1,DRUG
+gen,1,DRUG
+skull fractures,1,CONDITION
+minor head injuries,1,CONDITION
+fracture,1,CONDITION
+language therapy,1,OTHER
+"speech-language treatment,",1,OTHER
+nonfluent aphasia,1,CONDITION
+adherence therapy,1,BEHAVIOURAL
+neuromodulation technique,1,OTHER
+electrical stimulation of the cerebellum,1,OTHER
+virtual reality protocol,1,OTHER
+excitatory stimulation of the cerebellum,1,OTHER
+behavioral cognitive rehabilitation,1,BEHAVIOURAL
+meditation-relaxation,1,BEHAVIOURAL
+mr therapy,1,BEHAVIOURAL
+sleep paralysis,1,CONDITION
+sleep paralyses,1,CONDITION
+chronic low-grade inflammation,1,CONDITION
+low-grade chronic inflammation,1,CONDITION
+checkpoint inhibitor of pd-1,1,DRUG
+first relapse,1,CONDITION
+b-cell acute lymphoblastic leukemia,1,CONDITION
+relapsed,1,CONDITION
+relapsed b-all,1,CONDITION
+robot based gait training,1,PHYSICAL
+"music-based, rhythm-modulating wearable sensor system",1,OTHER
+"music, tailored to the participant's cadence",1,OTHER
+motor and cognitive deficits,1,CONDITION
+late-stage parkinson,1,CONDITION
+pd-rbd,1,CONDITION
+biomechanical based tai chi intervention program,1,PHYSICAL
+tai chi,1,PHYSICAL
+tc,1,PHYSICAL
+tc training,1,PHYSICAL
+biomechanical-based tc intervention,1,OTHER
+tc intervention,1,OTHER
+programmed intermittent bolus infusion of thoracic paravertebral block,1,OTHER
+regional block,1,OTHER
+programmed intermittent bolus infusion,1,OTHER
+programmed intermittent bolus infusion of right thoracic paravertebral block,1,OTHER
+blindness,1,CONDITION
+robot-aided virtual rehabilitation,1,PHYSICAL
+robot-aided and virtual reality rehabilitation,1,PHYSICAL
+released unitron ric (receiver in canal) and bte (behind the ear) hearing aid models,1,OTHER
+unitron released hearing aids,1,OTHER
+ric,1,OTHER
+bte,1,OTHER
+bladder pain,1,CONDITION
+chronic pelvic pain,1,CONDITION
+oral contraceptives,1,DRUG
+oc,1,DRUG
+cyclical ocs,1,DRUG
+cos,1,CONDITION
+obstructive sleep-disordered breathing,1,CONDITION
+sharing patient's illness representations to increase trust,1,BEHAVIOURAL
+teleconference,1,BEHAVIOURAL
+smartphone application,1,OTHER
+"adaptive, tailored content targeting remediation of cognitive distortions",1,OTHER
+adaptive application,1,OTHER
+standard product,1,CONTROL
+pantothenate kinase-associated neurodegeneration,1,CONDITION
+mild peripheral neuropathy,1,CONDITION
+minor- to moderate-risk noncardiac surgery,1,CONDITION
+noncardiac surgeries,1,CONDITION
+inefficient cough,1,CONDITION
+acute respiratory failure,1,CONDITION
+mechanical exsufflation,1,OTHER
+manual techniques of physiotherapy,1,OTHER
+instrumental and manual of cough assistance,1,OTHER
+resistant to dopaminergic therapy,1,CONDITION
+left ventricular dysfunction,1,CONDITION
+asv,1,OTHER
+csa,1,CONDITION
+acromegalic,1,CONDITION
+primary acromegaly,1,CONDITION
+pituitary adenoma,1,CONDITION
+pituitary macroadenoma,1,CONDITION
+microadenoma,1,CONDITION
+oestrogen,1,DRUG
+toffee nasal pillows mask,1,OTHER
+f&p toffee nasal pillows mask,1,OTHER
+acromegaly inadequately controlled,1,CONDITION
+inadequately controlled acromegaly,1,CONDITION
+ischemic subtentorial stroke,1,CONDITION
+subacute phase of stroke,1,CONDITION
+kinesiology support,1,PHYSICAL
+group sessions with a registered kinesiologist,1,PHYSICAL
+chronic tics,1,CONDITION
+stimulation of the anterior nucleus of the thalamus,1,OTHER
+bilateral stimulation of the anterior nucleus of the thalamus,1,OTHER
+secondary generalization,1,CONDITION
+refractory to antiepileptic medications,1,CONDITION
+locomotion training,1,PHYSICAL
+b7-h3-specific car t cell,1,SURGICAL
+recurrent or refractory pediatric central nervous system tumors,1,CONDITION
+autologous cd4+ and cd8+ t cells lentivirally transduced to express a b7h3-specific chimeric antigen receptor (car) and egfrt,1,SURGICAL
+dmg,1,CONDITION
+recurrent or refractory cns tumors,1,CONDITION
+second-generation car t cell,1,SURGICAL
+supratentorial tumors,1,CONDITION
+infratentorial or metastatic/leptomeningeal tumors,1,CONDITION
+t cells,1,SURGICAL
+car t cell,1,SURGICAL
+b7-h3 car t cell,1,SURGICAL
+beta interferons,1,DRUG
+ifnβ,1,DRUG
+dimethyl fumarate,1,DRUG
+interferon b,1,DRUG
+ifnß,1,DRUG
+robotic gait-devices,1,OTHER
+robotic devices,1,OTHER
+gait rehabilitation,1,OTHER
+scrambler therapy,1,OTHER
+congenital hyperinsulinism,1,CONDITION
+neuroendocrine tumor,1,CONDITION
+premanifest huntington's disease,1,CONDITION
+emotion comprehension deficit,1,CONDITION
+myasthenia gravis,1,CONDITION
+spgb,1,OTHER
+pdph,1,CONDITION
+placebo nerve block,1,CONTROL
+current practice,1,CONTROL
+post-operative cerebrospinal fluid (csf) leaks,1,CONDITION
+rwj-333369,1,DRUG
+severe tbi,1,CONDITION
+standard normothermic management,1,CONTROL
+idiopathic pd,1,CONDITION
+postural orthostatic tachycardia syndrome,1,CONDITION
+compression garment,1,OTHER
+commercially available waist-high and abdominal compression garments,1,OTHER
+tnf inhibitors,1,DRUG
+adalimumab,1,DRUG
+requip,1,DRUG
+early and advanced parkinson's disease,1,CONDITION
+valproate,1,DRUG
+intracranial hypertension,1,CONDITION
+b-blockers,1,DRUG
+a2 agonists,1,DRUG
+elective craniotomy,1,CONDITION
+neurogenic osteoporosis,1,CONDITION
+low impact bone fractures,1,CONDITION
+osteoporosis,1,CONDITION
+low impact fractures,1,CONDITION
+low impact fracture,1,CONDITION
+osteoporosis-related fractures,1,CONDITION
+bone loss,1,CONDITION
+neuromuscular electrical stimulation resistance training,1,PHYSICAL
+task specific training,1,PHYSICAL
+sit-to-stand protocol,1,PHYSICAL
+sit-to-stand,1,PHYSICAL
+imaginal exposure therapy,1,OTHER
+online format of ie,1,OTHER
+imaginal exposure sessions,1,OTHER
+surgery for malignant tumors,1,CONDITION
+tumor recurrence,1,CONDITION
+metastasis,1,CONDITION
+inflammatory response,1,CONDITION
+mobility problems,1,CONDITION
+task-oriented trainings,1,PHYSICAL
+combined exercise training,1,PHYSICAL
+oral fecal capsules,1,OTHER
+oral fecal bacteria capsules,1,OTHER
+human umbilical cord tissue-derived mesenchymal stem cells,1,SURGICAL
+allogeneic human umbilical cord tissue-derived stem cells,1,SURGICAL
+neurostimulation,1,SURGICAL
+early stage parkinson's disease,1,CONDITION
+bilateral subthalamic nucleus deep brain stimulation,1,SURGICAL
+levodopa-induced motor complications,1,CONDITION
+antipsychotic medication,1,DRUG
+nmda-enhancing and anti-inflammatory treatments,1,OTHER
+nmda-enhancing agent,1,OTHER
+drugs with anti-inflammatory properties,1,OTHER
+drug with anti-inflammatory property,1,OTHER
+nmda-enhancer,1,OTHER
+nmdae,1,OTHER
+early to moderate dementia,1,CONDITION
+multifactorial and personalized program for fall prevention,1,BEHAVIOURAL
+interdisciplinary multi-component and personalized multi-factorial intervention,1,BEHAVIOURAL
+zoloft,1,DRUG
+autistic,1,CONDITION
+chronic neuropathic wounds,1,CONDITION
+chronic foot ulcers,1,CONDITION
+neuropathic,1,CONDITION
+diabetes type 2.,1,CONDITION
+targeted exercise,1,PHYSICAL
+ms tailored exercise program,1,PHYSICAL
+program based on general guidelines for exercise,1,CONTROL
+general guidelines,1,CONTROL
+cognitive and gait impairment,1,CONDITION
+motor and cognitive dysfunction,1,CONDITION
+parkinson disease dementia,1,CONDITION
+pdd,1,CONDITION
+motor and cognitive impairment,1,CONDITION
+recurrent neuromyelitis optica,1,CONDITION
+devic's disease,1,CONDITION
+novantrone,1,DRUG
+anthracenedione,1,DRUG
+secondary progressive ms,1,CONDITION
+relapsing nmo,1,CONDITION
+real-time feedback,1,OTHER
+motor imagery training,1,OTHER
+feedback in real time,1,OTHER
+feedback training,1,OTHER
+sound stimulation,1,OTHER
+chronic pure tone tinnitus,1,CONDITION
+auditory stimulation,1,OTHER
+combined stimulation,1,OTHER
+waitlist-control,1,CONTROL
+active diabetic foot ulcer,1,CONDITION
+loss of muscle health,1,CONDITION
+muscle atrophy,1,CONDITION
+muscle loss,1,CONDITION
+fmpo,1,OTHER
+severe mental illness,1,CONDITION
+family member provider,1,OTHER
+enhanced treatment as usual approach,1,CONTROL
+odm-104,1,DRUG
+eccentric motor training,1,PHYSICAL
+neuromodulation,1,OTHER
+subacute sci,1,CONDITION
+rehabilitation treatment,1,PHYSICAL
+walking downhill,1,PHYSICAL
+downhill training with muscle stimulation,1,PHYSICAL
+epo,1,DRUG
+lumbar disc herniation,1,CONDITION
+chronic low back pain,1,CONDITION
+short wave,1,OTHER
+lower back pain,1,CONDITION
+treatment program which does not include diathermy,1,CONTROL
+slipped disc,1,CONDITION
+neuromuscular disease,1,CONDITION
+neuromuscular diseases,1,CONDITION
+crps-ii,1,CONDITION
+exposure therapy,1,OTHER
+cortical interventions,1,OTHER
+complex regional pain syndrome ii,1,CONDITION
+graded exposure therapy,1,OTHER
+methods targeting cortical reorganisation,1,OTHER
+compulsive hair pulling,1,CONDITION
+animal intervention,1,OTHER
+presence of the animal,1,OTHER
+major neuro cognitive disorder,1,CONDITION
+ncd,1,CONDITION
+same stimulation without the dog's response,1,CONTROL
+workshops,1,OTHER
+intervention of the dog,1,OTHER
+cognitive stimulation,1,OTHER
+animal assisted therapy,1,OTHER
+antiplatelet,1,DRUG
+r-tpa,1,DRUG
+acute mild ischemic stroke,1,CONDITION
+acute minor stroke,1,CONDITION
+jns024er,1,DRUG
+diabetic neuropathic pain,1,CONDITION
+tapentadol,1,DRUG
+moderate to severe chronic (lasting a long time) pain,1,CONDITION
+painful diabetic peripheral neuropathy,1,CONDITION
+tarsal tunnel,1,CONDITION
+foot-ankle range of motion exercises,1,PHYSICAL
+only foot-ankle joint range of motion exercises,1,CONTROL
+inactive substance pill,1,CONTROL
+sham ctdcs,1,CONTROL
+bbs,1,PHYSICAL
+medial rectus muscle advancement,1,OTHER
+resection or medial rectus muscle advancement,1,OTHER
+lateral rectus recession,1,OTHER
+auditory and tactile stimulus,1,OTHER
+auditory and tactile stimuli,1,OTHER
+context-aware mobile intervention,1,BEHAVIOURAL
+technology-supported blended intervention,1,BEHAVIOURAL
+mobile social interaction therapy by exposure,1,BEHAVIOURAL
+msite,1,BEHAVIOURAL
+cerebro spinal fluid leakage and collection,1,CONDITION
+cerebrospinal fluid (csf) leak,1,CONDITION
+csf collection,1,CONDITION
+no intervention,1,CONTROL
+[14c]-biib074,1,DRUG
+supported and unsupported implementation strategies,1,BEHAVIOURAL
+injury prevention program,1,BEHAVIOURAL
+injury prevention (ip) program,1,BEHAVIOURAL
+injuries,1,CONDITION
+walking program using physical activity monitors and social networking,1,OTHER
+we walk plus intervention,1,OTHER
+eliglustat,1,DRUG
+autologous bone marrow mononuclear cell therapy,1,SURGICAL
+cerebral edema,1,CONDITION
+primary spontaneous intracerebral hemorrhage,1,CONDITION
+early launching of nocturnal non invasive ventilation,1,OTHER
+early launching of night non invasive ventilation,1,OTHER
+early introduction of non invasive ventilation,1,OTHER
+myotonic dystrophy,1,CONDITION
+internet intervention,1,OTHER
+interactive internet intervention,1,OTHER
+static educational website,1,CONTROL
+comprehensive augmented and virtual reality,1,OTHER
+first-ever stroke,1,CONDITION
+augmented and virtual reality-based rehabilitation programs,1,OTHER
+post-traumatic narcolepsy,1,CONDITION
+post-traumatic hypersomnia,1,CONDITION
+traumatic narcolepsy,1,CONDITION
+post traumatic hypersomnia,1,CONDITION
+post operative pain,1,CONDITION
+carpal tunnel release,1,CONDITION
+carpal tunnel release surgery,1,CONDITION
+marcaine,1,DRUG
+major depression,1,CONDITION
+acutely psychotic,1,CONDITION
+pre-malignant lesions,1,CONDITION
+folic acid,1,DRUG
+mild vitamin b12 deficiency,1,CONDITION
+individualized homeopathic remedies with high grade of pathological similarity,1,OTHER
+conventional standardized pharmacological treatment,1,CONTROL
+homeopathy,1,OTHER
+individualized homeopathic remedies,1,OTHER
+conventional pharmacological treatment,1,CONTROL
+platinum and hydrogel-coated coils,1,OTHER
+intracranial aneurysms,1,CONDITION
+platinum coil,1,CONTROL
+bun/cr-based hydration therapy,1,OTHER
+dehydrated,1,CONDITION
+hydration therapy on the basis of their presenting bun/cr ratio,1,OTHER
+stroke-in-evolution(sie,1,CONDITION
+succinic semialdehyde dehydrogenase deficiency,1,CONDITION
+gaba(b) receptor antagonist,1,DRUG
+cytomegalovirus,1,CONDITION
+asymptomatic congenital cytomegalovirus,1,CONDITION
+ccmv,1,CONDITION
+major hip surgery,1,CONDITION
+major (bony) hip surgery,1,CONDITION
+bony hip surgery,1,CONDITION
+chronic hip pain,1,CONDITION
+placebo (non-active) injections,1,CONTROL
+noninvasive positive pressure ventilation devices,1,OTHER
+obesity hypoventilation syndrome,1,CONDITION
+nocturnal noninvasive positive pressure ventilation,1,OTHER
+nippv devices,1,OTHER
+agalsidase beta,1,DRUG
+saos,1,CONDITION
+auto cpap,1,OTHER
+autocpap,1,OTHER
+moderate to severe migraine,1,CONDITION
+paraffin,1,OTHER
+tens,1,OTHER
+tendon gliding exercise,1,PHYSICAL
+eesdt,1,OTHER
+web-based situational feedback,1,OTHER
+situational feedback,1,OTHER
+patient-provider communication,1,OTHER
+regular situational feedback,1,OTHER
+enhancing self-management,1,OTHER
+chronic non-malignant pain,1,CONDITION
+"""situational"" feedback",1,OTHER
+conventional interventions in a clinical setting,1,CONTROL
+quick response feedback using mobile communication technology,1,OTHER
+tetrahydrocannabinol,1,DRUG
+palmitoylethanolamide,1,DRUG
+dronebinol,1,DRUG
+autolitt,1,OTHER
+autolitt laser treatment,1,OTHER
+recurrent/progressive brain tumors,1,CONDITION
+autolitt system,1,OTHER
+recurrent/progressive glioblastoma multiforme tumors,1,CONDITION
+gbm,1,CONDITION
+post-prandial hypotension,1,CONDITION
+synucleinopathies,1,CONDITION
+dementia with lewy bodies,1,CONDITION
+sleep attacks,1,CONDITION
+metabolic dysfunction,1,CONDITION
+regular exercise intervention,1,PHYSICAL
+integrated solution for sustainable care,1,OTHER
+integrated care platform,1,OTHER
+multimorbidity,1,CONDITION
+diminished intrinsic capacity,1,CONDITION
+integrated patient-centred approach-,1,OTHER
+physical therapy best practice,1,OTHER
+best practices into current stroke rehabilitation physical therapy,1,OTHER
+activity monitor,1,OTHER
+rad 001,1,DRUG
+sturge-weber syndrome,1,CONDITION
+sturge weber syndrome,1,CONDITION
+afinitor,1,DRUG
+intrathoracic pressure regulator,1,OTHER
+altered intracranial elastance,1,CONDITION
+transcutaneous vagal nerve stimulation,1,OTHER
+reduced function in the affected arm,1,CONDITION
+stimulator device,1,OTHER
+arm weakness,1,CONDITION
+vagal nerve stimulation,1,OTHER
+emfit mattress sensor,1,OTHER
+l-4060slc,1,OTHER
+monitor,1,OTHER
+dvm-gprs-v2,1,OTHER
+generalized tonic-clonic seizures,1,CONDITION
+sudden unexpected death in epilepsy,1,CONDITION
+mattress alarm system,1,OTHER
+emfit monitor,1,OTHER
+emfit bed sensor l-4060sl,1,OTHER
+generalized convulsions,1,CONDITION
+convulsive,1,CONDITION
+emfit mattress sensor l-4060slc,1,OTHER
+acoustic and new cloud-based notification system,1,OTHER
+trained peer health coaches,1,BEHAVIOURAL
+hypometria,1,CONDITION
+valproic acid,1,DRUG
+oxcarbazepine,1,DRUG
+levetiracetam,1,DRUG
+bystolic,1,DRUG
+metoprolol,1,DRUG
+lopressor,1,DRUG
+sildenafil,1,DRUG
+viagra,1,DRUG
+autonomic failure,1,CONDITION
+supine hypertension,1,CONDITION
+"high-resolution, relational, resonance-based, electroencephalic mirroring",1,OTHER
+moderate to severe insomnia,1,CONDITION
+sleep trouble,1,CONDITION
+"subthreshold (mild), moderate, or severe clinical insomnia",1,CONDITION
+restless legs,1,CONDITION
+oud,1,CONDITION
+opioid use disorder,1,CONDITION
+advanced driver assistance systems,1,OTHER
+adas,1,OTHER
+in-vehicle technology,1,OTHER
+simulated lane change assistance system,1,OTHER
+mild to moderate parkinson's disease,1,CONDITION
+warm and cold compress,1,OTHER
+relapsing forms of ms,1,CONDITION
+injection related erythema,1,CONDITION
+superficial hot and cold modalities,1,OTHER
+median nerve hydro-dissection,1,OTHER
+hydro-dissection,1,OTHER
+u-health service using mobile device,1,OTHER
+mobile programs,1,OTHER
+occupational and speech therapy,1,OTHER
+online fundamental motor skills,1,PHYSICAL
+autism,1,CONDITION
+wait-listed home-based,1,CONTROL
+physical education-related activity items,1,PHYSICAL
+cardiac disease,1,CONDITION
+heart disease,1,CONDITION
+upper extremity functional impairments,1,CONDITION
+persistent vegetative state,1,CONDITION
+minimally conscious state,1,CONDITION
+remote ischemic preconditioning,1,OTHER
+cervical decompression surgery,1,CONDITION
+ripc,1,OTHER
+cervical decompression surge,1,CONDITION
+gluten intolerance,1,CONDITION
+cognitive task,1,OTHER
+submaximal isometric exercise,1,PHYSICAL
+physical and cognitive tasks,1,OTHER
+mental math,1,OTHER
+autologous mononuclear cell therapy,1,SURGICAL
+cultured allogeneic adult umbilical cord derived mesenchymal stem cell,1,SURGICAL
+cultured allogeneic adult umbilical cord derived mesenchymal stem cells,1,SURGICAL
+anosmia,1,CONDITION
+olfactory dysfunction,1,CONDITION
+post-viral od,1,CONDITION
+cognitive rehab,1,OTHER
+memory deficits,1,CONDITION
+traumatic brain injuries,1,CONDITION
+robotic exoskeletons,1,PHYSICAL
+impaired mobility,1,CONDITION
+"personalized, tactile cueing system",1,OTHER
+step-synchronized tactile cueing,1,OTHER
+"personalized, step-synchronized tactile cueing",1,OTHER
+tactile cueing at fixed intervals,1,CONTROL
+tactile cueing,1,OTHER
+cueing,1,OTHER
+spontaneous intracerebral hemorrhage,1,CONDITION
+gynecologic cancer,1,CONDITION
+sham acupuncture,1,CONTROL
+dietary recommendations,1,CONTROL
+ecp,1,OTHER
+secondary progressive multiple sclerosis,1,CONDITION
+spms,1,CONDITION
+-ecp,1,OTHER
+multidisciplinary combined exercise,1,PHYSICAL
+nutrition intervention,1,OTHER
+sarcopenic,1,CONDITION
+conventional medical care,1,CONTROL
+ß-secretase inhibitor,1,DRUG
+severe renal disease,1,CONDITION
+moderate and mild renal impairment,1,CONDITION
+early and intensive bimanual stimulation,1,OTHER
+unilateral cerebral palsy,1,CONDITION
+early bimanual stimulation,1,OTHER
+action observational training,1,BEHAVIOURAL
+rapid response to day hospital treatment,1,BEHAVIOURAL
+rapid response to treatment -cessation,1,BEHAVIOURAL
+rapid response,1,BEHAVIOURAL
+cbt-based individual intervention for rapid response,1,BEHAVIOURAL
+matched-intensity augmentative motivational interviewing,1,CONTROL
+music listening,1,OTHER
+music interventions,1,OTHER
+group-tailored playlist,1,OTHER
+radio,1,CONTROL
+non-music,1,CONTROL
+post infarct,1,CONDITION
+attention-deficit,1,CONDITION
+comorbid attention-deficit,1,CONDITION
+combined type attention deficit,1,CONDITION
+triggering points dry needling on sternocleidomastoid muscle,1,OTHER
+optic nerve neuropathy,1,CONDITION
+optic neuropathies,1,CONDITION
+remifentanil,1,DRUG
+hyperalgesia,1,CONDITION
+thyroidectomy,1,CONDITION
+dendritic cells loaded with brain tumor stem cells,1,SURGICAL
+recurrent or progressive malignant gliomas,1,CONDITION
+autologous dendritic cells (dcs) loaded with allogeneic brain tumor stem cells,1,SURGICAL
+recurrent brain tumors,1,CONDITION
+dcs for immunotherapy,1,SURGICAL
+vy-aadc01,1,OTHER
+fluctuating responses to levodopa,1,CONDITION
+aadc gene transfer,1,OTHER
+type 2 and type 3 spinal muscular atrophy,1,CONDITION
+type 2 and type 3 sma,1,CONDITION
+low laser therapy,1,OTHER
+low-level laser therapy,1,OTHER
+patient-triggered sensory cues,1,OTHER
+"patient triggered sensory(auditory, visual and tactile) cues",1,OTHER
+unexpected (randomized) cues,1,OTHER
+acute ischemic hemispheric stroke,1,CONDITION
+alteplase(rt-pa),1,DRUG
+alzheimer s disease,1,CONDITION
+left atrial appendage occluders,1,OTHER
+nonvalvular atrial fibrillation,1,CONDITION
+percutaneous biopsy of livers,1,OTHER
+neurological death,1,CONDITION
+percutaneous liver biopsy,1,OTHER
+brain death,1,CONDITION
+severely subacute stroke,1,CONDITION
+umbilical cord derived mesenchymal stem cells transplantation,1,SURGICAL
+chronic spinal cord injury,1,CONDITION
+mesenchymal stem cell transplantation,1,SURGICAL
+mesenchymal stem cells derived from umbilical cord,1,SURGICAL
+vitamin c and e,1,DRUG
+restless leg syndrome,1,CONDITION
+vitamins c and e,1,DRUG
+eenm,1,OTHER
+hemiparesis spastic,1,CONDITION
+spastic hemiparetic,1,CONDITION
+spastic muscle,1,CONDITION
+spastic antagonist muscle,1,CONDITION
+kabat motor control re-education,1,PHYSICAL
+(r)-2-amino-3 phenylpropylcarbamate hydrochloride,1,DRUG
+excessive sleepiness,1,CONDITION
+jzp-110,1,DRUG
+genz-99067,1,DRUG
+cimt using prolonged restraint,1,OTHER
+cimt using brief manual restraint,1,OTHER
+surgical resection,1,SURGICAL
+latent brain tumors prior to recurrence,1,CONDITION
+surgery after chemotherapy or radiation,1,SURGICAL
+prior to tumor recurrence,1,CONDITION
+surgery at a different time,1,SURGICAL
+no surgery at all,1,CONTROL
+mild huntington's disease,1,CONDITION
+serotonin reuptake inhibitor,1,DRUG
+acute post-craniotomy pain,1,CONDITION
+acute postoperative pain,1,CONDITION
+late-onset pompe disease and receiving enzyme replacement therapy,1,CONDITION
+late-onset pompe disease (lopd) who are treated with enzyme replacement therapy,1,CONDITION
+tetraplegic,1,CONDITION
+nerve transfer surgery,1,CONDITION
+"robot-assisted, intensive rehabilitation",1,PHYSICAL
+rehabilitative approaches,1,OTHER
+dysphagia rehabilitative interventions,1,OTHER
+pneumonia,1,CONDITION
+intense physiotherapies,1,PHYSICAL
+physical and occupational therapies,1,PHYSICAL
+active repetitive motor skill-directed rehabilitation,1,PHYSICAL
+intense active physiotherapy,1,PHYSICAL
+physical and occupational therapy,1,PHYSICAL
+standard of care,1,CONTROL
+lumbo-sacral mobilization,1,OTHER
+loss of axial rotation,1,CONDITION
+mobilization techniques,1,OTHER
+manipulation,1,OTHER
+grade a and grade b mobilization applications,1,OTHER
+lumbosacral mobilization,1,OTHER
+non-invasive transcranial direct current stimulation,1,OTHER
+decline in cognitive functions,1,CONDITION
+decline in cognitive function,1,CONDITION
+cognitive decline,1,CONDITION
+non-invasive brain stimulation techniques,1,OTHER
+femoral derotation osteotomy,1,SURGICAL
+femoral derotation osteotomies,1,SURGICAL
+electromagnetic tracking system,1,OTHER
+antipsychotic induced psychotic syndrome,1,CONDITION
+test catheters,1,OTHER
+speedicath catheters,1,OTHER
+test catheter,1,OTHER
+speedicath (sc) catheter,1,OTHER
+fear of pain,1,CONDITION
+terminal visual feedback,1,OTHER
+visual feedback therapy,1,OTHER
+action observation,1,OTHER
+observation of actions,1,OTHER
+im,1,OTHER
+ao,1,OTHER
+vibration exercise,1,PHYSICAL
+vibration dumbbell resistance training,1,PHYSICAL
+standard dumbbell resistance training,1,CONTROL
+paraplegia,1,CONDITION
+video game-based physical activity training,1,PHYSICAL
+videogame-based physical activity training,1,PHYSICAL
+residual daytime sleepiness,1,CONDITION
+exposure to bright light,1,OTHER
+chronic post concussion,1,CONDITION
+mild head injury,1,CONDITION
+post concussion,1,CONDITION
+sleep disordered breathing,1,CONDITION
+paroxysmal atrial fibrillation,1,CONDITION
+moderate to severe sdb,1,CONDITION
+transcranial random noise stimulation,1,OTHER
+computerized cognitive rehabilitation therapy,1,OTHER
+acquired brain damage,1,CONDITION
+cognitive training,1,OTHER
+sham trns,1,CONTROL
+jumpstart forms,1,BEHAVIOURAL
+gh,1,DRUG
+ghd,1,CONDITION
+dexmedethomidine,1,DRUG
+pituitary tumor removal by transphenoid approach,1,CONDITION
+transnasal transsphenoidal (tnts) resection of pituitary tumors,1,CONDITION
+α-2 adrenergic receptor agonist,1,DRUG
+medical cannabis,1,OTHER
+community based mental health care,1,OTHER
+severe and enduring mental ill health,1,CONDITION
+darbetin,1,DRUG
+nerotin,1,DRUG
+probable alzheimer's disease or progressive supranuclear palsy,1,CONDITION
+progressive supranuclear palsy,1,CONDITION
+psp,1,CONDITION
+coronavirus disease 2019,1,CONDITION
+acute and / or delayed brain damage,1,CONDITION
+cranial nerves damage,1,CONDITION
+radial extracorporeal shock wave therapy,1,OTHER
+patient education,1,BEHAVIOURAL
+lifestyle intervention,1,BEHAVIOURAL
+lifestyle changes,1,BEHAVIOURAL
+treatment of orthostatic hypotension,1,OTHER
+epileptic,1,CONDITION
+lamictal,1,DRUG
+feedback from a wearable device,1,OTHER
+"pedaling on a tricycle, induced by electrical stimulation of the paralysed muscles",1,PHYSICAL
+home-based training for cycling with functional electrical stimulation,1,PHYSICAL
+fes-assisted cycling,1,PHYSICAL
+fes-cycling,1,PHYSICAL
+3d printed mandibular advancement device,1,OTHER
+oa,1,OTHER
+oa device,1,OTHER
+sumatriptan,1,DRUG
+kw-6002,1,DRUG
+motor response complications,1,CONDITION
+advanced parkinson's disease,1,CONDITION
+multiple sclerosis:,1,CONDITION
+tdcs applied over the dorsolateral prefrontal and motor cortex,1,OTHER
+service and hearing dogs,1,OTHER
+impairments,1,CONDITION
+service dog,1,OTHER
+five star rated helmets only,1,OTHER
+palate repair,1,CONDITION
+cleft palate repair,1,CONDITION
+focal vibration,1,OTHER
+central and peripheral spasticity,1,CONDITION
+equistasi,1,OTHER
+focal vibrations,1,OTHER
+dementia caregiver educational brochure,1,BEHAVIOURAL
+educational brochure tailored to caregivers,1,BEHAVIOURAL
+parkinson's disease dementia,1,CONDITION
+lewy body disease,1,CONDITION
+vascular disease dementia,1,CONDITION
+brochure,1,BEHAVIOURAL
+mood disorders,1,CONDITION
+vr headset,1,OTHER
+personalised virtual surroundings,1,OTHER
+virtual environment,1,OTHER
+generic virtual settings,1,CONTROL
+autism spectrum disorder,1,CONDITION
+ads,1,CONDITION
+early stuttering,1,CONDITION
+virtual reality therapy,1,OTHER
+exergaming,1,PHYSICAL
+exe,1,PHYSICAL
+balance,1,PHYSICAL
+bal,1,PHYSICAL
+cycling,1,PHYSICAL
+cyc,1,PHYSICAL
+proprioceptive neuromuscular facilitation,1,PHYSICAL
+pnf,1,PHYSICAL
+standard care wait-listed,1,CONTROL
+low muscle mass,1,CONDITION
+relative sarcopenia,1,CONDITION
+emergence delrium,1,CONDITION
+self-awareness disorders,1,CONDITION
+intensive motor training,1,PHYSICAL
+anodal stimulation of the ipsilesional hemisphere,1,OTHER
+cathodal stimulation of the contralesional hemisphere,1,OTHER
+dual stimulation,1,CONTROL
+high-performance ecog-based neural interface,1,OTHER
+mild to moderate alzheimer's disease.,1,CONDITION
+moderate to severe spasticity,1,CONDITION
+incomplete spinal cord injury,1,CONDITION
+muscle spasms,1,CONDITION
+muscle stiffness,1,CONDITION
+moderate to severe lower-limb spasticity,1,CONDITION
+robotic trunk-support-trainer,1,PHYSICAL
+motor learning-based postural and reaching control intervention,1,PHYSICAL
+trunk-support-trainer,1,PHYSICAL
+motor learning-based intervention,1,PHYSICAL
+static trunk support equipment,1,PHYSICAL
+diet induced ketosis,1,OTHER
+ketogenic diet,1,OTHER
+mct supplementation,1,OTHER
+ketogenic diet therapy,1,OTHER
+ketosis,1,OTHER
+gaming mechanics,1,OTHER
+telerehabilitation,1,PHYSICAL
+motivational strategies,1,BEHAVIOURAL
+home tele-rehabilitation program,1,PHYSICAL
+tele-rehabilitation- based home exercise program,1,PHYSICAL
+home exercise,1,PHYSICAL
+simulated rehabilitation activities,1,PHYSICAL
+passive exoskeleton,1,PHYSICAL
+exercise at home,1,PHYSICAL
+motivationally enhanced simulations,1,BEHAVIOURAL
+un-enhanced control,1,CONTROL
+motivational enhancements,1,BEHAVIOURAL
+tele-rehabilitation program,1,PHYSICAL
+motivational enhancement,1,BEHAVIOURAL
+autonomous rehabilitation programs,1,PHYSICAL
+remote ischemic conditioning(ric,1,OTHER
+symptomatic vertebrobasilar lesion of atherosclerosis,1,CONDITION
+progressive modular rebalancing (rmp) system rehabilitation,1,PHYSICAL
+sensory cues for rehabilitation,1,OTHER
+rehabilitative program,1,OTHER
+parkinson' disease,1,CONDITION
+neurocognitive method,1,OTHER
+visual sensory cues,1,OTHER
+neurophysiological method,1,PHYSICAL
+exercise program focused at improving gait,1,PHYSICAL
+exercise programs,1,PHYSICAL
+phenobarbitone,1,DRUG
+advanced malignancies,1,CONDITION
+acute traumatic spinal cord injury,1,CONDITION
+electric stimulation of the leg's tibial nerve,1,OTHER
+acute spinal cord injury,1,CONDITION
+ttns,1,OTHER
+huntington´s disease gene expansion carriers,1,CONDITION
+nmda-receptor blockade,1,DRUG
+nonsense mutation dystrophinopathy,1,CONDITION
+nonsense (premature stop codon) mutation,1,CONDITION
+nonsense mutation,1,CONDITION
+pulsed shortwave therapy,1,OTHER
+migraine attach,1,CONDITION
+"chronic, episodic migraines",1,CONDITION
+burr hole trepanation,1,CONDITION
+frontal and parietal burr-hole trepanation,1,CONDITION
+trepanation,1,CONDITION
+permeable titanium burr-hole plate,1,OTHER
+burr-hole plates on both the frontal and parietal burr-hole,1,OTHER
+burr-hole trepanation,1,CONDITION
+uni- or bilateral csdh,1,CONDITION
+burr-hole plates,1,OTHER
+without burr-hole plates,1,CONTROL
+pre- vs. postoperative scalp block,1,OTHER
+selective scalp block,1,OTHER
+self-balancing walking system atalante,1,PHYSICAL
+robotic locomotor training,1,PHYSICAL
+robot-assisted gait therapy,1,PHYSICAL
+mild breathing bouts of low oxygen,1,OTHER
+intermittent hypoxia,1,OTHER
+chronic incomplete spinal cord injury,1,CONDITION
+wearable robotic exoskeleton,1,PHYSICAL
+robotic exoskeleton device,1,PHYSICAL
+ekso-gt,1,PHYSICAL
+walking disability,1,CONDITION
+traditional,1,CONTROL
+craniosacral therapy,1,OTHER
+myofacial relaxation techniques,1,OTHER
+hemicrania,1,CONDITION
+neck pain,1,CONDITION
+osteopathic manual therapy,1,OTHER
+omt,1,OTHER
+cranial omm kraniyum,1,OTHER
+cranial omm,1,OTHER
+fascial mobilization therapy,1,OTHER
+virtual reality mediated neurodynamic exercises,1,PHYSICAL
+virtual reality-mediated exercise program,1,PHYSICAL
+virtual reality-mediated therapeutic exercise program,1,PHYSICAL
+classical exercise programs,1,CONTROL
+tendon and nerve gliding exercises,1,PHYSICAL
+non-immersive virtual reality systems,1,OTHER
+classical exercise program,1,CONTROL
+hydrophilic or non-hydrophilic polyvinyl chloride catheters,1,OTHER
+clean intermittent catheterization,1,CONDITION
+polyvinyl chloride (pvc) catheter,1,CONTROL
+hydrophilic catheter,1,OTHER
+pvc or hydrophilic coated catheter,1,OTHER
+hydrophilic coated catheter,1,OTHER
+multiuse or hydrophilic catheter use,1,OTHER
+abilify,1,DRUG
+risperdalâ,1,DRUG
+constaâ,1,DRUG
+abilifyâ,1,DRUG
+hyperactivity,1,CONDITION
+"manometric- assisted anal relaxation, muscle coordination and simulated defecation training",1,PHYSICAL
+sham feedback therapy,1,CONTROL
+diet,1,CONTROL
+laxatives,1,CONTROL
+dyssynergia,1,CONDITION
+sensory stimulation program,1,OTHER
+severely brain injured,1,CONDITION
+standardised sensory stimulation,1,OTHER
+occuaptional therapy,1,OTHER
+sensory stimulation,1,OTHER
+sensory modalities assessment and rehabilitation technique,1,OTHER
+smart,1,OTHER
+moderate to severe ad,1,CONDITION
+cognitive and functional decline,1,CONDITION
+early phase of dementia,1,CONDITION
+standard antiepileptic treatment,1,OTHER
+stage 3 idiopathic parkinson's disease,1,CONDITION
+cognitive behavioral therapy,1,BEHAVIOURAL
+cbt,1,BEHAVIOURAL
+cognitive-behavioral therapy,1,BEHAVIOURAL
+computer-assisted arm trainer,1,PHYSICAL
+early after stroke,1,CONDITION
+transcranial galvanic stimulation,1,OTHER
+robot-assisted arm training,1,PHYSICAL
+sham-stimulation,1,CONTROL
+sham-tdcs,1,CONTROL
+spastic hemiplegic cerebral palsy,1,CONDITION
+deep brain stimulation (dbs) of the nucleus basalis of meynert,1,OTHER
+parkinson's patients,1,CONDITION
+"mild cognitive impairment, amnestic subtype",1,CONDITION
+deep brain stimulation of the nucleus basalis of meynert,1,OTHER
+oral appliance therapy,1,OTHER
+modified constraint-induced movement,1,PHYSICAL
+modified constraint-induced movement therapy,1,PHYSICAL
+conventional rehabilitation,1,CONTROL
+internal rhythm dysfunction,1,CONDITION
+rhythmic auditory cues,1,OTHER
+stepping-in-place training,1,PHYSICAL
+auditory cueing training,1,OTHER
+rhythmic movements,1,PHYSICAL
+support program for home care staff,1,BEHAVIOURAL
+peer support program,1,BEHAVIOURAL
+auditory hallucinations,1,CONDITION
+acoustic-verbal hallucinations,1,CONDITION
+dissociative symptoms,1,CONDITION
+cohesive thin liquids,1,OTHER
+ctl,1,OTHER
+mild oropharyngeal dysphagia,1,CONDITION
+ischemic/hemorrhagic cerebral cause,1,CONDITION
+commercially available vr game,1,OTHER
+activities in their everyday,1,CONTROL
+simultaneous dual stimulation,1,OTHER
+dual-mode non-invasive brain stimulation,1,OTHER
+nibs,1,OTHER
+high-frequency repetitive transcranial magnetic stimulation,1,OTHER
+rtms alone,1,CONTROL
+immersive digital reality-augmenting system,1,OTHER
+critical illness,1,CONDITION
+brief talking therapy,1,BEHAVIOURAL
+alzheimer's disease at beginning to moderate stages,1,CONDITION
+sporadic alzheimer's disease,1,CONDITION
+alzheimer's,1,CONDITION
+alzheimer's disease dementia at beginning to moderate stage,1,CONDITION
+complete spinal cord injuries,1,CONDITION
+procord,1,SURGICAL
+"acute, complete spinal cord injury",1,CONDITION
+atypical antipsychotics,1,DRUG
+atypical antipsychotic,1,DRUG
+dopaminergic therapy,1,DRUG
+behavioral ftd,1,CONDITION
+behavioural frontotemporal dementia,1,CONDITION
+refractory and relapsed neuroblastoma,1,CONDITION
+solid tumours,1,CONDITION
+hycamtin,1,DRUG
+relapsed and refractory neuroblastoma,1,CONDITION
+solid tumors,1,CONDITION
+precision radiation treatment,1,RADIOTHERAPY
+drug-resistant localised epilepsy,1,CONDITION
+linac based srt treatment,1,RADIOTHERAPY
+migraine medications,1,OTHER
+acute brain-injured,1,CONDITION
+elevated intracranial pressure,1,CONDITION
+nacl,1,DRUG
+chronic jaw muscle myalgia,1,CONDITION
+visual field restoration,1,OTHER
+stimulus,1,OTHER
+hemianopsic,1,CONDITION
+hemianopsia,1,CONDITION
+strokes,1,CONDITION
+palliative care training for community physicians,1,BEHAVIOURAL
+telemedicine support services,1,OTHER
+lbd,1,CONDITION
+palliative care,1,OTHER
+telemedicine,1,OTHER
+"recurrent, refractory or progressive juvenile pilocytic astrocytomas",1,CONDITION
+optic pathway gliomas,1,CONDITION
+adeno-tonsilectomy,1,CONDITION
+adeno-tonsillectomy,1,CONDITION
+resistance exercise training,1,PHYSICAL
+frail,1,CONDITION
+vitamin d3,1,DRUG
+exercise training alone,1,CONTROL
+pelvic pain,1,CONDITION
+pulsed radiofrequency,1,OTHER
+pudendal neuralgia,1,CONDITION
+pn,1,CONDITION
+daytime sleepiness,1,CONDITION
+drowsiness,1,CONDITION
+mild mood complaints,1,CONDITION
+fitbit versa 3,1,OTHER
+multi-sensory conditions in virtual reality,1,OTHER
+visually induced motion sickness,1,CONDITION
+motion sickness,1,CONDITION
+dizziness,1,CONDITION
+eyestrain,1,CONDITION
+oculomotor disorders,1,CONDITION
+blurred vision,1,CONDITION
+spatial disorientation,1,CONDITION
+virtual environments,1,OTHER
+sc,1,CONDITION
+video only,1,CONTROL
+binaural audio,1,OTHER
+binaural stimulation,1,OTHER
+clinical pharmacist-led intervention,1,OTHER
+cerebrovascular disease,1,CONDITION
+clinical pharmacist disease management program,1,OTHER
+non-cardioembolic ischemic stroke,1,CONDITION
+clinical pharmacist-led disease management intervention,1,OTHER
+clinical pharmacy cardiac risk service,1,OTHER
+cpcrs,1,OTHER
+non-invasive neurostimulation of the vagus nerve with the gammacore device,1,OTHER
+noninvasive neurostimulation of the vagus nerve using the gammacore device,1,OTHER
+acute migraine,1,CONDITION
+biofreeze,1,DRUG
+gel with a menthol scent,1,CONTROL
+mechanically ventilated,1,CONDITION
+hydroxymethylbutyrate,1,DRUG
+eicosapentaenoic acid,1,DRUG
+breathing machines,1,CONDITION
+dual task training,1,PHYSICAL
+dual task balance and gait training,1,PHYSICAL
+dual tasking,1,PHYSICAL
+dual task rehabilitative training on balance and gait,1,PHYSICAL
+alcohol use disorder,1,CONDITION
+wbrt,1,RADIOTHERAPY
+taking antipsychotic medication once every two weeks by injection,1,OTHER
+taking daily oral medication,1,OTHER
+hybrid-fes exercise,1,PHYSICAL
+declines in physiologic function,1,CONDITION
+functional electrical stimulation (fes) row training (rt),1,PHYSICAL
+arms-only exercise,1,CONTROL
+time (wait-list) control,1,CONTROL
+time control,1,CONTROL
+erector spinae plane (esp) block,1,OTHER
+caudal block,1,CONTROL
+sham stimulation,1,CONTROL
+akinesia,1,CONDITION
+amantadine sulphate,1,DRUG
+task-specific training on the c-mill,1,PHYSICAL
+waiting list,1,CONTROL
+hemiparesis,1,CONDITION
+induced forced limb loading,1,PHYSICAL
+tissue plasminogen activator,1,CONTROL
+tpa,1,CONTROL
+unilateral versus bilateral intensive training,1,PHYSICAL
+unimanual intensive training,1,PHYSICAL
+bimanual intensive training,1,PHYSICAL
+generalized tonic/clonic seizure,1,CONDITION
+diazoxide choline,1,DRUG
+dccr,1,DRUG
+intracranial trauma,1,CONDITION
+screening,1,BEHAVIOURAL
+brief motivational interview,1,BEHAVIOURAL
+referral for treatment,1,BEHAVIOURAL
+peripheral neuromodulation,1,OTHER
+nerve stimulation interventions,1,OTHER
+neurogenic (spinal cord injury) or non-neurogenic dysfunction,1,CONDITION
+quetiapine,1,DRUG
+non-invasive neuromodulation,1,OTHER
+dual transcranial direct current stimulation,1,OTHER
+motor training,1,PHYSICAL
+selective serotonin reuptake inhibitors,1,DRUG
+motor training intervention,1,PHYSICAL
+magnesium stearate,1,DRUG
+spastic diplegic cerebral palsy,1,CONDITION
+crestor,1,DRUG
+balneotherapy,1,PHYSICAL
+respiratory failure,1,CONDITION
+acute seizures,1,CONDITION
+prolonged convulsive se,1,CONDITION
+plexiform neurofibroma,1,CONDITION
+quadrivalent meningococcal conjugate vaccine,1,DRUG
+"meningococcal polysaccharide (serogroups a, c, y and w) tetanus toxoid (menacyw) conjugate vaccine",1,DRUG
+phenylketonuria,1,CONDITION
+phaenylalanine-free protein substitute,1,OTHER
+phenylalanine-free protein substitute,1,OTHER
+oticon medical ponto 4.5mm wide implant,1,OTHER
+ponto 4.5mm wide diameter implant,1,OTHER
+transdermal vagal stimulation,1,OTHER
+light-headedness,1,CONDITION
+electrical stimulation of a nerve through a skin of the ear,1,OTHER
+tcm intervention,1,OTHER
+distal symmetric peripheral neuropathy,1,CONDITION
+tcm,1,OTHER
+aids,1,CONDITION
+sensorimotor impairment,1,CONDITION
+ames,1,PHYSICAL
+assisted movement with enhanced sensation,1,PHYSICAL
+incomplete spinal cord injuries,1,CONDITION
+aih,1,OTHER
+dtpa-hbv-ipv vaccine,1,DRUG
+hib vaccine,1,DRUG
+infanrix hexa,1,DRUG
+infanrix penta,1,DRUG
+hiberix,1,DRUG
+itraconazole,1,DRUG
+mind at home-streamlined dementia care coordination intervention,1,BEHAVIOURAL
+care coordination,1,BEHAVIOURAL
+identification of needs and individualized care planning,1,OTHER
+dementia education and skill building,1,OTHER
+"coordination, referral and linkage of services",1,OTHER
+initial in-home needs assessment,1,CONTROL
+education,1,BEHAVIOURAL
+kernicterus,1,CONDITION
+"public, health provider, and maternal education",1,BEHAVIOURAL
+jaundice,1,CONDITION
+antenatal or postpartum instruction,1,BEHAVIOURAL
+not received instruction,1,CONTROL
+excitatory theta-burst transcranial magnetic stimulation,1,OTHER
+marijuana,1,OTHER
+parkinsonian primary pain,1,CONDITION
+dual-task gait/balance training,1,PHYSICAL
+action observation training,1,OTHER
+watching landscape videos,1,OTHER
+falls,1,CONDITION
+mood disturbances,1,CONDITION
+ultrasound-guided erector spinae plane block,1,OTHER
+open splenectomy surgery,1,CONDITION
+ultrasound-guided paravertebral block,1,OTHER
+open splenectomy,1,CONDITION
+primary immunodeficiency,1,CONDITION
+unexplained recurrent and/or severe infections with encapsulated bacteria,1,CONDITION
+antibody deficiencies,1,CONDITION
+complement deficiencies,1,CONDITION
+primary immunodeficiencies,1,CONDITION
+recurrent and/or severe bacterial infections,1,CONDITION
+upper and lower respiratory tract infections,1,CONDITION
+bacterial infections,1,CONDITION
+recurrent infections,1,CONDITION
+severe bacterial infection,1,CONDITION
+neuromodulation training,1,OTHER
+chronic cervical spinal cord injury,1,CONDITION
+activity-based recovery training,1,PHYSICAL
+targeted spinal cord transcutaneous stimulation,1,OTHER
+scts,1,OTHER
+resistance training program,1,PHYSICAL
+disabled intellectual,1,CONDITION
+resistance exercise,1,PHYSICAL
+early pd,1,CONDITION
+oral appliance therapies,1,OTHER
+behavioral treatment,1,BEHAVIOURAL
+drug abuse,1,CONDITION
+spmi,1,CONDITION
+multifaceted treatment for substance abuse,1,BEHAVIOURAL
+supportive control treatment,1,CONTROL
+case management component,1,BEHAVIOURAL
+critical time intervention,1,BEHAVIOURAL
+cti,1,BEHAVIOURAL
+music intervention,1,OTHER
+transcranial electrical stimulation,1,OTHER
+neurological diseases,1,CONDITION
+music exposure,1,OTHER
+electric (tdcs) and music stimulation,1,OTHER
+music-listening,1,OTHER
+didgeridoo treatment,1,OTHER
+obstructive sleep apnea-hypopnea syndrome,1,CONDITION
+tonsillar hypertrophy,1,CONDITION
+neurogenic bladder,1,CONDITION
+injured spinal cord,1,CONDITION
+bladder dysfunction,1,CONDITION
+complete spinal cord lesions,1,CONDITION
+anterior sacral root stimulation with posterior rhizotomy,1,SURGICAL
+progressive refractory meningiomas,1,CONDITION
+aggressive growing meningiomas resistant to multiple surgeries and radiotherapy,1,CONDITION
+grade ii-iii meningiomas,1,CONDITION
+grade iii meningioma,1,CONDITION
+meningioma,1,CONDITION
+aggressive and recurrent meningiomas,1,CONDITION
+aggressive and refractory meningiomas,1,CONDITION
+bi-axial rotating magnetic field therapy,1,OTHER
+refractory neuropathic foot pain,1,CONDITION
+pulsed magnetic stimulating,1,OTHER
+moderate-severe foot pain,1,CONDITION
+updated bone-anchored sound processor,1,OTHER
+ce marked ponto 3 superpower sound processor,1,CONTROL
+support group intervention,1,BEHAVIOURAL
+alternating-frequency dbs,1,OTHER
+alternating-frequency deep brain stimulation,1,OTHER
+cat,1,BEHAVIOURAL
+brl-049653,1,DRUG
+aneurysmal subarachnoid hemorrhage,1,CONDITION
+moderate severity vasospasm,1,CONDITION
+wireless telemonitoring,1,OTHER
+self-management approach,1,BEHAVIOURAL
+wireless technologies,1,OTHER
+psychoeducation,1,BEHAVIOURAL
+chronic high tetraplegia,1,CONDITION
+paralyzed,1,CONDITION
+functional electrical stimulation,1,OTHER
+reduced dose craniospinal radiotherapy,1,RADIOTHERAPY
+newly-diagnosed standard-risk posterior fossa primitive neuro-ectodermal tumor,1,CONDITION
+pnet,1,CONDITION
+radiation therapy,1,RADIOTHERAPY
+low-dose radiation therapy,1,RADIOTHERAPY
+radiation,1,RADIOTHERAPY
+newly diagnosed average risk medulloblastoma,1,CONDITION
+panitumumab irdye800,1,DRUG
+neoplasms,1,CONDITION
+neurosurgical procedures,1,CONDITION
+panitumumab-irdye800,1,DRUG
+brain surgery,1,CONDITION
+migraine-like attack,1,CONDITION
+migraine-like attacks,1,CONDITION
+affitope® pd01a.,1,DRUG
+untreated control,1,CONTROL
+clonidine,1,DRUG
+subcostal transversus abdominis plane block,1,OTHER
+open liver resection,1,CONDITION
+"benign, malignant or metastatic hepatic tumor",1,CONDITION
+transversus abdominis plane [tap] block,1,OTHER
+somatic pain,1,CONDITION
+esbp,1,OTHER
+tap,1,OTHER
+open liver resection surgery,1,CONDITION
+aquatic and land-based group exercise,1,PHYSICAL
+land based or aquatic based group exercise,1,PHYSICAL
+idiopathic parkinson disease,1,CONDITION
+land based or aquatic based group exercise program,1,PHYSICAL
+advanced cognitive stimulation therapy,1,BEHAVIOURAL
+acst,1,BEHAVIOURAL
+cognitive stimulation therapy,1,BEHAVIOURAL
+cst,1,BEHAVIOURAL
+mixed dementia with alzheimer's and vascular components,1,CONDITION
+virtual gate device,1,OTHER
+vgd,1,OTHER
+sleep apnea management group,1,BEHAVIOURAL
+moderate-to-severe obstructive sleep apnea,1,CONDITION
+sleep apnea management (sam) grouped based-intervention,1,BEHAVIOURAL
+regular non-sleep prescribing provider,1,CONTROL
+postopreative agitation,1,CONDITION
+carotid occlusion surgery,1,SURGICAL
+extracranial-intracranial bypass surgery,1,SURGICAL
+ipsilateral stroke,1,CONDITION
+symptomatic carotid occlusion,1,CONDITION
+intermittent theta-burst stimulation transcranial magnetic stimulation,1,OTHER
+transcranial magnetic stimulation (tms) targeting the dorsolateral prefrontal cortex (dlpfc) or the primary motor cortex (m1),1,OTHER
+m1,1,OTHER
+pain catastrophization,1,CONDITION
+intermittent theta-burst stimulation,1,OTHER
+placebo together with tms,1,CONTROL
+intraoperative variations in positive-end expiratory pressure,1,OTHER
+supratentorial tumor surgery,1,CONDITION
+intraoperative peep,1,OTHER
+supratentorial tumor surgeries,1,CONDITION
+divergent squint,1,CONDITION
+strabismus surgery,1,SURGICAL
+rehabilitation robot,1,PHYSICAL
+sham tdcs,1,CONTROL
+systems of active monitoring,1,OTHER
+incentive program for physical activity,1,OTHER
+music-supported therapy,1,CONTROL
+music supported therapy,1,CONTROL
+occupational therapy,1,CONTROL
+ot,1,CONTROL
+parkinson's spectrum,1,CONDITION
+rwj-17021-000,1,DRUG
+acute agitation,1,CONDITION
+acute agitated,1,CONDITION
+3d conformal radiotherapy,1,RADIOTHERAPY
+metastatic epidural spinal cord compression,1,CONDITION
+spinal cord compression,1,CONDITION
+3d conformal palliative rt,1,RADIOTHERAPY
+spinal metastasis,1,CONDITION
+3d crt,1,RADIOTHERAPY
+home and in-laboratory testing,1,OTHER
+home testing,1,OTHER
+in-lab testing,1,OTHER
+na-831,1,DRUG
+na-83,1,DRUG
+asymptomatic carotid artery narrowing,1,CONDITION
+stenting,1,SURGICAL
+activities in mse alone,1,OTHER
+massage therapy in usual care environment,1,OTHER
+usual care with attention,1,CONTROL
+usual care only,1,CONTROL
+rehabilitation intervention,1,OTHER
+community-based rehabilitation,1,OTHER
+facility-based care,1,OTHER
+facility-based care alone,1,CONTROL
+transcutaneous auricular vagus nerve stimulation,1,OTHER
+active transcutaneous auricular vagus nerve stimulation,1,OTHER
+inflammation,1,CONDITION
+spm 936,1,DRUG
+idiopathic restless legs syndrome.,1,CONDITION
+continuous theta-burst stimulation,1,OTHER
