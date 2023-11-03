@@ -11,6 +11,7 @@ import sys
 
 logger = logging.getLogger(__name__)
 
+
 def get_label_list(labels):
     unique_labels = set()
     for label in labels:
@@ -18,6 +19,7 @@ def get_label_list(labels):
     label_list = list(unique_labels)
     label_list.sort()
     return label_list
+
 
 def tokenize_and_align_labels(examples, tokenizer, text_column_name, label_column_name, label_to_id,
                               label_all_tokens=False, padding=True, max_length=512):
@@ -54,6 +56,7 @@ def tokenize_and_align_labels(examples, tokenizer, text_column_name, label_colum
     tokenized_inputs["labels"] = labels
     tokenized_inputs["word_ids"] = word_ids_list
     return tokenized_inputs
+
 
 # Define your function for computing metrics here
 def compute_metrics(p, label_list):
@@ -93,7 +96,7 @@ def compute_metrics(p, label_list):
         for type_name in results:
             if type_name.startswith("overall"):
                 continue
-            print ('type_name', type_name)
+            print('type_name', type_name)
             Ps.append(results[type_name]["precision"])
             Rs.append(results[type_name]["recall"])
             Fs.append(results[type_name]["f1"])
@@ -109,6 +112,7 @@ def compute_metrics(p, label_list):
             "f1": results["overall_f1"],
             "accuracy": results["overall_accuracy"],
         }
+
 
 def main():
     logging.basicConfig(
@@ -126,7 +130,8 @@ def main():
     parser.add_argument("--val_data_path", default=None, type=str, help="Path to the validation data file")
     parser.add_argument("--test_data_path", default=None, type=str, help="Path to the test data file")
     parser.add_argument("--output_path", default=None, type=str, help="Path for the output.")
-    parser.add_argument("--model_name_or_path", default='michiyasunaga/BioLinkBERT-base', type=str, help="HuggingFace Model.")
+    parser.add_argument("--model_name_or_path", default='michiyasunaga/BioLinkBERT-base', type=str,
+                        help="HuggingFace Model.")
 
     args = parser.parse_args()
     n_epochs = args.n_epochs
@@ -136,7 +141,7 @@ def main():
     ds_path_test = args.test_data_path
     ds_path_val = args.val_data_path
     model_name_or_path = args.model_name_or_path
-    model_name_str = model_name_or_path.replace("/","_")
+    model_name_str = model_name_or_path.replace("/", "_")
     output_folder_path = args.output_path
 
     ## DATA LOAD AND PREPARATION
@@ -144,11 +149,10 @@ def main():
     logger.info(f"Train dataset path: {ds_path_train}")
     text_column_name = "tokens"
     label_column_name = "ner_tags"
-    label_all_tokens=False
-    padding=True
-    max_length=512
+    label_all_tokens = False
+    padding = True
+    max_length = 512
     tokenizer = AutoTokenizer.from_pretrained(model_name_or_path, cache_dir="data/huggingface_cache")
-
 
     data_files = {"train": ds_path_train,
                   "validation": ds_path_val,
@@ -242,25 +246,26 @@ def main():
     logger.info("*** CONFIGURE AND LOAD TRAINER ***")
 
     training_args = TrainingArguments(
-        output_dir= output_folder_path +'/results/'+ model_name_str + "/" + suffix,          # output directory
-        num_train_epochs=n_epochs,              # total number of training epochs
+        output_dir=output_folder_path + '/results/' + model_name_str + "/" + suffix,  # output directory
+        num_train_epochs=n_epochs,  # total number of training epochs
         per_device_train_batch_size=16,  # batch size per device during training
-        per_device_eval_batch_size=64,   # batch size for evaluation
-        #warmup_steps=500,                # number of warmup steps for learning rate scheduler
-        warmup_ratio = 0.1,
-        weight_decay=0.01,               # strength of weight decay
-        logging_dir= output_folder_path + '/logs/' + suffix,            # directory for storing logs
-        logging_strategy = "epoch",
+        per_device_eval_batch_size=64,  # batch size for evaluation
+        # warmup_steps=500,                # number of warmup steps for learning rate scheduler
+        warmup_ratio=0.1,
+        weight_decay=0.01,  # strength of weight decay
+        logging_dir=output_folder_path + '/logs/' + suffix,  # directory for storing logs
+        logging_strategy="epoch",
         evaluation_strategy="epoch",
-        save_strategy = "epoch",
-        load_best_model_at_end = True,
-        metric_for_best_model = "eval_loss",
-        greater_is_better = False,
-        save_total_limit = 2, # limit the total amount of checkpoints. Deletes the older checkpoints in `output_dir`. When `load_best_model_at_end` is enabled, the "best" checkpoint will always be retained in addition to the most recent ones.
+        save_strategy="epoch",
+        load_best_model_at_end=True,
+        metric_for_best_model="eval_loss",
+        greater_is_better=False,
+        save_total_limit=2,
+        # limit the total amount of checkpoints. Deletes the older checkpoints in `output_dir`. When `load_best_model_at_end` is enabled, the "best" checkpoint will always be retained in addition to the most recent ones.
         report_to="wandb",
-        run_name = run_name)
+        run_name=run_name)
 
-       # Initialize WandB
+    # Initialize WandB
     wandb.init(
         project="clinical-trials-ner",
         group="train-data-size-impact-cluster",
@@ -269,11 +274,11 @@ def main():
     )
 
     trainer = Trainer(
-        model=model,                         # the instantiated 🤗 Transformers model to be trained
-        args=training_args,                  # training arguments, defined above
-        train_dataset=sampled_subset,         # training dataset
-        eval_dataset=valid_dataset,           # evaluation dataset
-        tokenizer = tokenizer,
+        model=model,  # the instantiated 🤗 Transformers model to be trained
+        args=training_args,  # training arguments, defined above
+        train_dataset=sampled_subset,  # training dataset
+        eval_dataset=valid_dataset,  # evaluation dataset
+        tokenizer=tokenizer,
         compute_metrics=lambda p: compute_metrics(p, label_list)
     )
     ### TRAIN
@@ -283,7 +288,7 @@ def main():
     trainer.log_metrics("train", metrics)
     trainer.save_metrics("train", metrics)
     trainer.log(metrics)
-    trainer.save_model() # will save the best model since load_best_model_at_end=True
+    trainer.save_model()  # will save the best model since load_best_model_at_end=True
 
     ### EVAL
     logger.info("*** EVALUATE ***")
@@ -304,6 +309,7 @@ def main():
 
     # Close the WandB session
     wandb.finish()
+
 
 if __name__ == "__main__":
     main()

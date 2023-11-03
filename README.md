@@ -94,6 +94,8 @@ Please make sure you have the reference to the folder with the data correctly. T
 Please note that [wandb](https://docs.wandb.ai/guides/integrations/huggingface) was used to collect and visualize the training results.
 
 ## GPT Model
+The extraction of condition and intervention using GPT is in [Annotate with GPT.ipynb](models%2Fgpt%2FAnnotate%20with%20GPT.ipynb). Note that the code expects a valid OpenAPI key that
+can be read from the credentials.txt file. Note that the annotation can take up to 20 minutes.
 
 ## Dictionary Lookup
 
