@@ -38,6 +38,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/data/annotated_data/corpus_stats/clintrials_dev_entity_class_stats.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/data/annotated_data/data_splits/ct_neuro_dev_merged_90.csv">
           <value>
             <Attribute>

@@ -4,3 +4,4 @@ data/neuro_diseases_terminology/input/mesh_desc2023.xml
 models/bert/trained
 core/data
 temp
+data/drug_names_terminology/drugdb_full_database.xml

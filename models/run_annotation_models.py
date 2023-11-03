@@ -30,8 +30,8 @@ if __name__ == '__main__':
     test_data_path_csv = corpus_files_path_prefix + "ct_neuro_test_merged_90.csv"
     output_annotations_path_prefix = "./predictions/"
 
-    train_data_path = "/Users/donevas/Desktop/Projects/Univeristy/PhD/Code/NeuroTrialNER/temp/corpus_files/ct_neuro_train_data_713.json"
-    test_data_path = "/Users/donevas/Desktop/Projects/Univeristy/PhD/Code/NeuroTrialNER/temp/corpus_files/ct_neuro_test_data_90.json"
+    #train_data_path = "/Users/donevas/Desktop/Projects/Univeristy/PhD/Code/NeuroTrialNER/temp/corpus_files/ct_neuro_train_data_713.json"
+    #test_data_path = "/Users/donevas/Desktop/Projects/Univeristy/PhD/Code/NeuroTrialNER/temp/corpus_files/ct_neuro_test_data_90.json"
 
     #### LinkBERT ####
     if run_linkbert:

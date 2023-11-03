@@ -32,8 +32,8 @@ def save_text_json_to_csv(df, file_path_name):
 if __name__ == '__main__':
     today = date.today()
     today_formatted = today.strftime("%Y%m%d")
-    file_name_batch_1 = "./raw_data_aact_sample/random_sample_neurological_with_summaries_202306151741.csv"
-    file_name_batch_2 = "./raw_data_aact_sample/aact_neuro_samples_second_batch_202309071141.csv"
+    file_name_batch_1 = "data_aact_sample/random_sample_neurological_with_summaries_202306151741.csv"
+    file_name_batch_2 = "data_aact_sample/aact_neuro_samples_second_batch_202309071141.csv"
 
     df1 = pd.read_csv(file_name_batch_1)
 

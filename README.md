@@ -47,6 +47,13 @@ of annotations will be generated: "O" for no label, "B-XX" for begin label XX, o
 Furthermore, the final dataset file will be split into train, dev, and test parts (proportion 80-10-10). The final data used for training
 the models can be found in [data_splits](data%2Fannotated_data%2Fdata_splits).
 
+### Generating corpus statistics
+```bib
+generate_corpus_statistics.py
+```
+Generates information about the total number of entities for each entity type in the datasets. Also outputs the frequency of individual entities. Otput saved in [corpus_stats](data%2Fannotated_data%2Fcorpus_stats).
+This data is used in [CT Corpus Stats.ipynb](data%2FCT%20Corpus%20Stats.ipynb) to create visuals of top entities based on their frequency.
+
 ## Terminology Dictionary Generation
 ### Neuropsychiatric Disease Names
 Prerequisites to reproduce the results:
@@ -93,11 +100,30 @@ Please make sure you have the reference to the folder with the data correctly. T
 
 Please note that [wandb](https://docs.wandb.ai/guides/integrations/huggingface) was used to collect and visualize the training results.
 
+### Prediction
+```bib
+models/run_annotation_models.py
+```
+This file will initialize the requested models and do prediction on the test dataset. A prerequisite is to have the trained model files available.
+The prediction code is in the core module file [models.py](core%2Fmodels.py).
+
+Two outputs can be generated. With model.bert_predict_bio_format() an array of the entity class for each token is saved. With model.annotate() the annotations are saved
+in the format (start index, end index, type, entity tokens), i.e., (99, 109, 'DRUG', 'Gabapentin'). The results are saved under [predictions](models%2Fpredictions).
+
+### Evaluation
+```bib
+models/evaluate.py
+```
+This file will call the implementation of the sequeval, i.e., token-wise, evaluation of the models's performance. The implementation of the evaluation code is in [performance_evaluation.py](core%2Fperformance_evaluation.py).
+
+```bib
+models/CT Models Evaluation.ipynb
+```
+In this notebook, the aggregation of labels on trial level is performed, as well as the normalization of the entities based on the drug and disease dictionaries.
+The performance is subsequently evaluated on trial/abstract level.
+
 ## GPT Model
 The extraction of condition and intervention using GPT is in [Annotate with GPT.ipynb](models%2Fgpt%2FAnnotate%20with%20GPT.ipynb). Note that the code expects a valid OpenAPI key that
 can be read from the credentials.txt file. Note that the annotation can take up to 20 minutes.
 
 ## Dictionary Lookup
-
-
-# 3. Inference and Evaluation
