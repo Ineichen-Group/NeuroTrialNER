@@ -112,7 +112,7 @@ in the format (start index, end index, type, entity tokens), i.e., (99, 109, 'DR
 
 ## GPT Model
 The extraction of condition and intervention using GPT is in [Annotate with GPT.ipynb](models%2Fgpt%2FAnnotate%20with%20GPT.ipynb). Note that the code expects a valid OpenAPI key that
-can be read from the credentials.txt file. Note that the annotation can take up to 20 minutes.
+can be read from the credentials.txt file. Note that the annotation can take up to 20 minutes. The results are saved under [predictions](models%2Fpredictions).
 
 ## Dictionary Lookup
 
