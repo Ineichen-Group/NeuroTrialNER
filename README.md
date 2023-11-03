@@ -8,7 +8,7 @@ To install the defined dependencies for the project, make sure you have the .tom
 ```bib
 poetry install
 ```
-The .toml file contains all relevant packages that need to be installed for running the project.
+The pyproject.toml file contains all relevant packages that need to be installed for running the project. The poetry.lock file is needed to ensure the same version of the installed libraries.
 
 # 2. Data
 The code related to the data processing and annotation steps is in the folder ./data.
