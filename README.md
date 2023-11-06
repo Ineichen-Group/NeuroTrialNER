@@ -79,7 +79,7 @@ With the functions here we merge the two disease lists from MeSH and ICD ([disea
 that contains all synonyms and spelling variations on a new line.
 
 ### Drug Names
-The fiels to compile the drug dictionary are in [drug_names_terminology](data%2Fdrug_names_terminology).
+The files to compile the drug dictionary are in [drug_names_terminology](data%2Fdrug_names_terminology).
 
 # 3. NER Methods
 ## BERT Models

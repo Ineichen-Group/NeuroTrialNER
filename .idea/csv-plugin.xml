@@ -80,20 +80,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/data/raw_data_aact_sample/aact_neuro_samples_second_batch_202309071141.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/data/raw_data_aact_sample/random_sample_neurological_with_summaries_202306151741.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="/models/evaluations/clintrials_evaluation_entities_stats_BioLinkBERT-base.csv">
           <value>
             <Attribute>
@@ -109,6 +95,20 @@
           </value>
         </entry>
         <entry key="/models/predictions/ct_neuro_test_annotated_BioLinkBERT-base_20231103.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/models/predictions/ct_neuro_test_annotated_BioLinkBERT-base_BIO_20231103.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/models/predictions/ct_neuro_test_annotated_BioLinkBERT-base_BIO_20231106.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

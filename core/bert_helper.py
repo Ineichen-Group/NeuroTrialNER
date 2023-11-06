@@ -98,5 +98,5 @@ def tokenize_and_align_labels(examples, tokenizer, text_column_name, label_colum
 
     tokenized_inputs["labels"] = labels
     tokenized_inputs["word_ids"] = word_ids_list
-    tokenized_inputs["tokenized_tokens"] = tokens_list
+    #tokenized_inputs["tokenized_tokens"] = tokens_list # TODO: cauzes an ArrowInvalid error.
     return tokenized_inputs
