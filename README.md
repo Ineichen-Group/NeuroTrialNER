@@ -106,15 +106,26 @@ models/run_annotation_models.py
 ```
 This file will initialize the requested models and do prediction on the test dataset. A prerequisite is to have the trained model files available.
 The prediction code is in the core module file [models.py](core%2Fmodels.py).
-
+ 
 Two outputs can be generated. With model.bert_predict_bio_format() an array of the entity class for each token is saved. With model.annotate() the annotations are saved
 in the format (start index, end index, type, entity tokens), i.e., (99, 109, 'DRUG', 'Gabapentin'). The results are saved under [predictions](models%2Fpredictions).
+
 
 ## GPT Model
 The extraction of condition and intervention using GPT is in [Annotate with GPT.ipynb](models%2Fgpt%2FAnnotate%20with%20GPT.ipynb). Note that the code expects a valid OpenAPI key that
 can be read from the credentials.txt file. Note that the annotation can take up to 20 minutes. The results are saved under [predictions](models%2Fpredictions).
 
 ## Dictionary Lookup
+```bib
+models/run_annotation_models.py
+```
+The dictionary lookup model can be initialized as:
+
+```bib
+regex_model = NERModel("regex", "regex")
+annotated_ds = regex_model.annotate(test_data_path_csv, "text")
+```
+The code for the annotation is in [drugs_condition_dictionary_finder.py](core%2Fdrugs_condition_dictionary_finder.py).
 
 ## Evaluation
 ```bib

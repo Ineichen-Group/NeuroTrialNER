@@ -20,8 +20,8 @@ if __name__ == '__main__':
     run_biobert = True
     # TODO: Error "Placeholder storage has not been allocated on MPS device!" when trying to run tuple and BIO annotations sequentially?
     run_tuples_annotations = False
-    run_BIO_annotations = True
-    run_regex = False
+    run_BIO_annotations = False
+    run_regex_dictionary = True
 
     relevant_data_path = "../data/annotated_data/"
     corpus_files_path_prefix = relevant_data_path + "data_splits/"
@@ -77,8 +77,9 @@ if __name__ == '__main__':
                 output_annotations_path_prefix + "ct_neuro_test_annotated_{}_{}.csv".format(model_name_str,
                                                                                             current_date), sep=",")
 
-    #### RegExE####
-    if run_regex:
+    #### RegEx ####
+    if run_regex_dictionary:
+        print("Running RegEx Dictionary Lookup model_annotations.")
         regex_model = NERModel("regex", "regex")
         annotated_ds = regex_model.annotate(test_data_path_csv, "text")
         annotated_ds.to_csv(

@@ -2,6 +2,7 @@ import csv
 import re
 import pathlib
 import pandas as pd
+
 this_path = pathlib.Path(__file__).parent.resolve()
 
 drug_variant_to_canonical = {}
@@ -588,7 +589,8 @@ words_to_allow_lower_case = {'amphetamine',
 # Excludes names like: "Aluminum Hydroxide and Magnesium Hydroxide"
 # TODO: Issue with differently capitalized drugs, e.g. 3,4-D(d)iaminopyridine
 variant_regex = re.compile(r'^[A-Za-z0-9,]+[ -]?[A-Za-z0-9\-]+(?:[ -][A-Z])?$')
-
+path_to_drugs_data = "../data/drug_names_terminology/"
+path_to_conditions_data = "../data/neuro_diseases_terminology/"
 
 def add_variant(canonical_name, variant, dict_type="drug"):
     if dict_type == "drug":
@@ -626,8 +628,8 @@ def generate_conditions_lookup_dictionary(df):
 def add_drug(id, synonyms):
     synonyms = [s.strip() for s in synonyms]
 
-    #TODO: add using an exclusion list as a parameter option to the function
-    #if re.sub("[- ].+", "", synonyms[0].upper()) in exclusions:
+    # TODO: add using an exclusion list as a parameter option to the function
+    # if re.sub("[- ].+", "", synonyms[0].upper()) in exclusions:
     #    return
     if not variant_regex.match(synonyms[0]):
         return
@@ -644,7 +646,7 @@ def add_drug(id, synonyms):
     else:
         drug_canonical_to_data[synonyms[0]]["mesh_id"] = id
     for variant in synonyms:
-        #if re.sub(" .+", "", variant.upper()) in exclusions:
+        # if re.sub(" .+", "", variant.upper()) in exclusions:
         #    return
         if variant_regex.match(variant):
             drug_canonical_to_data[synonyms[0]]["synonyms"].add(variant)
@@ -654,7 +656,8 @@ def add_drug(id, synonyms):
                 add_variant(synonyms[0], variant.lower())
 
 
-with open(this_path.joinpath("./data/drugs_dictionary_medlineplus.csv"), 'r', encoding="utf-8") as csvfile:
+with open(this_path.joinpath(path_to_drugs_data + "drugs_dictionary_medlineplus.csv"), 'r',
+          encoding="utf-8") as csvfile:
     spamreader = csv.reader(csvfile, delimiter=',')
     headers = None
     for row in spamreader:
@@ -663,7 +666,7 @@ with open(this_path.joinpath("./data/drugs_dictionary_medlineplus.csv"), 'r', en
             continue
         id = row[0]
         name = row[1]
-        #if id == "a699048":
+        # if id == "a699048":
         #    print("check")
         synonyms = row[2].split(r"|")
 
@@ -673,7 +676,7 @@ with open(this_path.joinpath("./data/drugs_dictionary_medlineplus.csv"), 'r', en
 
         add_drug(id, [name] + synonyms)
 
-with open(this_path.joinpath("./data/drugs_dictionary_nhs.csv"), 'r', encoding="utf-8") as csvfile:
+with open(this_path.joinpath(path_to_drugs_data + "drugs_dictionary_nhs.csv"), 'r', encoding="utf-8") as csvfile:
     spamreader = csv.reader(csvfile, delimiter=',')
     headers = None
     for row in spamreader:
@@ -686,8 +689,7 @@ with open(this_path.joinpath("./data/drugs_dictionary_nhs.csv"), 'r', encoding="
 
         add_drug(id, [name] + synonyms)
 
-
-with open(this_path.joinpath("./data/drugs_dictionary_wikipedia.csv"), 'r', encoding="utf-8") as csvfile:
+with open(this_path.joinpath(path_to_drugs_data + "drugs_dictionary_wikipedia.csv"), 'r', encoding="utf-8") as csvfile:
     spamreader = csv.reader(csvfile, delimiter=',')
     headers = None
     for row in spamreader:
@@ -699,8 +701,8 @@ with open(this_path.joinpath("./data/drugs_dictionary_wikipedia.csv"), 'r', enco
         synonyms = row[2].split(r"|")
 
         add_drug(id, [name] + synonyms)
-        
-with open(this_path.joinpath("./data/drugs_dictionary_mesh.csv"), 'r', encoding="utf-8") as csvfile:
+
+with open(this_path.joinpath(path_to_drugs_data + "drugs_dictionary_mesh.csv"), 'r', encoding="utf-8") as csvfile:
     spamreader = csv.reader(csvfile, delimiter=',')
     headers = None
     for row in spamreader:
@@ -716,11 +718,12 @@ with open(this_path.joinpath("./data/drugs_dictionary_mesh.csv"), 'r', encoding=
 # TODO: create a parametrized function from this, not hard-coded inline as it is
 is_new_format = False
 if is_new_format:
-    with open(this_path.joinpath("./data/drugdb_full_database_parsed.csv"), 'r', encoding="utf-8") as csvfile:
+    with open(this_path.joinpath(path_to_drugs_data + "drugdb_full_database_parsed.csv"), 'r',
+              encoding="utf-8") as csvfile:
         spamreader = csv.reader(csvfile, delimiter=';')
         headers = None
         for row in spamreader:
-            #print(row)
+            # print(row)
             if not headers:
                 headers = row
                 continue
@@ -732,7 +735,7 @@ if is_new_format:
             add_drug(id, [name] + syn_prod)
 # no product names considered
 else:
-    with open(this_path.joinpath("./data/drugbank vocabulary.csv"), 'r', encoding="utf-8") as csvfile:
+    with open(this_path.joinpath(path_to_drugs_data + "drugbank vocabulary.csv"), 'r', encoding="utf-8") as csvfile:
         spamreader = csv.reader(csvfile, delimiter=',')
         headers = None
         for row in spamreader:
@@ -743,7 +746,6 @@ else:
             name = row[2]
             synonyms = row[5].split(r"|")
             add_drug(id, [name] + synonyms)
-        
 
 
 def find_drugs(tokens: list, is_ignore_case: bool = False):
@@ -775,7 +777,9 @@ def find_drugs(tokens: list, is_ignore_case: bool = False):
 
     return drug_matches
 
-def find_drugs_normalized_output(sentence: str, tokens: list, is_ignore_case: bool = False, return_word_not_label: bool = False):
+
+def find_drugs_normalized_output(sentence: str, tokens: list, is_ignore_case: bool = False,
+                                 return_word_not_label: bool = False):
     # this code add additional model_annotations with the start and end character of the found drugs
     # needed training outputs for SpaCy NER
     drug_matches = []
@@ -789,9 +793,10 @@ def find_drugs_normalized_output(sentence: str, tokens: list, is_ignore_case: bo
             match = drug_variant_to_canonical.get(cand.upper(), None)
         else:
             match = drug_variant_to_canonical.get(cand, None)
-        if match and cand.upper() != "MG": # issue with 10 mg -> mg considered a DRUG
+        if match and cand.upper() != "MG":  # issue with 10 mg -> mg considered a DRUG
             if return_word_not_label:
-                char_indices = [(i.start(), i.end()) + (cand.lower(),) for i in re.finditer(cand.upper(), sentence.upper())]
+                char_indices = [(i.start(), i.end()) + (cand.lower(),) for i in
+                                re.finditer(cand.upper(), sentence.upper())]
             else:
                 char_indices = [(i.start(), i.end()) + ("DRUG",) for i in re.finditer(cand.upper(), sentence.upper())]
             all_char_indices = all_char_indices + char_indices
@@ -809,19 +814,24 @@ def find_drugs_normalized_output(sentence: str, tokens: list, is_ignore_case: bo
             match = drug_variant_to_canonical.get(token, None)
         if match and token.upper() != "MG":
             if return_word_not_label:
-                char_indices = [(i.start(), i.end()) + (token.lower(),) for i in re.finditer(token.upper(), sentence.upper())]
+                char_indices = [(i.start(), i.end()) + (token.lower(),) for i in
+                                re.finditer(token.upper(), sentence.upper())]
             else:
-                char_indices = [(i.start(), i.end()) + ("DRUG",) + (token.lower(),) for i in re.finditer(token.upper(), sentence.upper())]
+                char_indices = [(i.start(), i.end()) + ("DRUG",) + (token.lower(),) for i in
+                                re.finditer(token.upper(), sentence.upper())]
             all_char_indices = all_char_indices + char_indices
             for m in match:
                 drug_matches.append((drug_canonical_to_data[m], token_idx, token_idx))
 
     all_char_indices = list(set(all_char_indices))
-    return drug_matches, all_char_indices #{"entites":all_char_indices}
+    return drug_matches, all_char_indices  # {"entites":all_char_indices}
+
 
 def load_conditions_dict():
-    conditions_db = pd.read_csv("/Users/donevas/Desktop/Projects/Univeristy/PhD/Code/pythonNLP/clinical_trials_ner/entity_linking/data/diseases_dictionary_mesh_icd_20230731.csv")
+    conditions_db = pd.read_csv(
+        path_to_conditions_data + "output/diseases_dictionary_mesh_icd.csv")
     synonyms_dict = generate_conditions_lookup_dictionary(conditions_db)
+
 
 def find_match(token, is_ignore_case: bool = False):
     if is_ignore_case:
@@ -831,6 +841,7 @@ def find_match(token, is_ignore_case: bool = False):
         match_drug = drug_variant_to_canonical.get(token, None)
         match_condition = condition_variant_to_canonical.get(token, None)
     return match_drug, match_condition
+
 
 def find_drugs_and_conditions_normalized_BIO_output(tokens: list, is_ignore_case: bool = True):
     load_conditions_dict()

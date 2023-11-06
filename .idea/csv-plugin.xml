@@ -122,6 +122,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/models/predictions/ct_neuro_test_annotated_regex_20230922.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/models/predictions/ct_neuro_test_annotated_regex_20231106.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
