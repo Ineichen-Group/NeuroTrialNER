@@ -61,7 +61,7 @@ Those outputs were then further reviewed in prodigy in order to resolve conflict
 are the two .jsonl files "neuro_merged_all_433" and "neuro_merged_annotations_405_2batch". 
 
 The instructions for using prodigy are in the file [Using Prodigy for Named Entity Annotation.docx](data%2Fdata_for_prodigy%2FUsing%20Prodigy%20for%20Named%20Entity%20Annotation.docx). 
-The annotations guidelines can be found here 
+The annotations guidelines can be found here [NeuroTrialNER_Data_Annotation_Guidelines.pdf](data%2Fdata_for_prodigy%2FNeuroTrialNER_Data_Annotation_Guidelines.pdf).
 ```bib
 from_prodigy_data_converter.py
 ```
