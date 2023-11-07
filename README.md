@@ -97,7 +97,7 @@ This data is used in [CT Corpus Stats.ipynb](data%2FCT%20Corpus%20Stats.ipynb) t
 ## BERT Models
 ### Training
 The script used for training the two BERT models on the server is [run_experiment_on_server.sh](models%2Fbert%2Frun_experiment_on_server.sh).
-It executes the following command:
+It executes [train_script.py](models%2Fbert%2Ftrain_script.py) via the following command:
 ```bib
 python train_script.py --output_path "../clinical_trials_out" \
     --model_name_or_path "dmis-lab/biobert-v1.1" \
