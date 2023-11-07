@@ -150,6 +150,8 @@ If those are found in the dictionaries that token(s) recieve the CONDITION or DR
 ](https://pypi.org/project/drug-named-entity-recognition/#:~:text=%F0%9F%92%8A%20Drug%20named%20entity%20recognition&text=This%20is%20a%20lightweight%20Python,t%20support%20misspellings%20at%20present.).
 
 ## Evaluation
+
+### Token- and Abstract-level
 ```bib
 models/evaluate.py
 ```
@@ -160,3 +162,7 @@ models/CT Models Evaluation.ipynb
 ```
 In this notebook, the aggregation of labels on trial level is performed, as well as the normalization of the entities based on the drug and disease dictionaries.
 The performance is subsequently evaluated on trial/abstract level.
+
+### Error Analysis
+The tool PowerBI was used for the detailed error analysis. A free desktop version can be downloaded from 
+[Microsoft Power BI Desktop](https://powerbi.microsoft.com/en-us/downloads/) to open the file [Error_Analysis_PowerBI.pbix](models%2FError_Analysis_PowerBI.pbix).

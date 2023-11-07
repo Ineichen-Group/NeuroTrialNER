@@ -59,6 +59,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/data/data_aact_sample/random_sample_neurological_with_summaries_202306151741.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/data/neuro_diseases_terminology/output/diseases_dictionary_mesh.csv">
           <value>
             <Attribute>
@@ -88,6 +95,20 @@
           </value>
         </entry>
         <entry key="/models/evaluations/clintrials_evaluation_sent_entities_stats_BioLinkBERT-base.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/models/evaluations/evaluated_ct_level_conditions.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/models/evaluations/evaluated_ct_level_drugs.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

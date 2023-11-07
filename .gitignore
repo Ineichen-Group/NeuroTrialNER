@@ -6,3 +6,4 @@ core/data
 temp
 data/drug_names_terminology/drugdb_full_database.xml
 .ipynb_checkpoints
+temp_testing.ipynb
