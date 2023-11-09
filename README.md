@@ -39,7 +39,7 @@ that contains all synonyms and spelling variations on a new line. This flat list
 
 ### Drug Names
 The files to compile the drug dictionary are in [drug_names_terminology](data%2Fdrug_names_terminology). They were directly used by
-the code described in "NER Methods/Dictionary Lookup" to annotate for drugs.
+the code described in [NER Methods/Dictionary Lookup](#dictionary-lookup) to annotate for drugs.
 
 ## Sample Extraction from AACT
 For our project, a static copy of the AACT database was downloaded on May 12 2023. Following the [installation instructions](https://aact.ctti-clinicaltrials.org/snapshots), 
@@ -53,7 +53,7 @@ The official title (from table _ctgov.studies_) of each trial together with its 
 ```bib
 to_prodigy_data_converter.py
 ```
-The code in to_prodigy_data_converter.py converts the extracted sample from the AACT database ([raw_data_aact_sample](data%2Fraw_data_aact_sample)) from .csv to a .json file ([data_for_prodigy](data%2Fdata_for_prodigy)). This data will be used for annotation in prodigy.
+The code in to_prodigy_data_converter.py converts the extracted sample from the AACT database [data_aact_sample](data%2Fdata_aact_sample)from .csv to a .json file ([data_for_prodigy](data%2Fdata_for_prodigy)). This data will be used for annotation in prodigy.
 During our first annotation period, we first annotated 100 pilot examples and refined the annotation guidelines. Then we annotated another 400 examples. In a second annotation period, two annotators had another 500 samples to annotate.
 
 The resulting annotations are stored in [annotation_round_1](data%2Fannotated_data%2Fannotation_round_1) and [annotation_round_2](data%2Fannotated_data%2Fannotation_round_2). There you can find the individual annotations of each annotator. 
@@ -66,7 +66,7 @@ The annotations guidelines can be found here [NeuroTrialNER_Data_Annotation_Guid
 from_prodigy_data_converter.py
 ```
 In the from_prodigy_data_converter.py file only the merged annotations are kept, i.e. after review. The resulting files are 
-"ct_neuro_final_target_annotated_ds_round_1.jsonl" and "ct_neuro_405_target_annotated_ds_round_2.jsonl".
+[ct_neuro_final_target_annotated_ds_round_1.jsonl](data%2Fannotated_data%2Fannotation_round_1%2Fct_neuro_final_target_annotated_ds_round_1.jsonl) and [ct_neuro_405_target_annotated_ds_round_2.jsonl](data%2Fannotated_data%2Fannotation_round_2%2Fct_neuro_405_target_annotated_ds_round_2.jsonl).
 
 ### Inter-Annotator Agreement
 ```bib
