@@ -16,12 +16,14 @@ if __name__ == '__main__':
 
     current_date = datetime.datetime.now().strftime("%Y%m%d")
 
-    run_linkbert = True
-    run_biobert = True
+    run_linkbert = False
+    run_biobert = False
+    run_bert_base_uncased = True
+
     # TODO: Error "Placeholder storage has not been allocated on MPS device!" when trying to run tuple and BIO annotations sequentially?
     run_tuples_annotations = False
-    run_BIO_annotations = False
-    run_regex_dictionary = True
+    run_BIO_annotations = True
+    run_regex_dictionary = False
 
     relevant_data_path = "../data/annotated_data/"
     corpus_files_path_prefix = relevant_data_path + "data_splits/"
@@ -32,6 +34,29 @@ if __name__ == '__main__':
 
     #train_data_path = "/Users/donevas/Desktop/Projects/Univeristy/PhD/Code/NeuroTrialNER/temp/corpus_files/ct_neuro_train_data_713.json"
     #test_data_path = "/Users/donevas/Desktop/Projects/Univeristy/PhD/Code/NeuroTrialNER/temp/corpus_files/ct_neuro_test_data_90.json"
+
+    #### BERT BASE ####
+    if run_bert_base_uncased:
+        print("Running BERT-BASE model_annotations.")
+        hugging_face_model_name = "bert-base-uncased"
+        hugging_face_model_path = "./bert/trained/bert-base-uncased/epochs_15_data_size_100_iter_4/"
+        model_name_str = "bert-base-uncased"
+        model = NERModel("huggingface", hugging_face_model_name, hugging_face_model_path, short_to_long_class_names_map)
+
+        ### ANNOTATE WITH BIO OUTPUT
+        if run_BIO_annotations:
+            predict_dataset_with_pred = model.bert_predict_bio_format(train_data_path, test_data_path, "tokens",
+                                                                      "ner_tags")
+            predict_dataset_with_pred.to_csv(
+                output_annotations_path_prefix + "ct_neuro_test_annotated_{}_BIO_{}.csv".format(model_name_str,
+                                                                                                current_date), sep=",")
+        if run_tuples_annotations:
+            ### ANNOTATE WITH TUPLE OUTPUT
+            annotated_ds = model.annotate(test_data_path_csv, "text")
+            annotated_ds.to_csv(
+                output_annotations_path_prefix + "ct_neuro_test_annotated_{}_{}.csv".format(model_name_str,
+                                                                                            current_date), sep=",")
+
 
     #### LinkBERT ####
     if run_linkbert:
