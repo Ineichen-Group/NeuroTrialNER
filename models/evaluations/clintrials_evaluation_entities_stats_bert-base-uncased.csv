@@ -1,0 +1,847 @@
+entity_token,in_test_frq,entity_class,in_train_frq,evaluation,model
+alexander disease,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+ion373,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+place,15,control,0,"{'tp': 0, 'fp': 15, 'fn': 0}",bert-base-uncased
+axd,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+placebo,14,control,163,"{'tp': 1, 'fp': 0, 'fn': 13}",bert-base-uncased
+axd.,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+cannabidiol,1,drug,1,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+cannabis,7,other,7,"{'tp': 5, 'fp': 0, 'fn': 2}",bert-base-uncased
+pain,38,condition,61,"{'tp': 13, 'fp': 15, 'fn': 10}",bert-base-uncased
+chronic pain,5,condition,9,"{'tp': 3, 'fp': 1, 'fn': 1}",bert-base-uncased
+cannabinoids,1,drug,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+cbd,1,drug,2,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+high - cbd cannabis,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+experimental pain,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+abuse,2,condition,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+th,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+tetrahydrocannabinol,1,drug,1,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+repeated cannabis,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+thc,1,drug,3,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+medicinal cannabis,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+delta-9-tetrahydrocannabinol,1,drug,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+cannabinoid,1,drug,1,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+high-cbd cannabis,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+autistic disorder,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+pdd,1,condition,1,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+risperidone,3,drug,9,"{'tp': 1, 'fp': 0, 'fn': 2}",bert-base-uncased
+pervasive developmental disorders,2,condition,0,"{'tp': 1, 'fp': 0, 'fn': 1}",bert-base-uncased
+##tic,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+per,2,condition,2,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+##vasive developmental disorders,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+risperidon,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+anti,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+antipsychotic medication,1,drug,1,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+steroid,3,drug,0,"{'tp': 3, 'fp': 0, 'fn': 0}",bert-base-uncased
+gabapentin,4,drug,2,"{'tp': 4, 'fp': 0, 'fn': 0}",bert-base-uncased
+lu,5,condition,0,"{'tp': 0, 'fp': 5, 'fn': 0}",bert-base-uncased
+##mbosacral radicular pain,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##mbosacral radiculopathy,4,condition,0,"{'tp': 0, 'fp': 4, 'fn': 0}",bert-base-uncased
+epid,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+lumbosacral radiculopathy,4,condition,0,"{'tp': 0, 'fp': 0, 'fn': 4}",bert-base-uncased
+lumbosacral radicular pain,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+passive static stretching,1,other,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+static passive stretching,1,other,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+muscle stretching,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+"muscle stretching protocol,",1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+spinal cord injury,11,condition,26,"{'tp': 7, 'fp': 2, 'fn': 2}",bert-base-uncased
+acquired brain injury,2,condition,6,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+abi,2,condition,2,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+sci,12,condition,39,"{'tp': 5, 'fp': 3, 'fn': 4}",bert-base-uncased
+ste,2,other,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+exoskeleton,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##lo exoskeleton,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+stelo modular,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##oskeleton,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+ex,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+stelo,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+gait impairment,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+stelo modular exoskeleton,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+stelo exoskeleton,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+exoskeleton based on modular technology,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+concussion,2,condition,2,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+sub - maximal exercise protocol,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+sub - maximal exercise program,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+sub-maximal exercise protocol,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+sub-maximal exercise program,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+chf 5074,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+mild cognitive impairment,3,condition,20,"{'tp': 3, 'fp': 0, 'fn': 0}",bert-base-uncased
+bev,2,drug,0,"{'tp': 1, 'fp': 0, 'fn': 1}",bert-base-uncased
+rgbm,2,condition,0,"{'tp': 1, 'fp': 0, 'fn': 1}",bert-base-uncased
+navifus system,1,other,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+rec,2,condition,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+fu,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+be,2,drug,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+radio,1,condition,1,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+te,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+r,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##vacizumab,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+care,2,other,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+##urrent glioblastoma multiforme,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+radiotherapy,1,radiotherapy,2,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+temozolomide,1,drug,2,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+bevacizumab,1,drug,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+fus add-on,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+recurrent glioblastoma multiforme,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+obstructive sleep apnea,4,condition,25,"{'tp': 3, 'fp': 0, 'fn': 1}",bert-base-uncased
+stroke,14,condition,111,"{'tp': 7, 'fp': 3, 'fn': 4}",bert-base-uncased
+continuous positive airway pressure,2,other,7,"{'tp': 1, 'fp': 0, 'fn': 1}",bert-base-uncased
+o - pe,2,other,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+##ap,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+oropharyngeal muscles,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+oropharyngeal exercise,2,physical,0,"{'tp': 0, 'fp': 1, 'fn': 1}",bert-base-uncased
+post - stroke,2,condition,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+cp,2,condition,8,"{'tp': 1, 'fp': 1, 'fn': 0}",bert-base-uncased
+sham control arm,1,control,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+o-pe,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+strengthening oropharyngeal muscles,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+sham control,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+o-pes,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+post-stroke,3,condition,11,"{'tp': 0, 'fp': 0, 'fn': 3}",bert-base-uncased
+cpap,2,other,13,"{'tp': 1, 'fp': 0, 'fn': 1}",bert-base-uncased
+vascular dementia,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+sta - 1,3,drug,0,"{'tp': 0, 'fp': 3, 'fn': 0}",bert-base-uncased
+marrow - sea deficiency,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+sta-1 capsule,3,other,0,"{'tp': 0, 'fp': 0, 'fn': 3}",bert-base-uncased
+marrow-sea deficiency,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+18,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+computer - based training,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+interpretation training,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+florbetapir,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+electronic florbetapir ( 18f,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+computer-based training,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+methods of interpreting florbetapir (18f) pet scans,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+electronic florbetapir (18f) interpretation training program,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+autism spectrum disorders,1,condition,1,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+cbt,5,behavioural,1,"{'tp': 1, 'fp': 0, 'fn': 4}",bert-base-uncased
+asd,2,condition,1,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+autism spectrum disorder,2,condition,1,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+intellectual disability,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+cognitive,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+disrupt,3,condition,0,"{'tp': 0, 'fp': 3, 'fn': 0}",bert-base-uncased
+- behavioral therapy,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##t,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+cb,4,condition,0,"{'tp': 0, 'fp': 4, 'fn': 0}",bert-base-uncased
+cognitive - behavioral therapy,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+ir,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+disruptive behavior,4,condition,0,"{'tp': 0, 'fp': 0, 'fn': 4}",bert-base-uncased
+cognitive-behavioral therapy,2,behavioural,1,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+osa,1,condition,28,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+l - carnitine,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+card,2,condition,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+l - c,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+l-carnitine,1,drug,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+l-c,1,drug,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+memory complaint,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+mild cognitive decline,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+smartphone,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+alzheimer ' s disease,7,condition,0,"{'tp': 0, 'fp': 7, 'fn': 0}",bert-base-uncased
+alzheimer's disease,7,condition,43,"{'tp': 0, 'fp': 0, 'fn': 7}",bert-base-uncased
+transient ischemic attack,2,condition,2,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+tia,1,condition,1,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+star,2,other,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+therapy,3,other,0,"{'tp': 0, 'fp': 3, 'fn': 0}",bert-base-uncased
+p,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+starflex®,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##flex® septal closure system,2,surgical,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+##fo,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+stroke and,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+or,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+medical therapy,1,control,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##urrent embolic stroke,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+starflex® septal closure system,2,other,0,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+recurrent embolic stroke,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+starflex® device,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+best medical therapy,2,control,0,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+pfo,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+patent foramen ovale,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+paradoxical embolism,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+re,6,condition,2,"{'tp': 6, 'fp': 0, 'fn': 0}",bert-base-uncased
+levetiracetam,5,drug,1,"{'tp': 3, 'fp': 0, 'fn': 2}",bert-base-uncased
+seizures,5,condition,10,"{'tp': 5, 'fp': 0, 'fn': 0}",bert-base-uncased
+sleep training,2,behavioural,0,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+carbamazepine,3,drug,2,"{'tp': 2, 'fp': 0, 'fn': 1}",bert-base-uncased
+rolandic epilepsy,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+carbamaze,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+plan,2,other,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+##etiracetam,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##ile,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+ep,5,condition,0,"{'tp': 0, 'fp': 5, 'fn': 0}",bert-base-uncased
+sleep training at all,1,control,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+lev,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+levetirace,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+active monitoring,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##ilepsy,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+sleep behaviour intervention,2,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 1}",bert-base-uncased
+##psy,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+no sleep training,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+epilepsy,7,condition,35,"{'tp': 0, 'fp': 0, 'fn': 7}",bert-base-uncased
+no treatment,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+carbon - 14 bia 28 - 6156,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+bia 28 - 61,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+bia 28 - 6156,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+bia 28-6156,2,drug,0,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+carbon-14 bia 28-6156,1,drug,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+bupivicaine,1,drug,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+post surgical pain,3,condition,0,"{'tp': 3, 'fp': 0, 'fn': 0}",bert-base-uncased
+bupivacaine,8,drug,2,"{'tp': 4, 'fp': 0, 'fn': 4}",bert-base-uncased
+lidocaine,5,drug,7,"{'tp': 2, 'fp': 0, 'fn': 3}",bert-base-uncased
+##ine,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+lid,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+lidoca,2,drug,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+##esthesia,3,condition,0,"{'tp': 0, 'fp': 3, 'fn': 0}",bert-base-uncased
+poorly,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+bu,2,drug,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+##oca,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+post,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+elective outpatient hand surgery,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+operative pain,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##pivacaine,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+epinephrine,2,drug,0,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+trigger finger release,2,condition,0,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+hand surgery,2,condition,0,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+postoperative pain,2,condition,3,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+post-operative pain,1,condition,4,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+regional pain syndromes,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+hand surgeries,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+post operative pain,1,condition,1,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+propranolol,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+urinary tract infection,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+sap,3,condition,0,"{'tp': 3, 'fp': 0, 'fn': 0}",bert-base-uncased
+adrenergic β - receptor blocker,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+post - stroke brain injury,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+stroke - associated pneumonia,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+stroke associated pneumonia,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+blank,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+brain injury,1,condition,4,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+antibiotics,1,drug,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+immunosuppression,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+adrenergic β-receptor blocker,1,drug,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+pneumonia,1,condition,1,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+stroke-associated pneumonia,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+chronic stroke,1,condition,12,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+chronic cerebral vascular accident,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+dnhs technique,3,other,0,"{'tp': 1, 'fp': 2, 'fn': 0}",bert-base-uncased
+dry needling,2,other,3,"{'tp': 1, 'fp': 1, 'fn': 0}",bert-base-uncased
+cva,2,condition,0,"{'tp': 1, 'fp': 0, 'fn': 1}",bert-base-uncased
+hyper,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+spa,2,condition,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+ha,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##agic or ischemic cva,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+dnhs,2,other,0,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+hypertonia,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+muscle stiffness,2,condition,1,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+spasticity,2,condition,15,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+deep dry needling of myofascial trigger points,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+hemiplegia,3,condition,0,"{'tp': 1, 'fp': 0, 'fn': 2}",bert-base-uncased
+shoulder pain,5,condition,3,"{'tp': 2, 'fp': 0, 'fn': 3}",bert-base-uncased
+subacromial injection,3,other,0,"{'tp': 2, 'fp': 0, 'fn': 1}",bert-base-uncased
+suprascapular nerve block,2,other,0,"{'tp': 1, 'fp': 0, 'fn': 1}",bert-base-uncased
+##ia,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+ultrasound - guided suprascapular nerve block,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+hemiplegic shoulder pain,2,condition,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+hemip,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##legic shoulder pain,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+shoulder,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+suprascapular nerve block and subacromial injection,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+hem,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+rom,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+hemiplegic,3,condition,3,"{'tp': 0, 'fp': 0, 'fn': 3}",bert-base-uncased
+poststroke,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+ultrasound-guided suprascapular nerve block,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+pth,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+mild traumatic brain injury,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+mtbi,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+persistent post - traumatic headache,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+migraine - like headache,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##odiesterase 5,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##phodiesterase 5 inhibitor,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+sildenafil,1,drug,1,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+post - traumatic headache,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+ph,3,condition,0,"{'tp': 0, 'fp': 3, 'fn': 0}",bert-base-uncased
+##os,2,drug,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+headache,1,condition,4,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+migraine,1,condition,32,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+post-traumatic headache,1,condition,2,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+persistent post-traumatic headache,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+schizophrenia,3,condition,68,"{'tp': 3, 'fp': 0, 'fn': 0}",bert-base-uncased
+paliperidone palmitate,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+intralipid emulsion,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+robotic walking,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+robotic training,2,physical,0,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+trexo robotic gait trainers,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+robotic trainers,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+robotic gait training,2,physical,0,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+robotic gait trainers,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+robotic trainer,2,physical,0,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+nervous system disorders,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+mobility impairments,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+sdb,4,condition,10,"{'tp': 4, 'fp': 0, 'fn': 0}",bert-base-uncased
+sleep disordered breathing,1,condition,1,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+dementia,12,condition,38,"{'tp': 12, 'fp': 0, 'fn': 0}",bert-base-uncased
+ad,3,condition,23,"{'tp': 3, 'fp': 0, 'fn': 0}",bert-base-uncased
+cognitive decline,3,condition,1,"{'tp': 1, 'fp': 1, 'fn': 1}",bert-base-uncased
+nasal continuous positive airway pressure,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+ne,6,condition,0,"{'tp': 0, 'fp': 6, 'fn': 0}",bert-base-uncased
+memory decline,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+tel,3,other,0,"{'tp': 0, 'fp': 3, 'fn': 0}",bert-base-uncased
+nutrition,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##e -,2,behavioural,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+tele - nutrition,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+program,2,behavioural,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+tele - nutrition counseling,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+nutrition counseling,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##e - nutrition program,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+tele-nutrition program,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+dietary advice,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+tele-nutrition,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+weight management,2,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+tele-nutrition counseling,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+youate,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+vibration of the plantar surface of the foot,1,other,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+peripheral neuropathy,2,condition,4,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+plantar vibration,1,other,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+pd,7,condition,79,"{'tp': 7, 'fp': 0, 'fn': 0}",bert-base-uncased
+rhythmic auditory cueing,2,other,2,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+beathealth,3,other,0,"{'tp': 1, 'fp': 0, 'fn': 2}",bert-base-uncased
+auditory cueing,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+parkinson ' s disease,10,condition,0,"{'tp': 0, 'fp': 10, 'fn': 0}",bert-base-uncased
+beathealth device,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+gait auto - rehabilitation program,2,physical,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+beat,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+parkinson's disease,8,condition,83,"{'tp': 0, 'fp': 0, 'fn': 8}",bert-base-uncased
+gait auto-rehabilitation program,2,physical,0,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+trichotillomania,2,condition,3,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+ttm,12,other,3,"{'tp': 9, 'fp': 0, 'fn': 3}",bert-base-uncased
+wait list,1,control,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+tt,3,condition,0,"{'tp': 0, 'fp': 3, 'fn': 0}",bert-base-uncased
+web,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+- based self - help,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+stepped care,3,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 2}",bert-base-uncased
+stepped care model,2,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+web-based self-help,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+wait list/delayed start,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+depression,2,condition,28,"{'tp': 1, 'fp': 0, 'fn': 1}",bert-base-uncased
+interactive website,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+anxiety,2,condition,23,"{'tp': 0, 'fp': 1, 'fn': 1}",bert-base-uncased
+in-person habit reversal training,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+psychological treatment,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+##uro,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##anin,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+group treatment,1,behavioural,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+waiting list,1,control,1,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+treatment - as - usual,1,control,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+sleep - hygiene based educational course,1,control,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+-,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+op,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+ins,2,other,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+##omnia,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+insomnia,1,condition,7,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+treatment-as-usual,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+sleep-hygiene based educational course,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+istradefylline,2,drug,2,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+advanced parkinson ' s disease,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+levodopa,2,condition,12,"{'tp': 0, 'fp': 1, 'fn': 1}",bert-base-uncased
+kw - 6002,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+kw-6002,1,drug,1,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+advanced parkinson's disease,1,condition,1,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+seizure,4,condition,9,"{'tp': 1, 'fp': 1, 'fn': 2}",bert-base-uncased
+diazep,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+video reviewing,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+seizure rm,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+seizure rms,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+improvement,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+simulation training,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##e,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+educational video reviewing rm administration,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+emergent seizure,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+educational program,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+simulation training model/mannequin for rectal diazepam administration,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+caregiver education in a simulation setting,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+educational quality improvement program,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+vagus nerve stimulation,2,other,0,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+prolonged covid,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+post covid syndrome,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+bilateral auricular transcutaneous vagus nerve stimulation,1,other,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+left ear transcutaneous vagus nerve stimulation,1,other,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+t - vns method,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+post covid - 19 syndrome,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+vagal stimulation,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+post covid-19 syndrome,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+vagal stimulation with the t-vns method,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+ophthalmic surgery,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+remimazolam,4,drug,0,"{'tp': 4, 'fp': 0, 'fn': 0}",bert-base-uncased
+emergence agitation,2,condition,3,"{'tp': 1, 'fp': 1, 'fn': 0}",bert-base-uncased
+sevoflurane,2,drug,3,"{'tp': 1, 'fp': 0, 'fn': 1}",bert-base-uncased
+##voflurane,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##tion,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+rc,1,control,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+se,1,drug,2,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+flumazen,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+benzodiazepines,2,drug,0,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+agitation,4,condition,2,"{'tp': 3, 'fp': 0, 'fn': 1}",bert-base-uncased
+meningiomas,3,condition,0,"{'tp': 3, 'fp': 0, 'fn': 0}",bert-base-uncased
+- dotatate,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+gall,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+tumor,9,condition,18,"{'tp': 6, 'fp': 3, 'fn': 0}",bert-base-uncased
+##ium ga 68,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+- dot,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+dotata,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+gallium ga 68 -,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+postherpetic neuralgia,2,condition,6,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+phn,1,condition,1,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+ngx - 4010,2,drug,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+ngx-4010,2,drug,0,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+coronary artery disease,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+arrhythmia,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+coronary bypass surgery,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+cad,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+cerebral artery stenosis,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+cas,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+ischemic stroke,2,condition,6,"{'tp': 1, 'fp': 1, 'fn': 0}",bert-base-uncased
+par,2,condition,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+cab,3,condition,8,"{'tp': 0, 'fp': 3, 'fn': 0}",bert-base-uncased
+##aneous coronary intervention,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##aneous coronary,1,surgical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##yt,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##oxysmal atrial fibrillation,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+pci,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+paroxysmal arrhythmia,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+cabg,2,condition,1,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+24-hour simultaneous recorder of electrocardiograph and electroencephalography,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+paroxysmal atrial fibrillation,1,condition,1,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+prevention of ischemic stroke and cognition decline,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+percutaneous coronary intervention,2,condition,0,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+cerebral embolism,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+perioperative arrhythmia,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+post-cabg neurological complications,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+fshd,1,condition,2,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+epa,1,drug,4,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+##md,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##gmd,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+md,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+dha -,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##ids,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+l,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+d,4,condition,0,"{'tp': 0, 'fp': 4, 'fn': 0}",bert-base-uncased
+omega3s -,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##avonoidi,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+fl,3,drug,0,"{'tp': 0, 'fp': 3, 'fn': 0}",bert-base-uncased
+##avonoids,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##av,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+lgmd,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+muscular pain,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+flavonoids-,1,drug,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+omega3s,1,drug,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+mds,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+flavonoids,1,drug,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+dmd,1,condition,7,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+dha-,1,drug,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+inflammation,1,condition,1,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+resistance exercise,4,physical,1,"{'tp': 3, 'fp': 1, 'fn': 0}",bert-base-uncased
+resistance exercise program,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+sarcopenia,3,condition,8,"{'tp': 2, 'fp': 0, 'fn': 1}",bert-base-uncased
+general recommendations,2,control,0,"{'tp': 1, 'fp': 0, 'fn': 1}",bert-base-uncased
+sar,3,condition,0,"{'tp': 0, 'fp': 3, 'fn': 0}",bert-base-uncased
+sarcope,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+recommendations,1,control,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+sarcopenic,3,condition,1,"{'tp': 0, 'fp': 0, 'fn': 3}",bert-base-uncased
+program of resistance exercise,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+isms,2,other,0,"{'tp': 1, 'fp': 0, 'fn': 1}",bert-base-uncased
+intraspinal micro-stimulation,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+spinal cord injured,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+focal activation of intraspinal circuitry,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+paralyzed,2,condition,1,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+dexamethazone,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+postdural puncture headache,1,condition,2,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+dexamethazzoe,1,drug,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+heavy,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+bupivac,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+limb surge,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+spinal anethesia,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+heavy bupivacaine,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+lower abdominal,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+lower abdominal and lower limb surgeries,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+pregabalin,2,drug,4,"{'tp': 1, 'fp': 0, 'fn': 1}",bert-base-uncased
+partial seizures,2,condition,1,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+pre,10,condition,0,"{'tp': 0, 'fp': 10, 'fn': 0}",bert-base-uncased
+##gabalin,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+transcranial direct current stimulation,2,other,20,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+tdcs,2,other,34,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+arm rehabilitation training,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+rehabilitation training,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+rtp,4,physical,0,"{'tp': 0, 'fp': 2, 'fn': 2}",bert-base-uncased
+post stroke,1,condition,7,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+non - invasive brain stimulation,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+unila,2,condition,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+spatial neglect,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##teral spatial neglect,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##teral,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+repetitive task - specific practice,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+task - specific practice,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+unilateral spatial neglect,2,condition,0,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+repetitive task-specific practice,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+non-invasive brain stimulation,1,other,3,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+task-specific practice,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+drug resistant epilepsy,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+dre,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+##llus,1,surgical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+gaba,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+lactobacillus probiotic,2,other,0,"{'tp': 0, 'fp': 1, 'fn': 1}",bert-base-uncased
+lactobaci,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+lactobacillus,2,other,0,"{'tp': 0, 'fp': 1, 'fn': 1}",bert-base-uncased
+lac,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+pro,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+probiotic bacteria,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+probiotic treatment,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+epileptic,2,condition,1,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+probiotics,1,other,2,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+lactobacillus population,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+dysbiosis,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+robotic assisted locomotor training,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+conventional,3,control,0,"{'tp': 0, 'fp': 3, 'fn': 0}",bert-base-uncased
+robotic - assisted gait,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##omat,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+stroke attack,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+gait training,2,physical,3,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+congestive heart failure,1,condition,1,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+robot - assisted locomotor training,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##ic,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+lok,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##tory hem,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+subacute post - stroke,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+gait,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+conventional gait training,4,control,0,"{'tp': 0, 'fp': 1, 'fn': 3}",bert-base-uncased
+ndt,3,control,0,"{'tp': 0, 'fp': 1, 'fn': 2}",bert-base-uncased
+lokomat,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+neurodevelopmental treatment,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+robotic-assisted gait therapy,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+robot-assisted locomotor training,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+subacute post-stroke non-ambulatory hemiplegic,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+first-ever stroke,1,condition,1,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+multiple sclerosis,4,condition,47,"{'tp': 4, 'fp': 0, 'fn': 0}",bert-base-uncased
+exercise and educational classroom program,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+educational classroom program,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+comprehensive fall prevention,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+exercise,9,physical,16,"{'tp': 0, 'fp': 3, 'fn': 6}",bert-base-uncased
+supervised aerobic exercise program,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+minor ischemic stroke,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+early,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+hearing loss,3,condition,7,"{'tp': 3, 'fp': 0, 'fn': 0}",bert-base-uncased
+"symmetric, sensorineural hearing loss",1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+##sbycusis,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##sbyacus,3,condition,0,"{'tp': 0, 'fp': 3, 'fn': 0}",bert-base-uncased
+##sbyacusis,4,condition,0,"{'tp': 0, 'fp': 4, 'fn': 0}",bert-base-uncased
+age -,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+- based activities,2,other,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+nature,2,physical,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+visits,2,other,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+open label,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+nature - based park visit program,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+park visits,12,other,0,"{'tp': 0, 'fp': 4, 'fn': 8}",bert-base-uncased
+park,2,physical,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+nature connections park visit program,2,other,0,"{'tp': 0, 'fp': 1, 'fn': 1}",bert-base-uncased
+nature-based activities,2,other,0,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+nature-based park visit program,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+weekly telephone/internet support meetings,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+mindfulness based stress reduction,1,behavioural,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+meditation,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+mb,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##sr,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+mind,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##fulness,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+mbsr,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+mindfulness meditation,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+cancer,2,condition,14,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+primary central nervous system tumors,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+central nervous system tumors,1,condition,1,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+blz - 100,3,drug,0,"{'tp': 0, 'fp': 3, 'fn': 0}",bert-base-uncased
+blz-100,3,drug,0,"{'tp': 0, 'fp': 0, 'fn': 3}",bert-base-uncased
+cardiac surgery,2,condition,2,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+multimodal analgesia,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+traditional opiate based analgesia,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+conventionel opiod analgesia,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+multimodal opiate-sparing analgesia,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+early to moderate hd,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+hd,8,condition,4,"{'tp': 7, 'fp': 0, 'fn': 1}",bert-base-uncased
+huntington ' s disease,4,condition,0,"{'tp': 0, 'fp': 4, 'fn': 0}",bert-base-uncased
+replacement therapy,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+huntington's disease,4,condition,3,"{'tp': 0, 'fp': 0, 'fn': 4}",bert-base-uncased
+ms,4,condition,48,"{'tp': 4, 'fp': 0, 'fn': 0}",bert-base-uncased
+intensive and progressive exercise bouts,1,physical,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+chronic progressive or relapsing - remitting disease,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+reduced physical activity,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+normal,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+impaired functional capacity,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+training modalities,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+exercise training,1,physical,2,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+higher training intensities,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+intensive training intensities,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+intensive,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+epileps,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+drug,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+epileptogenic,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+drug resistant partial epilepsies,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+galantamine,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+cbs,3,condition,0,"{'tp': 3, 'fp': 0, 'fn': 0}",bert-base-uncased
+psp,2,condition,1,"{'tp': 1, 'fp': 0, 'fn': 1}",bert-base-uncased
+parkinsonism,1,condition,2,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+parkinsonian,1,condition,2,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+tauopathy,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+co,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+synuc,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+idiopathic pd,1,condition,1,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##cobasal syndrome,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+progressive,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+palsy,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##opathy,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+ps,2,condition,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+tauopathies,2,condition,0,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+synucleinopathy,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+gypenosides,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+acute optic neuritis,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+optic neuritis,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+acr16,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+diastat,2,drug,0,"{'tp': 1, 'fp': 0, 'fn': 1}",bert-base-uncased
+diazepam,2,drug,0,"{'tp': 1, 'fp': 0, 'fn': 1}",bert-base-uncased
+refractory epilepsy,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+##z,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+diazepam rec,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+refractory ( drug - resistant ) epilepsy,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+diastat®,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##ns,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+drg,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+refractory (drug-resistant) epilepsy,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+employment support alone,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+behavioral skills training,2,behavioural,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+employment support,2,control,0,"{'tp': 0, 'fp': 1, 'fn': 1}",bert-base-uncased
+supported employment,1,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+ri,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##speridon,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+ol,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+olanzapine,1,drug,2,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+employment support with behavioral skills training,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+supported employment with behavioral skills training,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+parkinson disease,1,condition,12,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+chamomile,6,other,0,"{'tp': 0, 'fp': 3, 'fn': 3}",bert-base-uncased
+saffron,6,other,0,"{'tp': 0, 'fp': 3, 'fn': 3}",bert-base-uncased
+oxidative stress,1,condition,3,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+didgeridoo,3,other,3,"{'tp': 1, 'fp': 0, 'fn': 2}",bert-base-uncased
+##structive sleep apnea,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##geridoo,2,other,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+did,2,physical,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+ob,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+closure,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+closing,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+airway collapsibility,2,condition,0,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+entonox,4,drug,0,"{'tp': 2, 'fp': 0, 'fn': 2}",bert-base-uncased
+enton,2,drug,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+screening colonoscopy,2,condition,0,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+mih,2,other,0,"{'tp': 1, 'fp': 0, 'fn': 1}",bert-base-uncased
+intracerebral hemorrhage,1,condition,4,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+iph,3,condition,1,"{'tp': 3, 'fp': 0, 'fn': 0}",bert-base-uncased
+targeted temperature management,2,other,1,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+temperature modulation,1,other,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+cerebral edema,2,condition,1,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+early hematoma growth,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+h,2,condition,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+mild induced hypothermia,2,other,0,"{'tp': 0, 'fp': 1, 'fn': 1}",bert-base-uncased
+spontaneous intra - cerebral / intra - parenchymal hemorrhage,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+mi,1,condition,3,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+protocol,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+active temperature modulation,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+hg,3,condition,0,"{'tp': 0, 'fp': 0, 'fn': 3}",bert-base-uncased
+hypothermia,1,other,5,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+spontaneous intra-cerebral/intra-parenchymal hemorrhage,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+peripheral sensitization,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+slider and tensioner techniques,2,physical,0,"{'tp': 0, 'fp': 1, 'fn': 1}",bert-base-uncased
+neural mobilization techniques,2,physical,0,"{'tp': 0, 'fp': 1, 'fn': 1}",bert-base-uncased
+hip,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+vestibular schwannoma,2,condition,0,"{'tp': 1, 'fp': 1, 'fn': 0}",bert-base-uncased
+cochlear implant,2,condition,0,"{'tp': 0, 'fp': 1, 'fn': 1}",bert-base-uncased
+loss,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##ular schwannoma resection,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+vestib,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+resection,1,surgical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##lear implant,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+trans,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+translabyrinthine surgery,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##labyrinthine,1,surgical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+cochlear implantation,2,condition,0,"{'tp': 0, 'fp': 1, 'fn': 1}",bert-base-uncased
+auditory nerve test system,2,other,0,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+ants,2,other,0,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+asymmetric sensorineural hearing loss,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+translabyrinthine vestibular schwannoma resection,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+translabyrinthine surgery for vestibular schwannoma resection,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+clonidine,3,drug,1,"{'tp': 2, 'fp': 0, 'fn': 1}",bert-base-uncased
+tics,1,condition,1,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+tourette syndrome,1,condition,2,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+cl,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+ke,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##ppra,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##onidine,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+tic,2,condition,1,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+keppra,1,drug,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+pain catastrophization,2,condition,1,"{'tp': 1, 'fp': 0, 'fn': 1}",bert-base-uncased
+fi,2,condition,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+hydrotherapy,11,physical,0,"{'tp': 0, 'fp': 5, 'fn': 6}",bert-base-uncased
+##bromyalgia,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+pain cat,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##uropathic pain,2,condition,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+##zation,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+chronic lumbar pain,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+np,6,condition,0,"{'tp': 0, 'fp': 2, 'fn': 4}",bert-base-uncased
+pcs,2,condition,0,"{'tp': 0, 'fp': 1, 'fn': 1}",bert-base-uncased
+physical therapy,2,control,2,"{'tp': 0, 'fp': 1, 'fn': 1}",bert-base-uncased
+neuropathic pain,2,condition,10,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+standard physical therapy,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+ear and hearing problems,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+hearing for learning initiative,3,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 2}",bert-base-uncased
+hearing for learning,2,other,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+ear and hearing health,2,condition,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+health,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+community - based service - enhancement model,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+service - enhancement model,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+ear and hearing clinical and education,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+hfli,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+service-enhancement model of ear health facilitators,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+ear and hearing clinical and education support officers,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+community-based service-enhancement model of ear and hearing health,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+current practice,1,control,1,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+speech perception intervention,1,other,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+speech sound disorders,3,condition,0,"{'tp': 3, 'fp': 0, 'fn': 0}",bert-base-uncased
+speech sounds disorders,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+awareness deficit,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##yslexia,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##ysle,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##ono,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+combination of treatment approaches that focus on speech perception skills and vocabulary knowledge,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+treatment approach that focuses solely on articulation accuracy,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+tes,3,condition,3,"{'tp': 3, 'fp': 0, 'fn': 0}",bert-base-uncased
+cte,2,condition,0,"{'tp': 1, 'fp': 0, 'fn': 1}",bert-base-uncased
+chronic traumatic encephalopathy,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+traumatic encephalopathy syndrome,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+ct,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+imt,1,physical,4,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+##piratory muscle training,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+breathing muscles,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+inspiratory muscle training,1,physical,1,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+training breathing muscles,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+acupuncture,2,other,4,"{'tp': 1, 'fp': 0, 'fn': 1}",bert-base-uncased
+moxibustion,1,other,2,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+staging acupuncture,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+bell ' s palsy,2,condition,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+bell's palsy,2,condition,4,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+donepezil,3,drug,10,"{'tp': 2, 'fp': 0, 'fn': 1}",bert-base-uncased
+cholinesterase inhibitor,1,drug,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+donepezi,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+virtual reality exposure therapy,3,other,0,"{'tp': 1, 'fp': 1, 'fn': 1}",bert-base-uncased
+hr,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+virtual reality,1,other,7,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+in -,1,control,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+fear,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+vret,17,other,0,"{'tp': 0, 'fp': 2, 'fn': 15}",bert-base-uncased
+exposure therapy,1,other,1,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+vr,2,other,5,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+##ob,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##ias,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+vivo exposure therapy,1,control,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+acrophobia,3,condition,0,"{'tp': 0, 'fp': 0, 'fn': 3}",bert-base-uncased
+waitlist,1,control,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+phobia,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+height avoidance,2,condition,0,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+phobias,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+fear of heights,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+transcutaneous auricular vagus nerve stimulation,1,other,1,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+tens,1,other,1,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+transcutaneous electrical nerve stimulation,1,other,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+fibromyalgia,3,condition,28,"{'tp': 2, 'fp': 0, 'fn': 1}",bert-base-uncased
+##bromyalgia pain,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+electrical stimulation,1,other,5,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+hemiplegic cerebral palsy,2,condition,3,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+self - regulation learning,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+mcimt,2,physical,2,"{'tp': 0, 'fp': 1, 'fn': 1}",bert-base-uncased
+self - regulation,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+modified constraint - induced,2,other,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+movement,2,physical,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+sr,2,behavioural,0,"{'tp': 0, 'fp': 1, 'fn': 1}",bert-base-uncased
+self-regulation,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+self-regulation learning,1,behavioural,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+modified constraint-induced movement therapy,2,physical,1,"{'tp': 0, 'fp': 0, 'fn': 2}",bert-base-uncased
+pku,7,condition,2,"{'tp': 7, 'fp': 0, 'fn': 0}",bert-base-uncased
+dha,7,drug,0,"{'tp': 4, 'fp': 0, 'fn': 3}",bert-base-uncased
+docosahexaenoic acid,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+phenylketonuria,2,condition,1,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+fish,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##en,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+hip fracture surgery,3,condition,0,"{'tp': 3, 'fp': 0, 'fn': 0}",bert-base-uncased
+delirium,3,condition,18,"{'tp': 3, 'fp': 0, 'fn': 0}",bert-base-uncased
+dexmedetomidine,2,drug,14,"{'tp': 1, 'fp': 0, 'fn': 1}",bert-base-uncased
+dexmedetomi,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+cere - 120,3,drug,0,"{'tp': 0, 'fp': 3, 'fn': 0}",bert-base-uncased
+##o - associated,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+aden,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+idiopathic parkinson ' s disease,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+virus,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+ntn,2,drug,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+##otype 2,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+aav2,2,drug,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+neurturin,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+idiopathic parkinson's disease,1,condition,2,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+cere-120,3,other,0,"{'tp': 0, 'fp': 0, 'fn': 3}",bert-base-uncased
+adeno-associated virus serotype 2 [aav2]-neurturin[ntn],1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+in vivo aav2 mediated delivery of the gene encoding ntn,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+unilateral brain injury,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+constraint,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+combined constraint therapy,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+bimanual therapy,5,physical,0,"{'tp': 0, 'fp': 3, 'fn': 2}",bert-base-uncased
+constraint - induced movement therapy,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+unimanual and bimanual intensive therapy,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+ci,1,physical,13,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+combined,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+constraint and bimanual therapy,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+constraint therapy,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+constraint-induced movement therapy,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+combined unimanual and bimanual intensive therapy,1,physical,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+cimt,1,physical,3,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+periventricular leukomalacia,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+magnesium sulfate,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+magnesium,1,drug,3,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+##ypoxic - ischemic and,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+inflammatory cerebral lesions,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+preterm birth,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+preterm,1,condition,2,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+mci,3,condition,9,"{'tp': 3, 'fp': 0, 'fn': 0}",bert-base-uncased
+asymptomatic carotid artery stenosis,2,condition,0,"{'tp': 1, 'fp': 0, 'fn': 1}",bert-base-uncased
+periodontal disease,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+mild to moderate cognitive impairment,1,condition,1,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+acas,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+periodontitis,2,condition,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+##ym,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+as,1,condition,3,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+intensive therapy,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+##ptomatic carotid artery stenosis,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+tobacco,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+intensive therapy for periodontitis,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+treatment of periodontitis,1,other,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+functional and cognitive decline,2,condition,0,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+rivastigmine,2,drug,7,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+exelon,1,drug,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+mild to moderate alzheimer ' s disease,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+mild to moderate alzheimer's disease,1,condition,7,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+gadobutrol,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+gadobutro,1,drug,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+enhanced,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+vascular disease of the supra - aortic vessels,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+mr,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+contrast,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+vascular disease of the supra-aortic vessels,1,condition,0,"{'tp': 0, 'fp': 0, 'fn': 1}",bert-base-uncased
+attention training interventions,2,behavioural,0,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+major depressive disorder,1,condition,0,"{'tp': 1, 'fp': 0, 'fn': 0}",bert-base-uncased
+polyphenol,2,drug,0,"{'tp': 2, 'fp': 0, 'fn': 0}",bert-base-uncased
+strength training,2,physical,0,"{'tp': 0, 'fp': 2, 'fn': 0}",bert-base-uncased
+rich,1,other,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+intense resistance,1,condition,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+strength training regime,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+strength training exercise,1,physical,0,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased
+training,1,physical,1,"{'tp': 0, 'fp': 1, 'fn': 0}",bert-base-uncased

@@ -21,8 +21,8 @@ if __name__ == '__main__':
     run_bert_base_uncased = True
 
     # TODO: Error "Placeholder storage has not been allocated on MPS device!" when trying to run tuple and BIO annotations sequentially?
-    run_tuples_annotations = False
-    run_BIO_annotations = True
+    run_tuples_annotations = True
+    run_BIO_annotations = False
     run_regex_dictionary = False
 
     relevant_data_path = "../data/annotated_data/"
