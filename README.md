@@ -83,7 +83,7 @@ In code file we convert the prodigy output annotations to BIO format. For each a
 of annotations will be generated: "O" for no label, "B-XX" for begin label XX, or "I-XX" inside label XX.
 
 Furthermore, the final dataset file will be split into train, dev, and test parts (proportion 80-10-10). The final data used for training
-the models can be found in [data_splits](data%2Fannotated_data%2Fdata_splits).
+the models can be found in [data_splits](data%2Fannotated_data%2Fdata_splits). The raw data before the splits is provided in [final_combined](data%2Fannotated_data%2Ffinal_combined).
 
 ### Generating corpus statistics
 ```bib
