@@ -7,3 +7,5 @@ temp
 data/drug_names_terminology/drugdb_full_database.xml
 .ipynb_checkpoints
 temp_testing.ipynb
+models/bert/Train_datasize_impact
+./temp_testing.ipynb

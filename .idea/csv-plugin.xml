@@ -143,6 +143,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/models/predictions/ct_neuro_test_annotated_bert-base-uncased_BIO_20240130.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/models/predictions/ct_neuro_test_annotated_biobert-v1.1_20231103.csv">
           <value>
             <Attribute>
