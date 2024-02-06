@@ -2,7 +2,7 @@
 name = "neurotrialner"
 version = "1.0.0"
 description = ""
-authors = ["Simona D. <donevasimona@gmail.com>"]
+authors = ["Simona D. <XXXXX@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
