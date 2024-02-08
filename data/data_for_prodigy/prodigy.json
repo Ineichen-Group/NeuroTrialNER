@@ -1,0 +1,14 @@
+{
+  "custom_theme": {
+    "labels": {
+      "DRUG" : "#33BAFF",
+      "BEHAVIOURAL": "#DAF7A6",
+      "SURGICAL": "#DAF7A6",
+      "PHYSICAL": "#DAF7A6",
+      "RADIOTHERAPY": "#DAF7A6",
+      "OTHER": "#DAF7A6",
+      "CONDITION": "#ffa47a",
+      "CONTROL": "#fdff7a"
+    }
+  }
+}
