@@ -109,7 +109,7 @@ python train_script.py --output_path "../clinical_trials_out" \
     --n_epochs 15 --percentage $percentage --i $i
 ```
 Please make sure you have the reference to the folder with the data correctly. The three parameters that can be changed are:
-- model_name_or_path (default 'michiyasunaga/BioLinkBERT-base'): reference to a local model or a model hosted on huggingface;
+- model_name_or_path (default 'michiyasunaga/BioLinkBERT-base'): reference to a local model or a model hosted on huggingface; the other models we used are "dmis-lab/biobert-v1.1" and "bert-base-uncased".
 - n_epochs (default 20): the number of epochs for training; our experiments showed that there was no impact on the dev learning curve after more than 10 epochs
 - percentage (default 100): percentage value determining how much of the training dataset should be used.
 
