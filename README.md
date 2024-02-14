@@ -1,6 +1,6 @@
 # NeuroTrialNER
-Complementary code for "NeuroTrialNER: An Annotated Corpus for Neurological Diseases and Therapies in Clinical Trials".
-This repo provides the model, code & data of our paper: <TODO: insert link>.
+Complementary code for "NeuroTrialNER: An Annotated Corpus for Neurological Diseases and Therapies in Clinical Trial Registries".
+This repo provides the code & data of our paper: <TODO: insert link>. Please note that ChatGPT has assisted with parts of the code, usually for the generation of the visualizations. The implementation of the BERT-based training was based on https://github.com/michiyasunaga/LinkBERT. 
 
 # 1. Set up the environment
 The project is build using poetry for dependency management. Instructions on how to install poetry can be found in the [documentation](https://python-poetry.org/docs/).  
