@@ -1,6 +1,6 @@
 # NeuroTrialNER
-Complementary code for "NeuroTrialNER: An Annotated Corpus for Neurological Diseases and Therapies in Clinical Trials".
-This repo provides the model, code & data of our paper: <TODO: insert link>.
+Complementary code for "NeuroTrialNER: An Annotated Corpus for Neurological Diseases and Therapies in Clinical Trial Registries".
+This repo provides the code & data of our paper: <TODO: insert link>. Please note that ChatGPT has assisted with parts of the code, usually for the generation of the visualizations. The implementation of the BERT-based training was based on https://github.com/michiyasunaga/LinkBERT. 
 
 # 1. Set up the environment
 The project is build using poetry for dependency management. Instructions on how to install poetry can be found in the [documentation](https://python-poetry.org/docs/).  
@@ -109,7 +109,7 @@ python train_script.py --output_path "../clinical_trials_out" \
     --n_epochs 15 --percentage $percentage --i $i
 ```
 Please make sure you have the reference to the folder with the data correctly. The three parameters that can be changed are:
-- model_name_or_path (default 'michiyasunaga/BioLinkBERT-base'): reference to a local model or a model hosted on huggingface;
+- model_name_or_path (default 'michiyasunaga/BioLinkBERT-base'): reference to a local model or a model hosted on huggingface; the other models we used are "dmis-lab/biobert-v1.1" and "bert-base-uncased".
 - n_epochs (default 20): the number of epochs for training; our experiments showed that there was no impact on the dev learning curve after more than 10 epochs
 - percentage (default 100): percentage value determining how much of the training dataset should be used.
 
