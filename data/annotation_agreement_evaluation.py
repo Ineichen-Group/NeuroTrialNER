@@ -1,6 +1,5 @@
 import json
 import pandas as pd
-import ast
 from sklearn.metrics import cohen_kappa_score, confusion_matrix, ConfusionMatrixDisplay
 import numpy as np
 import matplotlib.pyplot as plt
@@ -209,7 +208,7 @@ def calculate_overall_cohen_kappa(df, annotators):
 
 
 def calculate_cohen_kappa_from_cfm_with_ci(confusion, print_result=False):
-    # COPIED FROM SKLEARN METRICS
+    # SOURCE FROM SKLEARN METRICS
     # Sample size
     n = np.sum(confusion)
     # Number of classes
@@ -219,6 +218,7 @@ def calculate_cohen_kappa_from_cfm_with_ci(confusion, print_result=False):
     sum1 = np.sum(confusion, axis=1)
     expected = np.outer(sum0, sum1) / np.sum(sum0)
 
+    # SOURCE from: https://rowannicholls.github.io/python/statistics/agreement/cohens_kappa.html
     # Calculate p_o (the observed proportionate agreement) and
     # p_e (the probability of random agreement)
     identity = np.identity(n_classes)
@@ -245,7 +245,7 @@ def calculate_cohen_kappa_from_cfm_with_ci(confusion, print_result=False):
 
 
 def calculate_cohen_kappa_from_cfm(confusion):
-    # COPIED FROM SKLEARN METRICS
+    # SOURCE FROM SKLEARN METRICS
     n_classes = confusion.shape[0]
     sum0 = np.sum(confusion, axis=0)
     sum1 = np.sum(confusion, axis=1)
@@ -349,16 +349,43 @@ if __name__ == '__main__':
     annotated_files_prefix_path = "./annotated_data"
     suffix = "_neuro"
 
-    print("*** Statistics Round 2 of annotations ***")
+    print("\n*** Combined Statistics Round 2 and 3 of annotations ***")
+    file_path_a1 = "{}/annotation_round_3/bvi_neuro_ner_{}.jsonl".format(annotated_files_prefix_path,
+                                                                         "round_2_3")
+    file_path_a2 = "{}/annotation_round_3/sed_neuro_ner_{}.jsonl".format(annotated_files_prefix_path,
+                                                                         "round_2_3")
+    output_file = "{}/annotation_round_3/annotated_combined_arrays_neuro_round_2_3.csv".format(
+        annotated_files_prefix_path)
+    annotated_files_list = [file_path_a1, file_path_a2, '']
+    extract_annotations_and_combine_for_cohen_cappa(annotated_files_list, "benjamin", "simona", '', output_file)
+    df_round3 = pd.read_csv(output_file)
+    calculate_overall_cohen_kappa(df_round3, ['simona', 'benjamin'])
+    calculate_overall_cohen_kappa_with_ci(df_round3, ['simona', 'benjamin'])
+    cf_output_path = "annotated_data/corpus_stats/annotations_confusion_matrix/round2_3_"
+    calculate_confusion_matrix_and_kappa_per_class(df_round3, ['simona', 'benjamin'], cf_output_path=cf_output_path)
+
+    print("\n*** Statistics Round 3 of annotations ***")
+    file_path_a1 = "{}/annotation_round_3/bvi_neuro_ner_{}.jsonl".format(annotated_files_prefix_path,
+                                                                         "non_drug")
+    file_path_a2 = "{}/annotation_round_3/sed_neuro_ner_{}.jsonl".format(annotated_files_prefix_path,
+                                                                         "non_drug")
+    output_file = "{}/annotation_round_3/annotated_combined_arrays_neuro_round_3.csv".format(
+        annotated_files_prefix_path)
+    annotated_files_list = [file_path_a1, file_path_a2, '']
+    extract_annotations_and_combine_for_cohen_cappa(annotated_files_list, "benjamin", "simona", '', output_file)
+    df_round3 = pd.read_csv(output_file)
+    calculate_overall_cohen_kappa(df_round3, ['simona', 'benjamin'])
+    calculate_overall_cohen_kappa_with_ci(df_round3, ['simona', 'benjamin'])
+    cf_output_path = "annotated_data/corpus_stats/annotations_confusion_matrix/round3_"
+    calculate_confusion_matrix_and_kappa_per_class(df_round3, ['simona', 'benjamin'], cf_output_path=cf_output_path)
+
+    print("\n*** Statistics Round 2 of annotations ***")
     file_path_a1 = "{}/annotation_round_2/benjamin_ct_ds_500_2batch{}.jsonl".format(annotated_files_prefix_path,
                                                                                     suffix)
     file_path_a2 = "{}/annotation_round_2/simona_ct_ds_500_2batch{}.jsonl".format(annotated_files_prefix_path,
                                                                                   suffix)
-
     output_file = "{}/annotation_round_2/annotated_combined_arrays_neuro_round2.csv".format(annotated_files_prefix_path)
-
     annotated_files_list = [file_path_a1, file_path_a2, '']
-
     extract_annotations_and_combine_for_cohen_cappa(annotated_files_list, "benjamin", "simona", '', output_file)
     df_round2 = pd.read_csv(output_file)
     calculate_overall_cohen_kappa(df_round2, ['simona', 'benjamin'])
