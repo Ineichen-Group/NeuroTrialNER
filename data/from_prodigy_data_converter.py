@@ -45,7 +45,7 @@ def extract_relevant_info_from_json_and_save_stats(input_file_path, output_file_
                 "ner_manual_{}_intervention".format("ct_target"): parsed_annotations_intervention
 
             })
-    print("Lines processed from jsonl: ", count_lines)
+    print(f"{count_lines} lines processed from jsonl {input_file_path} ")
 
     df = pd.DataFrame(extracted_data)
 
@@ -60,11 +60,16 @@ def extract_relevant_info_from_json_and_save_stats(input_file_path, output_file_
 
 
 # Prodigy outputs all version, i.e. for each annotator. Here we filter out only the resolved annotations for each element.
-def remove_versions_from_resolved_dataset(file_prefix, input_file_name, output_file_name):
+def remove_versions_from_resolved_dataset_and_save_resolved(file_prefix, input_file_name, output_file_name):
     with open(file_prefix + input_file_name + ".jsonl", 'r') as f, open(file_prefix + output_file_name + ".jsonl",
                                                                         'w') as output_file:
         for line in f:
             data = json.loads(line)
+            if 'answer' in data:
+                if data['answer'] == 'reject':  # Exclude rejected records
+                    continue
+            if 'versions' not in data:
+                continue # This means that this record is not coming from a Review Prodigy output
             if 'spans' in data:
                 # clean the data from all the version of the different annotators
                 output_file.write(
@@ -106,10 +111,9 @@ def read_jsonl(file_path):
     return data
 
 
-def append_jsonl(file_path1, file_path2, output_file):
+def append_jsonl_and_save_combined(file_path1, file_path2, output_file):
     data1 = read_jsonl(file_path1)
     data2 = read_jsonl(file_path2)
-
     combined_data = data1 + data2
 
     write_jsonl(output_file, combined_data)
@@ -118,29 +122,32 @@ def append_jsonl(file_path1, file_path2, output_file):
 def prepare_first_annotation_batch(file_prefix, output_stats_file_path="./annotated_data/corpus_stats/"):
     final_json_output_file_name = "ct_neuro_final_target_annotated_ds_round_1.jsonl"
 
-    remove_versions_from_resolved_dataset(file_prefix, "neuro_merged_all_433", "neuro_merged_all_433_no_versions")
-    remove_versions_from_resolved_dataset(file_prefix, "neuro_matching_annotations_reviewed_55",
-                                          output_file_name="neuro_matching_annotations_reviewed_55_no_versions")
-    append_jsonl(file_prefix + "neuro_merged_all_433_no_versions.jsonl",
-                 file_prefix + "neuro_matching_annotations_reviewed_55_no_versions.jsonl",
-                 output_file=file_prefix + final_json_output_file_name)
+    remove_versions_from_resolved_dataset_and_save_resolved(file_prefix, "neuro_merged_all_433",
+                                                            "neuro_merged_all_433_no_versions")
+    remove_versions_from_resolved_dataset_and_save_resolved(file_prefix, "neuro_matching_annotations_reviewed_55",
+                                                            output_file_name="neuro_matching_annotations_reviewed_55_no_versions")
+
+    append_jsonl_and_save_combined(file_prefix + "neuro_merged_all_433_no_versions.jsonl",
+                                   file_prefix + "neuro_matching_annotations_reviewed_55_no_versions.jsonl",
+                                   output_file=file_prefix + final_json_output_file_name)
 
     df_annotations = extract_relevant_info_from_json_and_save_stats(
         file_prefix + final_json_output_file_name, output_stats_file_path,
         "batch1_433")
+    # save as csv
     df_annotations.to_csv(file_prefix + "ct_neuro_final_target_annotated_ds_round_1.csv")
 
 
-def prepare_second_annotation_batch(file_prefix, output_stats_file_path="./annotated_data/corpus_stats/"):
-
-    final_json_output_file_name = "ct_neuro_405_target_annotated_ds_round_2.jsonl"
-    remove_versions_from_resolved_dataset(file_prefix, "neuro_merged_annotations_405_2batch",
-                                          output_file_name="ct_neuro_405_target_annotated_ds_round_2")
+def prepare_second_annotation_batch(file_prefix, input_file_name_after_prodigy_review, final_output_file_name,
+                                    stats_file_name_addition,
+                                    path_to_save_stats="./annotated_data/corpus_stats/"):
+    remove_versions_from_resolved_dataset_and_save_resolved(file_prefix, input_file_name_after_prodigy_review,
+                                                            output_file_name=final_output_file_name)
     df_annotations = extract_relevant_info_from_json_and_save_stats(
-        file_prefix + final_json_output_file_name,
-        output_stats_file_path,
-        "batch2_405")
-    df_annotations.to_csv(file_prefix + "ct_neuro_final_target_annotated_ds_round_2.csv")
+        file_prefix + final_output_file_name + ".jsonl",
+        path_to_save_stats,
+        stats_file_name_addition)
+    df_annotations.to_csv(file_prefix + final_output_file_name + ".csv")
 
 
 if __name__ == '__main__':
@@ -150,16 +157,35 @@ if __name__ == '__main__':
                                                     "/annotation_round_1/"
     file_path_prefix_2 = prodigy_main_folder_path + "annotated_data" \
                                                     "/annotation_round_2/"
+    file_path_prefix_3 = prodigy_main_folder_path + "annotated_data" \
+                                                    "/annotation_round_3/"
+
     output_stats_file_path = prodigy_main_folder_path + "annotated_data/corpus_stats/"
 
-    prepare_first_annotation_batch(file_path_prefix_1)
-    prepare_second_annotation_batch(file_path_prefix_2)
+    # PREPARE ANNOTATIONS: take Prodigy outputs from the Review recipe and keep only the agreed on/ resolved annotations
+    prepare_first_annotation_batch(file_path_prefix_1)  # special case with pilot
+
+    # Annotation Round 2: BVI and SED
+    final_output_file_name_batch_2 = "ct_neuro_405_target_annotated_ds_round_2"
+    input_file_name_after_prodigy_review_batch_2 = "neuro_merged_annotations_405_2batch"
+    stats_file_name_addition_batch_2 = "batch2_405"
+    prepare_second_annotation_batch(file_path_prefix_2, input_file_name_after_prodigy_review_batch_2,
+                                    final_output_file_name_batch_2, stats_file_name_addition_batch_2,
+                                    path_to_save_stats="./annotated_data/corpus_stats/")
+
+    # Annotation Round 3: BVI and SED, focus on minority non-drug intervention classes
+    final_output_file_name_batch_3 = "ct_neuro_143_target_annotated_ds_round_3"
+    input_file_name_after_prodigy_review_batch_3 = "neuro_merged_annotations_nondrug_143_batch_3"
+    stats_file_name_addition_batch_3 = "batch3_143"
+    prepare_second_annotation_batch(file_path_prefix_3, input_file_name_after_prodigy_review_batch_3,
+                                    final_output_file_name_batch_3, stats_file_name_addition_batch_3,
+                                    path_to_save_stats="./annotated_data/corpus_stats/")
 
     ### COMBINE THE DATA FROM THE TWO ANNOTATION ROUNDS
     json_output_file = prodigy_main_folder_path + "annotated_data/final_combined/" + "ct_neuro_final_target_annotated_ds_combined_rounds.jsonl"
-    append_jsonl(file_path_prefix_1 + "ct_neuro_final_target_annotated_ds_round_1.jsonl",
-                 file_path_prefix_2 + "ct_neuro_405_target_annotated_ds_round_2.jsonl",
-                 output_file=json_output_file)
+    append_jsonl_and_save_combined(file_path_prefix_1 + "ct_neuro_final_target_annotated_ds_round_1.jsonl",
+                                   file_path_prefix_2 + "ct_neuro_405_target_annotated_ds_round_2.jsonl",
+                                   output_file=json_output_file)
     df_annotations = extract_relevant_info_from_json_and_save_stats(
         json_output_file,
         prodigy_main_folder_path + "annotated_data/corpus_stats/",
