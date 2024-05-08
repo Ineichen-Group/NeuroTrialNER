@@ -69,7 +69,7 @@ def remove_versions_from_resolved_dataset_and_save_resolved(file_prefix, input_f
                 if data['answer'] == 'reject':  # Exclude rejected records
                     continue
             if 'versions' not in data:
-                continue # This means that this record is not coming from a Review Prodigy output
+                continue  # This means that this record is not coming from a Review Prodigy output
             if 'spans' in data:
                 # clean the data from all the version of the different annotators
                 output_file.write(
@@ -181,17 +181,25 @@ if __name__ == '__main__':
                                     final_output_file_name_batch_3, stats_file_name_addition_batch_3,
                                     path_to_save_stats="./annotated_data/corpus_stats/")
 
-    ### COMBINE THE DATA FROM THE TWO ANNOTATION ROUNDS
-    json_output_file = prodigy_main_folder_path + "annotated_data/final_combined/" + "ct_neuro_final_target_annotated_ds_combined_rounds.jsonl"
+    ### COMBINE THE DATA FROM THE ANNOTATION ROUNDS
+    final_output_file_name = "ct_neuro_final_target_annotated_ds_combined_rounds"
+    json_output_file_path = prodigy_main_folder_path + "annotated_data/final_combined/" + final_output_file_name + ".jsonl"
     append_jsonl_and_save_combined(file_path_prefix_1 + "ct_neuro_final_target_annotated_ds_round_1.jsonl",
                                    file_path_prefix_2 + "ct_neuro_405_target_annotated_ds_round_2.jsonl",
-                                   output_file=json_output_file)
+                                   output_file=json_output_file_path)
+    # include round 3
+    final_output_file_name = "ct_neuro_final_target_annotated_ds_combined_rounds_incl_round_3"
+    json_output_file_path_final = prodigy_main_folder_path + "annotated_data/final_combined/" + final_output_file_name + ".jsonl"
+    append_jsonl_and_save_combined(json_output_file_path,
+                                   file_path_prefix_3 + final_output_file_name_batch_3 + ".jsonl",
+                                   output_file=json_output_file_path_final)
+
     df_annotations = extract_relevant_info_from_json_and_save_stats(
-        json_output_file,
+        json_output_file_path_final,
         prodigy_main_folder_path + "annotated_data/corpus_stats/",
-        "combined_rounds")
+        "combined_rounds_incl_round_3")
     df_annotations.to_csv(
-        prodigy_main_folder_path + "annotated_data/final_combined/ct_neuro_final_target_annotated_ds_combined_rounds.csv")
+        prodigy_main_folder_path + f"annotated_data/final_combined/{final_output_file_name}.csv")
 
     # The below code was used when investigating differences between the annotators.
     # filter_out_lines_for_review("ben_annotated_500_neuro.jsonl", "matching", "matching_nct_ids_annotations.csv")
