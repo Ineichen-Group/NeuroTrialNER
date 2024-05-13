@@ -1,0 +1,61 @@
+"nct_id","conditions","intervention_types","intervention_names"
+NCT00004659,Brain Neoplasms,Procedure,irradiation|radiosurgery
+NCT00053625,Parkinson's Disease,Procedure,deep brain stimulation
+NCT00078988,Brain Tumor|Central Nervous System Tumor,Biological|Drug|Procedure,autologous bone marrow transplantation|carboplatin|etoposide|filgrastim|isotretinoin|peripheral blood stem cell transplantation|thiotepa
+NCT00238264,Brain Tumor|Central Nervous System Tumor,Radiation,radiation therapy
+NCT00283738,Aura|Migraine|Patent Foramen Ovale,Device|Procedure,BioSTAR Septal Repair Implant System|Sham Procedure
+NCT00298532,Seizure,Procedure,Advanced Life Support
+NCT00316563,Anorexia|Cancer|Olfactory Disorders|Taste Disorders,Drug|Other,Marinol (Dronabinol)|Placebo
+NCT00360789,Stroke,Behavioral,Conventional UK physical therapy|Increased intensity of UK conventional physical therapy (PT)|UK conventional PT plus functional strength training
+NCT00437372,Cancer|Head and Neck Cancer|Nervous System Neoplasms|Pelvic Cancer|Thoracic Neoplasms,Drug|Radiation,External Beam Radiation Therapy|Sunitinib
+NCT00444067,"Cerebrospinal Fluid Leakage, Subdural",Device|Other,Spinal Sealant|Standard of Care
+NCT00675155,Stroke,Radiation,Far Infrared Radiation
+NCT00772278,Carotid Stenosis,Procedure,carotid artery stenting|carotid endarterectomy
+NCT00780806,"Meningitis, Meningococcal",Biological|Procedure,Blood draw|meningococcal B rLP2086 vaccine candidate
+NCT00817128,"Complex Regional Pain Syndrome, Type I",Procedure,CBO standard|PEPT
+NCT00895960,Brain Diseases|CNS Disease|Glioblastoma,Drug|Radiation,Dasatinib|RT (Radiotherapy)|TMZ (Temozolomide)
+NCT01000350,Postural Tachycardia Syndrome,Drug|Other,Placebo|Saline
+NCT01168466,Dementia,Behavioral,QEEG-based Neurofeedback Training
+NCT01546467,Psychosis NOS|Schizoaffective Disorder|Schizophrenia,Behavioral,Cognitive remediation
+NCT01608516,Atheromatous Plaques|Carotid Artery Diseases|Inflammation,Radiation,"68Ga-NODAGA-RGD PET/CT"
+NCT01826058,Spinal Cord Compression,Radiation,Stereotactic body radiation therapy
+NCT02066558,Headache|Migraine,Other,Carbon monoxide|Placebo
+NCT02180867,Alveolar Soft Part Sarcoma|Angiomatoid Fibrous Histiocytoma|Atypical Fibroxanthoma|Clear Cell Sarcoma of Soft Tissue|Epithelioid Malignant Peripheral Nerve Sheath Tumor|Epithelioid Sarcoma|Extraskeletal Myxoid Chondrosarcoma|Extraskeletal Osteosarcoma|Fibrohistiocytic Neoplasm|Fibrosarcoma|Inflammatory Myofibroblastic Tumor|Intimal Sarcoma|Leiomyosarcoma|Liposarcoma|Liver Embryonal Sarcoma|Low Grade Fibromyxoid Sarcoma|Low Grade Myofibroblastic Sarcoma|Malignant Cutaneous Granular Cell Tumor|Malignant Peripheral Nerve Sheath Tumor|Malignant Triton Tumor|Mesenchymal Chondrosarcoma|Myxofibrosarcoma|Myxoid Chondrosarcoma|Myxoinflammatory Fibroblastic Sarcoma|Nerve Sheath Neoplasm|PEComa|Pericytic Neoplasm|Plexiform Fibrohistiocytic Tumor|Sclerosing Epithelioid Fibrosarcoma|Skin Glomus Tumor|Stage IB Soft Tissue Sarcoma AJCC v7|Stage IIB Soft Tissue Sarcoma AJCC v7|Stage III Soft Tissue Sarcoma AJCC v7|Stage IV Soft Tissue Sarcoma AJCC v7|Synovial Sarcoma|Undifferentiated High Grade Pleomorphic Sarcoma of Bone,Drug|Procedure|Radiation,Doxorubicin|Doxorubicin Hydrochloride|Ifosfamide|Pazopanib|Pazopanib Hydrochloride|Radiation Therapy|Therapeutic Conventional Surgery
+NCT02249572,Vestibular Schwannoma,Radiation,gamma knife radiosurgery
+NCT02255929,Essential Tremor,Radiation,Gamma Knife Radiosurgery
+NCT02383004,Delirium|Psychomotor Agitation,Other,Acupuncture
+NCT02541032,Periodontal Disease|Stroke|TIA,Drug|Procedure,Arestin|Intensive dental treatment|Standard dental treatment
+NCT02572206,Schizophrenia,Device|Radiation,MRI scan|PET/SPECT Scan
+NCT02588300,Sleep Apnea Syndrome,Procedure,Drug induced sleep endoscopy
+NCT02631850,Hemiparesis|Stroke,Behavioral,Gaming CI Therapy|Gaming CI Therapy with Additional Contact via Video Conference|Traditional CI Therapy|Traditional Occupational Therapy/Physical Therapy
+NCT02644980,Delirium|Hemodynamic Instability,Device|Drug|Other,Bispectral Index Monitor|Etomidate|Induction of anesthesia|Maintenance of anesthesia|Propofol|Tracheal Intubation
+NCT02843906,Alzheimer Disease|Bipolar Disorders|Mild Cognitive Impairment|Senile Plaques|Tau Proteins,Genetic|Other|Procedure|Radiation,Apolipoprotein (ApoE) detection|Lombar Punction|Magnetic Resonance Imaging (MRI)|Neuropsychological Tests|Positron-Emission Tomography (TEP) /(FDG)|Psychiatric tests
+NCT03273816,Deep Brain Stimulation|Parkinson Disease,Behavioral,sessions of sophrology
+NCT03288948,Amblyopia,Other,Binocular games for treatment of amblyopia
+NCT03459118,Dementia|Pain,Behavioral,Function Focused Care
+NCT03504150,Migraine Disorders,Behavioral,PRISM|SPHERE
+NCT03517787,Spinal Cord Injuries,Other,FES+TE|REF-FES+TE|REF-TE|TE
+NCT03684577,Agoraphobia,Behavioral,Hypnotherapy for Agoraphobia
+NCT03712917,Migraine,Drug|Procedure,Flunarizine|Greater Occipital Nerve Block|Topiramate
+NCT03747848,Parkinson Disease,Behavioral,CBT group
+NCT03963258,Electromyography|Hemiplegia|Physical Therapy Modalities|Recovery of Function|Rehabilitation|Stroke|Upper Extremity|Vibration,Device|Other,conventional upper limb training|whole-body vibration training
+NCT04057677,Exercise|Muscular Atrophy|Pre-diabetes|Sedentary Behavior|Type 2 Diabetes,Behavioral,Bed Rest Intervention|Exercise Program
+NCT04123223,Schizoaffective Disorder|Schizophrenia,Behavioral,Cognitive Remediation|Computer Games
+NCT04156607,Balance|Down Syndrome,Other,Kinesio taping|Sham taping
+NCT04256382,Dementia,Other,dementia care education|dementia pain care education
+NCT04405596,Lewy Body Disease,Drug|Other,Ambroxol Hydrochloride|Placebo
+NCT04492696,"Concussion, Brain",Other,Education
+NCT04500795,Chronic Subdural Hematoma|Subdural Hematoma,Procedure,Middle meningeal artery embolization
+NCT04555616,Alzheimer Disease,Behavioral,Individual Environmental Design|Placebo|Standard Environmental Design
+NCT04653688,Parkinson Disease,Device|Radiation,"DaTSCAN|MRI|The FeetMe® Evaluation|the PKG® Watch,"
+NCT04654286,Brachial Plexus Neuropathies,Procedure,Nerve transfer procedure|Nerve transfer with HAM-AdMSC composite wrapping
+NCT04673058,Fibromyalgia,Procedure,Sham Manipulation|Spinal Manipulation
+NCT04732065,CNS Tumor|Central Nervous System Tumor|Diffuse Midline Glioma (DMG)|Glioblastoma|Recurrent Ependymoma|Recurrent Malignant Central Nervous System Neoplasm|Spinal Cord Glioma|WHO Grade III Glioma,Drug|Radiation,ONC206|Standard of Care Radiation Therapy
+NCT04816799,Aphasia|Apraxia of Speech|Stroke,Behavioral,Startle Adjuvant Rehabilitation Therapy (START)
+NCT04844333,Emergence Agitation,Other,Extubation under deep anesthesia
+NCT05008302,Stroke,Procedure,hand motor coordination in a sitting positin
+NCT05122650,Essential Tremor,Drug|Other,JZP385|Placebo
+NCT05318079,Spinal Cord Injuries,Behavioral,Virtual Reality Gaming
+NCT05516342,"Alzheimer Disease|Dementia, Mixed|Dementia, Vascular",Behavioral,LEAD IT! Programming
+NCT05635968,Alzheimer Disease,Radiation,Low-dose whole brain irradiation
+NCT05658731,Brain Tumor|Head and Neck Cancer,Diagnostic Test|Other|Radiation,MRI|Neurocognitive Testing|substructure informed planning
