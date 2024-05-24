@@ -143,8 +143,50 @@ def check_overlaps(dataset1, dataset2, dataset1_name, dataset2_name):
     else:
         print("No overlap between {} and {}".format(dataset1_name, dataset2_name))
 
+def print_entity_row_sizes(df, entities):
+    for entity in entities:
+        entity_df = df[df['ner_manual_ct_target'].str.contains(entity, na=False)]
+        print(f"Size of rows containing '{entity}': {len(entity_df)}")
+def get_entity_row_sizes(df, entities):
+    result = {}
+    for entity in entities:
+        entity_df = df[df['ner_manual_ct_target'].str.contains(entity, na=False)]
+        result[entity] = len(entity_df)
+    return result
 
-def custom_split_stratified(input_json_filename, output_data_path, additional_annotation_format_file, entities,
+def print_nctids_per_entity_type(train_final, valid_final, test_final, entities_all):
+    train_results = get_entity_row_sizes(train_final, entities_all)
+    dev_results = get_entity_row_sizes(valid_final, entities_all)
+    test_results = get_entity_row_sizes(test_final, entities_all)
+
+    # Convert results to DataFrames
+    train_df = pd.DataFrame(train_results.values(), index=train_results.keys(), columns=['Train'])
+    dev_df = pd.DataFrame(dev_results.values(), index=dev_results.keys(), columns=['Dev'])
+    test_df = pd.DataFrame(test_results.values(), index=test_results.keys(), columns=['Test'])
+
+    # Concatenate DataFrames horizontally
+    combined_df = pd.concat([train_df, dev_df, test_df], axis=1)
+    print(combined_df)
+
+def rebalance_train_and_valid(valid_final, test_final):
+    if len(valid_final) != len(test_final):
+        size_difference = abs(len(valid_final) - len(test_final))
+        transfer_count = size_difference // 2  # Transfer half of the difference
+
+        if len(valid_final) < len(test_final):
+            # Remove the last row from the larger DataFrame and append it to the smaller DataFrame
+            for _ in range(transfer_count):
+                removed_row = test_final.iloc[[-1]]  # Get the last row as a DataFrame
+                valid_final = pd.concat([valid_final, removed_row], ignore_index=True)
+                test_final = test_final.drop(test_final.index[-1])
+        else:
+            for _ in range(transfer_count):
+                removed_row = valid_final.iloc[[-1]]  # Get the last row as a DataFrame
+                test_final = pd.concat([test_final, removed_row], ignore_index=True)
+                valid_final = valid_final.drop(valid_final.index[-1])
+    return valid_final, test_final
+
+def custom_split_stratified(input_json_filename, output_data_path, additional_annotation_format_file, entities, entities_all,
                             train_size=0.8, valid_size=0.1):
     print("Performing stratified split.")
     # Set a random seed for reproducibility
@@ -159,13 +201,10 @@ def custom_split_stratified(input_json_filename, output_data_path, additional_an
 
     # Convert the data to DataFrame objects
     df = pd.DataFrame(data)
-    print("Size of DF from JSON BIO: ", len(df), df['id'].value_counts())
 
     # load the dataset that is not bio format
     additional_format = pd.read_csv(additional_annotation_format_file)[
         ["nct_id", "text", "ner_manual_ct_target"]]
-
-    print("Size of DF with non-bio annotations: ", len(additional_format), additional_format['nct_id'].value_counts())
 
     # Join and keep only the rows from each split
     df = pd.merge(df, additional_format, left_on='id', right_on='nct_id', how='left')
@@ -187,9 +226,9 @@ def custom_split_stratified(input_json_filename, output_data_path, additional_an
         processed_idx_to_drop.extend(entity_df.index)
 
         # Proceed with traditional splitting
-        train, val_test = train_test_split(entity_df, train_size=train_size, test_size=test_size + valid_size,
+        train, val_test = train_test_split(entity_df, train_size=0.5, test_size=0.5,
                                            random_state=42)
-        valid, test = train_test_split(val_test, train_size=valid_size / (valid_size + test_size), random_state=42)
+        valid, test = train_test_split(val_test, train_size= 0.25 / 0.5, random_state=42)
 
         train_list.append(train)
         valid_list.append(valid)
@@ -214,21 +253,9 @@ def custom_split_stratified(input_json_filename, output_data_path, additional_an
     valid_final = pd.concat(valid_list, ignore_index=True)
     test_final = pd.concat(test_list, ignore_index=True)
 
-    if len(valid_final) != len(test_final):
-        size_difference = abs(len(valid_final) - len(test_final))
-        transfer_count = size_difference // 2  # Transfer half of the difference
+    valid_final, test_final = rebalance_train_and_valid(valid_final, test_final)
 
-        if len(valid_final) < len(test_final):
-            # Remove the last row from the larger DataFrame and append it to the smaller DataFrame
-            for _ in range(transfer_count):
-                removed_row = test_final.iloc[[-1]]  # Get the last row as a DataFrame
-                valid_final = pd.concat([valid_final, removed_row], ignore_index=True)
-                test_final = test_final.drop(test_final.index[-1])
-        else:
-            for _ in range(transfer_count):
-                removed_row = valid_final.iloc[[-1]]  # Get the last row as a DataFrame
-                test_final = pd.concat([test_final, removed_row], ignore_index=True)
-                valid_final = valid_final.drop(valid_final.index[-1])
+    print_nctids_per_entity_type(train_final, valid_final, test_final, entities_all)
 
     # Check for overlaps
     check_overlaps(train_final, valid_final, "train", "valid")
@@ -275,7 +302,8 @@ if __name__ == '__main__':
                               output_data_path=output_data_splits_path)
 
     # SPLIT WITH BALANCED ENTITIES INTO TRAIN, DEV, TEST
-    entities_intervention_to_balance = ['RADIOTHERAPY', 'SURGICAL', 'BEHAVIOURAL', 'PHYSICAL', 'DRUG', 'OTHER']
+    entities_intervention_to_balance = ['RADIOTHERAPY', 'SURGICAL', 'BEHAVIOURAL', 'PHYSICAL']
+    entities_all = ['RADIOTHERAPY', 'SURGICAL', 'BEHAVIOURAL', 'PHYSICAL', 'DRUG', 'OTHER', 'CONDITION', 'CONTROL']
     custom_split_stratified(output_jsonl_file_bio_format_formatted, output_data_splits_path + "stratified_entities/",
-                            file_with_non_bio_annotations, entities_intervention_to_balance, train_size=0.8,
+                            file_with_non_bio_annotations, entities_intervention_to_balance, entities_all, train_size=0.8,
                             valid_size=0.1)

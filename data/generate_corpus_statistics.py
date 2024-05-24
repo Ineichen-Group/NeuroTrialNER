@@ -1,63 +1,8 @@
 import pandas as pd
 import re
-from collections import Counter
-import string
 import numpy as np
 from scipy.stats import t
-import json
 from collections import defaultdict
-
-
-def extract_relevant_info_from_json(file_path, file_name_addition, output_path):
-    extracted_data = []
-    labels_frequency = {}
-
-    with open(file_path, "r") as file:
-        for line in file:
-            data = json.loads(line)
-
-            nct_id = data["nct_id"]
-            source = data["source"]
-            text = data["text"]
-            ner_manual = data.get("spans", [])
-
-            parsed_annotations_all = [(ann['start'], ann['end'], ann['label'], text[ann['start']:ann['end']]) for
-                                      ann in ner_manual]
-            parsed_annotations_all_indices = [(ann['start'], ann['end']) for ann in ner_manual]
-            parsed_annotations_disease = [(ann['start'], ann['end'], ann['label']) for ann in ner_manual if
-                                          ann['label'] == 'CONDITION']
-            parsed_annotations_intervention = [(ann['start'], ann['end'], ann['label']) for ann in ner_manual if
-                                               ann['label'] != 'CONDITION']
-
-            # Collect label frequencies
-            for ann in ner_manual:
-                label = ann['label']
-                if label in labels_frequency:
-                    labels_frequency[label] += 1
-                else:
-                    labels_frequency[label] = 1
-
-            extracted_data.append({
-                "nct_id": nct_id,
-                "source": source,
-                "text": text,
-                "ner_manual_{}".format(file_name_addition): parsed_annotations_all,
-                "ner_manual_{}_idx".format(file_name_addition): parsed_annotations_all_indices,
-                "ner_manual_{}_disease".format(file_name_addition): parsed_annotations_disease,
-                "ner_manual_{}_intervention".format(file_name_addition): parsed_annotations_intervention
-
-            })
-
-    df = pd.DataFrame(extracted_data)
-
-    # Convert dictionary to DataFrame
-    labels_frequency_df = pd.DataFrame(list(labels_frequency.items()), columns=['label', 'frequency'])
-
-    # Save DataFrame to CSV file
-    labels_frequency_df.to_csv(output_path + 'labels_frequency_{}_neuro.csv'.format(
-        file_name_addition), index=False)
-
-    return df
 
 
 def collect_ds_statistics(df, ds_name, ds_split, column_with_annotations='Target_NER', output_path='experiments/'):
@@ -94,7 +39,7 @@ def collect_ds_statistics(df, ds_name, ds_split, column_with_annotations='Target
     entity_class_df.to_csv(output_path + '{}_{}_entity_class_stats.csv'.format(ds_name, ds_split), index=False)
 
 
-def calculate_average_words_and_sentences_confidence(csv_file_path, confidence_level=0.95):
+def calculate_average_words_and_sentences_with_ci(csv_file_path, confidence_level=0.95):
     # Read the CSV file
     data = pd.read_csv(csv_file_path)
 
@@ -146,17 +91,20 @@ def calculate_average_words_and_sentences_confidence(csv_file_path, confidence_l
 
 
 if __name__ == '__main__':
-    train_file = 'annotated_data/data_splits/ct_neuro_train_merged_713.csv'
-    dev_file = 'annotated_data/data_splits/ct_neuro_dev_merged_90.csv'
-    test_file = 'annotated_data/data_splits/ct_neuro_test_merged_90.csv'
+    ds_input_path = 'annotated_data/data_splits/stratified_entities/'
+    train_file = ds_input_path + 'ct_neuro_train_merged_787.csv'
+    dev_file = ds_input_path + 'ct_neuro_dev_merged_153.csv'
+    test_file = ds_input_path + 'ct_neuro_test_merged_153.csv'
 
-    print(calculate_average_words_and_sentences_confidence(train_file))
-    print(calculate_average_words_and_sentences_confidence(dev_file))
-    print(calculate_average_words_and_sentences_confidence(test_file))
+    print(calculate_average_words_and_sentences_with_ci(train_file))
+    print(calculate_average_words_and_sentences_with_ci(dev_file))
+    print(calculate_average_words_and_sentences_with_ci(test_file))
+
+    stats_output_path = './annotated_data/corpus_stats/stratified_entities/'
 
     collect_ds_statistics(pd.read_csv(train_file), ds_name="clintrials", ds_split="train",
-                          column_with_annotations='ner_manual_ct_target', output_path='./annotated_data/corpus_stats/')
+                          column_with_annotations='ner_manual_ct_target', output_path=stats_output_path)
     collect_ds_statistics(pd.read_csv(dev_file), ds_name="clintrials", ds_split="dev",
-                          column_with_annotations='ner_manual_ct_target', output_path='./annotated_data/corpus_stats/')
+                          column_with_annotations='ner_manual_ct_target', output_path=stats_output_path)
     collect_ds_statistics(pd.read_csv(test_file), ds_name="clintrials", ds_split="test",
-                          column_with_annotations='ner_manual_ct_target', output_path='./annotated_data/corpus_stats/')
+                          column_with_annotations='ner_manual_ct_target', output_path=stats_output_path)
