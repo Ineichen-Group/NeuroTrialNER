@@ -4,6 +4,11 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 import numpy as np
 
+def save_jsonl(data, filename):
+    with open(filename, 'w') as file:
+        for record in data:
+            json.dump(record, file)
+            file.write('\n')
 
 def read_json_split_save_data(input_json_filename,
                               additional_annotation_format_file="ct_neuro_final_target_annotated_ds.csv",
@@ -277,6 +282,12 @@ def custom_split_stratified(input_json_filename, output_data_path, additional_an
     train_final.to_csv(output_data_path + 'ct_neuro_train_merged_{}.csv'.format(len(train_final)), index=False)
     valid_final.to_csv(output_data_path + 'ct_neuro_dev_merged_{}.csv'.format(len(valid_final)), index=False)
     test_final.to_csv(output_data_path + 'ct_neuro_test_merged_{}.csv'.format(len(test_final)), index=False)
+
+    # Save to JSONL files
+    save_jsonl(train_final[['tokens','ner_tags','nct_id']].to_dict(orient='records'), output_data_path + 'ct_neuro_train_merged_{}.json'.format(len(train_final)))
+    save_jsonl(valid_final[['tokens','ner_tags','nct_id']].to_dict(orient='records'), output_data_path + 'ct_neuro_dev_merged_{}.json'.format(len(valid_final)))
+    save_jsonl(test_final[['tokens','ner_tags','nct_id']].to_dict(orient='records'), output_data_path + 'ct_neuro_test_merged_{}.json'.format(len(test_final)))
+
 
     return train_final, valid_final, test_final
 
