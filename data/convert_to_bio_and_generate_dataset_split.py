@@ -4,6 +4,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 import numpy as np
 
+
 def read_json_split_save_data(input_json_filename,
                               additional_annotation_format_file="ct_neuro_final_target_annotated_ds.csv",
                               output_data_path='corpus/test_annotations_for_guidlines/'):
@@ -134,7 +135,17 @@ def process_file_and_save_bert_to_bio_format(input_jsonl_file_prodigy_format, ou
         print("Average number of tokens:", avg_tokens)
     return output_jsonl_file_bio_format_formatted
 
-def custom_split_stratified(input_json_filename, output_data_path, additional_annotation_format_file, entities, train_size=0.8, valid_size=0.1):
+
+def check_overlaps(dataset1, dataset2, dataset1_name, dataset2_name):
+    overlap = set(dataset1['nct_id']).intersection(set(dataset2['nct_id']))
+    if overlap:
+        print("Overlap between {} and {}: {}".format(dataset1_name, dataset2_name, overlap))
+    else:
+        print("No overlap between {} and {}".format(dataset1_name, dataset2_name))
+
+
+def custom_split_stratified(input_json_filename, output_data_path, additional_annotation_format_file, entities,
+                            train_size=0.8, valid_size=0.1):
     print("Performing stratified split.")
     # Set a random seed for reproducibility
     random.seed(42)
@@ -148,12 +159,17 @@ def custom_split_stratified(input_json_filename, output_data_path, additional_an
 
     # Convert the data to DataFrame objects
     df = pd.DataFrame(data)
+    print("Size of DF from JSON BIO: ", len(df), df['id'].value_counts())
+
     # load the dataset that is not bio format
     additional_format = pd.read_csv(additional_annotation_format_file)[
         ["nct_id", "text", "ner_manual_ct_target"]]
 
+    print("Size of DF with non-bio annotations: ", len(additional_format), additional_format['nct_id'].value_counts())
+
     # Join and keep only the rows from each split
     df = pd.merge(df, additional_format, left_on='id', right_on='nct_id', how='left')
+    print("Total dataset size/ duplicates: ", len(df), df.duplicated(subset='nct_id').any())
 
     test_size = 1.0 - train_size - valid_size
 
@@ -161,25 +177,33 @@ def custom_split_stratified(input_json_filename, output_data_path, additional_an
     valid_list = []
     test_list = []
 
+    processed_idx_to_drop = []
     for entity in entities:
         entity_df = df[df['ner_manual_ct_target'].str.contains(entity, na=False)]
         print(entity, len(entity_df))
 
+        # Remove processed rows from the main DataFrame
+        df = df.drop(entity_df.index)
+        processed_idx_to_drop.extend(entity_df.index)
+
         # Proceed with traditional splitting
         train, val_test = train_test_split(entity_df, train_size=train_size, test_size=test_size + valid_size,
-                                            random_state=42)
-        valid, test = train_test_split(val_test, train_size = valid_size / (valid_size + test_size), random_state=42)
+                                           random_state=42)
+        valid, test = train_test_split(val_test, train_size=valid_size / (valid_size + test_size), random_state=42)
 
         train_list.append(train)
         valid_list.append(valid)
         test_list.append(test)
+
         print(f"Train size {len(train)}, valid size {len(valid)}, test size {len(test)}")
-        # Remove processed rows from the main DataFrame
-        df = df.drop(entity_df.index)
+
+    check_overlaps(pd.concat(train_list, ignore_index=True), pd.concat(valid_list, ignore_index=True), "train", "valid")
+    check_overlaps(pd.concat(train_list, ignore_index=True), pd.concat(test_list, ignore_index=True), "train", "test")
+    check_overlaps(pd.concat(valid_list, ignore_index=True), pd.concat(test_list, ignore_index=True), "valid", "test")
 
     if not df.empty:
-        train, val_test = train_test_split(df, train_size=train_size, test_size=test_size+valid_size,
-                                            random_state=42)
+        train, val_test = train_test_split(df, train_size=train_size, test_size=test_size + valid_size,
+                                           random_state=42)
         valid, test = train_test_split(val_test, train_size=valid_size / (valid_size + test_size), random_state=42)
 
         train_list.append(train)
@@ -205,6 +229,11 @@ def custom_split_stratified(input_json_filename, output_data_path, additional_an
                 removed_row = valid_final.iloc[[-1]]  # Get the last row as a DataFrame
                 test_final = pd.concat([test_final, removed_row], ignore_index=True)
                 valid_final = valid_final.drop(valid_final.index[-1])
+
+    # Check for overlaps
+    check_overlaps(train_final, valid_final, "train", "valid")
+    check_overlaps(train_final, test_final, "train", "test")
+    check_overlaps(valid_final, test_final, "valid", "test")
 
     # Shuffle indices
     train_indices = np.random.permutation(train_final.index)
@@ -247,4 +276,6 @@ if __name__ == '__main__':
 
     # SPLIT WITH BALANCED ENTITIES INTO TRAIN, DEV, TEST
     entities_intervention_to_balance = ['RADIOTHERAPY', 'SURGICAL', 'BEHAVIOURAL', 'PHYSICAL', 'DRUG', 'OTHER']
-    custom_split_stratified(output_jsonl_file_bio_format_formatted, output_data_splits_path + "stratified_entities/", file_with_non_bio_annotations, entities_intervention_to_balance, train_size=0.8, valid_size=0.1)
+    custom_split_stratified(output_jsonl_file_bio_format_formatted, output_data_splits_path + "stratified_entities/",
+                            file_with_non_bio_annotations, entities_intervention_to_balance, train_size=0.8,
+                            valid_size=0.1)
