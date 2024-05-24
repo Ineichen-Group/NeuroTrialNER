@@ -111,10 +111,18 @@ def read_jsonl(file_path):
     return data
 
 
-def append_jsonl_and_save_combined(file_path1, file_path2, output_file):
+def append_two_jsonl_and_save_combined(file_path1, file_path2, output_file):
     data1 = read_jsonl(file_path1)
     data2 = read_jsonl(file_path2)
     combined_data = data1 + data2
+
+    write_jsonl(output_file, combined_data)
+
+def append_jsonl_and_save_combined(output_file, *file_paths):
+    combined_data = []
+    for file_path in file_paths:
+        data = read_jsonl(file_path)
+        combined_data.extend(data)
 
     write_jsonl(output_file, combined_data)
 
@@ -127,9 +135,9 @@ def prepare_first_annotation_batch(file_prefix, output_stats_file_path="./annota
     remove_versions_from_resolved_dataset_and_save_resolved(file_prefix, "neuro_matching_annotations_reviewed_55",
                                                             output_file_name="neuro_matching_annotations_reviewed_55_no_versions")
 
-    append_jsonl_and_save_combined(file_prefix + "neuro_merged_all_433_no_versions.jsonl",
-                                   file_prefix + "neuro_matching_annotations_reviewed_55_no_versions.jsonl",
-                                   output_file=file_prefix + final_json_output_file_name)
+    append_two_jsonl_and_save_combined(file_prefix + "neuro_merged_all_433_no_versions.jsonl",
+                                       file_prefix + "neuro_matching_annotations_reviewed_55_no_versions.jsonl",
+                                       output_file=file_prefix + final_json_output_file_name)
 
     df_annotations = extract_relevant_info_from_json_and_save_stats(
         file_prefix + final_json_output_file_name, output_stats_file_path,
@@ -177,18 +185,28 @@ if __name__ == '__main__':
                              final_output_file_name_batch_3, stats_file_name_addition_batch_3,
                              path_to_save_stats="./annotated_data/corpus_stats/")
 
+    final_output_file_name_batch_3_1 = "ct_neuro_60_target_annotated_ds_round_3"
+    input_file_name_after_prodigy_review_batch_3_1 = "neuro_merged_annotations_nondrug_60_batch_3"
+    stats_file_name_addition_batch_3_1 = "batch3_60"
+    prepare_annotation_batch(file_path_prefix_3, input_file_name_after_prodigy_review_batch_3_1,
+                             final_output_file_name_batch_3_1, stats_file_name_addition_batch_3_1,
+                             path_to_save_stats="./annotated_data/corpus_stats/")
+
     ### COMBINE THE DATA FROM THE ANNOTATION ROUNDS
-    final_output_file_name = "ct_neuro_final_target_annotated_ds_combined_rounds"
-    json_output_file_path = "annotated_data/final_combined/" + final_output_file_name + ".jsonl"
-    append_jsonl_and_save_combined(file_path_prefix_1 + "ct_neuro_final_target_annotated_ds_round_1.jsonl",
-                                   file_path_prefix_2 + "ct_neuro_405_target_annotated_ds_round_2.jsonl",
-                                   output_file=json_output_file_path)
+    output_file_name_round_1_2 = "ct_neuro_final_target_annotated_ds_combined_rounds"
+    json_output_file_path_round_1_2 = "annotated_data/final_combined/" + output_file_name_round_1_2 + ".jsonl"
+    append_two_jsonl_and_save_combined(file_path_prefix_1 + "ct_neuro_final_target_annotated_ds_round_1.jsonl",
+                                       file_path_prefix_2 + "ct_neuro_405_target_annotated_ds_round_2.jsonl",
+                                       output_file=json_output_file_path_round_1_2)
     # include round 3
     final_output_file_name = "ct_neuro_final_target_annotated_ds_combined_rounds_incl_round_3"
     json_output_file_path_final = "annotated_data/final_combined/" + final_output_file_name + ".jsonl"
-    append_jsonl_and_save_combined(json_output_file_path,
-                                   file_path_prefix_3 + final_output_file_name_batch_3 + ".jsonl",
-                                   output_file=json_output_file_path_final)
+    json_file_3_path = file_path_prefix_3 + final_output_file_name_batch_3 + ".jsonl"
+    json_file_3_1_path = file_path_prefix_3 + final_output_file_name_batch_3_1 + ".jsonl"
+
+    file_paths_to_combine = [json_output_file_path_round_1_2, json_file_3_path, json_file_3_1_path]
+
+    append_jsonl_and_save_combined(json_output_file_path_final, *file_paths_to_combine)
 
     df_annotations = extract_relevant_info_from_json_and_save_stats(
         json_output_file_path_final,
