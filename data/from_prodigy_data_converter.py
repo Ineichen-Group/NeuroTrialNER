@@ -48,7 +48,7 @@ def extract_relevant_info_from_json_and_save_stats(input_file_path, output_file_
     print(f"{count_lines} lines processed from jsonl {input_file_path} ")
 
     df = pd.DataFrame(extracted_data)
-
+    print("Size of extracted DF from JSONL: ", len(df))
     # Convert dictionary to DataFrame
     labels_frequency_df = pd.DataFrame(list(labels_frequency.items()), columns=['label', 'frequency'])
 
@@ -120,10 +120,17 @@ def append_two_jsonl_and_save_combined(file_path1, file_path2, output_file):
 
 def append_jsonl_and_save_combined(output_file, *file_paths):
     combined_data = []
+    encountered_ids = set()  # Keep track of encountered nct_id values
     for file_path in file_paths:
         data = read_jsonl(file_path)
-        combined_data.extend(data)
-
+        for item in data:
+            nct_id = item.get('nct_id')
+            if nct_id not in encountered_ids:
+                combined_data.append(item)
+                encountered_ids.add(nct_id)
+            else:
+                print("Duplicate nct_id found and will be skipped:", nct_id)
+    print("Length of combined data: ", len(combined_data))
     write_jsonl(output_file, combined_data)
 
 
