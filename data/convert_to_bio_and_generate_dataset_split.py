@@ -284,9 +284,9 @@ def custom_split_stratified(input_json_filename, output_data_path, additional_an
     test_final.to_csv(output_data_path + 'ct_neuro_test_merged_{}.csv'.format(len(test_final)), index=False)
 
     # Save to JSONL files
-    save_jsonl(train_final[['tokens','ner_tags','nct_id']].to_dict(orient='records'), output_data_path + 'ct_neuro_train_merged_{}.json'.format(len(train_final)))
-    save_jsonl(valid_final[['tokens','ner_tags','nct_id']].to_dict(orient='records'), output_data_path + 'ct_neuro_dev_merged_{}.json'.format(len(valid_final)))
-    save_jsonl(test_final[['tokens','ner_tags','nct_id']].to_dict(orient='records'), output_data_path + 'ct_neuro_test_merged_{}.json'.format(len(test_final)))
+    save_jsonl(train_final[['tokens','ner_tags','nct_id']].to_dict(orient='records'), output_data_path + 'ct_neuro_train_data_{}.json'.format(len(train_final)))
+    save_jsonl(valid_final[['tokens','ner_tags','nct_id']].to_dict(orient='records'), output_data_path + 'ct_neuro_dev_data_{}.json'.format(len(valid_final)))
+    save_jsonl(test_final[['tokens','ner_tags','nct_id']].to_dict(orient='records'), output_data_path + 'ct_neuro_test_data_{}.json'.format(len(test_final)))
 
 
     return train_final, valid_final, test_final
