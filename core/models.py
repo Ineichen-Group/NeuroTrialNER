@@ -13,7 +13,7 @@ import numpy as np
 
 
 class NERModel:
-    def __init__(self, model_type, model_name, model_path=None, entity_class_names_dict=None):
+    def __init__(self, model_type, model_name, model_path=None, entity_class_names_dict=None, use_custom_entities_grouping = False):
         self.model_name = model_name
         if "/" in model_name:
             self.model_name_short = self.model_name.split("/")[1]
@@ -23,9 +23,11 @@ class NERModel:
         self.model_type = model_type
         self.return_words_only = False
         self.entity_class_names_dict = entity_class_names_dict
-        self.normalize_pred_representation = True  # used for the hugging face models - it removes the additional
-        # information like prediction confidence that other models don't provide
+        self.normalize_pred_representation = True  # used for the hugging face models - it removes the additional information like prediction confidence that other models don't provide
+        self.use_custom_entities_grouping = use_custom_entities_grouping
+
         self.load_model()
+
 
     def load_model(self):
         if self.model_type == "spacy":
@@ -34,8 +36,9 @@ class NERModel:
             self.tokenizer = AutoTokenizer.from_pretrained(self.model_name)
             self.model = AutoModelForTokenClassification.from_pretrained(self.model_path)
             self.config = AutoConfig.from_pretrained(self.model_path)
+            group_entities_in_fuggingface = True if not self.use_custom_entities_grouping else False
             self.nlp = pipeline("ner", model=self.model, tokenizer=self.tokenizer,
-                                grouped_entities=True)  # grouped entities False to analyze the tokenization of the models
+                                grouped_entities=group_entities_in_fuggingface)  # grouped entities False to analyze the tokenization of the models
         elif self.model_type == "regex":
             pass
         else:
@@ -184,7 +187,8 @@ class NERModel:
                 tokenized_sentence = tokenized_sentence[:510]
                 sent = self.tokenizer.convert_tokens_to_string(tokenized_sentence)
             ner_results = self.nlp(sent)
-            # ner_results_combined = self.combine_entity_subwords(sent, ner_results) NOT NEEDED IF WE ARE USING THE GROUPED ENTITIES FLAG
+            if self.use_custom_entities_grouping:
+                ner_results = self.group_entities_custom_for_biobert(ner_results) #NOT NEEDED IF WE ARE USING THE GROUPED ENTITIES FLAG
             if self.normalize_pred_representation:
                 return self.normalize_representation(ner_results)
             else:
@@ -206,6 +210,35 @@ class NERModel:
             results.append((ent_dict['start'], ent_dict['end'], entity_class_full_name, ent_dict['word']))
         return results
 
+    def group_entities_custom_for_biobert(self, entities):
+        grouped_entities = []
+        current_entity = None
+
+        for entity in entities:
+            if entity['entity'].startswith('B-') and ("##" not in entity['word']):
+                if current_entity:
+                    grouped_entities.append(current_entity)
+                current_entity = {
+                    'entity_group': entity['entity'][2:],
+                    'score': entity['score'],
+                    'index': entity['index'],
+                    'word': entity['word'].replace('##', ''),
+                    'start': entity['start'],
+                    'end': entity['end']
+                }
+            elif current_entity:
+                if "##" in entity['word']:
+                    next_token = entity['word'].replace('##', '')
+                else:
+                    next_token = " " + entity['word']
+                current_entity['word'] += next_token
+                current_entity['end'] = entity['end']
+                current_entity['score'] = min(current_entity['score'], entity['score'])
+
+        if current_entity:
+            grouped_entities.append(current_entity)
+
+        return grouped_entities
 
     def combine_entity_subwords(self, sent, entities):
 
