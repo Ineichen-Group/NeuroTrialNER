@@ -276,6 +276,8 @@ def calculate_cohen_kappa_from_cfm_per_class(confusion, labels):
         upper = kappa + ci_boundary_limits
         print(
             f"Class {labels[i]}: lower: {round(lower, 3)}, {round(kappa, 3)} +/- {round(ci_boundary_limits, 3)}, upper: {round(upper, 3)}")
+        print(
+            f"Class {labels[i]}: {round(kappa, 3)} ({round(lower, 3)}, {round(upper, 3)})")
         kappa_per_class.append(kappa)
 
     return kappa_per_class
@@ -283,14 +285,15 @@ def calculate_cohen_kappa_from_cfm_per_class(confusion, labels):
 
 def vis_and_save_confusion_matrix(cm, labels, annotator1, annotator2, cf_output_path, suffix):
     # Divide values greater than 50,000 by 10
-    cm[cm > 50000] = cm[cm > 50000] / 10
-
+    # cm[cm > 50000] = cm[cm > 50000] / 10
+    # Normalize to show in proportion
+    conf_matrix_norm = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]
     # Create a ConfusionMatrixDisplay
-    cm_display = ConfusionMatrixDisplay(cm, display_labels=labels)
+    cm_display = ConfusionMatrixDisplay(conf_matrix_norm, display_labels=labels)
 
     # Plot the confusion matrix
     plt.figure(figsize=(8, 6))  # Adjust figure size as needed
-    cm_display.plot(cmap='Blues', values_format='.0f', xticks_rotation=90)
+    cm_display.plot(cmap='Blues', values_format='.2f', xticks_rotation=90)
     # Set the fontsize for x and y axis labels
     cm_display.ax_.set_xlabel(annotator2, fontsize=12)  # Adjust the fontsize as needed
     cm_display.ax_.set_ylabel(annotator1, fontsize=12)
@@ -305,7 +308,7 @@ def vis_and_save_confusion_matrix(cm, labels, annotator1, annotator2, cf_output_
     plt.tight_layout()
 
     # Save the figure as a PNG image
-    plt.savefig(cf_output_path + f'confusion_matrix_{annotator1}_{annotator2}_{suffix}.png')
+    plt.savefig(cf_output_path + f'confusion_matrix_{annotator1}_{annotator2}_{suffix}.pdf')
 
 
 def flatten_array_tuples(data):
@@ -349,7 +352,9 @@ def convert_to_array(value_str):
 def construct_file_path(base_path, round_path, file_name):
     return f"{base_path}/{round_path}/{file_name}"
 
-def extract_and_combine_annotations(base_path, round_path, file_suffixes, output_file_suffix, annotators, extra_annotator=''):
+
+def extract_and_combine_annotations(base_path, round_path, file_suffixes, output_file_suffix, annotators,
+                                    extra_annotator=''):
     files = [
         construct_file_path(base_path, round_path, f"{suffix}{file_suffixes}.jsonl")
         for suffix in ["bvi_neuro_ner_", "sed_neuro_ner_"]
@@ -358,10 +363,12 @@ def extract_and_combine_annotations(base_path, round_path, file_suffixes, output
         files.append(construct_file_path(base_path, round_path, extra_annotator))
     else:
         files.append('')
-    output_file = construct_file_path(base_path, round_path, f"annotated_combined_arrays_neuro_{output_file_suffix}.csv")
+    output_file = construct_file_path(base_path, round_path,
+                                      f"annotated_combined_arrays_neuro_{output_file_suffix}.csv")
     df = extract_annotations_and_combine_for_cohen_cappa(files, *annotators, '', output_file)
     print(f"Length of dataframe: {len(df)}")
     return df, output_file
+
 
 def calculate_statistics(df, annotators, base_path, round_description):
     calculate_overall_cohen_kappa(df, annotators)
@@ -369,20 +376,31 @@ def calculate_statistics(df, annotators, base_path, round_description):
     cf_output_path = f"{base_path}/corpus_stats/annotations_confusion_matrix/{round_description}_"
     calculate_confusion_matrix_and_kappa_per_class(df, annotators, cf_output_path=cf_output_path)
 
+
 def evaluate_annotation_round_2_and_3_combined(files_path):
     print("\n*** Combined Statistics Round 2 and 3 of annotations ***")
     df_round2 = pd.read_csv("./annotated_data/annotation_round_2/annotated_combined_arrays_neuro_round2.csv")
+    df_round2_to_keep = pd.read_csv("./annotated_data/annotation_round_2/ct_neuro_405_target_annotated_ds_round_2.csv")
+    df_round2 = df_round2[df_round2['nct_id'].isin(df_round2_to_keep['nct_id'])]
+
+    print("Data size round 2: ", df_round2.shape)
 
     df_combined_round3_path = construct_file_path(files_path, "annotation_round_3",
                                                   "annotated_combined_arrays_neuro_round_3_all.csv")
     df_round3 = pd.read_csv(df_combined_round3_path)
+    print("Data size round 3: ", df_round3.shape)
+
     df_round_2_3_combined = pd.concat([df_round2, df_round3], ignore_index=True)
+
+    df_round_2_3_combined.drop_duplicates(subset=['nct_id'], inplace=True)
+
+    print("Data size round 2 + 3: ", df_round_2_3_combined.shape)
 
     calculate_overall_cohen_kappa(df_round_2_3_combined, ['simona', 'benjamin'])
     calculate_overall_cohen_kappa_with_ci(df_round_2_3_combined, ['simona', 'benjamin'])
     cf_output_path = "annotated_data/corpus_stats/annotations_confusion_matrix/round2_3_"
-    calculate_confusion_matrix_and_kappa_per_class(df_round_2_3_combined, ['simona', 'benjamin'], cf_output_path=cf_output_path)
-
+    calculate_confusion_matrix_and_kappa_per_class(df_round_2_3_combined, ['simona', 'benjamin'],
+                                                   cf_output_path=cf_output_path)
 
 
 if __name__ == '__main__':
@@ -394,6 +412,9 @@ if __name__ == '__main__':
     print("\n*** Statistics Round 3 of annotations ***")
     df_3, _ = extract_and_combine_annotations(files_path, "annotation_round_3", "non_drug", "round_3",
                                               ["benjamin", "simona"])
+    df_3_to_keep = pd.read_csv("./annotated_data/annotation_round_3/ct_neuro_143_target_annotated_ds_round_3.csv")
+    df_3 = df_3[df_3['nct_id'].isin(df_3_to_keep['nct_id'])]
+
     df_3_60, _ = extract_and_combine_annotations(files_path, "annotation_round_3", "non_drug_60", "round_3_60",
                                                  ["benjamin", "simona"])
     df_round3 = pd.concat([df_3, df_3_60], ignore_index=True)
@@ -405,7 +426,7 @@ if __name__ == '__main__':
 
     print("\n*** Statistics Round 2 of annotations ***")
     _, output_file = extract_and_combine_annotations(files_path, "annotation_round_2", "2batch_500", "round2",
-                                                   ["benjamin", "simona"])
+                                                     ["benjamin", "simona"])
     print("Round 2 file: ", output_file)
     df_round2 = pd.read_csv(output_file)
     calculate_statistics(df_round2, ['simona', 'benjamin'], files_path, "round2")
@@ -424,6 +445,5 @@ if __name__ == '__main__':
     df_round1 = extract_annotations_and_combine_for_cohen_cappa(annotated_files_list, "amelia", "ben", "simona",
                                                                 output_file)
     df_round1 = pd.read_csv(output_file)
+    print("Data size round 1: ", df_round1.shape)
     calculate_statistics(df_round1, ['amelia', 'simona', 'ben'], files_path, "round1")
-
-

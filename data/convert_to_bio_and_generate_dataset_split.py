@@ -246,6 +246,7 @@ def custom_split_stratified(input_json_filename, output_data_path, additional_an
     check_overlaps(pd.concat(valid_list, ignore_index=True), pd.concat(test_list, ignore_index=True), "valid", "test")
 
     if not df.empty:
+        print("Remaining rows to distribute in 80-10-10: ", len(df))
         train, val_test = train_test_split(df, train_size=train_size, test_size=test_size + valid_size,
                                            random_state=42)
         valid, test = train_test_split(val_test, train_size=valid_size / (valid_size + test_size), random_state=42)

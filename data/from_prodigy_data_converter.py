@@ -222,7 +222,7 @@ if __name__ == '__main__':
     df_annotations.to_csv(f"annotated_data/final_combined/{final_output_file_name}.csv")
 
     # The below code was used when investigating differences between the annotators.
-    # filter_out_lines_for_review("ben_annotated_500_neuro.jsonl", "matching", "matching_nct_ids_annotations.csv")
-    # filter_out_lines_for_review("amelia_annotated_500_neuro.jsonl", "amelia")
-    # filter_out_lines_for_review("simona_annotated_500_neuro.jsonl", "simona")
-    # filter_out_lines_for_review("ben_annotated_500_neuro.jsonl", "ben")
+    # filter_out_lines_for_review("bvi_annotated_500_neuro.jsonl", "matching", "matching_nct_ids_annotations.csv")
+    # filter_out_lines_for_review("aec_annotated_500_neuro.jsonl", "amelia")
+    # filter_out_lines_for_review("sed_annotated_500_neuro.jsonl", "simona")
+    # filter_out_lines_for_review("bvi_annotated_500_neuro.jsonl", "ben")
