@@ -49,6 +49,10 @@ The _conditions_ table was joined with our disease list and we kept only those t
 This resulted in 40’842 unique trials related to neurological conditions (of which 35’969 were registered as interventional trials).
 The official title (from table _ctgov.studies_) of each trial together with its short description (from table _ctgov.brief_summaries_) was extracted to a csv file and prepared for annotation.
 
+For our third annotation round, we wanted to sample only non-drug interventions. The filtering for this was made in the AACT database
+by excluding intervention_type values equal to DRUG, BIOLOGICAL or DIETARY. To make sure that no overlaps with our existing samples exist,
+we extracted the AACT data and filtered it as shown in the notebook [Rebuttal_ACL_Additional_Data_Sampling.ipynb](data%2FRebuttal_ACL_Additional_Data_Sampling.ipynb).
+
 ## Annotation with Prodigy
 IMPORTANT: The annotations guidelines can be found here [annotation_guidelines](annotation_guidelines).
 
