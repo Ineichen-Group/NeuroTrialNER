@@ -128,8 +128,8 @@ The final dataset file will be split into train, dev, and test parts. Two types 
 ```bib
 generate_corpus_statistics.py
 ```
-Generates information about the total number of entities for each entity type in the datasets. Also outputs the frequency of individual entities. Otput saved in [corpus_stats](data%2Fannotated_data%2Fcorpus_stats).
-This data is used in [CT Corpus Stats.ipynb](data%2FCT%20Corpus%20Stats.ipynb) to create visuals of top entities based on their frequency.
+Generates information about the total number of entities for each entity type in the datasets. Also outputs the frequency of individual entities. 
+Outputs are saved in [corpus_stats](data%2Fannotated_data%2Fcorpus_stats). This data is used in [Generate_Corpus_Stats.ipynb](data%2FGenerate_Corpus_Stats.ipynb) to create visuals of top entities based on their frequency.
 
 
 # 3. NER Methods
