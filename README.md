@@ -96,11 +96,33 @@ for each annotator pair in [annotations_confusion_matrix](data%2Fannotated_data%
 ```bib
 convert_to_bio_and_generate_dataset_split.py
 ```
-In code file we convert the prodigy output annotations to BIO format. For each array of tokens, a corresponding array
-of annotations will be generated: "O" for no label, "B-XX" for begin label XX, or "I-XX" inside label XX.
+In code file we convert the prodigy output annotations to BIO format. For each array of tokens (as split by Prodigy), a corresponding array
+of annotations will be generated: "O" for no label, "B-XX" for begin label XX, or "I-XX" inside label XX. 
+The resulting full datasets are available in several formats:
+- the fields relevant for training: [ct_neuro_final_target_annotated_ds_bio_format_1093.jsonl](data%2Fannotated_data%2Ffinal_combined%2Fct_neuro_final_target_annotated_ds_bio_format_1093.jsonl)
 
-Furthermore, the final dataset file will be split into train, dev, and test parts (proportion 80-10-10). The final data used for training
-the models can be found in [data_splits](data%2Fannotated_data%2Fdata_splits). The raw data before the splits is provided in [final_combined](data%2Fannotated_data%2Ffinal_combined).
+| JSON Key Name | Value Data Type | Description                                                                                                                               |
+|---------------|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| tokens        | List of Strings | A list of tokens (words or punctuation) extracted from the text.                                                                          |
+| ner_tags      | List of Strings | Corresponding Named Entity Recognition (NER) tags for each token. Each tag indicates the entity type (e.g., B-OTHER, I-OTHER, O, B-COND). |
+| id            | String          | A unique identifier for the data entry, here the clinical trial ID (e.g., NCT02632279).                                                   |- additional prodigy details
+
+- all the details from prodigy: [ct_neuro_final_target_annotated_ds_combined_rounds.jsonl](data%2Fannotated_data%2Ffinal_combined%2Fct_neuro_final_target_annotated_ds_combined_rounds.jsonl) and 
+[ct_neuro_final_target_annotated_ds_combined_rounds.csv](data%2Fannotated_data%2Ffinal_combined%2Fct_neuro_final_target_annotated_ds_combined_rounds.csv). Below is 
+the metadata for the json file.
+
+| JSON Key Name | Value Data Type | Description                                                                                   |
+|---------------|-----------------|-----------------------------------------------------------------------------------------------|
+| nct_id        | String          | A unique identifier for the clinical trial or study (e.g., NCT02632279).                      |
+| source        | String          | The source or field from which the text was extracted (e.g., OfficialTitle+BriefSummary).     |
+| text          | String          | The full text content extracted from the specified source.                                    |
+| tokens        | List of Objects | A list of token objects, where each object contains details about individual tokens in the text. |
+| spans         | List of Objects | A list of span objects, where each object represents a labeled span of text with start and end positions. |
+| _timestamp    | Integer         | A timestamp indicating when the data was processed or recorded (in Unix epoch format).        |
+
+The final dataset file will be split into train, dev, and test parts. Two types of splits are available: 
+- Proportion 80-10-10: The final data used for training the models can be found in [data/data_splits](data%2Fannotated_data%2Fdata_splits). 
+- Stratified to balance minority entity types: The final data used for training the models can be found in [data/data_splits/stratified_entities](data%2Fannotated_data%2Fdata_splits%2Fstratified_entities).
 
 ### Generating corpus statistics
 ```bib
