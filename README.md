@@ -50,25 +50,40 @@ This resulted in 40’842 unique trials related to neurological conditions (of w
 The official title (from table _ctgov.studies_) of each trial together with its short description (from table _ctgov.brief_summaries_) was extracted to a csv file and prepared for annotation.
 
 ## Annotation with Prodigy
+IMPORTANT: The annotations guidelines can be found here [annotation_guidelines](annotation_guidelines).
+
 ```bib
 to_prodigy_data_converter.py
 ```
-The code in to_prodigy_data_converter.py converts the extracted sample from the AACT database [data_aact_sample](data%2Fdata_aact_sample)from .csv to a .json file ([data_for_prodigy](data%2Fdata_for_prodigy)). This data will be used for annotation in prodigy.
-During our first annotation period, we first annotated 100 pilot examples and refined the annotation guidelines. Then we annotated another 400 examples. In a second annotation period, two annotators had another 500 samples to annotate. Below you see the Prodigy command we used for annotation.
+The code in to_prodigy_data_converter.py converts the extracted sample from the AACT database [data_aact_sample](data%2Fdata_aact_sample)from .csv to a .json file ([data_for_prodigy](data%2Fdata_for_prodigy)). 
+This data will be used as input for annotation in prodigy.
+During our first annotation period, we first annotated 100 pilot examples and refined the annotation guidelines. 
+Then we annotated another 400 examples. In a second annotation period, two annotators had another 500 samples to annotate. Finally, in a third annotation round
+we annotated 200 non-drug intervention trials.
+
+Below you see the Prodigy command we used to start an annotation session in Prodigy. For further instructions for using prodigy see the file [Using Prodigy for Named Entity Annotation.docx](data%2Fdata_for_prodigy%2FUsing%20Prodigy%20for%20Named%20Entity%20Annotation.docx). 
+
 ```
 prodigy ner.manual <PRODIGY_DATASET_NAME> blank:en ./<ANNOTATION_DATA_FILE_NAME>.jsonl --label DRUG,BEHAVIOURAL,SURGERY,DIET,RADIOTHERAPY,REHABILITATION,I-OTHER,DISEASE
 ```
-The resulting annotations are stored in [annotation_round_1](data%2Fannotated_data%2Fannotation_round_1) and [annotation_round_2](data%2Fannotated_data%2Fannotation_round_2). There you can find the individual annotations of each annotator. 
-Those outputs were then further reviewed in prodigy in order to resolve conflicts and create the final datasets. The resulting datasets
-are the two .jsonl files "neuro_merged_all_433" and "neuro_merged_annotations_405_2batch". 
+The resulting annotations are stored in [annotation_round_1](data%2Fannotated_data%2Fannotation_round_1), [annotation_round_2](data%2Fannotated_data%2Fannotation_round_2), and [annotation_round_3](data%2Fannotated_data%2Fannotation_round_3).
+There you can find the individual annotations with all prodigy extracted details of each annotator (file names start with the annotator code names, i.e, bvi, sed or aec). 
+Those outputs were then further reviewed in prodigy in order to resolve conflicts and create the final datasets. 
+The resulting merged datasets from each annotation round are the .jsonl files: 
+- round 1: [neuro_merged_all_433.jsonl](data%2Fannotated_data%2Fannotation_round_1%2Fneuro_merged_all_433.jsonl)
+- round 2: [neuro_merged_annotations_405_2batch.jsonl](data%2Fannotated_data%2Fannotation_round_2%2Fneuro_merged_annotations_405_2batch.jsonl)
+- round 3: [neuro_merged_annotations_nondrug_60_batch_3.jsonl](data%2Fannotated_data%2Fannotation_round_3%2Fneuro_merged_annotations_nondrug_60_batch_3.jsonl) and [neuro_merged_annotations_nondrug_143_batch_3.jsonl](data%2Fannotated_data%2Fannotation_round_3%2Fneuro_merged_annotations_nondrug_143_batch_3.jsonl)
 
-The instructions for using prodigy are in the file [Using Prodigy for Named Entity Annotation.docx](data%2Fdata_for_prodigy%2FUsing%20Prodigy%20for%20Named%20Entity%20Annotation.docx). 
-The annotations guidelines can be found here [NeuroTrialNER_Data_Annotation_Guidelines.pdf](data%2Fdata_for_prodigy%2FNeuroTrialNER_Data_Annotation_Guidelines.pdf).
 ```bib
 from_prodigy_data_converter.py
 ```
-In the from_prodigy_data_converter.py file only the merged annotations are kept, i.e. after review. The resulting files are 
-[ct_neuro_final_target_annotated_ds_round_1.jsonl](data%2Fannotated_data%2Fannotation_round_1%2Fct_neuro_final_target_annotated_ds_round_1.jsonl) and [ct_neuro_405_target_annotated_ds_round_2.jsonl](data%2Fannotated_data%2Fannotation_round_2%2Fct_neuro_405_target_annotated_ds_round_2.jsonl).
+In from_prodigy_data_converter.py we filter the merged annotations from the Prodigy review session to keep only the agreed on annotations. Note that per default,
+the Prodigy "review" recipe stores the annotations from all reviewers and in addition the outputs from the resolution session.
+
+The resulting files are:
+- round 1:[ct_neuro_final_target_annotated_ds_round_1.jsonl](data%2Fannotated_data%2Fannotation_round_1%2Fct_neuro_final_target_annotated_ds_round_1.jsonl) 
+- round 2:  [ct_neuro_405_target_annotated_ds_round_2.jsonl](data%2Fannotated_data%2Fannotation_round_2%2Fct_neuro_405_target_annotated_ds_round_2.jsonl).
+- round 3: [ct_neuro_60_target_annotated_ds_round_3.jsonl](data%2Fannotated_data%2Fannotation_round_3%2Fct_neuro_60_target_annotated_ds_round_3.jsonl) and [ct_neuro_143_target_annotated_ds_round_3.jsonl](data%2Fannotated_data%2Fannotation_round_3%2Fct_neuro_143_target_annotated_ds_round_3.jsonl)
 
 ### Inter-Annotator Agreement
 ```bib
