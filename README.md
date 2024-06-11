@@ -191,8 +191,10 @@ An example file is [models/predictions/rebuttal/bert/ct_neuro_test_annotated_ber
 The bert prediction outputs are saved in [models/predictions/rebuttal/bert/](models%2Fpredictions%2Frebuttal%2Fbert).
 
 ## GPT Model
-The extraction of condition and intervention using GPT is in [Annotate with GPT.ipynb](models%2Fgpt%2FAnnotate%20with%20GPT.ipynb). Note that the code expects a valid OpenAPI key that
-can be read from the credentials.txt file. Note that the annotation can take up to 20 minutes. The results are saved under [predictions](models%2Fpredictions).
+The extraction of all entities using GPT is in [Annotate with GPT.ipynb](models%2Fgpt%2FAnnotate%20with%20GPT.ipynb). 
+Note that the code expects a valid OpenAPI key that can be read from a local credentials.txt file. 
+Note that the annotation can take up a long time (from 20min to a few hours). 
+The results are saved under [models/predictions/rebuttal/gpt](models%2Fpredictions%2Frebuttal%2Fgpt).
 
 ## Dictionary Lookup
 ```bib
