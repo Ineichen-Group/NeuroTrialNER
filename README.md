@@ -115,14 +115,14 @@ The resulting full datasets are available in several formats:
 [ct_neuro_final_target_annotated_ds_combined_rounds.csv](data%2Fannotated_data%2Ffinal_combined%2Fct_neuro_final_target_annotated_ds_combined_rounds.csv). Below is 
 the metadata for the json file.
 
-| JSON Key Name | Value Data Type | Description                                                                                   |
-|---------------|-----------------|-----------------------------------------------------------------------------------------------|
-| nct_id        | String          | A unique identifier for the clinical trial or study (e.g., NCT02632279).                      |
-| source        | String          | The source or field from which the text was extracted (e.g., OfficialTitle+BriefSummary).     |
-| text          | String          | The full text content extracted from the specified source.                                    |
-| tokens        | List of Objects | A list of token objects, where each object contains details about individual tokens in the text. |
-| spans         | List of Objects | A list of span objects, where each object represents a labeled span of text with start and end positions. |
-| _timestamp    | Integer         | A timestamp indicating when the data was processed or recorded (in Unix epoch format).        |
+| JSON Key Name | Value Data Type | Description                                                                                                                                                                                                                                                                                |
+|---------------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| nct_id        | String          | A unique identifier for the clinical trial or study (e.g., NCT02632279).                                                                                                                                                                                                                   |
+| source        | String          | The source or field from which the text was extracted (e.g., OfficialTitle+BriefSummary).                                                                                                                                                                                                  |
+| text          | String          | The full text content extracted from the specified source.                                                                                                                                                                                                                                 |
+| tokens        | List of Objects | A list of token objects, where each object contains details about individual tokens in the text. E.g. {"text": "Tryptophan", "start": 0, "end": 10, "id": 0, "ws": true}, {"text": "Depletion", "start": 11, "end": 20, "id": 1, "ws": true}...}                                           |
+| spans         | List of Objects | A list of span objects, where each object represents a labeled span of text with start and end positions. E.g. "spans": [{"start": 0, "end": 20, "token_start": 0, "token_end": 1, "label": "OTHER"}, {"start": 24, "end": 43, "token_start": 3, "token_end": 5, "label": "CONDITION"}...] |
+| _timestamp    | Integer         | A timestamp indicating when the data was processed or recorded (in Unix epoch format).                                                                                                                                                                                                     |
 
 The final dataset file will be split into train, dev, and test parts. Two types of splits are available: 
 - Proportion 80-10-10: The final data used for training the models can be found in [data/data_splits](data%2Fannotated_data%2Fdata_splits). 
@@ -139,20 +139,25 @@ Outputs are saved in [corpus_stats](data%2Fannotated_data%2Fcorpus_stats). This 
 # 3. NER Methods
 ## BERT Models
 ### Training
-The script used for training the two BERT models on the server is [run_experiment_on_server.sh](models%2Fbert%2Frun_experiment_on_server.sh).
-It executes [train_script.py](models%2Fbert%2Ftrain_script.py) via the following command:
+The bash script used for fine-tuning a BERT model from HuggingFace on our university computing server is in
+[models/bert/run_single_experiment.sh](models%2Fbert%2Frun_single_experiment.sh). 
+It executes [models/bert/train_script.py](models%2Fbert%2Ftrain_script.py) via the following command:
 ```bib
-python train_script.py --output_path "../clinical_trials_out" \
+python train_script.py \
+    --output_path "../clinical_trials_out/arr_rebuttal/train_size_impact" \
     --model_name_or_path "dmis-lab/biobert-v1.1" \
-    --train_data_path "./data/ct_neuro_train_data_713.json" \
-    --val_data_path "./data/ct_neuro_dev_data_90.json" \
-    --test_data_path "./data/ct_neuro_test_data_90.json" \
-    --n_epochs 15 --percentage $percentage --i $i
+    --train_data_path "./data/ct_neuro_train_data_787.json" \
+    --val_data_path "./data/ct_neuro_dev_data_153.json" \
+    --test_data_path "./data/ct_neuro_test_data_153.json" \
+    --n_epochs 15 --percentage "$percentage" --i "$i"
 ```
 Please make sure you have the reference to the folder with the data correctly. The three parameters that can be changed are:
 - model_name_or_path (default 'michiyasunaga/BioLinkBERT-base'): reference to a local model or a model hosted on huggingface; the other models we used are "dmis-lab/biobert-v1.1" and "bert-base-uncased".
 - n_epochs (default 20): the number of epochs for training; our experiments showed that there was no impact on the dev learning curve after more than 10 epochs
 - percentage (default 100): percentage value determining how much of the training dataset should be used.
+
+We also used a script that parallelizes the training of each model across separate GPUs, provided in
+[models/bert/run_parallel_experiment.sh](models%2Fbert%2Frun_parallel_experiment.sh).
 
 Please note that [wandb](https://docs.wandb.ai/guides/integrations/huggingface) was used to collect and visualize the training results.
 
