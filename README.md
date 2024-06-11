@@ -215,17 +215,37 @@ If those are found in the dictionaries that token(s) recieve the CONDITION or DR
 ## Evaluation
 
 ### Token- and Abstract-level
-```bib
-models/evaluate.py
-```
-This file will call the implementation of the sequeval, i.e., token-wise, evaluation of the models's performance. The implementation of the evaluation code is in [performance_evaluation.py](core%2Fperformance_evaluation.py).
 
+In the below notebook the obtained token-level annotations are processed and aggregated into an abstract-level summary.
 ```bib
-models/CT Models Evaluation.ipynb
+.models/1-CT Models_NER_Aggregation_Rebuttal_2024.ipynb
 ```
-In this notebook, the aggregation of labels on trial level is performed, as well as the normalization of the entities based on the drug and disease dictionaries.
-The performance is subsequently evaluated on trial/abstract level.
+This includes the following steps:
+1. Reading and combining all annotations.
+2. Replacement of abbreviations with their spelled-out form (when available withing the context of the trial).
+3. Extracting of unique entities.
+4. Representing the target and predicted entities as numerical arrays per trial.
+5. Saving of the abstract level annotations in [models/predictions/rebuttal/all_models_aggregated_all_entity_types_numarical_arrays.csv](models%2Fpredictions%2Frebuttal%2Fall_models_aggregated_all_entity_types_numarical_arrays.csv)
+
+The outputs from the aggregation was then used in the below notebook to generate the LaTeX tables in the paper, as well as the visualization.
+```bib
+.models/2-CT Models_Evaluation_ARR_Rebuttal_2024-New-CI.ipynb
+```
+This includes:
+1. Abstract-level evaluation (exact and partial).
+2. Visualization of the F1 score and its CI across models.
+3. Token-level evaluation (based on the BIO outputs from the models).
+
+Finally, we also provide the script to plot the performance with varying amount of training data in:
+```bib
+.models/3-CT Impact_of_Train_Data_Size.ipynb
+```
 
 ### Error Analysis
-The tool PowerBI was used for the detailed error analysis. A free desktop version can be downloaded from 
+
+In [2-CT Models_Evaluation_ARR_Rebuttal_2024-New-CI.ipynb](models%2F2-CT%20Models_Evaluation_ARR_Rebuttal_2024-New-CI.ipynb)
+we also generated an output of the data for easier error analysis, e.g. [models/predictions/rebuttal/all_models_aggregated_annotations_for_REVIEW.csv](models%2Fpredictions%2Frebuttal%2Fall_models_aggregated_annotations_for_REVIEW.csv).
+We analysed this file manually to derive the different type of model errors.
+
+Additionally, the tool PowerBI was used for the detailed error analysis. A free desktop version can be downloaded from 
 [Microsoft Power BI Desktop](https://powerbi.microsoft.com/en-us/downloads/) to open the file [Error_Analysis_PowerBI.pbix](models%2FError_Analysis_PowerBI.pbix).
