@@ -138,7 +138,7 @@ Outputs are saved in [corpus_stats](data%2Fannotated_data%2Fcorpus_stats). This 
 
 # 3. NER Methods
 ## BERT Models
-### Training
+### Fine-Tuning
 The bash script used for fine-tuning a BERT model from HuggingFace on our university computing server is in
 [models/bert/run_single_experiment.sh](models%2Fbert%2Frun_single_experiment.sh). 
 It executes [models/bert/train_script.py](models%2Fbert%2Ftrain_script.py) via the following command:
@@ -166,16 +166,29 @@ Please note that [wandb](https://docs.wandb.ai/guides/integrations/huggingface) 
 models/run_annotation_models.py
 ```
 This file will initialize the requested models and do prediction on the test dataset. A prerequisite is to have the trained model files available.
-The prediction code is in the core module file [models.py](core%2Fmodels.py).
+The prediction code is in the core module file [core/models.py](core%2Fmodels.py).
 
 To initialize a BERT model the following command is used:
 ```bib
- model = NERModel("huggingface", hugging_face_model_name, hugging_face_model_path, short_to_long_class_names_map)
-
+   model = NERModel("huggingface", hugging_face_model_name, hugging_face_model_path, short_to_long_class_names_map, use_custom_entities_grouping)
 ```
-Two outputs can be generated. With model.bert_predict_bio_format() an array of the entity class for each token is saved. With model.annotate() the annotations are saved
-in the format (start index, end index, type, entity tokens), i.e., (99, 109, 'DRUG', 'Gabapentin'). The results are saved under [predictions](models%2Fpredictions).
 
+Two outputs can be generated. 
+```bib
+predict_dataset = model.bert_predict_bio_format(self, ds_path_train, ds_path_test, text_column_name, label_column_name, label_all_tokens=False, padding=True, max_length=512)
+```
+With model.bert_predict_bio_format() an array of the entity class for each token is saved in BIO format, together with additional model outputs, e.g., padding.
+An example file is [models/predictions/rebuttal/bert/ct_neuro_test_annotated_bert-base-uncased_BIO_20240529.csv](models%2Fpredictions%2Frebuttal%2Fbert%2Fct_neuro_test_annotated_bert-base-uncased_BIO_20240529.csv).
+
+```bib
+predict_dataset = model.annotate(self, file_path, source_column, sep=",")
+```
+
+With model.annotate() the annotations are saved in the tuple format (start index, end index, type, entity tokens), 
+e.g., (99, 109, 'DRUG', 'Gabapentin'). 
+An example file is [models/predictions/rebuttal/bert/ct_neuro_test_annotated_bert-base-uncased_20240529.csv](models%2Fpredictions%2Frebuttal%2Fbert%2Fct_neuro_test_annotated_bert-base-uncased_20240529.csv)
+
+The bert prediction outputs are saved in [models/predictions/rebuttal/bert/](models%2Fpredictions%2Frebuttal%2Fbert).
 
 ## GPT Model
 The extraction of condition and intervention using GPT is in [Annotate with GPT.ipynb](models%2Fgpt%2FAnnotate%20with%20GPT.ipynb). Note that the code expects a valid OpenAPI key that
