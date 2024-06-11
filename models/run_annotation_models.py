@@ -24,24 +24,25 @@ short_to_long_class_names_map = {
 }
 
 
-def run_inference_hugging_face_model(hugging_face_model_name, hugging_face_model_path, run_BIO_annotations=True):
+def run_inference_hugging_face_model(hugging_face_model_name, hugging_face_model_path, run_BIO_annotations=True, group_entities_custom = False):
     model_name_str = "bert-base-uncased"
     if "/" in hugging_face_model_name:
         model_name_str = hugging_face_model_name.split("/")[1]
-    model = NERModel("huggingface", hugging_face_model_name, hugging_face_model_path, short_to_long_class_names_map)
+
+    model = NERModel("huggingface", hugging_face_model_name, hugging_face_model_path, short_to_long_class_names_map, use_custom_entities_grouping = group_entities_custom)
 
     ### ANNOTATE WITH BIO OUTPUT
     if run_BIO_annotations:
-        predict_dataset_with_pred = model.bert_predict_bio_format(train_data_path, test_data_path, "tokens",
+        predict_dataset = model.bert_predict_bio_format(train_data_path, test_data_path, "tokens",
                                                                   "ner_tags")
-        output_path = path_to_save_output_annotations + "ct_neuro_test_annotated_{}_BIO_{}.csv".format(model_name_str,
+        output_path = path_to_save_output_annotations + "bert/ct_neuro_test_annotated_{}_BIO_{}.csv".format(model_name_str,
                                                                                                        current_date)
-        predict_dataset_with_pred.to_csv(output_path, sep=",")
+        predict_dataset.to_csv(output_path, sep=",")
         print(f"BIO annotations for {model_name_str} saved in {output_path}.")
     else:
         ### ANNOTATE WITH TUPLE OUTPUT
         annotated_ds = model.annotate(test_data_path_csv, "text")
-        output_path = path_to_save_output_annotations + "ct_neuro_test_annotated_{}_{}.csv".format(model_name_str,
+        output_path = path_to_save_output_annotations + "bert/ct_neuro_test_annotated_{}_{}_NEW_Grouping.csv".format(model_name_str,
                                                                                                    current_date)
         annotated_ds.to_csv(output_path, sep=",")
         print(f"Tuple annotations for {model_name_str} saved in {output_path}.")
@@ -56,7 +57,7 @@ if __name__ == '__main__':
     run_bert_base_uncased = False
 
     # TODO: Error "Placeholder storage has not been allocated on MPS device!" when trying to run tuple and BIO annotations sequentially?
-    run_BIO_annotations = True  # If set to false the annotations will be saved in tuple format.
+    run_BIO_annotations = False  # If set to false the annotations will be saved in tuple format.
     run_regex_dictionary = False
 
     #### BERT BASE ####
@@ -78,7 +79,7 @@ if __name__ == '__main__':
         print("Running BioBERT model_annotations.")
         hugging_face_model_name = "dmis-lab/biobert-v1.1"
         hugging_face_model_path = "./bert/dmis-lab_biobert-v1.1/epochs_15_data_size_100_iter_4/"
-        run_inference_hugging_face_model(hugging_face_model_name, hugging_face_model_path, run_BIO_annotations)
+        run_inference_hugging_face_model(hugging_face_model_name, hugging_face_model_path, run_BIO_annotations, group_entities_custom = True)
 
     #### RegEx ####
     if run_regex_dictionary:
