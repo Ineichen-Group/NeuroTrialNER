@@ -1,0 +1,523 @@
+,nct_id,combined_all_target,combined_all_biobert-v1.1,condition_exact_f1_biobert-v1.1,condition_partial_f1_biobert-v1.1,other_exact_f1_biobert-v1.1,other_partial_f1_biobert-v1.1,drug_exact_f1_biobert-v1.1,drug_partial_f1_biobert-v1.1,physical_exact_f1_biobert-v1.1,physical_partial_f1_biobert-v1.1,behavioural_exact_f1_biobert-v1.1,behavioural_partial_f1_biobert-v1.1,surgical_exact_f1_biobert-v1.1,surgical_partial_f1_biobert-v1.1,radiotherapy_exact_f1_biobert-v1.1,radiotherapy_partial_f1_biobert-v1.1,control_exact_f1_biobert-v1.1,control_partial_f1_biobert-v1.1,entity_type
+78,NCT01292577,"unique_condition: cannabis misuse|misuse cannabis|schizophrenia, 
+unique_control: tau alone|treatment as usual, 
+unique_behavioural: adapted cognitive/affective remediation|affect regulation|cet|cognitive enhancement therapy|cognitive remediation|personal therapy|pt","unique_condition: cannabis|schizophrenia, 
+unique_control: tau alone|treatment as usual, 
+unique_behavioural: affect regulation|cet|cet pt|cognitive/affective remediation|cognitive enhancement therapy|cognitive remediation|personal therapy|pt",0.4,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8,1.0,0.0,0.0,0.0,0.0,1.0,1.0,condition
+23,NCT05663034,"unique_condition: depressive|insomnia|mild to moderate tbi|post-traumatic stress|post-traumatic stress symptoms|tbi-related insomnia, 
+unique_behavioural: cbt|cognitive behavioral therapy|cognitive-behavioral vs. mindfulness-based treatment|mindfulness-based treatment|mindfulness-based treatment for insomnia","unique_condition: depressive symptoms|insomnia|insomniasomnia|mild to moderate tbi|post-traumatic stress|post-traumatic stress soms|post-traumatic stress symptoms|tbi, 
+unique_behavioural: cbt-i|cognitive-behavioral|mindfulness-based treatment|mindfulness-based treatment insomnia|mindfulness-based treatment for insomnia|standardized cognitive behavioral therapy, 
+unique_other: telemedicine -",0.5714285714285714,0.8888888888888888,0.0,0.0,0.0,0.0,0.0,0.0,0.36363636363636365,1.0,0.0,0.0,0.0,0.0,0.0,0.0,condition
+91,NCT00073853,"unique_condition: acute, complete spinal cord injury|complete spinal cord injuries|spinal cord injury, 
+unique_surgical: autologous incubated macrophages|procord","unique_condition: acute , complete spinal cord injury|complete spinal cord injuries|sci injury, 
+unique_surgical: autologous incubated macrophages|macrophage|macrophages|procord",0.3333333333333333,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.6666666666666666,0.6666666666666666,0.0,0.0,0.0,0.0,condition
+4,NCT01418976,"unique_condition: chronic, mild-to-moderate, traumatic brain injury|traumatic brain injury, 
+unique_physical: intensive mobility training","unique_condition: chronic , mild-to-moderate , traumatic brain injury|locomotor impairment|neural insult|traumatic brain injury|traumatic brain injy|v, 
+unique_physical: intensive mobility training",0.25,0.7272727272727273,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,condition
+71,NCT05371041,"unique_condition: tic|tics|tourette syndrome, 
+unique_other: deep brain stimulation|implantable neurostimulator|medtronic percept pc|subcortical closed-loop system",unique_condition: tic|tics|tourette syndrome stimulation,0.6666666666666666,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,condition
+27,NCT00295139,"unique_condition: drug abuse|spmi, 
+unique_control: supportive control treatment, 
+unique_behavioural: behavioral treatment|case management component|critical time intervention|cti|multifaceted treatment for substance abuse","unique_condition: drug abuse|drug use|dual disordered|spmi|substance abuse, 
+unique_control: supportive control treatment, 
+unique_behavioural: behavioral treatment|case management component|critical time intervention|cti|multifaceted treatment for",0.5714285714285714,0.75,0.0,0.0,0.0,0.0,0.0,0.0,0.8,1.0,0.0,0.0,0.0,0.0,1.0,1.0,condition
+14,NCT03317067,"unique_condition: delirium, 
+unique_drug: dexmedetomidine","unique_condition: agitated delirium|delirium|non-intubated ici|non-intubated icu, 
+unique_drug: dexmedetomidine",0.4,0.6666666666666666,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,condition
+149,NCT02139436,"unique_condition: acute sci|cardiovascular declines|cardiovascular disease|declines in physiologic function|sci|spinal cord injury, 
+unique_control: arms-only exercise|arms-only-rt|time (wait-list) control|time control, 
+unique_physical: fes-rt|functional electrical stimulation (fes) row training (rt)|hybrid-fes exercise","unique_condition: acute sci|cardiovascular compromise|cardiovascular declines|cardiovascular disease|cardiovascular disease decline|sci|spinal cord injury, 
+unique_control: arms-only-rt|arms-only exercise|exercise|time|time control|wait-list, 
+unique_physical: exercise|fes) row training rt|fes-rt|functional electrical stimulation (|hybrid-fes exercise|volitional arm and electrically controlled leg exercise",0.7692307692307693,0.9333333333333333,0.0,0.0,0.0,0.0,0.4444444444444444,0.7272727272727273,0.0,0.0,0.0,0.0,0.0,0.0,0.6,0.8333333333333334,condition
+76,NCT00283738,"unique_condition: aura|refractory migraine|refractory migraine headache with aura, 
+unique_control: placebo, 
+unique_surgical: biostar septal repair implant|patent foramen ovale closure|pfo closure","unique_condition: au|refractory migraine|refractory migraine headache, 
+unique_control: placebo, 
+unique_surgical: biostar septal repair implant|biostar septal repair implant system|patent foramen ovale closure|pfo closure",0.3333333333333333,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8571428571428571,1.0,0.0,0.0,1.0,1.0,condition
+45,NCT04164810,"unique_condition: chronic pain|neuropathic pain|pain|pain catastrophization|pcs|spinal cord injury, 
+unique_control: physical therapy|standard physical therapy, 
+unique_physical: hydrotherapy","unique_condition: catastrophi|chronic lumbar pain|chronic pain|fibromyalgia|neuropathic pain|np pain|pain|pain catastrophization|spinal cord injury, 
+unique_control: physical therapy|standard physical therapy, 
+unique_other: hydrotherapy",0.6666666666666666,0.8888888888888888,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,condition
+140,NCT03130608,"unique_condition: chronic liver disease|post liver transplant|post-liver transplant, 
+unique_control: the usual post-transplant care|usual care, 
+unique_physical: inspiratory muscle strengthening exercise|inspiratory muscle training, 
+unique_other: usual post-liver transplant care","unique_condition: chronic liver disease|muscle wasting|post-liver transplant|transplant surgery liver transplant liver transplant, 
+unique_control: usual post-liver transplant care|usual post-transplant care, 
+unique_physical: inspiratory muscle strengthening exercise|inspiratory muscle training care",0.5714285714285714,0.75,0.0,0.0,0.0,0.0,0.5,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8571428571428571,condition
+135,NCT05462678,"unique_condition: cognitive deficits|motor disabilities|ms|multiple sclerosis, 
+unique_control: only motor rehabilitation course|rehabilitation alone, 
+unique_physical: motor rehabilitation path with the rehacom program, 
+unique_other: combined cognitive/motor rehabilitation|combined rehabilitation|rehabilitation of memory deficits|rehabilitation of verbal memory with the rehacom program","unique_condition: cognitive deficit|memory deficits|motor disabilities|ms|multiple sclerosis, 
+unique_control: motor rehabilitation|rehabilitation alone, 
+unique_physical: cognitive/motor rehabilitation|motor rehabilitation path|rehabilitation of verbal memory|rehacom|rehacom program, 
+unique_other: combined cognitive/motor rehabilitation|combined rehabilitation|re",0.6666666666666666,1.0,0.5714285714285714,0.5714285714285714,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.5,1.0,condition
+41,NCT03562351,"unique_condition: emergent seizure|seizure, 
+unique_behavioural: caregiver education in a simulation setting|educational program|educational quality improvement program|educational video reviewing rm administration|simulation training model/mannequin for rectal diazepam administration","unique_condition: emergent seizure rm|seizure|seizure rm|seizure rms, 
+unique_drug: diazep|lorazepa|midola, 
+unique_other: simulation training model",0.3333333333333333,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,condition
+132,NCT02800460,unique_condition: parkinson's disease|parkinsonian,"unique_condition: parkinson's disease|parkinson's disease|parkinsonia|parkinsonian, 
+unique_other: deep brain stimulation|stereo",0.8,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,condition
+152,NCT03661411,"unique_condition: acute ischemic stroke|acute mild ischemic stroke|acute minor stroke|minor stroke|stroke, 
+unique_drug: alteplase|antiplatelet|aspirin|clopidogrel|r-tpa|rt-pa","unique_condition: acute ischemic stroke|acute ischemic strokebolytic|acute mild ischemic stroke|acute minor stroke|minor stroke|stroke|tia, 
+unique_drug: alteplase|alteplasecal hemhage|antiplatelet|antithrombolytic therapy|antithrombotic therapy|aspirin|clopidogrel|r-tpa|rt-pa thrombolytic therapy, 
+unique_other: thrombolys|thrombolytic",0.8333333333333334,0.9230769230769231,0.0,0.0,0.6666666666666666,0.8235294117647058,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,condition
+144,NCT04847089,"unique_condition: stroke, 
+unique_other: feedback in real time|feedback training|motor imagery|motor imagery training|real-time feedback","unique_condition: stroke, 
+unique_physical: motor imagery training, 
+unique_other: feedback training|motor imagery|real-time feedback",1.0,1.0,0.75,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,other
+74,NCT03712748,"unique_condition: anxiety|eating disorders, 
+unique_other: imaginal exposure sessions|imaginal exposure therapy|online format of ie","unique_condition: anxiety|eating disorders, 
+unique_behavioural: ie, 
+unique_other: imaginal exposure|imaginal exposure therapy|online format of",1.0,1.0,0.3333333333333333,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,other
+52,NCT01671176,unique_other: oticon medical ponto 4.5mm wide implant|ponto 4.5mm wide diameter implant,unique_other: oticon medical ponto 4 . 5mm wide implant|ponto 4 . 5mm wide diameter implant,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,other
+117,NCT04330482,"unique_condition: dementia, 
+unique_other: care-well app|mobile application|mobile health (mhealth) app","unique_condition: dementia, 
+unique_other: care-well app|mhealth) app|mobile application|mobile health (",1.0,1.0,0.5714285714285714,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,other
+82,NCT04156607,"unique_condition: down syndrome, 
+unique_control: sham taping, 
+unique_other: kinesio tape|kinesiotaping|taping","unique_condition: down syndrome, 
+unique_control: sham taping application, 
+unique_other: kinesio tape|kinesiotaping",1.0,1.0,0.8,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,other
+54,NCT04331392,"unique_condition: moderate-severe traumatic brain injury|traumatic brain injury, 
+unique_other: environmental enrichment|online spatial navigation","unique_condition: moderate-severe traumatic brain injury|traumatic brain injury, 
+unique_other: online spatial navigation intervention|remotely delivered environmental enrichment intervention",1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,other
+72,NCT03518541,"unique_condition: cerebral palsy, 
+unique_surgical: femoral derotation osteotomies|femoral derotation osteotomy, 
+unique_other: electromagnetic tracking|electromagnetic tracking system","unique_condition: cerebral palsy, 
+unique_surgical: femoral derotation osteotomy|transversal plane femoral derotation osteotomies tracking, 
+unique_other: electromagnetic tracking tracking",1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,1.0,0.0,0.0,0.0,0.0,other
+141,NCT05101837,"unique_condition: chronic pain|migraine|neuropathic pain|pain, 
+unique_behavioural: home-program|mindfulness|mindfulness guided face-to-face program, 
+unique_other: mindfulness delivered mainly by a specific app|specific app to delivery mindfulness sessions","unique_condition: chronic pain|migraine|neuropathic pain|pain, 
+unique_control: mindfulness guided face-to-face program, 
+unique_behavioural: behavioural approach based on mindfulnessp, 
+unique_other: behavioural approach base on|mindfulness|mindfulness practice|mindfulness sessions|s app to del|technology with",1.0,1.0,0.0,0.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,other
+94,NCT04992910,"unique_condition: affected upper limbs|stroke, 
+unique_control: standard care|usual care rehabilitation, 
+unique_physical: intensive, repetitive and functional exercises|rehabilitative treatment, 
+unique_other: fesia grasp|functional electrical stimulation","unique_condition: post-stroke|stroke, 
+unique_control: standard care|usual care, 
+unique_physical: fesia grasp|fesia grasp therapy|intensive , repetitive and functional exercises assisted by functional electrical stimulation, 
+unique_other: fesia grasp|fesia grasp "" device|functional electrical stimulation|functional electrical stimulation device",0.5,0.8,0.6666666666666666,1.0,0.0,0.0,0.0,0.5714285714285714,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.8,other
+83,NCT05706831,"unique_condition: neurological diseases, 
+unique_control: placebo, 
+unique_other: electric (tdcs) and music stimulation|music exposure|music intervention|music-listening|non-invasive brain stimulation|transcranial electrical stimulation","unique_condition: doc, 
+unique_control: placebo, 
+unique_other: electric|music-listening intervention|music intervention|music stimulation|musical intervention|non-invasive brain stimulationuro|tdcs|transcranial electrical stimulation",0.0,0.0,0.2857142857142857,0.8571428571428571,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,other
+92,NCT04122989,"unique_condition: multiple sclerosis, 
+unique_other: ms-support|shared decision making tool|shared decision-making tool","unique_condition: multiple sclerosis, 
+unique_other: ms-support|shared decision-making too|shared decision making tool",1.0,1.0,0.6666666666666666,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,other
+54,NCT04331392,"unique_condition: moderate-severe traumatic brain injury|traumatic brain injury, 
+unique_other: environmental enrichment|online spatial navigation","unique_condition: moderate-severe traumatic brain injury|traumatic brain injury, 
+unique_other: online spatial navigation intervention|remotely delivered environmental enrichment intervention",1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,other
+40,NCT04435301,"unique_condition: disorders of consciousness, 
+unique_other: acoustic and electric stimulation at gamma frequency|acoustic-electric therapy|modulation of gamma oscillations with rhythmic stimulation","unique_condition: disorders of consciousness, 
+unique_other: acoustic-electric therapy|acoustic and electric stimulation|rhythmic stimulation",1.0,1.0,0.3333333333333333,0.75,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,other
+92,NCT04122989,"unique_condition: multiple sclerosis, 
+unique_other: ms-support|shared decision making tool|shared decision-making tool","unique_condition: multiple sclerosis, 
+unique_other: ms-support|shared decision-making too|shared decision making tool",1.0,1.0,0.6666666666666666,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,other
+87,NCT05483556,"unique_condition: aphasia|aphasic, 
+unique_other: combined language therapy|combined speech therapy|conventional speech therapy|tdcs|transcranial direct current stimulation","unique_condition: aphasia|aphasic, 
+unique_control: conventional speech therapy, 
+unique_other: combined language therapy|combined speech therapy|tdcs|transcranial direct current stimulation",1.0,1.0,0.8888888888888888,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,other
+49,NCT01182441,"unique_condition: atrial fibrillation|non-valvular atrial fibrillation|thrombus, 
+unique_drug: warfarin, 
+unique_surgical: watchman laa closure device|watchman laa closure technology","unique_condition: atrial fibrillation|non-valvular atrial fibrillation|th, 
+unique_drug: warn, 
+unique_other: watchman laa closure device|watchman laa closure technology|watchman laa closure technologyf",0.6666666666666666,0.6666666666666666,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,drug
+96,NCT01074073,"unique_condition: schizoaffective disorder|schizophrenia, 
+unique_drug: lithium|lurasidone|lurasidone hcl","unique_condition: schizoaffective disorder|schizophrenia, 
+unique_drug: lithium|lurasidone",1.0,1.0,0.0,0.0,0.8,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,drug
+120,NCT00373087,"unique_condition: parkinson's disease, 
+unique_drug: entacapone","unique_condition: parkinson's disease, 
+unique_drug: entacapone|entacaponeparkinsonia",1.0,1.0,0.0,0.0,0.6666666666666666,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,drug
+29,NCT05850585,"unique_condition: psychotic|schizophrenia, 
+unique_drug: antipsychotic|antipsychotics, 
+unique_control: placebo, 
+unique_other: fmt|oral fecal bacteria capsules|oral fecal capsules","unique_condition: psychotic|schizophrenia|schizophrenia fecal capsule, 
+unique_drug: anticho fecal bacteria capsules|antipsychotic|antipsychotic drugs|antipsychotics|antitic|fmt, 
+unique_control: placebo",0.8,1.0,0.0,0.0,0.5,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,drug
+29,NCT05850585,"unique_condition: psychotic|schizophrenia, 
+unique_drug: antipsychotic|antipsychotics, 
+unique_control: placebo, 
+unique_other: fmt|oral fecal bacteria capsules|oral fecal capsules","unique_condition: psychotic|schizophrenia|schizophrenia fecal capsule, 
+unique_drug: anticho fecal bacteria capsules|antipsychotic|antipsychotic drugs|antipsychotics|antitic|fmt, 
+unique_control: placebo",0.8,1.0,0.0,0.0,0.5,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,drug
+128,NCT01386827,unique_drug: bmjev|ixiaro|ixiaro vaccine|je-mb|mouse brain derived japanese encephalitis vaccines|traditional mouse-brain derived vaccine|vero-cell-derived inactivated japanese encephalitis vaccine,"unique_drug: bmjev|ixiaro|ixro|japanese encephalitis|je-mb mouse brain derived japanese encephalitis vaccine|mouse brain derived japanese encephalitis vaccines, 
+unique_control: traditional mouse-brain derived vaccine, 
+unique_surgical: vero-cell-derived inactivated japanese encephalitis vaccine",0.0,0.0,0.0,0.0,0.46153846153846156,0.8235294117647058,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,drug
+128,NCT01386827,unique_drug: bmjev|ixiaro|ixiaro vaccine|je-mb|mouse brain derived japanese encephalitis vaccines|traditional mouse-brain derived vaccine|vero-cell-derived inactivated japanese encephalitis vaccine,"unique_drug: bmjev|ixiaro|ixro|japanese encephalitis|je-mb mouse brain derived japanese encephalitis vaccine|mouse brain derived japanese encephalitis vaccines, 
+unique_control: traditional mouse-brain derived vaccine, 
+unique_surgical: vero-cell-derived inactivated japanese encephalitis vaccine",0.0,0.0,0.0,0.0,0.46153846153846156,0.8235294117647058,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,drug
+33,NCT02354508,"unique_condition: acromegaly inadequately controlled|inadequately controlled acromegaly, 
+unique_drug: pasireotide|somatostatin analogues","unique_condition: acromegaly somatostatin analogue|inadequately controlled acromegaly, 
+unique_drug: pasireotide|pasireotide lar|somatostatin analogue",0.5,0.8,0.0,0.0,0.4,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,drug
+84,NCT03016949,unique_drug: fractional dose of inactivated poliovaccine|inactivated polio vaccine|inactivated polio vaccines|inactivated poliovaccine,unique_drug: inactivated polio vaccine|inactivated polio vaccines|inactivated poliovaccine,0.0,0.0,0.0,0.0,0.8571428571428571,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,drug
+33,NCT02354508,"unique_condition: acromegaly inadequately controlled|inadequately controlled acromegaly, 
+unique_drug: pasireotide|somatostatin analogues","unique_condition: acromegaly somatostatin analogue|inadequately controlled acromegaly, 
+unique_drug: pasireotide|pasireotide lar|somatostatin analogue",0.5,0.8,0.0,0.0,0.4,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,drug
+152,NCT03661411,"unique_condition: acute ischemic stroke|acute mild ischemic stroke|acute minor stroke|minor stroke|stroke, 
+unique_drug: alteplase|antiplatelet|aspirin|clopidogrel|r-tpa|rt-pa","unique_condition: acute ischemic stroke|acute ischemic strokebolytic|acute mild ischemic stroke|acute minor stroke|minor stroke|stroke|tia, 
+unique_drug: alteplase|alteplasecal hemhage|antiplatelet|antithrombolytic therapy|antithrombotic therapy|aspirin|clopidogrel|r-tpa|rt-pa thrombolytic therapy, 
+unique_other: thrombolys|thrombolytic",0.8333333333333334,0.9230769230769231,0.0,0.0,0.6666666666666666,0.8235294117647058,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,drug
+145,NCT01997255,"unique_condition: epilepsy|seizures|sturge weber syndrome|sturge-weber syndrome, 
+unique_drug: afinitor|everolimus|rad 001","unique_condition: epilepsy|seizures|sturge-weber syndrome|sturge weber syndrome, 
+unique_drug: afin|everolimus|rad 001",1.0,1.0,0.0,0.0,0.6666666666666666,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,drug
+33,NCT02354508,"unique_condition: acromegaly inadequately controlled|inadequately controlled acromegaly, 
+unique_drug: pasireotide|somatostatin analogues","unique_condition: acromegaly somatostatin analogue|inadequately controlled acromegaly, 
+unique_drug: pasireotide|pasireotide lar|somatostatin analogue",0.5,0.8,0.0,0.0,0.4,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,drug
+7,NCT00701363,"unique_condition: acromegalic, 
+unique_drug: lanreotide|octreotide","unique_condition: acromegalic, 
+unique_drug: lanreotide autogel|lanreotidegel|octreotide",1.0,1.0,0.0,0.0,0.4,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,drug
+152,NCT03661411,"unique_condition: acute ischemic stroke|acute mild ischemic stroke|acute minor stroke|minor stroke|stroke, 
+unique_drug: alteplase|antiplatelet|aspirin|clopidogrel|r-tpa|rt-pa","unique_condition: acute ischemic stroke|acute ischemic strokebolytic|acute mild ischemic stroke|acute minor stroke|minor stroke|stroke|tia, 
+unique_drug: alteplase|alteplasecal hemhage|antiplatelet|antithrombolytic therapy|antithrombotic therapy|aspirin|clopidogrel|r-tpa|rt-pa thrombolytic therapy, 
+unique_other: thrombolys|thrombolytic",0.8333333333333334,0.9230769230769231,0.0,0.0,0.6666666666666666,0.8235294117647058,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,drug
+42,NCT02730065,"unique_condition: cerebral small vessel disease|small vessel disease, 
+unique_control: health education|simple stretching, 
+unique_physical: aerobic dance training|aerobic dance training with home practice","unique_condition: cerebral small vessel disease|dementia|depression|small vessel disease|stroke, 
+unique_control: health education control|simple stretching, 
+unique_physical: aerobic dance training|aerobic dance training practice|physical exercise",0.5714285714285714,0.5714285714285714,0.0,0.0,0.0,0.0,0.4,0.8571428571428571,0.0,0.0,0.0,0.0,0.0,0.0,0.5,1.0,physical
+94,NCT04992910,"unique_condition: affected upper limbs|stroke, 
+unique_control: standard care|usual care rehabilitation, 
+unique_physical: intensive, repetitive and functional exercises|rehabilitative treatment, 
+unique_other: fesia grasp|functional electrical stimulation","unique_condition: post-stroke|stroke, 
+unique_control: standard care|usual care, 
+unique_physical: fesia grasp|fesia grasp therapy|intensive , repetitive and functional exercises assisted by functional electrical stimulation, 
+unique_other: fesia grasp|fesia grasp "" device|functional electrical stimulation|functional electrical stimulation device",0.5,0.8,0.6666666666666666,1.0,0.0,0.0,0.0,0.5714285714285714,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.8,physical
+95,NCT04291027,"unique_condition: idiopathic parkinson disease|parkinson disease, 
+unique_physical: aquatic and land-based group exercise|land based or aquatic based group exercise|land based or aquatic based group exercise program","unique_condition: idiopathic parkinson disease|parkinson disease, 
+unique_physical: aquatic and|land-based group exercise|land based or aquatic based group exercise",1.0,1.0,0.0,0.0,0.0,0.0,0.3333333333333333,0.8888888888888888,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,physical
+37,NCT03542474,"unique_condition: mild cognitive impairment|parkinson's disease, 
+unique_physical: endurance exercise|exercise|high intensity endurance exercise","unique_condition: mild cognitive impairment|parkinson's disease, 
+unique_physical: endurance exercise|high intensity endurance exercise",1.0,1.0,0.0,0.0,0.0,0.0,0.8,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,physical
+37,NCT03542474,"unique_condition: mild cognitive impairment|parkinson's disease, 
+unique_physical: endurance exercise|exercise|high intensity endurance exercise","unique_condition: mild cognitive impairment|parkinson's disease, 
+unique_physical: endurance exercise|high intensity endurance exercise",1.0,1.0,0.0,0.0,0.0,0.0,0.8,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,physical
+101,NCT01611987,"unique_condition: multiple sclerosis, 
+unique_control: general guideline|general guidelines|program based on general guidelines for exercise, 
+unique_physical: exercise|ms tailored exercise program|physical activity|targeted exercise","unique_condition: fatigue|multiple sclerosis, 
+unique_control: general guideline|general guideline approach|general guideline program|general guidelines|general guidelines for exercise, 
+unique_physical: exercise|ms tailored exercise program|mstep based on",0.6666666666666666,0.6666666666666666,0.0,0.0,0.0,0.0,0.5714285714285714,0.75,0.0,0.0,0.0,0.0,0.0,0.0,0.5,1.0,physical
+101,NCT01611987,"unique_condition: multiple sclerosis, 
+unique_control: general guideline|general guidelines|program based on general guidelines for exercise, 
+unique_physical: exercise|ms tailored exercise program|physical activity|targeted exercise","unique_condition: fatigue|multiple sclerosis, 
+unique_control: general guideline|general guideline approach|general guideline program|general guidelines|general guidelines for exercise, 
+unique_physical: exercise|ms tailored exercise program|mstep based on",0.6666666666666666,0.6666666666666666,0.0,0.0,0.0,0.0,0.5714285714285714,0.75,0.0,0.0,0.0,0.0,0.0,0.0,0.5,1.0,physical
+38,NCT05415956,"unique_condition: multiple sclerosis, 
+unique_physical: moderate-to-high intensity outdoor walking|outdoor walking|walking exercise","unique_condition: det capacity|multiple sclerosis|outwalk ms, 
+unique_physical: moderate-to-high intensity|outdoor walking|outdoor walking exercise therapy|walking exercise therapy",0.5,0.5,0.0,0.0,0.0,0.0,0.2857142857142857,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,physical
+67,NCT04717323,"unique_condition: cerebral palsy, 
+unique_physical: precision gait retraining, 
+unique_other: mobile pelvic assist device|sensor-based mobile pelvic assist device","unique_condition: cerebral palsy, 
+unique_physical: pre gait retraining, 
+unique_other: mobile pelvic assist device|sensor based mobile pelvic assist device",1.0,1.0,0.5,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,physical
+140,NCT03130608,"unique_condition: chronic liver disease|post liver transplant|post-liver transplant, 
+unique_control: the usual post-transplant care|usual care, 
+unique_physical: inspiratory muscle strengthening exercise|inspiratory muscle training, 
+unique_other: usual post-liver transplant care","unique_condition: chronic liver disease|muscle wasting|post-liver transplant|transplant surgery liver transplant liver transplant, 
+unique_control: usual post-liver transplant care|usual post-transplant care, 
+unique_physical: inspiratory muscle strengthening exercise|inspiratory muscle training care",0.5714285714285714,0.75,0.0,0.0,0.0,0.0,0.5,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8571428571428571,physical
+38,NCT05415956,"unique_condition: multiple sclerosis, 
+unique_physical: moderate-to-high intensity outdoor walking|outdoor walking|walking exercise","unique_condition: det capacity|multiple sclerosis|outwalk ms, 
+unique_physical: moderate-to-high intensity|outdoor walking|outdoor walking exercise therapy|walking exercise therapy",0.5,0.5,0.0,0.0,0.0,0.0,0.2857142857142857,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,physical
+147,NCT02892097,"unique_condition: stroke|unilateral spatial neglect, 
+unique_physical: arm rehabilitation training|repetitive task-specific practice|rtp|task-specific practice, 
+unique_other: non-invasive brain stimulation|tdcs|transcranial direct current stimulation","unique_condition: stroke|unilateral spatial neglect|unilateral spatial neglect post stroke, 
+unique_physical: arm rehabilitation training|rehabilitation|repetitive task-specific practice|rtp|task-specific practice, 
+unique_other: non-invasive brain stimulation|tdcs|transcranial direct current stimulation",0.8,1.0,1.0,1.0,0.0,0.0,0.8888888888888888,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,physical
+135,NCT05462678,"unique_condition: cognitive deficits|motor disabilities|ms|multiple sclerosis, 
+unique_control: only motor rehabilitation course|rehabilitation alone, 
+unique_physical: motor rehabilitation path with the rehacom program, 
+unique_other: combined cognitive/motor rehabilitation|combined rehabilitation|rehabilitation of memory deficits|rehabilitation of verbal memory with the rehacom program","unique_condition: cognitive deficit|memory deficits|motor disabilities|ms|multiple sclerosis, 
+unique_control: motor rehabilitation|rehabilitation alone, 
+unique_physical: cognitive/motor rehabilitation|motor rehabilitation path|rehabilitation of verbal memory|rehacom|rehacom program, 
+unique_other: combined cognitive/motor rehabilitation|combined rehabilitation|re",0.6666666666666666,1.0,0.5714285714285714,0.5714285714285714,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.5,1.0,physical
+123,NCT05716074,"unique_condition: als|early stage als|fatigue, 
+unique_physical: low-intensity combined exercises|low-i̇ntensity combined exercises","unique_condition: als|early stage als|fatigue, 
+unique_physical: low-intensity combined exercises|low-i̇ntensity combined exercise",1.0,1.0,0.0,0.0,0.0,0.0,0.5,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,physical
+140,NCT03130608,"unique_condition: chronic liver disease|post liver transplant|post-liver transplant, 
+unique_control: the usual post-transplant care|usual care, 
+unique_physical: inspiratory muscle strengthening exercise|inspiratory muscle training, 
+unique_other: usual post-liver transplant care","unique_condition: chronic liver disease|muscle wasting|post-liver transplant|transplant surgery liver transplant liver transplant, 
+unique_control: usual post-liver transplant care|usual post-transplant care, 
+unique_physical: inspiratory muscle strengthening exercise|inspiratory muscle training care",0.5714285714285714,0.75,0.0,0.0,0.0,0.0,0.5,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8571428571428571,physical
+78,NCT01292577,"unique_condition: cannabis misuse|misuse cannabis|schizophrenia, 
+unique_control: tau alone|treatment as usual, 
+unique_behavioural: adapted cognitive/affective remediation|affect regulation|cet|cognitive enhancement therapy|cognitive remediation|personal therapy|pt","unique_condition: cannabis|schizophrenia, 
+unique_control: tau alone|treatment as usual, 
+unique_behavioural: affect regulation|cet|cet pt|cognitive/affective remediation|cognitive enhancement therapy|cognitive remediation|personal therapy|pt",0.4,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8,1.0,0.0,0.0,0.0,0.0,1.0,1.0,behavioural
+97,NCT04474171,"unique_condition: spinal cord injury, 
+unique_control: usual care, 
+unique_behavioural: online self-management program|sci&u|trained peer health coaches","unique_condition: spinal cord injury, 
+unique_control: usual care, 
+unique_behavioural: online self-management program|peer health coaches|sci & u|self-management programs health information , skills and telephone-based support|trained",1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.25,0.8333333333333334,0.0,0.0,0.0,0.0,1.0,1.0,behavioural
+103,NCT00164658,"unique_behavioural: prevention prompts tailored to familial risk|tools for health promotion and disease prevention, 
+unique_other: familial risk assessment",unique_behavioural: familial risk assessment and prevention prompts tailored to familial risk,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8,0.0,0.0,0.0,0.0,0.0,0.0,behavioural
+27,NCT00295139,"unique_condition: drug abuse|spmi, 
+unique_control: supportive control treatment, 
+unique_behavioural: behavioral treatment|case management component|critical time intervention|cti|multifaceted treatment for substance abuse","unique_condition: drug abuse|drug use|dual disordered|spmi|substance abuse, 
+unique_control: supportive control treatment, 
+unique_behavioural: behavioral treatment|case management component|critical time intervention|cti|multifaceted treatment for",0.5714285714285714,0.75,0.0,0.0,0.0,0.0,0.0,0.0,0.8,1.0,0.0,0.0,0.0,0.0,1.0,1.0,behavioural
+27,NCT00295139,"unique_condition: drug abuse|spmi, 
+unique_control: supportive control treatment, 
+unique_behavioural: behavioral treatment|case management component|critical time intervention|cti|multifaceted treatment for substance abuse","unique_condition: drug abuse|drug use|dual disordered|spmi|substance abuse, 
+unique_control: supportive control treatment, 
+unique_behavioural: behavioral treatment|case management component|critical time intervention|cti|multifaceted treatment for",0.5714285714285714,0.75,0.0,0.0,0.0,0.0,0.0,0.0,0.8,1.0,0.0,0.0,0.0,0.0,1.0,1.0,behavioural
+35,NCT05507385,"unique_condition: anhedonia|depression, 
+unique_behavioural: brief talking therapy","unique_condition: anhedonia|depression|low mood, 
+unique_behavioural: brief intervention|talking therapy, 
+unique_other: brief",0.8,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8,0.0,0.0,0.0,0.0,0.0,0.0,behavioural
+93,NCT01046370,"unique_condition: chronic fatigue|chronic fatigue syndrome|fatigue|fibromyalgia|impaired memory|insomnia|muscle pain, 
+unique_control: control|standard care, 
+unique_behavioural: 2 day self-management program|amygdala retraining program|arp dvd program|arp program","unique_condition: cf and|cfs ,|chronic fatigue|chronic fatigue syndrome|fatigue|fibromyalgia, 
+unique_control: c|control|standard care, 
+unique_behavioural: amygdala retraining program|arp program|cognitive restructuring|mind-body practice|mindfulness based meditation|self-management program",0.6153846153846154,0.6153846153846154,0.0,0.0,0.0,0.0,0.0,0.0,0.4,0.7692307692307693,0.0,0.0,0.0,0.0,0.8,0.8,behavioural
+35,NCT05507385,"unique_condition: anhedonia|depression, 
+unique_behavioural: brief talking therapy","unique_condition: anhedonia|depression|low mood, 
+unique_behavioural: brief intervention|talking therapy, 
+unique_other: brief",0.8,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8,0.0,0.0,0.0,0.0,0.0,0.0,behavioural
+35,NCT05507385,"unique_condition: anhedonia|depression, 
+unique_behavioural: brief talking therapy","unique_condition: anhedonia|depression|low mood, 
+unique_behavioural: brief intervention|talking therapy, 
+unique_other: brief",0.8,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8,0.0,0.0,0.0,0.0,0.0,0.0,behavioural
+23,NCT05663034,"unique_condition: depressive|insomnia|mild to moderate tbi|post-traumatic stress|post-traumatic stress symptoms|tbi-related insomnia, 
+unique_behavioural: cbt|cognitive behavioral therapy|cognitive-behavioral vs. mindfulness-based treatment|mindfulness-based treatment|mindfulness-based treatment for insomnia","unique_condition: depressive symptoms|insomnia|insomniasomnia|mild to moderate tbi|post-traumatic stress|post-traumatic stress soms|post-traumatic stress symptoms|tbi, 
+unique_behavioural: cbt-i|cognitive-behavioral|mindfulness-based treatment|mindfulness-based treatment insomnia|mindfulness-based treatment for insomnia|standardized cognitive behavioral therapy, 
+unique_other: telemedicine -",0.5714285714285714,0.8888888888888888,0.0,0.0,0.0,0.0,0.0,0.0,0.36363636363636365,1.0,0.0,0.0,0.0,0.0,0.0,0.0,behavioural
+97,NCT04474171,"unique_condition: spinal cord injury, 
+unique_control: usual care, 
+unique_behavioural: online self-management program|sci&u|trained peer health coaches","unique_condition: spinal cord injury, 
+unique_control: usual care, 
+unique_behavioural: online self-management program|peer health coaches|sci & u|self-management programs health information , skills and telephone-based support|trained",1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.25,0.8333333333333334,0.0,0.0,0.0,0.0,1.0,1.0,behavioural
+93,NCT01046370,"unique_condition: chronic fatigue|chronic fatigue syndrome|fatigue|fibromyalgia|impaired memory|insomnia|muscle pain, 
+unique_control: control|standard care, 
+unique_behavioural: 2 day self-management program|amygdala retraining program|arp dvd program|arp program","unique_condition: cf and|cfs ,|chronic fatigue|chronic fatigue syndrome|fatigue|fibromyalgia, 
+unique_control: c|control|standard care, 
+unique_behavioural: amygdala retraining program|arp program|cognitive restructuring|mind-body practice|mindfulness based meditation|self-management program",0.6153846153846154,0.6153846153846154,0.0,0.0,0.0,0.0,0.0,0.0,0.4,0.7692307692307693,0.0,0.0,0.0,0.0,0.8,0.8,behavioural
+3,NCT04483310,"unique_condition: narcolepsy|sleep paralyses|sleep paralysis, 
+unique_control: sham, 
+unique_behavioural: meditation relaxation therapy|meditation-relaxation|mr therapy","unique_condition: narcolepsy|sleep paralyses|sleep paralysis, 
+unique_control: sham, 
+unique_behavioural: meditation-relaxation (|meditation relaxation therapy|mr therapy",1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.6666666666666666,1.0,0.0,0.0,0.0,0.0,1.0,1.0,behavioural
+3,NCT04483310,"unique_condition: narcolepsy|sleep paralyses|sleep paralysis, 
+unique_control: sham, 
+unique_behavioural: meditation relaxation therapy|meditation-relaxation|mr therapy","unique_condition: narcolepsy|sleep paralyses|sleep paralysis, 
+unique_control: sham, 
+unique_behavioural: meditation-relaxation (|meditation relaxation therapy|mr therapy",1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.6666666666666666,1.0,0.0,0.0,0.0,0.0,1.0,1.0,behavioural
+93,NCT01046370,"unique_condition: chronic fatigue|chronic fatigue syndrome|fatigue|fibromyalgia|impaired memory|insomnia|muscle pain, 
+unique_control: control|standard care, 
+unique_behavioural: 2 day self-management program|amygdala retraining program|arp dvd program|arp program","unique_condition: cf and|cfs ,|chronic fatigue|chronic fatigue syndrome|fatigue|fibromyalgia, 
+unique_control: c|control|standard care, 
+unique_behavioural: amygdala retraining program|arp program|cognitive restructuring|mind-body practice|mindfulness based meditation|self-management program",0.6153846153846154,0.6153846153846154,0.0,0.0,0.0,0.0,0.0,0.0,0.4,0.7692307692307693,0.0,0.0,0.0,0.0,0.8,0.8,behavioural
+32,NCT00716066,"unique_condition: autoimmune neurologic disease|autoimmune neurologic diseases|autoimmune neurological diseases, 
+unique_drug: antithymocyte globulin|beam|carmustine|chemotherapy|cytarabine|etoposide|melphalan|thymoglobulin, 
+unique_surgical: (autologous) stem cells|stem cell transplant|syngeneic or autologous hematopoietic cell transplantation","unique_condition: autoimmune neurologic disease|autoimmune neurologic diseases|autoimmune neurological diseasesem, 
+unique_drug: antithymocyte globulin|beam|carmustine|cytarabine|etoposide|melphalan|thymoglobulin, 
+unique_surgical: stem cell transplant|stem cell transplant (autologous) stem cells|syngeneic or autologous hematopoietic cell transplantation",0.6666666666666666,1.0,0.0,0.0,0.9333333333333333,0.9333333333333333,0.0,0.0,0.0,0.0,0.6666666666666666,1.0,0.0,0.0,0.0,0.0,surgical
+119,NCT04185038,"unique_condition: diffuse intrinsic pontine glioma|diffuse midline glioma|infratentorial or metastatic/leptomeningeal tumors|recurrent or refractory cns tumors|recurrent or refractory pediatric central nervous system tumors|supratentorial tumors|tumor, 
+unique_surgical: autologous cd4+ and cd8+ t cells lentivirally transduced to express a b7h3-specific chimeric antigen receptor (car) and egfrt|b7-h3 car t cell|b7-h3-specific car t cell|b7h3-specific car t cells|car t cell|car t cells|second-generation car t cell|t cells","unique_condition: diffuse intrinsic pontine glioma|diffuse midline glioma|infratentorial or metastatic/leptomeningeal tumors|recurrent or refractory cns tumors|recurrent or refractory pediatric central nervous system tumors|supratentorial tumors|tumor, 
+unique_surgical: autologous cd4 + and cd8 + t cells lentivirally transduced to express a b7h3-specific chimeric antigen receptor car egfr|b7-h3-specific car t cell locoregional immunotherapy|car t cells|car t tumor|central nervous system (|cns) locoregional adoptive therapy|newly engineered t cells|t",1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.125,0.75,0.0,0.0,0.0,0.0,surgical
+32,NCT00716066,"unique_condition: autoimmune neurologic disease|autoimmune neurologic diseases|autoimmune neurological diseases, 
+unique_drug: antithymocyte globulin|beam|carmustine|chemotherapy|cytarabine|etoposide|melphalan|thymoglobulin, 
+unique_surgical: (autologous) stem cells|stem cell transplant|syngeneic or autologous hematopoietic cell transplantation","unique_condition: autoimmune neurologic disease|autoimmune neurologic diseases|autoimmune neurological diseasesem, 
+unique_drug: antithymocyte globulin|beam|carmustine|cytarabine|etoposide|melphalan|thymoglobulin, 
+unique_surgical: stem cell transplant|stem cell transplant (autologous) stem cells|syngeneic or autologous hematopoietic cell transplantation",0.6666666666666666,1.0,0.0,0.0,0.9333333333333333,0.9333333333333333,0.0,0.0,0.0,0.0,0.6666666666666666,1.0,0.0,0.0,0.0,0.0,surgical
+76,NCT00283738,"unique_condition: aura|refractory migraine|refractory migraine headache with aura, 
+unique_control: placebo, 
+unique_surgical: biostar septal repair implant|patent foramen ovale closure|pfo closure","unique_condition: au|refractory migraine|refractory migraine headache, 
+unique_control: placebo, 
+unique_surgical: biostar septal repair implant|biostar septal repair implant system|patent foramen ovale closure|pfo closure",0.3333333333333333,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8571428571428571,1.0,0.0,0.0,1.0,1.0,surgical
+76,NCT00283738,"unique_condition: aura|refractory migraine|refractory migraine headache with aura, 
+unique_control: placebo, 
+unique_surgical: biostar septal repair implant|patent foramen ovale closure|pfo closure","unique_condition: au|refractory migraine|refractory migraine headache, 
+unique_control: placebo, 
+unique_surgical: biostar septal repair implant|biostar septal repair implant system|patent foramen ovale closure|pfo closure",0.3333333333333333,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8571428571428571,1.0,0.0,0.0,1.0,1.0,surgical
+72,NCT03518541,"unique_condition: cerebral palsy, 
+unique_surgical: femoral derotation osteotomies|femoral derotation osteotomy, 
+unique_other: electromagnetic tracking|electromagnetic tracking system","unique_condition: cerebral palsy, 
+unique_surgical: femoral derotation osteotomy|transversal plane femoral derotation osteotomies tracking, 
+unique_other: electromagnetic tracking tracking",1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,1.0,0.0,0.0,0.0,0.0,surgical
+72,NCT03518541,"unique_condition: cerebral palsy, 
+unique_surgical: femoral derotation osteotomies|femoral derotation osteotomy, 
+unique_other: electromagnetic tracking|electromagnetic tracking system","unique_condition: cerebral palsy, 
+unique_surgical: femoral derotation osteotomy|transversal plane femoral derotation osteotomies tracking, 
+unique_other: electromagnetic tracking tracking",1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,1.0,0.0,0.0,0.0,0.0,surgical
+119,NCT04185038,"unique_condition: diffuse intrinsic pontine glioma|diffuse midline glioma|infratentorial or metastatic/leptomeningeal tumors|recurrent or refractory cns tumors|recurrent or refractory pediatric central nervous system tumors|supratentorial tumors|tumor, 
+unique_surgical: autologous cd4+ and cd8+ t cells lentivirally transduced to express a b7h3-specific chimeric antigen receptor (car) and egfrt|b7-h3 car t cell|b7-h3-specific car t cell|b7h3-specific car t cells|car t cell|car t cells|second-generation car t cell|t cells","unique_condition: diffuse intrinsic pontine glioma|diffuse midline glioma|infratentorial or metastatic/leptomeningeal tumors|recurrent or refractory cns tumors|recurrent or refractory pediatric central nervous system tumors|supratentorial tumors|tumor, 
+unique_surgical: autologous cd4 + and cd8 + t cells lentivirally transduced to express a b7h3-specific chimeric antigen receptor car egfr|b7-h3-specific car t cell locoregional immunotherapy|car t cells|car t tumor|central nervous system (|cns) locoregional adoptive therapy|newly engineered t cells|t",1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.125,0.75,0.0,0.0,0.0,0.0,surgical
+76,NCT00283738,"unique_condition: aura|refractory migraine|refractory migraine headache with aura, 
+unique_control: placebo, 
+unique_surgical: biostar septal repair implant|patent foramen ovale closure|pfo closure","unique_condition: au|refractory migraine|refractory migraine headache, 
+unique_control: placebo, 
+unique_surgical: biostar septal repair implant|biostar septal repair implant system|patent foramen ovale closure|pfo closure",0.3333333333333333,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8571428571428571,1.0,0.0,0.0,1.0,1.0,surgical
+72,NCT03518541,"unique_condition: cerebral palsy, 
+unique_surgical: femoral derotation osteotomies|femoral derotation osteotomy, 
+unique_other: electromagnetic tracking|electromagnetic tracking system","unique_condition: cerebral palsy, 
+unique_surgical: femoral derotation osteotomy|transversal plane femoral derotation osteotomies tracking, 
+unique_other: electromagnetic tracking tracking",1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,1.0,0.0,0.0,0.0,0.0,surgical
+119,NCT04185038,"unique_condition: diffuse intrinsic pontine glioma|diffuse midline glioma|infratentorial or metastatic/leptomeningeal tumors|recurrent or refractory cns tumors|recurrent or refractory pediatric central nervous system tumors|supratentorial tumors|tumor, 
+unique_surgical: autologous cd4+ and cd8+ t cells lentivirally transduced to express a b7h3-specific chimeric antigen receptor (car) and egfrt|b7-h3 car t cell|b7-h3-specific car t cell|b7h3-specific car t cells|car t cell|car t cells|second-generation car t cell|t cells","unique_condition: diffuse intrinsic pontine glioma|diffuse midline glioma|infratentorial or metastatic/leptomeningeal tumors|recurrent or refractory cns tumors|recurrent or refractory pediatric central nervous system tumors|supratentorial tumors|tumor, 
+unique_surgical: autologous cd4 + and cd8 + t cells lentivirally transduced to express a b7h3-specific chimeric antigen receptor car egfr|b7-h3-specific car t cell locoregional immunotherapy|car t cells|car t tumor|central nervous system (|cns) locoregional adoptive therapy|newly engineered t cells|t",1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.125,0.75,0.0,0.0,0.0,0.0,surgical
+76,NCT00283738,"unique_condition: aura|refractory migraine|refractory migraine headache with aura, 
+unique_control: placebo, 
+unique_surgical: biostar septal repair implant|patent foramen ovale closure|pfo closure","unique_condition: au|refractory migraine|refractory migraine headache, 
+unique_control: placebo, 
+unique_surgical: biostar septal repair implant|biostar septal repair implant system|patent foramen ovale closure|pfo closure",0.3333333333333333,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8571428571428571,1.0,0.0,0.0,1.0,1.0,surgical
+32,NCT00716066,"unique_condition: autoimmune neurologic disease|autoimmune neurologic diseases|autoimmune neurological diseases, 
+unique_drug: antithymocyte globulin|beam|carmustine|chemotherapy|cytarabine|etoposide|melphalan|thymoglobulin, 
+unique_surgical: (autologous) stem cells|stem cell transplant|syngeneic or autologous hematopoietic cell transplantation","unique_condition: autoimmune neurologic disease|autoimmune neurologic diseases|autoimmune neurological diseasesem, 
+unique_drug: antithymocyte globulin|beam|carmustine|cytarabine|etoposide|melphalan|thymoglobulin, 
+unique_surgical: stem cell transplant|stem cell transplant (autologous) stem cells|syngeneic or autologous hematopoietic cell transplantation",0.6666666666666666,1.0,0.0,0.0,0.9333333333333333,0.9333333333333333,0.0,0.0,0.0,0.0,0.6666666666666666,1.0,0.0,0.0,0.0,0.0,surgical
+76,NCT00283738,"unique_condition: aura|refractory migraine|refractory migraine headache with aura, 
+unique_control: placebo, 
+unique_surgical: biostar septal repair implant|patent foramen ovale closure|pfo closure","unique_condition: au|refractory migraine|refractory migraine headache, 
+unique_control: placebo, 
+unique_surgical: biostar septal repair implant|biostar septal repair implant system|patent foramen ovale closure|pfo closure",0.3333333333333333,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8571428571428571,1.0,0.0,0.0,1.0,1.0,surgical
+72,NCT03518541,"unique_condition: cerebral palsy, 
+unique_surgical: femoral derotation osteotomies|femoral derotation osteotomy, 
+unique_other: electromagnetic tracking|electromagnetic tracking system","unique_condition: cerebral palsy, 
+unique_surgical: femoral derotation osteotomy|transversal plane femoral derotation osteotomies tracking, 
+unique_other: electromagnetic tracking tracking",1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,1.0,0.0,0.0,0.0,0.0,surgical
+112,NCT03529708,"unique_condition: metastatic epidural spinal cord compression|pain|spinal cord compression|spinal metastasis|tumour, 
+unique_radiotherapy: 3d conformal palliative rt|3d conformal radiotherapy|3d crt|radiotherapy|stereotactic body radiotherapy","unique_condition: metastatic epidural spinal cord compression|pain|spinal cord compression|spinal metastasis|t, 
+unique_control: radiotherapy|surgical decompression, 
+unique_radiotherapy: 3d conformal palliative rt|3d conformal radiotherapy|3d crt|stereotactic body radiotherapy",0.8,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8888888888888888,1.0,0.0,0.0,radiotherapy
+112,NCT03529708,"unique_condition: metastatic epidural spinal cord compression|pain|spinal cord compression|spinal metastasis|tumour, 
+unique_radiotherapy: 3d conformal palliative rt|3d conformal radiotherapy|3d crt|radiotherapy|stereotactic body radiotherapy","unique_condition: metastatic epidural spinal cord compression|pain|spinal cord compression|spinal metastasis|t, 
+unique_control: radiotherapy|surgical decompression, 
+unique_radiotherapy: 3d conformal palliative rt|3d conformal radiotherapy|3d crt|stereotactic body radiotherapy",0.8,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8888888888888888,1.0,0.0,0.0,radiotherapy
+112,NCT03529708,"unique_condition: metastatic epidural spinal cord compression|pain|spinal cord compression|spinal metastasis|tumour, 
+unique_radiotherapy: 3d conformal palliative rt|3d conformal radiotherapy|3d crt|radiotherapy|stereotactic body radiotherapy","unique_condition: metastatic epidural spinal cord compression|pain|spinal cord compression|spinal metastasis|t, 
+unique_control: radiotherapy|surgical decompression, 
+unique_radiotherapy: 3d conformal palliative rt|3d conformal radiotherapy|3d crt|stereotactic body radiotherapy",0.8,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8888888888888888,1.0,0.0,0.0,radiotherapy
+112,NCT03529708,"unique_condition: metastatic epidural spinal cord compression|pain|spinal cord compression|spinal metastasis|tumour, 
+unique_radiotherapy: 3d conformal palliative rt|3d conformal radiotherapy|3d crt|radiotherapy|stereotactic body radiotherapy","unique_condition: metastatic epidural spinal cord compression|pain|spinal cord compression|spinal metastasis|t, 
+unique_control: radiotherapy|surgical decompression, 
+unique_radiotherapy: 3d conformal palliative rt|3d conformal radiotherapy|3d crt|stereotactic body radiotherapy",0.8,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8888888888888888,1.0,0.0,0.0,radiotherapy
+112,NCT03529708,"unique_condition: metastatic epidural spinal cord compression|pain|spinal cord compression|spinal metastasis|tumour, 
+unique_radiotherapy: 3d conformal palliative rt|3d conformal radiotherapy|3d crt|radiotherapy|stereotactic body radiotherapy","unique_condition: metastatic epidural spinal cord compression|pain|spinal cord compression|spinal metastasis|t, 
+unique_control: radiotherapy|surgical decompression, 
+unique_radiotherapy: 3d conformal palliative rt|3d conformal radiotherapy|3d crt|stereotactic body radiotherapy",0.8,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8888888888888888,1.0,0.0,0.0,radiotherapy
+112,NCT03529708,"unique_condition: metastatic epidural spinal cord compression|pain|spinal cord compression|spinal metastasis|tumour, 
+unique_radiotherapy: 3d conformal palliative rt|3d conformal radiotherapy|3d crt|radiotherapy|stereotactic body radiotherapy","unique_condition: metastatic epidural spinal cord compression|pain|spinal cord compression|spinal metastasis|t, 
+unique_control: radiotherapy|surgical decompression, 
+unique_radiotherapy: 3d conformal palliative rt|3d conformal radiotherapy|3d crt|stereotactic body radiotherapy",0.8,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8888888888888888,1.0,0.0,0.0,radiotherapy
+112,NCT03529708,"unique_condition: metastatic epidural spinal cord compression|pain|spinal cord compression|spinal metastasis|tumour, 
+unique_radiotherapy: 3d conformal palliative rt|3d conformal radiotherapy|3d crt|radiotherapy|stereotactic body radiotherapy","unique_condition: metastatic epidural spinal cord compression|pain|spinal cord compression|spinal metastasis|t, 
+unique_control: radiotherapy|surgical decompression, 
+unique_radiotherapy: 3d conformal palliative rt|3d conformal radiotherapy|3d crt|stereotactic body radiotherapy",0.8,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8888888888888888,1.0,0.0,0.0,radiotherapy
+112,NCT03529708,"unique_condition: metastatic epidural spinal cord compression|pain|spinal cord compression|spinal metastasis|tumour, 
+unique_radiotherapy: 3d conformal palliative rt|3d conformal radiotherapy|3d crt|radiotherapy|stereotactic body radiotherapy","unique_condition: metastatic epidural spinal cord compression|pain|spinal cord compression|spinal metastasis|t, 
+unique_control: radiotherapy|surgical decompression, 
+unique_radiotherapy: 3d conformal palliative rt|3d conformal radiotherapy|3d crt|stereotactic body radiotherapy",0.8,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8888888888888888,1.0,0.0,0.0,radiotherapy
+112,NCT03529708,"unique_condition: metastatic epidural spinal cord compression|pain|spinal cord compression|spinal metastasis|tumour, 
+unique_radiotherapy: 3d conformal palliative rt|3d conformal radiotherapy|3d crt|radiotherapy|stereotactic body radiotherapy","unique_condition: metastatic epidural spinal cord compression|pain|spinal cord compression|spinal metastasis|t, 
+unique_control: radiotherapy|surgical decompression, 
+unique_radiotherapy: 3d conformal palliative rt|3d conformal radiotherapy|3d crt|stereotactic body radiotherapy",0.8,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8888888888888888,1.0,0.0,0.0,radiotherapy
+112,NCT03529708,"unique_condition: metastatic epidural spinal cord compression|pain|spinal cord compression|spinal metastasis|tumour, 
+unique_radiotherapy: 3d conformal palliative rt|3d conformal radiotherapy|3d crt|radiotherapy|stereotactic body radiotherapy","unique_condition: metastatic epidural spinal cord compression|pain|spinal cord compression|spinal metastasis|t, 
+unique_control: radiotherapy|surgical decompression, 
+unique_radiotherapy: 3d conformal palliative rt|3d conformal radiotherapy|3d crt|stereotactic body radiotherapy",0.8,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8888888888888888,1.0,0.0,0.0,radiotherapy
+112,NCT03529708,"unique_condition: metastatic epidural spinal cord compression|pain|spinal cord compression|spinal metastasis|tumour, 
+unique_radiotherapy: 3d conformal palliative rt|3d conformal radiotherapy|3d crt|radiotherapy|stereotactic body radiotherapy","unique_condition: metastatic epidural spinal cord compression|pain|spinal cord compression|spinal metastasis|t, 
+unique_control: radiotherapy|surgical decompression, 
+unique_radiotherapy: 3d conformal palliative rt|3d conformal radiotherapy|3d crt|stereotactic body radiotherapy",0.8,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8888888888888888,1.0,0.0,0.0,radiotherapy
+112,NCT03529708,"unique_condition: metastatic epidural spinal cord compression|pain|spinal cord compression|spinal metastasis|tumour, 
+unique_radiotherapy: 3d conformal palliative rt|3d conformal radiotherapy|3d crt|radiotherapy|stereotactic body radiotherapy","unique_condition: metastatic epidural spinal cord compression|pain|spinal cord compression|spinal metastasis|t, 
+unique_control: radiotherapy|surgical decompression, 
+unique_radiotherapy: 3d conformal palliative rt|3d conformal radiotherapy|3d crt|stereotactic body radiotherapy",0.8,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8888888888888888,1.0,0.0,0.0,radiotherapy
+112,NCT03529708,"unique_condition: metastatic epidural spinal cord compression|pain|spinal cord compression|spinal metastasis|tumour, 
+unique_radiotherapy: 3d conformal palliative rt|3d conformal radiotherapy|3d crt|radiotherapy|stereotactic body radiotherapy","unique_condition: metastatic epidural spinal cord compression|pain|spinal cord compression|spinal metastasis|t, 
+unique_control: radiotherapy|surgical decompression, 
+unique_radiotherapy: 3d conformal palliative rt|3d conformal radiotherapy|3d crt|stereotactic body radiotherapy",0.8,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8888888888888888,1.0,0.0,0.0,radiotherapy
+112,NCT03529708,"unique_condition: metastatic epidural spinal cord compression|pain|spinal cord compression|spinal metastasis|tumour, 
+unique_radiotherapy: 3d conformal palliative rt|3d conformal radiotherapy|3d crt|radiotherapy|stereotactic body radiotherapy","unique_condition: metastatic epidural spinal cord compression|pain|spinal cord compression|spinal metastasis|t, 
+unique_control: radiotherapy|surgical decompression, 
+unique_radiotherapy: 3d conformal palliative rt|3d conformal radiotherapy|3d crt|stereotactic body radiotherapy",0.8,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8888888888888888,1.0,0.0,0.0,radiotherapy
+112,NCT03529708,"unique_condition: metastatic epidural spinal cord compression|pain|spinal cord compression|spinal metastasis|tumour, 
+unique_radiotherapy: 3d conformal palliative rt|3d conformal radiotherapy|3d crt|radiotherapy|stereotactic body radiotherapy","unique_condition: metastatic epidural spinal cord compression|pain|spinal cord compression|spinal metastasis|t, 
+unique_control: radiotherapy|surgical decompression, 
+unique_radiotherapy: 3d conformal palliative rt|3d conformal radiotherapy|3d crt|stereotactic body radiotherapy",0.8,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8888888888888888,1.0,0.0,0.0,radiotherapy
+63,NCT02976766,"unique_condition: acute optic neuritis|optic neuritis, 
+unique_drug: gypenosides, 
+unique_control: placebo","unique_condition: acute optic neuritis|optic neuritis, 
+unique_drug: gypenosides, 
+unique_control: place",1.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,control
+94,NCT04992910,"unique_condition: affected upper limbs|stroke, 
+unique_control: standard care|usual care rehabilitation, 
+unique_physical: intensive, repetitive and functional exercises|rehabilitative treatment, 
+unique_other: fesia grasp|functional electrical stimulation","unique_condition: post-stroke|stroke, 
+unique_control: standard care|usual care, 
+unique_physical: fesia grasp|fesia grasp therapy|intensive , repetitive and functional exercises assisted by functional electrical stimulation, 
+unique_other: fesia grasp|fesia grasp "" device|functional electrical stimulation|functional electrical stimulation device",0.5,0.8,0.6666666666666666,1.0,0.0,0.0,0.0,0.5714285714285714,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.8,control
+100,NCT03127514,"unique_condition: als, 
+unique_drug: amx0035|phenylbutyrate|tauroursodeoxycholic acid, 
+unique_control: placebo","unique_condition: als, 
+unique_drug: amx0035|phenylbutyrate|tauroursodeoxycholic acid, 
+unique_control: place",1.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,control
+51,NCT02444065,"unique_condition: bulimia nervosa|eating disorders|purging disorder, 
+unique_control: matched-intensity augmentative motivational interviewing|motivational interviewing, 
+unique_behavioural: cbt-based individual intervention for rapid response|cbt-rr|rapid response|rapid response to day hospital treatment|rapid response to treatment -cessation","unique_condition: binge eating or vomiting episodes|binge eating vomiting|bulimia nervosa|depression|eating disorders|purging disorder, 
+unique_control: augmentative motivational interviewing|dh as|mi intervention|motivational interviewing, 
+unique_behavioural: cbt-based individual intervention for rapid response|cbt-rr|cbt-rr day hospital dh",0.6666666666666666,0.6666666666666666,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.5,0.0,0.0,0.0,0.0,0.3333333333333333,0.75,control
+51,NCT02444065,"unique_condition: bulimia nervosa|eating disorders|purging disorder, 
+unique_control: matched-intensity augmentative motivational interviewing|motivational interviewing, 
+unique_behavioural: cbt-based individual intervention for rapid response|cbt-rr|rapid response|rapid response to day hospital treatment|rapid response to treatment -cessation","unique_condition: binge eating or vomiting episodes|binge eating vomiting|bulimia nervosa|depression|eating disorders|purging disorder, 
+unique_control: augmentative motivational interviewing|dh as|mi intervention|motivational interviewing, 
+unique_behavioural: cbt-based individual intervention for rapid response|cbt-rr|cbt-rr day hospital dh",0.6666666666666666,0.6666666666666666,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.5,0.0,0.0,0.0,0.0,0.3333333333333333,0.75,control
+101,NCT01611987,"unique_condition: multiple sclerosis, 
+unique_control: general guideline|general guidelines|program based on general guidelines for exercise, 
+unique_physical: exercise|ms tailored exercise program|physical activity|targeted exercise","unique_condition: fatigue|multiple sclerosis, 
+unique_control: general guideline|general guideline approach|general guideline program|general guidelines|general guidelines for exercise, 
+unique_physical: exercise|ms tailored exercise program|mstep based on",0.6666666666666666,0.6666666666666666,0.0,0.0,0.0,0.0,0.5714285714285714,0.75,0.0,0.0,0.0,0.0,0.0,0.0,0.5,1.0,control
+101,NCT01611987,"unique_condition: multiple sclerosis, 
+unique_control: general guideline|general guidelines|program based on general guidelines for exercise, 
+unique_physical: exercise|ms tailored exercise program|physical activity|targeted exercise","unique_condition: fatigue|multiple sclerosis, 
+unique_control: general guideline|general guideline approach|general guideline program|general guidelines|general guidelines for exercise, 
+unique_physical: exercise|ms tailored exercise program|mstep based on",0.6666666666666666,0.6666666666666666,0.0,0.0,0.0,0.0,0.5714285714285714,0.75,0.0,0.0,0.0,0.0,0.0,0.0,0.5,1.0,control
+57,NCT00444067,"unique_condition: spinal surgery, 
+unique_control: standard of care, 
+unique_surgical: spinal sealant|spinal sealant system|sutured dural repair","unique_condition: spinal surgery, 
+unique_control: standard of care method|standard of care techniques, 
+unique_surgical: sutured dural repair, 
+unique_other: spinal sealant|spinal sealant system",1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.5,0.0,0.0,0.0,1.0,control
+88,NCT02473016,"unique_condition: classical trigeminal neuralgia, 
+unique_drug: carbon dioxide, 
+unique_control: placebo","unique_condition: classical trigeminal neuralgia, 
+unique_drug: carbon dioxide, 
+unique_control: place",1.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,control
+149,NCT02139436,"unique_condition: acute sci|cardiovascular declines|cardiovascular disease|declines in physiologic function|sci|spinal cord injury, 
+unique_control: arms-only exercise|arms-only-rt|time (wait-list) control|time control, 
+unique_physical: fes-rt|functional electrical stimulation (fes) row training (rt)|hybrid-fes exercise","unique_condition: acute sci|cardiovascular compromise|cardiovascular declines|cardiovascular disease|cardiovascular disease decline|sci|spinal cord injury, 
+unique_control: arms-only-rt|arms-only exercise|exercise|time|time control|wait-list, 
+unique_physical: exercise|fes) row training rt|fes-rt|functional electrical stimulation (|hybrid-fes exercise|volitional arm and electrically controlled leg exercise",0.7692307692307693,0.9333333333333333,0.0,0.0,0.0,0.0,0.4444444444444444,0.7272727272727273,0.0,0.0,0.0,0.0,0.0,0.0,0.6,0.8333333333333334,control
+57,NCT00444067,"unique_condition: spinal surgery, 
+unique_control: standard of care, 
+unique_surgical: spinal sealant|spinal sealant system|sutured dural repair","unique_condition: spinal surgery, 
+unique_control: standard of care method|standard of care techniques, 
+unique_surgical: sutured dural repair, 
+unique_other: spinal sealant|spinal sealant system",1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.5,0.0,0.0,0.0,1.0,control
+140,NCT03130608,"unique_condition: chronic liver disease|post liver transplant|post-liver transplant, 
+unique_control: the usual post-transplant care|usual care, 
+unique_physical: inspiratory muscle strengthening exercise|inspiratory muscle training, 
+unique_other: usual post-liver transplant care","unique_condition: chronic liver disease|muscle wasting|post-liver transplant|transplant surgery liver transplant liver transplant, 
+unique_control: usual post-liver transplant care|usual post-transplant care, 
+unique_physical: inspiratory muscle strengthening exercise|inspiratory muscle training care",0.5714285714285714,0.75,0.0,0.0,0.0,0.0,0.5,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8571428571428571,control
+107,NCT04121780,"unique_condition: growth hormone deficiency, 
+unique_drug: growth hormone, 
+unique_control: placebo","unique_condition: growth hormone deficiency, 
+unique_drug: growth hormone|growth hormone replacement therapy, 
+unique_control: place",1.0,1.0,0.0,0.0,0.6666666666666666,0.6666666666666666,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,control
+149,NCT02139436,"unique_condition: acute sci|cardiovascular declines|cardiovascular disease|declines in physiologic function|sci|spinal cord injury, 
+unique_control: arms-only exercise|arms-only-rt|time (wait-list) control|time control, 
+unique_physical: fes-rt|functional electrical stimulation (fes) row training (rt)|hybrid-fes exercise","unique_condition: acute sci|cardiovascular compromise|cardiovascular declines|cardiovascular disease|cardiovascular disease decline|sci|spinal cord injury, 
+unique_control: arms-only-rt|arms-only exercise|exercise|time|time control|wait-list, 
+unique_physical: exercise|fes) row training rt|fes-rt|functional electrical stimulation (|hybrid-fes exercise|volitional arm and electrically controlled leg exercise",0.7692307692307693,0.9333333333333333,0.0,0.0,0.0,0.0,0.4444444444444444,0.7272727272727273,0.0,0.0,0.0,0.0,0.0,0.0,0.6,0.8333333333333334,control
+57,NCT00444067,"unique_condition: spinal surgery, 
+unique_control: standard of care, 
+unique_surgical: spinal sealant|spinal sealant system|sutured dural repair","unique_condition: spinal surgery, 
+unique_control: standard of care method|standard of care techniques, 
+unique_surgical: sutured dural repair, 
+unique_other: spinal sealant|spinal sealant system",1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.5,0.0,0.0,0.0,1.0,control
