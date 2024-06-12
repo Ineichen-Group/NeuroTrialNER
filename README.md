@@ -224,8 +224,9 @@ This includes the following steps:
 1. Reading and combining all annotations.
 2. Replacement of abbreviations with their spelled-out form (when available withing the context of the trial).
 3. Extracting of unique entities.
-4. Representing the target and predicted entities as numerical arrays per trial.
-5. Saving of the abstract level annotations in [models/predictions/rebuttal/all_models_aggregated_all_entity_types_numarical_arrays.csv](models%2Fpredictions%2Frebuttal%2Fall_models_aggregated_all_entity_types_numarical_arrays.csv)
+4. Using dictionary based mapping of conditions and drugs to a canonical form.
+5. Representing the target and predicted entities as numerical arrays per trial.
+6. Saving of the abstract level annotations in [models/predictions/rebuttal/all_models_aggregated_all_entity_types_numarical_arrays.csv](models%2Fpredictions%2Frebuttal%2Fall_models_aggregated_all_entity_types_numarical_arrays.csv)
 
 The outputs from the aggregation was then used in the below notebook to generate the LaTeX tables in the paper, as well as the visualization.
 ```bib
