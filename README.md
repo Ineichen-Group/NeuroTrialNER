@@ -10,6 +10,25 @@ poetry install
 ```
 The pyproject.toml file contains all relevant packages that need to be installed for running the project. The poetry.lock file is needed to ensure the same version of the installed libraries.
 
+For the jupyter notebooks we used a separate conda environment that you can load via:
+```bib
+conda env create -f environment.yml
+```
+
+```bib
+conda activate neurotrialner-notebooks
+```
+
+ In order to be able to use it within jupyter you need to install the ipykernel package in the conda environment:
+ ```bib
+conda install ipykernel
+```
+
+and then create a kerne for the conda environment:
+ ```bib
+python -m ipykernel install --user --name=neurotrialner-notebooks
+```
+
 # 2. Data
 The code related to the data processing and annotation steps is in the folder ./data.
 
