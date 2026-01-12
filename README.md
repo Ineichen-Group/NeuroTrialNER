@@ -68,6 +68,91 @@ The _conditions_ table was joined with our disease list and we kept only those t
 This resulted in 40’842 unique trials related to neurological conditions (of which 35’969 were registered as interventional trials).
 The official title (from table _ctgov.studies_) of each trial together with its short description (from table _ctgov.brief_summaries_) was extracted to a csv file and prepared for annotation.
 
+```sql
+-- ctgov.icd_mesh_annotated_clinical_trials source
+
+CREATE MATERIALIZED VIEW ctgov.icd_mesh_annotated_clinical_trials
+TABLESPACE pg_default
+AS SELECT c.name,
+    c.nct_id,
+    ddmif."Neurological Disease",
+    ddmif."Source",
+    ddmif."Disease Class"
+   FROM ctgov.conditions c
+     LEFT JOIN ctgov.diseases_dictionary_mesh_icd_flat ddmif ON c.name::text = ddmif."Neurological Disease"::text
+WITH DATA;
+
+-- ctgov.icd_mesh_annotated_clinical_trials_clean_flag source
+
+CREATE MATERIALIZED VIEW ctgov.icd_mesh_annotated_clinical_trials_clean_flag
+TABLESPACE pg_default
+AS WITH nonnullneurologicaldisease AS (
+         SELECT icd_mesh_annotated_clinical_trials.nct_id
+           FROM ctgov.icd_mesh_annotated_clinical_trials
+          WHERE icd_mesh_annotated_clinical_trials."Neurological Disease" IS NOT NULL
+          GROUP BY icd_mesh_annotated_clinical_trials.nct_id
+        ), flagged AS (
+         SELECT yt.name,
+            yt.nct_id,
+            yt."Neurological Disease",
+            yt."Source",
+            yt."Disease Class",
+                CASE
+                    WHEN nnd.nct_id IS NOT NULL THEN 1
+                    ELSE 0
+                END AS keep_flag
+           FROM ctgov.icd_mesh_annotated_clinical_trials yt
+             LEFT JOIN nonnullneurologicaldisease nnd ON yt.nct_id::text = nnd.nct_id::text
+        )
+ SELECT name,
+    nct_id,
+    "Neurological Disease",
+    "Source",
+    "Disease Class",
+    keep_flag
+   FROM flagged
+WITH DATA;
+
+-- ctgov.icd_mesh_annotated_clinical_trials_neurological source
+
+CREATE MATERIALIZED VIEW ctgov.icd_mesh_annotated_clinical_trials_neurological
+TABLESPACE pg_default
+AS SELECT name,
+    nct_id,
+    "Neurological Disease",
+    "Source",
+    "Disease Class"
+   FROM ctgov.icd_mesh_annotated_clinical_trials_clean_flag imact
+  WHERE keep_flag = 1
+WITH DATA;
+
+-- ctgov.combined_neuro_trials_with_interventions source
+
+CREATE MATERIALIZED VIEW ctgov.combined_neuro_trials_with_interventions
+TABLESPACE pg_default
+AS SELECT imactn.nct_id,
+    COALESCE(imactn."Neurological Disease", imactn.name) AS "Neurological Disease",
+    COALESCE(imactn."Disease Class", 'unknown'::character varying) AS "Disease Class",
+    s.brief_title,
+    s.official_title AS study_official_title,
+    bs.description AS brief_summary_description,
+    s.start_date,
+    s.completion_date,
+    s.phase,
+    s.study_type,
+    s.overall_status,
+    c.name AS country_name,
+    i.name AS intervention_name,
+    i.intervention_type
+   FROM ctgov.icd_mesh_annotated_clinical_trials_neurological imactn
+     LEFT JOIN ctgov.studies s ON s.nct_id::text = imactn.nct_id::text
+     LEFT JOIN ctgov.brief_summaries bs ON bs.nct_id::text = s.nct_id::text
+     LEFT JOIN ctgov.countries c ON c.nct_id::text = s.nct_id::text
+     LEFT JOIN ctgov.interventions i ON i.nct_id::text = s.nct_id::text
+  WHERE s.study_type::text = 'Interventional'::text AND bs.description IS NOT NULL
+WITH DATA;
+```
+
 For our third annotation round, we wanted to sample only non-drug interventions. The filtering for this was made in the AACT database
 by excluding intervention_type values equal to DRUG, BIOLOGICAL or DIETARY. To make sure that no overlaps with our existing samples exist,
 we extracted the AACT data and filtered it as shown in the notebook [Rebuttal_ACL_Additional_Data_Sampling.ipynb](data%2FRebuttal_ACL_Additional_Data_Sampling.ipynb).
