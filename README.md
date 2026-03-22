@@ -35,6 +35,9 @@ One of the benchmark model is also available via the Hugging Face library.
 from transformers import AutoTokenizer, AutoModelForTokenClassification
 from transformers import pipeline
 
+tokenizer = AutoTokenizer.from_pretrained("simonada/NeuroTrialNER_BioLinkBERT")
+model = AutoModelForTokenClassification.from_pretrained("simonada/NeuroTrialNER_BioLinkBERT")
+
 nlp = pipeline("ner", model=model, tokenizer=tokenizer)
 example_drug = "This trial examines atypical antipsychotic aripiprazole as an augmenting agent to antidepressant therapy in treatment-resistant depressed patients."
 example_phys = "This study evaluates a home-based resistance exercise program in post-treatment breast cancer survivors."
