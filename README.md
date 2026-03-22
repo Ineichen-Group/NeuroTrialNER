@@ -1,6 +1,54 @@
 # NeuroTrialNER
-Complementary code for "NeuroTrialNER: An Annotated Corpus for Neurological Diseases and Therapies in Clinical Trial Registries".
-This repo provides the code & data of our paper: [https://aclanthology.org/2024.emnlp-main.1050/](https://aclanthology.org/2024.emnlp-main.1050/). Please note that ChatGPT has assisted with parts of the code, usually for the generation of the visualizations. The implementation of the BERT-based training was based on https://github.com/michiyasunaga/LinkBERT. 
+
+This repository accompanies the paper **“NeuroTrialNER: An Annotated Corpus for Neurological Diseases and Therapies in Clinical Trial Registries.”** It provides the dataset and code used in the study.
+
+📄 Paper: https://aclanthology.org/2024.emnlp-main.1050/
+
+---
+
+## Overview
+
+**NeuroTrialNER** is a named entity recognition (NER) dataset focused on neurological diseases and therapies extracted from clinical trial registries. It is designed to support research in biomedical NLP, particularly for information extraction from clinical trial data.
+
+The repository includes:
+- The annotated dataset
+- Code for data processing and experiments
+- Scripts for training and evaluation
+
+---
+
+## Data Access
+
+The easiest way to load the dataset is via the Hugging Face `datasets` library:
+
+```python
+from datasets import load_dataset
+
+data = load_dataset("bigbio/neurotrial_ner")
+```
+It includes three splits: `train` (787 examples), `validation` (153 examples), and `test` (153 examples). Each contains following fields: `nctid` (clinical trial identifier), `text` (original trial text), `tokens` (tokenized text), `token_bio_labels` (BIO-formatted token labels), and `entities` (annotated entity spans).
+
+## Model Access
+One of the benchmark model is also available via the Hugging Face library.
+
+```python
+from transformers import AutoTokenizer, AutoModelForTokenClassification
+from transformers import pipeline
+
+nlp = pipeline("ner", model=model, tokenizer=tokenizer)
+example_drug = "This trial examines atypical antipsychotic aripiprazole as an augmenting agent to antidepressant therapy in treatment-resistant depressed patients."
+example_phys = "This study evaluates a home-based resistance exercise program in post-treatment breast cancer survivors."
+
+ner_results_drug = nlp(example_drug)
+print(ner_results_drug)
+
+ner_results_drug = nlp(example_phys)
+print(example_phys)
+```
+
+---
+
+# Details to reproducing the results
 
 # 1. Set up the environment
 The project is build using poetry for dependency management. Instructions on how to install poetry can be found in the [documentation](https://python-poetry.org/docs/).  
