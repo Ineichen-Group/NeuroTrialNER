@@ -48,7 +48,7 @@ print(example_phys)
 
 ---
 
-# Details to reproducing the results
+# Details to reproduce the experiments
 
 # 1. Set up the environment
 The project is build using poetry for dependency management. Instructions on how to install poetry can be found in the [documentation](https://python-poetry.org/docs/).  
